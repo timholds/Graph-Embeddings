@@ -1,0 +1,21 @@
+jupyter:
+  build:
+    context: ./docker
+    dockerfile: "./docker/jupyter-scala.dockerfile"
+  image: jupyter-scala:WIP
+  #  user: root
+  command: start-notebook.sh
+  environment:
+    GRANT_SUDO: "yes"
+  ports:
+    - "8888:8888"
+  volumes:
+    - ..:/home/jovyan/work
+    - ../data:/tmp/data
+    - /home/dhash/.ivy2:/home/jovyan/.ivy2
+    - /home/dhash/.ivy2:/root/.ivy2
+  links:
+      - hbase
+  
+hbase:
+  image: harisekhon/hbase-dev
