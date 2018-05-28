@@ -49,14 +49,11 @@ object ExampleStream {
     import scala.io.Source
     println("Printing file contents:\n" + Source.fromFile(dataFile, "utf-8").getLines.mkString)
 
-
-    // Not sure that these streams actually contain anything
     val stringStream: Stream[IO, String] = fs2.io.file.readAll[IO](Paths.get(dataFile), 4096).through(text.utf8Decode)
     println(stringStream.compile.toList.unsafeRunSync())
 
     val parsedStream: Stream[IO, Json] = stringStream.through(stringStreamParser)
     println(parsedStream.compile.toList.unsafeRunSync())
-
 
     val popularityStream: Stream[IO, Popularity] = parsedStream.through(decoder[IO, Popularity])
     println(popularityStream.compile.toList.unsafeRunSync())

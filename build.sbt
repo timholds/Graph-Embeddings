@@ -1,4 +1,4 @@
-name := "scaling-science-2"
+name := "scaling-science"
 
 version := "0.1"
 
