@@ -14,8 +14,16 @@ scalacOptions ++= Seq(
   "-language:higherKinds"
 )
 
-libraryDependencies += "io.circe" %% "circe-generic" % "0.9.3"
-libraryDependencies += "io.circe" %% "circe-fs2" % "0.9.0"
 
-libraryDependencies += "co.fs2" %% "fs2-core" % "0.10.4" // For cats 1.1.0 and cats-effect 0.10
-libraryDependencies += "co.fs2" %% "fs2-io" % "0.10.4" // io library
+libraryDependencies ++= Seq(
+  "org.typelevel" %% "cats-core" % "1.0.1",
+  "co.fs2" %% "fs2-io" % "0.10.4",
+  "co.fs2" %% "fs2-core" % "0.10.4",
+  "io.circe" %% "circe-generic" % "0.9.3",
+  "io.circe" %% "circe-fs2" % "0.9.0",
+  "org.janusgraph" % "janusgraph-hbase" % "0.2.0",
+  "org.apache.hbase" % "hbase-shaded-client" % "2.0.0",
+  "com.michaelpollmeier" %% "gremlin-scala" % "3.2.5.2",
+  "org.apache.tinkerpop" % "gremlin-driver" % "3.2.5",
+  "org.slf4j" % "slf4j-nop" % "1.7.25"
+)
