@@ -25,5 +25,6 @@ libraryDependencies ++= Seq(
   "org.apache.hbase" % "hbase-shaded-client" % "2.0.0",
   "com.michaelpollmeier" %% "gremlin-scala" % "3.2.5.2",
   "org.apache.tinkerpop" % "gremlin-driver" % "3.2.5",
-  "org.slf4j" % "slf4j-nop" % "1.7.25"
+  "org.slf4j" % "slf4j-nop" % "1.7.25",
+  "io.jvm.uuid" %% "scala-uuid" % "0.2.4"
 )
