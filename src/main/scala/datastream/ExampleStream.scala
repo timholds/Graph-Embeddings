@@ -1,4 +1,4 @@
-package src
+package datastream
 
 
 
@@ -28,13 +28,13 @@ object ExampleStream {
       val stringStream: Stream[IO, String] = fs2.io.file
         .readAll[IO](Paths.get(dataFile.getCanonicalPath), 4096)
         .through(text.utf8Decode)
-      println(stringStream.compile.toList.unsafeRunSync())
+      //println(stringStream.compile.toList.unsafeRunSync())
 
       val parsedStream: Stream[IO, Json] = stringStream.through(stringStreamParser)
-      println(parsedStream.compile.toList.unsafeRunSync())
+      //println(parsedStream.compile.toList.unsafeRunSync())
 
       val popularityStream: Stream[IO, Popularity] = parsedStream.through(decoder[IO, Popularity])
-      println(popularityStream.compile.toList.unsafeRunSync())
+      //println(popularityStream.compile.toList.unsafeRunSync())
 
       popularityStream
     }

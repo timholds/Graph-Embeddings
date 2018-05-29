@@ -20,15 +20,19 @@ import scala.concurrent.duration._
 
 object HowToRun extends App {
   import util._
-  val Q1 = Quanta(1, Array(2, 3))
-  val Q2 = Quanta(2, Array(3))
-  val Q3 = Quanta(3, Array.empty[Long])
   val cfg = new BaseConfiguration()
   cfg.setProperty("storage.backend", "inmemory")
   implicit val jdb = JanusGraphFactory.open(cfg).asScala
   implicit val accum = new ConcurrentHashMap[Long, Either[List[Vertex], Vertex]]
-  val s: Stream[IO, Quanta] = Stream(Q1, Q2, Q3)
-  
+//  val Q1 = Quanta(1, Array(2, 3))
+//  val Q2 = Quanta(2, Array(3))
+//  val Q3 = Quanta(3, Array.empty[Long])
+//  val s: Stream[IO, Quanta] = Stream(Q1, Q2, Q3)
+
+  /* TODO: Fix "Quanta" collision */
+  import datastream.QuantaStream
+  val s: Stream[IO, Quanta] = QuantaStream.getQuantaStream
+
   val res = s.through(DBIO.insertPipe(accum, jdb))
   res.compile.drain.unsafeRunSync()
   println("done")
