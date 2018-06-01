@@ -1,24 +1,11 @@
-import io.jvm.uuid._
+import java.util.concurrent.ConcurrentHashMap
 
-import fs2._
 import cats.effect._
-import cats.instances.list._
-import cats.syntax.parallel._
+import fs2._
+import gremlin.scala._
+import org.apache.commons.configuration.BaseConfiguration
 import org.janusgraph.core.JanusGraphFactory
 import org.janusgraph.graphdb.transaction.StandardJanusGraphTx
-import org.apache.commons.configuration.BaseConfiguration
-import gremlin.scala._
-import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.{
-  out,
-  timeLimit
-}
-import java.util.concurrent.ConcurrentHashMap
-import scala.collection.JavaConverters._
-
-import scala.concurrent.ExecutionContext.Implicits.global._
-
-import scala.concurrent._
-import scala.concurrent.duration._
 
 object HowToRun extends App {
   import util._
@@ -26,25 +13,21 @@ object HowToRun extends App {
   cfg.setProperty("storage.backend", "inmemory")
   implicit val jdb = JanusGraphFactory.open(cfg).asScala
   implicit val accum = new ConcurrentHashMap[String, Either[List[Vertex], Vertex]]
-//  val Q1 = Quanta(1, Array("2", 3))
-//  val Q2 = Quanta(2, Array(3))
-//  val Q3 = Quanta(3, Array.empty[String])
-//  val s: Stream[IO, Quanta] = Stream(Q1, Q2, Q3)
 
-  /* TODO: Fix "Quanta" collision */
   import datastream.QuantaStream
   import datastream.QuantaStream.Quanta
-  val s: Stream[IO, Quanta] = QuantaStream.getQuantaStream
+
+  val s: Stream[IO, Quanta] = QuantaStream.getQuantaStream.take(5)
 
   implicit class QuantaToDBQuanta(q: Quanta) {
-    val dbQuanta = DBQuanta(q.title,
-                            q.lang,
-                            q.year,
-                            q.`abstract`,
-                            q.url,
-                            q.fos,
+    val dbQuanta = DBQuanta(q.title.getOrElse("NoTitle"),
+      q.lang.getOrElse("NoLang"),
+      q.year.getOrElse(-1),
+      q.`abstract`.getOrElse("NoAbstract"),
+      q.url.getOrElse(List.empty),
+      q.fos.getOrElse(List.empty),
                             q.id,
-                            q.references.toArray)
+      q.references.getOrElse(List.empty).toArray)
   }
 
   val res = s.map(_.dbQuanta).through(DBIO.insertPipe(accum, jdb))

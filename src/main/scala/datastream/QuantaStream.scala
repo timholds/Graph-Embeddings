@@ -2,22 +2,23 @@ package datastream
 
 object QuantaStream {
 
+  import java.io.File
   import java.nio.file.Paths
+
   import cats.effect.IO
   import fs2.{Stream, text}
   import io.circe.Json
-  import io.circe.fs2.{stringStreamParser, decoder}
+  import io.circe.fs2.{decoder, stringStreamParser}
   import io.circe.generic.auto._
-  import java.io.File
 
-  case class Quanta(title: String,
-                    lang: String,
-                    year: Int,
-                    references: List[String],
-                    `abstract`: String,
-                    url: List[String],
+  case class Quanta(title: Option[String],
+                    lang: Option[String],
+                    year: Option[Int],
+                    references: Option[List[String]],
+                    `abstract`: Option[String],
+                    url: Option[List[String]],
                     id: String,
-                    fos: List[String])
+                    fos: Option[List[String]])
 
   def getListOfFiles(dir: String): List[File] =
     new File(dir).listFiles.filter(_.isFile).toList
@@ -48,6 +49,7 @@ object QuantaStream {
     getListOfFiles(dataFolder).filter(f => f.getName.endsWith(".txt"))
 
   import scala.concurrent.ExecutionContext.Implicits.global
+
   val quantaStream: Stream[IO, Quanta] =
     dataFiles.map(fileToStream).reduce((a, b) => a.merge(b))
 

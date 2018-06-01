@@ -7,7 +7,7 @@ object ExampleStream {
 
   def main(args: Array[String]): Unit = {
 
-    case class Popularity(repo: String, stars: Int)
+    case class Popularity(repo: Option[String], stars: Option[Int])
 
     import java.io.File
 
@@ -15,15 +15,15 @@ object ExampleStream {
 
 
     import java.nio.file.Paths
+
     import cats.effect.IO
     import fs2.{Stream, text}
     import io.circe.Json
-    import io.circe.fs2.{stringStreamParser, decoder}
+    import io.circe.fs2.{decoder, stringStreamParser}
     import io.circe.generic.auto._
 
     def fileToStream(dataFile: File): Stream[IO, Popularity] = {
-      import scala.io.Source
-      println("Printing file contents:\n" + Source.fromFile(dataFile, "utf-8").getLines.mkString)
+      //println("Printing file contents:\n" + Source.fromFile(dataFile, "utf-8").getLines.mkString)
 
       val stringStream: Stream[IO, String] = fs2.io.file
         .readAll[IO](Paths.get(dataFile.getCanonicalPath), 4096)
@@ -47,7 +47,7 @@ object ExampleStream {
     import scala.concurrent.ExecutionContext.Implicits.global
     val dataStream: Stream[IO,Popularity] = dataFiles.map(fileToStream).reduce((a,b)=>a.merge(b))
 
-    println(dataStream.compile.toList.unsafeRunSync())
+    println(dataStream.take(10).compile.toList.unsafeRunSync())
 
   }
 }
