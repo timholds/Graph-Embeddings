@@ -8,11 +8,14 @@ import org.janusgraph.core.JanusGraphFactory
 import org.janusgraph.graphdb.transaction.StandardJanusGraphTx
 
 object HowToRun extends App {
+
   import util._
+
   val cfg = new BaseConfiguration()
   cfg.setProperty("storage.backend", "inmemory")
-  implicit val jdb = JanusGraphFactory.open(cfg).asScala
-  implicit val accum = new ConcurrentHashMap[String, Either[List[Vertex], Vertex]]
+  val graph = JanusGraphFactory.open(cfg)
+  val jdb = JanusGraphFactory.open(cfg).asScala
+  val accum = new ConcurrentHashMap[String, Either[List[Vertex], Vertex]]
 
   import datastream.QuantaStream
   import datastream.QuantaStream.Quanta
@@ -24,8 +27,8 @@ object HowToRun extends App {
       q.lang.getOrElse("NoLang"),
       q.year.getOrElse(-1),
       q.`abstract`.getOrElse("NoAbstract"),
-      q.url.getOrElse(List.empty),
-      q.fos.getOrElse(List.empty),
+      //q.url.getOrElse(List.empty),
+      //q.fos.getOrElse(List.empty),
                             q.id,
       q.references.getOrElse(List.empty).toArray)
   }
@@ -44,8 +47,8 @@ object util {
                       lang: String,
                       year: Int,
                       `abstract`: String,
-                      url: List[String],
-                      fos: List[String],
+                      //url: List[String],
+                      //fos: List[String],
                       id: String,
                       refs: Array[String])
   //  /**
