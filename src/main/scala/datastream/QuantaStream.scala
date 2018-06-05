@@ -1,9 +1,7 @@
 package datastream
 
-object QuantaStream {
-
-  import java.io.File
-  import java.nio.file.Paths
+import java.io.File
+import java.nio.file.Paths
 
 import cats.effect.{Effect, IO}
 import fs2.{Stream, text}
