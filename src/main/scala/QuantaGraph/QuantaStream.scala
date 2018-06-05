@@ -1,4 +1,4 @@
-package datastream
+package QuantaGraph
 
 object QuantaStream {
 
@@ -14,11 +14,12 @@ object QuantaStream {
   case class Quanta(title: Option[String],
                     lang: Option[String],
                     year: Option[Int],
-                    references: Option[List[String]],
                     `abstract`: Option[String],
                     url: Option[List[String]],
+                    fos: Option[List[String]],
                     id: String,
-                    fos: Option[List[String]])
+                    references: Option[List[String]]
+                   )
 
   def getListOfFiles(dir: String): List[File] =
     new File(dir).listFiles.filter(_.isFile).toList
