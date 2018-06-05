@@ -8,48 +8,44 @@ import org.janusgraph.core.JanusGraphFactory
 import org.janusgraph.graphdb.transaction.StandardJanusGraphTx
 
 object HowToRun extends App {
-
   import util._
-
   val cfg = new BaseConfiguration()
   cfg.setProperty("storage.backend", "inmemory")
-  val graph = JanusGraphFactory.open(cfg)
-  val jdb = JanusGraphFactory.open(cfg).asScala
-  val accum = new ConcurrentHashMap[String, Either[List[Vertex], Vertex]]
+  implicit val jdb = JanusGraphFactory.open(cfg).asScala
+  implicit val accum =
+    new ConcurrentHashMap[String, Either[List[Vertex], Vertex]]
 
   import datastream.QuantaStream
   import datastream.QuantaStream.Quanta
 
-  val s: Stream[IO, Quanta] = QuantaStream.getQuantaStream.take(10)
+  val s: Stream[IO, Quanta] = QuantaStream.getQuantaStream.take(5)
 
   implicit class QuantaToDBQuanta(q: Quanta) {
-    val dbQuanta = DBQuanta(q.title.getOrElse("NoTitle"),
-      q.lang.getOrElse("NoLang"),
-      q.year.getOrElse(-1),
-      q.`abstract`.getOrElse("NoAbstract"),
-      q.url.getOrElse(List.empty).toArray,
-      q.fos.getOrElse(List.empty).toArray,
+    val dbQuanta = DBQuanta(q.title,
+                            q.lang,
+                            q.year,
+                            q.`abstract`,
+                            q.url.map(_.toArray),
+                            q.fos.map(_.toArray),
                             q.id,
       q.references.getOrElse(List.empty).toArray)
   }
 
   val res = s.map(_.dbQuanta).through(DBIO.insertPipe(accum, jdb))
   res.compile.drain.unsafeRunSync()
-  println("Done.")
-
-  println(jdb.V().toList())
-  println(jdb.E().toList)
-  println(jdb.V().map(_.toCC[DBQuanta]).toList)
-
+  println("done")
+  println("# nodes :" + jdb.V().toList().length)
+  println("# edges :" + jdb.E().toList.length)
+  jdb.V().toList().map(_.toCC[DBQuanta])
 }
 
 object util {
-  case class DBQuanta(title: String,
-                      lang: String,
-                      year: Int,
-                      `abstract`: String,
-                      url: Array[String],
-                      fos: Array[String],
+  case class DBQuanta(title: Option[String],
+                      lang: Option[String],
+                      year: Option[Int],
+                      `abstract`: Option[String],
+                      url: Option[Array[String]],
+                      fos: Option[Array[String]],
                       id: String,
                       refs: Array[String])
   //  /**
