@@ -5,39 +5,43 @@ object QuantaStream {
   import java.io.File
   import java.nio.file.Paths
 
-  import cats.effect.IO
-  import fs2.{Stream, text}
-  import io.circe.Json
-  import io.circe.fs2.{decoder, stringStreamParser}
-  import io.circe.generic.auto._
+import cats.effect.{Effect, IO}
+import fs2.{Stream, text}
+import io.circe.Json
+import io.circe.fs2.{decoder, stringStreamParser}
+import io.circe.generic.auto._
 
-  case class Quanta(title: Option[String],
-                    lang: Option[String],
-                    year: Option[Int],
-                    references: Option[List[String]],
-                    `abstract`: Option[String],
-                    url: Option[List[String]],
-                    id: String,
-                    fos: Option[List[String]])
+case class Quanta(title: Option[String],
+                  lang: Option[String],
+                  year: Option[Int],
+                  references: Option[List[String]],
+                  `abstract`: Option[String],
+                  url: Option[List[String]],
+                  id: String,
+                  fos: Option[List[String]])
+
+class QuantaStream[F[_]]()(implicit F: Effect[F]) {
+
+
 
   def getListOfFiles(dir: String): List[File] =
     new File(dir).listFiles.filter(_.isFile).toList
 
-  def fileToStream(dataFile: File): Stream[IO, Quanta] = {
+  def fileToStream(dataFile: File): Stream[F, Quanta] = {
     //import scala.io.Source
     //println("Printing file contents:\n" + Source.fromFile(dataFile, "utf-8").getLines.mkString)
 
-    val stringStream: Stream[IO, String] = fs2.io.file
-      .readAll[IO](Paths.get(dataFile.getCanonicalPath), 4096)
+    val stringStream: Stream[F, String] = fs2.io.file
+      .readAll[F](Paths.get(dataFile.getCanonicalPath), 4096)
       .through(text.utf8Decode)
     //println(stringStream.compile.toList.unsafeRunSync())
 
-    val parsedStream: Stream[IO, Json] =
+    val parsedStream: Stream[F, Json] =
       stringStream.through(stringStreamParser)
     //println(parsedStream.compile.toList.unsafeRunSync())
 
-    val popularityStream: Stream[IO, Quanta] =
-      parsedStream.through(decoder[IO, Quanta])
+    val popularityStream: Stream[F, Quanta] =
+      parsedStream.through(decoder[F, Quanta])
     //println(popularityStream.compile.toList.unsafeRunSync())
 
     popularityStream
@@ -50,10 +54,10 @@ object QuantaStream {
 
   import scala.concurrent.ExecutionContext.Implicits.global
 
-  val quantaStream: Stream[IO, Quanta] =
+  val quantaStream: Stream[F, Quanta] =
     dataFiles.map(fileToStream).reduce((a, b) => a.merge(b))
 
-  def getQuantaStream: Stream[IO, Quanta] = quantaStream
+  def getQuantaStream: Stream[F, Quanta] = quantaStream
 
   //println(quantaStream.compile.toList.unsafeRunSync())
 

@@ -1,6 +1,9 @@
 import java.util.concurrent.ConcurrentHashMap
 
 import cats.effect._
+import datastream.QuantaStream
+import datastream.Quanta
+import fs2.StreamApp.ExitCode
 import fs2._
 import gremlin.scala._
 import org.apache.commons.configuration.BaseConfiguration
@@ -48,6 +51,16 @@ object util {
                       fos: Option[Array[String]],
                       id: String,
                       refs: Array[String])
+  implicit class QuantaToDBQuanta(q: Quanta) {
+    val dbQuanta = DBQuanta(q.title,
+                            q.lang,
+                            q.year,
+                            q.`abstract`,
+                            q.url.map(_.toArray),
+                            q.fos.map(_.toArray),
+                            q.id,
+                            q.references.getOrElse(List.empty).toArray)
+  }
   //  /**
 //    * Retrieval operations (including get) generally do not block,
 //    * so may overlap with update operations (including put and remove).
@@ -62,9 +75,10 @@ object util {
 object DBIO {
   import util._
 
-  def insert(node: DBQuanta, g: ScalaGraph)(
-      implicit accum: SEEN): IO[Vertex] = {
-    IO {
+  def insert[F[_]](node: DBQuanta, g: ScalaGraph)(implicit accum: SEEN,
+                                                  F: Effect[F]): F[Vertex] = {
+
+    F.delay {
       val tx = g.tx.createThreadedTx().asInstanceOf[StandardJanusGraphTx]
       implicit val txg = tx.getGraph.asScala()
       //implicit val grph = g
@@ -92,11 +106,11 @@ object DBIO {
       res
     }
   }
-  def insertPipe(state: SEEN, g: ScalaGraph): Pipe[IO, DBQuanta, Vertex] = {
-    in: Stream[IO, DBQuanta] =>
+  def insertPipe[F[_]: Effect](state: SEEN, g: ScalaGraph): Pipe[F, DBQuanta, Vertex] = {
+    in: Stream[F, DBQuanta] =>
       implicit val stateI = state
 
-      in.flatMap(q => Stream.eval[IO, Vertex](insert(q, g)))
+      in.flatMap(q => Stream.eval[F, Vertex](insert(q, g)))
   }
 
 }
