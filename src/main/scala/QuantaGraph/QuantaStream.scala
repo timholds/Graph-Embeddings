@@ -47,7 +47,7 @@ object QuantaStream {
   val projectRoot: String = new java.io.File(".").getCanonicalPath
   val dataFolder: String = projectRoot + "/data"
   val dataFiles: List[File] =
-    getListOfFiles(dataFolder).filter(f => f.getName.endsWith(".txt"))
+    getListOfFiles(dataFolder).filter(f => f.getName.endsWith(".test.txt"))
 
   import scala.concurrent.ExecutionContext.Implicits.global
 
