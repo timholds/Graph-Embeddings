@@ -3,6 +3,7 @@
 ##
 data/*
 !data/popularity*
+!data/*.test.txt
 
 
 ##

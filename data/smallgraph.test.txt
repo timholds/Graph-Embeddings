@@ -1,0 +1,10 @@
+{"title": "Hello Wolrd1", "lang": "en", "year": 2015, "references": ["2", "3","4","5", "6","7","8", "9","10"], "abstract": "Test", "url": ["http://www.freepatentsonline.com/y2016/0211117.html"], "id": "1", "fos": ["Computer hardware"]}
+{"title": "Hello Wolrd2", "lang": "en", "year": 2014, "references": ["3","4","6","7","9","10"], "abstract": "Test", "url": ["http://www.freepatentsonline.com/y2016/0211117.html"], "id": "2", "fos": ["Electronic engineering"]}
+{"title": "Hello Wolrd3", "lang": "en", "year": 2017, "references": ["4", "8","10"], "abstract": "Test", "url": ["http://www.freepatentsonline.com/y2016/0211117.html"], "id": "3", "fos": ["Electronic engineering"]}
+{"title": "Hello Wolrd4", "lang": "en", "year": 2001, "references": ["10"], "abstract": "Test", "url": ["http://www.freepatentsonline.com/y2016/0211117.html"], "id": "4", "fos": ["Electronic engineering"]}
+{"title": "Hello Wolrd5", "lang": "en", "year": 2013, "references": ["6", "7","10"], "abstract": "Test", "url": ["http://www.freepatentsonline.com/y2016/0211117.html"], "id": "5", "fos": ["Electronic engineering"]}
+{"title": "Hello Wolrd6", "lang": "en", "year": 2012, "references": ["9", "10"], "abstract": "Test", "url": ["http://www.freepatentsonline.com/y2016/0211117.html"], "id": "6", "fos": ["Electronic engineering"]}
+{"title": "Hello Wolrd7", "lang": "en", "year": 2006, "references": ["11","12"], "abstract": "Test", "url": ["http://www.freepatentsonline.com/y2016/0211117.html"], "id": "7", "fos": ["Electronic engineering"]}
+{"title": "Hello Wolrd8", "lang": "en", "year": 2003, "references": ["10","11","12"], "abstract": "Test", "url": ["http://www.freepatentsonline.com/y2016/0211117.html"], "id": "8", "fos": ["Electronic engineering"]}
+{"title": "Hello Wolrd9", "lang": "en", "year": 2014, "references": ["10"], "abstract": "Test", "url": ["http://www.freepatentsonline.com/y2016/0211117.html"], "id": "9", "fos": ["Electronic engineering"]}
+{"title": "Hello Wolrd10", "lang": "en", "year": 2011, "references": ["13","14","16","19"], "abstract": "Test", "url": ["http://www.freepatentsonline.com/y2016/0211117.html"], "id": "10", "fos": ["Electronic engineering"]}
