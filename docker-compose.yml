@@ -1,7 +1,7 @@
 jupyter:
-  build:
-    context: ./docker
-    dockerfile: "./docker/jupyter-scala.dockerfile"
+#  build:
+#    context: "./docker"
+#    dockerfile: "./docker/jupyter-scala.dockerfile"
   image: jupyter-scala:WIP
   #  user: root
   command: start-notebook.sh
@@ -19,3 +19,7 @@ jupyter:
   
 hbase:
   image: harisekhon/hbase-dev
+  ports:
+    - "2181:2181"
+    - "60000:60000"
+    - "60020:60020"
