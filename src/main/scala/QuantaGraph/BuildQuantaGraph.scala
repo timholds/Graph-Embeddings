@@ -10,6 +10,7 @@ import org.apache.commons.configuration.BaseConfiguration
 import org.janusgraph.core.JanusGraphFactory
 import org.janusgraph.graphdb.transaction.StandardJanusGraphTx
 
+import scala.concurrent.{Await, Promise, duration}
 import scala.language.implicitConversions
 
 object BuildQuantaGraph {
@@ -63,25 +64,35 @@ object BuildQuantaGraph {
     IO {
       val tx = g.tx.createThreadedTx().asInstanceOf[StandardJanusGraphTx]
       implicit val txg = tx.getGraph.asScala()
-      //implicit val grph = g
-      val res = tx + node
+      val pres = Promise[Vertex]
       accum.get(node.id) match {
         case Left(toAddEdges) =>
-          toAddEdges.map(vrtx => tx.V(vrtx).head --- "cites" --> res)
-          accum.put(node.id, Right(res))
-        case Right(_) =>
-          throw new IllegalStateException("this shouldn't happen")
-        case null => accum.put(node.id, Right(res))
+          val nodeInG = tx + node
+          toAddEdges.map(vrtx => tx.V(vrtx).head --- "cites" --> nodeInG)
+          accum.put(node.id, Right(nodeInG))
+          pres.success(nodeInG)
+        case Right(vid) =>
+          val rolledFwd = tx.V(vid).head
+          pres.success(rolledFwd)
+        case null =>
+          val nodeInG = tx + node
+          accum.put(node.id, Right(nodeInG))
+          pres.success(nodeInG)
       }
 
-      node.refs.getOrElse(Array.empty[String]).map(reference =>
+      val res = Await.result(pres.future, duration.Duration.Inf)
+      node.refs.map(_.map(reference =>
         accum.get(reference) match {
           case Left(toCiteStill) =>
             accum.put(reference, Left(res :: toCiteStill))
           case Right(vrtx) =>
-            res --- "cites" --> tx.V(vrtx.id).head
+            val rolledFwd = tx.V(vrtx.id).head()
+            res.out("cites").hasId(rolledFwd).headOption() match {
+              case Some(_) => None
+              case None => res --- "cites" --> rolledFwd
+            }
           case null => accum.put(reference, Left(List(res)))
-        })
+        }))
 
       tx.tx().commit()
       g.tx().commit()
