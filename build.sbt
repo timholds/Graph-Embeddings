@@ -28,3 +28,7 @@ libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-nop" % "1.7.25",
   "io.jvm.uuid" %% "scala-uuid" % "0.2.4"
 ).map(_.exclude("ch.qos.logback", "*"))
+
+//fork in run := true
+
+javaOptions in run += "-Xmx30G"
