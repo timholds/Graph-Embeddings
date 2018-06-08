@@ -3,7 +3,7 @@ package datastream
 import java.io.File
 import java.nio.file.Paths
 
-  import cats.effect.IO
+  import cats.effect.{IO, Effect}
   import fs2.{Stream, text}
   import io.circe.Json
   import io.circe.fs2.{decoder, stringStreamParser}
