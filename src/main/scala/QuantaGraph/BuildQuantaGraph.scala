@@ -2,7 +2,7 @@ package QuantaGraph
 
 import java.util.concurrent.ConcurrentHashMap
 
-import QuantaGraph.QuantaStream.Quanta
+import datastream._
 import cats.effect._
 import fs2._
 import gremlin.scala._
@@ -42,7 +42,6 @@ object BuildQuantaGraph {
     val jdb: ScalaGraph = JanusGraphFactory.open(cfg).asScala
     val accum: ConcurrentHashMap[String, Either[List[Vertex], Vertex]] =
       new ConcurrentHashMap[String, Either[List[Vertex], Vertex]]
-    import QuantaStream.Quanta
 
     implicit class QuantaToDBQuanta(q: Quanta) {
 

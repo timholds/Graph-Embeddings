@@ -1,6 +1,6 @@
 package QuantaGraph
 
-import QuantaGraph.QuantaStream.Quanta
+import datastream._
 import cats.effect.IO
 import fs2.Stream
 import gremlin.scala._
@@ -12,7 +12,7 @@ object Main extends App {
     " Gb\n\tmaxMemory: " + Runtime.getRuntime.maxMemory / 1e9d + " Gb")
 
   println("Building graph...")
-  val s: Stream[IO, Quanta] = QuantaStream.getQuantaStream
+  val s: Stream[IO, Quanta] = new QuantaStream[IO].getQuantaStream
   val sg: ScalaGraph = BuildQuantaGraph.buildJanusGraph(s)
   println("Build graph with: \n\t" + sg.V.count.head + " Vertices\n\t" + sg.E.count.head + " Edges")
 
