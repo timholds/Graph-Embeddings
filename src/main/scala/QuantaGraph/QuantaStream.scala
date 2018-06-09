@@ -46,7 +46,7 @@ class QuantaStream[F[_]]()(implicit F: Effect[F]) {
   }
 
   val projectRoot: String = new java.io.File(".").getCanonicalPath
-  val dataFolder: String = projectRoot + "/data"
+  val dataFolder: String = projectRoot + "/data/test"
   val dataFiles: List[File] =
     getListOfFiles(dataFolder).filter(f => f.getName.endsWith(".test.txt"))
 

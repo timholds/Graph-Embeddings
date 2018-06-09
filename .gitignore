@@ -2,8 +2,7 @@
 ##  Custom Ignores  ##
 ##
 data/*
-!data/popularity*
-!data/*.test.txt
+!data/test/*
 
 
 ##
