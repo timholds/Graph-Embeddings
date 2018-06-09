@@ -1,6 +1,10 @@
 # Scaling Science
+## Overview
+We are leveraging methods from machine learning, artificial intelligence, databases, and graph theory to improve our ability to compute on scientific knowledge—and thus more intelligently plan, collaborate, and allocate resources to science. The end goal is the creation of a decentralized, community-focused scientific knowledge dissemination platform.
+
 
 ## Dependencies and documentation
+
 
 ### Database 
 [JanusGraph](http://janusgraph.org/) with an [HBase](https://hbase.apache.org/) backend running in [Docker](https://www.docker.com/).
@@ -16,3 +20,6 @@ Written in [Scala 2.12](https://www.scala-lang.org/) and JDK1.8 using [sbt](http
 
 ### Data source
 For now, we are working with the publication metadata released by the [Open Academic Graph project](https://www.openacademic.ai/oag/). This is a joining of the [Microsoft Academic Graph](https://www.microsoft.com/en-us/research/project/microsoft-academic-graph/) and [AMiner database](https://aminer.org/). 
+
+### Version control
+Git, obviously. As our team scales, leveraging proper best practices will become increasingly important. Please submit issues for new features and bugs, create branches when working on issues, and submit pull requests for merging back into master so everyone is synchronized. 
