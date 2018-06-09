@@ -9,7 +9,6 @@ In the future, we will move to active scraping and integration of [ArXiv](https:
 
 ## Dependencies and documentation
 
-
 ### Database 
 [JanusGraph](http://janusgraph.org/) with an [HBase](https://hbase.apache.org/) backend running in [Docker](https://www.docker.com/).
 
@@ -22,7 +21,8 @@ Written in [Scala 2.12](https://www.scala-lang.org/) and JDK1.8 using [sbt](http
 ### IDE
 [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/), which is [provided for free](https://www.jetbrains.com/idea/) to students and faculty members.
 
-
-
 ### Version control
 Git, obviously. As our team scales, leveraging proper best practices will become increasingly important. Please submit issues for new features and bugs, create branches when working on issues, and submit pull requests for merging back into master so everyone is synchronized. 
+
+### Project management
+We are starting to use [Github Projects](https://github.com/jameswweis/scaling-science/projects) to coordinate the work and issues in the different branches of this project. 
