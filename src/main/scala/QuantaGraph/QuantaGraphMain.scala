@@ -1,7 +1,7 @@
 package QuantaGraph
 
-import datastream._
 import cats.effect.IO
+import datastream._
 import fs2.Stream
 import gremlin.scala._
 import org.apache.tinkerpop.gremlin.process.traversal.Order
@@ -19,11 +19,9 @@ object Main extends App {
   println("Running PageRank...")
   val pageRankResults = sg.traversalSource.underlying.withComputer().V()
     .pageRank().by("pageRank")
-    .order().by("pageRank", Order.decr).limit(10)
+    .order().by("pageRank", Order.decr).limit(20)
     .valueMap("pageRank", "title", "year")
-
-  println(pageRankResults.head)
-  pageRankResults.toList.forEach(v => println("Title: " + v.get("title") + ", Score: " + v.get("pageRank")))
+    .toList.forEach(v => println(v.values()))
 
   println("Done.")
 }

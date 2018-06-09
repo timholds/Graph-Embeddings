@@ -3,11 +3,11 @@ package datastream
 import java.io.File
 import java.nio.file.Paths
 
-  import cats.effect.{IO, Effect}
-  import fs2.{Stream, text}
-  import io.circe.Json
-  import io.circe.fs2.{decoder, stringStreamParser}
-  import io.circe.generic.auto._
+import cats.effect.Effect
+import fs2.{Stream, text}
+import io.circe.Json
+import io.circe.fs2.{decoder, stringStreamParser}
+import io.circe.generic.auto._
 
 case class Quanta(title: Option[String],
                   lang: Option[String],
@@ -48,7 +48,7 @@ class QuantaStream[F[_]]()(implicit F: Effect[F]) {
   val projectRoot: String = new java.io.File(".").getCanonicalPath
   val dataFolder: String = projectRoot + "/data"
   val dataFiles: List[File] =
-    getListOfFiles(dataFolder).filter(f => f.getName.endsWith(".txt"))
+    getListOfFiles(dataFolder).filter(f => f.getName.endsWith(".test.txt"))
 
   import scala.concurrent.ExecutionContext.Implicits.global
 
