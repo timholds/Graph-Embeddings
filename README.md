@@ -16,10 +16,10 @@ In the future, we will move to active scraping and integration of [ArXiv](https:
 We are using [gremlin-scala](https://github.com/mpollmeier/gremlin-scala), which provides a wrapper allowing the use of [Apache Tinkerpop 3](https://github.com/apache/tinkerpop) from Scala.  
 
 ### Language
-Written in [Scala 2.12](https://www.scala-lang.org/) and JDK1.8 using [sbt](https://www.scala-sbt.org/) to manage dependencies (see build.sbt) and compilation. 
+Written in [Scala 2.12](https://www.scala-lang.org/) and JDK1.8 using [sbt](https://www.scala-sbt.org/) to manage dependencies (see [./build.sbt](https://github.com/jameswweis/scaling-science/blob/master/build.sbt) and compilation. 
 
 ### IDE
-[IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/), which is [provided for free](https://www.jetbrains.com/idea/) to students and faculty members. See ./.idea. 
+[IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/), which is [provided for free](https://www.jetbrains.com/idea/) to students and faculty members. See [./.idea](https://github.com/jameswweis/scaling-science/tree/master/.idea). 
 
 ### Version control
 Git, obviously. As our team scales, leveraging proper best practices will become increasingly important. Please submit issues for new features and bugs, create branches when working on issues, and submit pull requests for merging back into master so everyone is synchronized. 
