@@ -10,7 +10,7 @@ In the future, we will move to active scraping and integration of [ArXiv](https:
 ## Dependencies and documentation
 
 ### Database 
-[JanusGraph](http://janusgraph.org/) with an [HBase](https://hbase.apache.org/) backend running in [Docker](https://www.docker.com/).
+[JanusGraph](http://janusgraph.org/) with an [HBase](https://hbase.apache.org/) backend running in [Docker](https://www.docker.com/). The data, all currently in JSON, is parsed and decoded to Scala classes with [circe-fs2](https://github.com/circe/circe-fs2). 
 
 ### Graph traversal
 We are using [gremlin-scala](https://github.com/mpollmeier/gremlin-scala), which provides a wrapper allowing the use of [Apache Tinkerpop 3](https://github.com/apache/tinkerpop) from Scala.  
