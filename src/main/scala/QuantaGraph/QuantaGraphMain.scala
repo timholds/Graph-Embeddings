@@ -23,9 +23,14 @@ object Main extends App {
   println("Build graph with: \n\t" + sg.V.count.head + " Vertices\n\t" + sg.E.count.head + " Edges")
 
   println("Running PageRank...")
+  val numResultsToReturn = 10000
   val pageRankResults = sg.traversalSource.underlying.withComputer().V()
     .pageRank().by("pageRank")
     .order().by("pageRank", Order.decr)
+    .limit(numResultsToReturn)
+    .valueMap("title", "pageRank")
+    .toList
+    .asScala
 
 
   val resultString: StringBuilder = new StringBuilder
@@ -35,14 +40,9 @@ object Main extends App {
 
   val outputFilename = "pageRankResults.txt"
   println("Printing results to " + outputFilename + "...")
-
   import java.io._
-
   val bw = new BufferedWriter(new FileWriter(new File(outputFilename)))
   pageRankResults
-    .limit(100)
-    .valueMap("title", "pageRank")
-    .toList.asScala
     .map(v => node2String(v))
     .foreach(v => bw.write(v))
   bw.close()
