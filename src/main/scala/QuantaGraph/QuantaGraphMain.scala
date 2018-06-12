@@ -22,6 +22,8 @@ object Main extends App {
   val sg: ScalaGraph = BuildQuantaGraph.buildJanusGraph(s)
   println("Build graph with: \n\t" + sg.V.count.head + " Vertices\n\t" + sg.E.count.head + " Edges")
 
+  sg.V().valueMap().toList.foreach(v => println(v.get("publisher")))
+
   println("Running PageRank...")
   val numResultsToReturn = 10000
   val pageRankResults = sg.traversalSource.underlying.withComputer().V()
