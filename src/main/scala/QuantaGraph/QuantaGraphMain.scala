@@ -33,14 +33,14 @@ object Main extends App {
     .asScala
 
 
-  val resultString: StringBuilder = new StringBuilder
+  val outputFilename = "pageRankResults.txt"
+  println("Printing results to " + outputFilename + "...")
 
   def node2String(v: util.Map[String, Nothing]) = v.get("title").asInstanceOf[JArrayList[String]].get(0) + "," +
     v.get("pageRank").asInstanceOf[JArrayList[Double]].get(0) + "\r\n"
 
-  val outputFilename = "pageRankResults.txt"
-  println("Printing results to " + outputFilename + "...")
   import java.io._
+
   val bw = new BufferedWriter(new FileWriter(new File(outputFilename)))
   pageRankResults
     .map(v => node2String(v))

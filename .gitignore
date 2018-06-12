@@ -2,7 +2,7 @@
 ##  Custom Ignores  ##
 ##
 data/*
-!data/test/*
+!data/test
 
 
 ##
