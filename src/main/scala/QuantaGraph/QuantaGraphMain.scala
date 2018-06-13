@@ -1,5 +1,6 @@
 package QuantaGraph
 
+import java.io.{BufferedWriter, _}
 import java.util
 import java.util.{ArrayList => JArrayList}
 
@@ -23,51 +24,59 @@ object Main extends App {
   println("Build graph with: \n\t" + sg.V.count.head + " Vertices\n\t" + sg.E.count.head + " Edges")
 
   println("Run PageRank at year increments")
+  val outputFilename = "pageRankResults.txt"
+  val bw = new BufferedWriter(new FileWriter(new File(outputFilename)))
+  println("\tPrinting results to " + outputFilename + "...")
+
+  def node2String(v: util.Map[String, Nothing], year: Int): String =
+    v.get("title").asInstanceOf[JArrayList[String]].get(0) + "," +
+      v.get("pageRank").asInstanceOf[JArrayList[Double]].get(0) + "," + year + "\r\n"
+
   val yearSet: Set[Int] = sg.V().value("year").toSet()
   val pageRankResultsMap: Map[Int, List[(String, Double)]] = Map()
   val yearKey = Key[Int]("year")
-  for (year <- yearSet.toList.sorted) {
-    println(year + " // " + sg.V().has(yearKey, P.lte(year)).values("year").toList.mkString(", "))
+  for (year: Int <- yearSet.toList.sorted) {
 
-    /* TODO: Extract subgraph with vertices <= year */
+    println("\tExtracting subgraph for " + year + "...")
     val stepLabel = StepLabel[Graph]("subGraph")
     val subGraph = sg.V().has(yearKey, P.lte(year)).outE().subgraph(stepLabel).cap(stepLabel).head
-    println(subGraph.V().values("year").toList().sorted)
-    println(subGraph)
-    println("====")
+    println("\t\tEdges: " + subGraph.E().count.head)
+    println("\t\tVertices: " + subGraph.V().count.head)
+
+    println("\tRunning PageRank...")
+    /* TODO: Switch this to OLAP Query (i.e. PageRankVertexProgram)
+    val pageRankResults = sg.compute().program(PageRankVertexProgram.build().create().submit().get()
+    */
+    val numResultsToReturn = 10000
+    val pageRankResults: List[util.Map[String, Nothing]] = sg.traversalSource.underlying.withComputer().V()
+      .pageRank().by("pageRank")
+      .order().by("pageRank", Order.decr)
+      .limit(numResultsToReturn)
+      .valueMap("title", "pageRank")
+      .asScala
+      .toList
+
+    pageRankResults
+      .map(v => node2String(v, year))
+      .foreach(v => bw.write(v))
+
+    println("\tPrinted.\n")
 
 
   }
-
-
-  println("Running PageRank...")
-  /*
-  TODO: Switch this to OLAP Query (i.e. PageRankVertexProgram)
-  val pageRankResults = sg.compute().program(PageRankVertexProgram.build().create().submit().get()
-  */
-  val numResultsToReturn = 10000
-  val pageRankResults = sg.traversalSource.underlying.withComputer().V()
-    .pageRank().by("pageRank")
-    .order().by("pageRank", Order.decr)
-    .limit(numResultsToReturn)
-    .valueMap("title", "pageRank")
-    .toList
-    .asScala
-
-
-  val outputFilename = "pageRankResults.txt"
-  println("Printing results to " + outputFilename + "...")
-
-  def node2String(v: util.Map[String, Nothing]) = v.get("title").asInstanceOf[JArrayList[String]].get(0) + "," +
-    v.get("pageRank").asInstanceOf[JArrayList[Double]].get(0) + "\r\n"
-
-  import java.io._
-
-  val bw = new BufferedWriter(new FileWriter(new File(outputFilename)))
-  pageRankResults
-    .map(v => node2String(v))
-    .foreach(v => bw.write(v))
   bw.close()
+  println("Done.")
+
+
+
+
+
+
+
+
+
+
+
 
   println("Done.")
 }
