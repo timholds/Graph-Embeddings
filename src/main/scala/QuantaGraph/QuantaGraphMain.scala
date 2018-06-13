@@ -23,6 +23,7 @@ object Main extends App {
   val sg: ScalaGraph = BuildQuantaGraph.buildJanusGraph(s)
   println("Build graph with: \n\t" + sg.V.count.head + " Vertices\n\t" + sg.E.count.head + " Edges")
 
+
   println("Run PageRank at year increments")
   val outputFilename = "pageRankResults.txt"
   val bw = new BufferedWriter(new FileWriter(new File(outputFilename)))
@@ -65,18 +66,5 @@ object Main extends App {
 
   }
   bw.close()
-  println("Done.")
-
-
-
-
-
-
-
-
-
-
-
-
   println("Done.")
 }
