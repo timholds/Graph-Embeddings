@@ -16,7 +16,21 @@ case class Quanta(title: Option[String],
                   `abstract`: Option[String],
                   url: Option[List[String]],
                   id: String,
-                  fos: Option[List[String]])
+                  fos: Option[List[String]],
+                  venue: Option[String],
+                  n_citation: Option[Int],
+                  keywords: Option[List[String]],
+                  page_stat: Option[String],
+                  page_end: Option[String],
+                  publisher: Option[String],
+                  volume: Option[String],
+                  issue: Option[String],
+                  issn: Option[String],
+                  isbn: Option[String],
+                  doi: Option[String],
+                  pdf: Option[String])
+
+
 
 class QuantaStream[F[_]]()(implicit F: Effect[F]) {
 

@@ -22,6 +22,7 @@ object Main extends App {
   val sg: ScalaGraph = BuildQuantaGraph.buildJanusGraph(s)
   println("Build graph with: \n\t" + sg.V.count.head + " Vertices\n\t" + sg.E.count.head + " Edges")
 
+
   println("Run PageRank at year increments")
   val yearSet: Set[Int] = sg.V().value("year").toSet()
   val pageRankResultsMap: Map[Int, List[(String, Double)]] = Map()
@@ -38,7 +39,6 @@ object Main extends App {
 
 
   }
-
 
   println("Running PageRank...")
   /*
