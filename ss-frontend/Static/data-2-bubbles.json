@@ -1,0 +1,7 @@
+{
+ "name": "graph",
+ "children": [
+  {"name": "Paper1", "size": [7840, 3500]},
+  {"name": "Paper2", "size": [8416, 4000]}
+ ]
+}
