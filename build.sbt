@@ -31,4 +31,4 @@ libraryDependencies ++= Seq(
 
 fork in run := true
 
-javaOptions in run += "-Xmx100G"
+javaOptions in run += "-Xmx300G"

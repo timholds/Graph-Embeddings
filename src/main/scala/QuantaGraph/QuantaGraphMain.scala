@@ -22,9 +22,29 @@ object Main extends App {
   val sg: ScalaGraph = BuildQuantaGraph.buildJanusGraph(s)
   println("Build graph with: \n\t" + sg.V.count.head + " Vertices\n\t" + sg.E.count.head + " Edges")
 
- // sg.V().valueMap().toList.foreach(v => println(v.get("publisher")))
+
+  println("Run PageRank at year increments")
+  val yearSet: Set[Int] = sg.V().value("year").toSet()
+  val pageRankResultsMap: Map[Int, List[(String, Double)]] = Map()
+  val yearKey = Key[Int]("year")
+  for (year <- yearSet.toList.sorted) {
+    println(year + " // " + sg.V().has(yearKey, P.lte(year)).values("year").toList.mkString(", "))
+
+    /* TODO: Extract subgraph with vertices <= year */
+    val stepLabel = StepLabel[Graph]("subGraph")
+    val subGraph = sg.V().has(yearKey, P.lte(year)).outE().subgraph(stepLabel).cap(stepLabel).head
+    println(subGraph.V().values("year").toList().sorted)
+    println(subGraph)
+    println("====")
+
+
+  }
 
   println("Running PageRank...")
+  /*
+  TODO: Switch this to OLAP Query (i.e. PageRankVertexProgram)
+  val pageRankResults = sg.compute().program(PageRankVertexProgram.build().create().submit().get()
+  */
   val numResultsToReturn = 10000
   val pageRankResults = sg.traversalSource.underlying.withComputer().V()
     .pageRank().by("pageRank")
