@@ -25,13 +25,47 @@ d3.csv("{{url_for('static', filename = 'medium_january.csv')}}", function(error,
   d3.select('#chart').datum(data).call(chart);
 });
 
+//------------------------------- cobble code ------------------------
+/*
+// when the input range changes update the circle
+d3.select("#nRadius").on("input", function() {
+  update(+this.value);
+});
+
+// Initial starting radius of the circle
+update(1);
+
+// update the elements
+function update(nRadius) {
+
+  // adjust the text on the range slider
+  d3.select("#nRadius-value").text(nRadius);
+  d3.select("#nRadius").property("value", nRadius);
+
+  // update the circle radius
+  holder.selectAll("circle")
+    .data(data)
+      .transition()
+      .duration(1000)
+      .attr("r", function(d) { return d[nRadius - 1]; });
+
+}
+//------------------------------- cobble code ------------------------
+*/
+
+function getRadiusCol(year) {
+  year_index = year - 1999;
+  index = year_index.toString();
+  return index;
+}
+
 
 function bubbleChart() {
 var width = 960,
     height = 960,
     maxRadius = 6,
     columnForColors = "category",
-    columnForRadius = "views1";
+    columnForRadius = getRadiusCol(2001);
 
 function chart(selection) {
     var data = selection.datum();
@@ -79,6 +113,7 @@ function chart(selection) {
         .data(data)
         .enter()
         .append("circle")
+        // This is the line that sets the radius -> how can we use transition to redo the transition
         .attr('r', function(d) {
             return scaleRadius(d[columnForRadius])
         })
