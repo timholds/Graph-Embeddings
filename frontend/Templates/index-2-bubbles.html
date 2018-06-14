@@ -7,8 +7,6 @@
 </style>
 <body>
 
-<script src="http://d3js.org/d3.v3.min.js"></script>
-
 <p>
   <label for="year"
          style="display: inline-block; width: 240px; text-align: right">
@@ -16,6 +14,8 @@
   </label>
   <input type="range" min="2000" max="2001" id="year">
 </p>
+
+<script src="http://d3js.org/d3.v5.min.js"></script>
 
 <script>
 
@@ -72,6 +72,7 @@ d3.json("{{url_for('static', filename='data-2-bubbles.json')}}", function(error,
       .attr("class", "node")
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 
+  window.alert(d.r)
   node.append("circle")
       .attr("r", function(d) { return d.r; })
       .style("fill", function(d) { return color(d.packageName); })
@@ -115,12 +116,15 @@ function update(year) {
   d3.select("#year").property("value", year);
 
   year_index = year - 2000
+
   // TODO this needs to update all circle radiuses
   // TODO figure out if holder and .node need to be changed, if we should use update() method of d3.js
   holder.selectAll(".node")
     //.attr("r", node.size[year_index])
+    // TODO figure out why year works, and how to set the
     .attr("r", year);
     //.attr("r", node.size[0])
+  window.alert("updated index")
 }
 
 
