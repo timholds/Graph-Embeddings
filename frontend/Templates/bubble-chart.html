@@ -41,8 +41,6 @@ function bubbleChart() {
     return index;
   }
 
-  // Initial the nodes with data from the year 2000
-  update(2000);
 
   var width = 960,
       height = 960,
@@ -52,17 +50,6 @@ function bubbleChart() {
       // set update(2000) a few lines above to intialize this?
       columnForRadius = "1";
 
-  // update things based on what year the slider is set to
-  function update(year) {
-
-    // adjust the text on the range slider
-    d3.select("#year-value").text(year);
-    d3.select("#year").property("value", year);
-
-    // update the circle radius
-    dataIndex = getRadiusCol(year);
-    columnForRadius = dataIndex;
-  }
 
   function chart(selection) {
       var data = selection.datum();
@@ -119,7 +106,7 @@ function bubbleChart() {
           })
           .attr('transform', 'translate(' + [width / 2, height / 2] + ')')
           .on("mouseover", function(d) {
-              tooltip.html(d[columnForColors] + "<br>" + d.title + "<br>" + d[columnForRadius] + " hearts");
+              tooltip.html(d[columnForColors] + "<br>" + d.title + "<br>" + d[columnForRadius] + " imapct");
               return tooltip.style("visibility", "visible");
           })
           .on("mousemove", function() {
@@ -128,6 +115,47 @@ function bubbleChart() {
           .on("mouseout", function() {
               return tooltip.style("visibility", "hidden");
           });
+  }
+
+  // Initial the nodes with data from the year 2000
+  update(2000);
+
+  // update things based on what year the slider is set to
+  function update(year) {
+
+    // adjust the text on the range slider
+    d3.select("#year-value").text(year);
+    d3.select("#year").property("value", year);
+
+    // update the circle radius
+    dataIndex = getRadiusCol(year);
+    columnForRadius = dataIndex;
+//---------------------------- new code mirroring transition() method from cobble.html -----
+/*
+    var node = svg.selectAll("circle")
+        .data(data)
+          .transition()
+          .duration(1000)
+          .attr('r', function(d) {
+              return scaleRadius(d[columnForRadius])
+          })
+
+        // all of the stuff below works on the code above, and it used to make the mouseover functionality work
+        .style("fill", function(d) {
+            return colorCircles(d[columnForColors])
+        })
+        .attr('transform', 'translate(' + [width / 2, height / 2] + ')')
+        .on("mouseover", function(d) {
+            tooltip.html(d[columnForColors] + "<br>" + d.title + "<br>" + d[columnForRadius] + " impact");
+            return tooltip.style("visibility", "visible");
+        })
+        .on("mousemove", function() {
+            return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px");
+        })
+        .on("mouseout", function() {
+            return tooltip.style("visibility", "hidden");
+        });*/
+//---------------------------- new code mirroring transition() method from cobble.html -----
   }
 
   chart.width = function(value) {
