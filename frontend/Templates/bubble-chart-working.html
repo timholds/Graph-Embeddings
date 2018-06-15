@@ -54,6 +54,7 @@ var width = 960,
     height = 960,
     maxRadius = 6,
     columnForColors = "category",
+    //columnForRadius = "1"
     columnForRadius = getRadiusCol(2001);
 function chart(selection) {
     var data = selection.datum();
@@ -120,7 +121,8 @@ chart.width = function(value) {
     }
     width = value;
     return chart;
-};
+
+/*
 chart.height = function(value) {
     if (!arguments.length) {
         return height;

@@ -73,7 +73,7 @@ function bubbleChart() {
 
 
       var simulation = d3.forceSimulation(data)
-          .force("charge", d3.forceManyBody().strength([-50]))
+          .force("charge", d3.forceManyBody().strength([-70]))
           .force("x", d3.forceX())
           .force("y", d3.forceY())
           .on("tick", ticked);
@@ -136,36 +136,8 @@ function bubbleChart() {
           .attr('r', function(d) {
               return scaleRadius(d[columnForRadius])
           })
-    //---------------------------- new code mirroring transition() method from cobble.html -----
-    /*
-        var node = svg.selectAll("circle")
-            .data(data)
-              .transition()
-              .duration(1000)
-              .attr('r', function(d) {
-                  return scaleRadius(d[columnForRadius])
-              })
-
-            // all of the stuff below works on the code above, and it used to make the mouseover functionality work
-            .style("fill", function(d) {
-                return colorCircles(d[columnForColors])
-            })
-            .attr('transform', 'translate(' + [width / 2, height / 2] + ')')
-            .on("mouseover", function(d) {
-                tooltip.html(d[columnForColors] + "<br>" + d.title + "<br>" + d[columnForRadius] + " impact");
-                return tooltip.style("visibility", "visible");
-            })
-            .on("mousemove", function() {
-                return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px");
-            })
-            .on("mouseout", function() {
-                return tooltip.style("visibility", "hidden");
-            });*/
-    //---------------------------- new code mirroring transition() method from cobble.html -----
     }
   }
-
-
 
   chart.width = function(value) {
       if (!arguments.length) {
