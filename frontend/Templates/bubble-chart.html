@@ -28,16 +28,11 @@ d3.csv("{{url_for('static', filename = 'medium_january.csv')}}", function(error,
 
 function bubbleChart() {
 
-  // when the slider value changes call the update function to change node sizes
-  d3.select("#year").on("input", function() {
-    update(+this.value);
-
-  });
 
   // use the year to get the column/index of data file that contains the radius data for the nodes
   function getRadiusCol(year) {
-    year_index = year - 1999;
-    index = year_index.toString();
+    var year_index = year - 1999;
+    var index = year_index.toString();
     return index;
   }
 
@@ -52,6 +47,12 @@ function bubbleChart() {
 
 
   function chart(selection) {
+      // when the slider value changes call the update function to change node sizes
+      d3.select("#year").on("input", function() {
+        update(+this.value);
+
+      });
+
       var data = selection.datum();
       var div = selection,
           svg = div.selectAll('svg');
@@ -115,48 +116,56 @@ function bubbleChart() {
           .on("mouseout", function() {
               return tooltip.style("visibility", "hidden");
           });
-  }
 
-  // Initial the nodes with data from the year 2000
-  update(2000);
+    // Initial the nodes with data from the year 2000
+      update(2000);
 
-  // update things based on what year the slider is set to
-  function update(year) {
+      // update things based on what year the slider is set to
+      function update(year) {
+        console.log("in update");
+        // adjust the text on the range slider
+        d3.select("#year-value").text(year);
+        d3.select("#year").property("value", year);
 
-    // adjust the text on the range slider
-    d3.select("#year-value").text(year);
-    d3.select("#year").property("value", year);
+        // update the circle radius
+        var columnForRadius = getRadiusCol(year);
 
-    // update the circle radius
-    dataIndex = getRadiusCol(year);
-    columnForRadius = dataIndex;
-//---------------------------- new code mirroring transition() method from cobble.html -----
-/*
-    var node = svg.selectAll("circle")
-        .data(data)
+        node.data(data)
           .transition()
           .duration(1000)
           .attr('r', function(d) {
               return scaleRadius(d[columnForRadius])
           })
+    //---------------------------- new code mirroring transition() method from cobble.html -----
+    /*
+        var node = svg.selectAll("circle")
+            .data(data)
+              .transition()
+              .duration(1000)
+              .attr('r', function(d) {
+                  return scaleRadius(d[columnForRadius])
+              })
 
-        // all of the stuff below works on the code above, and it used to make the mouseover functionality work
-        .style("fill", function(d) {
-            return colorCircles(d[columnForColors])
-        })
-        .attr('transform', 'translate(' + [width / 2, height / 2] + ')')
-        .on("mouseover", function(d) {
-            tooltip.html(d[columnForColors] + "<br>" + d.title + "<br>" + d[columnForRadius] + " impact");
-            return tooltip.style("visibility", "visible");
-        })
-        .on("mousemove", function() {
-            return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px");
-        })
-        .on("mouseout", function() {
-            return tooltip.style("visibility", "hidden");
-        });*/
-//---------------------------- new code mirroring transition() method from cobble.html -----
+            // all of the stuff below works on the code above, and it used to make the mouseover functionality work
+            .style("fill", function(d) {
+                return colorCircles(d[columnForColors])
+            })
+            .attr('transform', 'translate(' + [width / 2, height / 2] + ')')
+            .on("mouseover", function(d) {
+                tooltip.html(d[columnForColors] + "<br>" + d.title + "<br>" + d[columnForRadius] + " impact");
+                return tooltip.style("visibility", "visible");
+            })
+            .on("mousemove", function() {
+                return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px");
+            })
+            .on("mouseout", function() {
+                return tooltip.style("visibility", "hidden");
+            });*/
+    //---------------------------- new code mirroring transition() method from cobble.html -----
+    }
   }
+
+
 
   chart.width = function(value) {
       if (!arguments.length) {
