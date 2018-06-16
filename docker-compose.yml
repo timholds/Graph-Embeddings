@@ -12,7 +12,7 @@ services:
     scipy-notebook:
         image: jupyter/scipy-notebook
         environment:
-        	GRANT_SUDO: "yes"
+            GRANT_SUDO: "yes"
         ports:
             - "8888:8888"
         volumes:
@@ -20,4 +20,4 @@ services:
             - ../data:/tmp/data
         container_name:   scipy-notebook-container
         # links:
-        # 	neo4j
+        #     neo4j
