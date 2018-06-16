@@ -9,6 +9,10 @@ In the future, we will move to active scraping and integration of [ArXiv](https:
 
 ## Dependencies and documentation
 
+TODO
+*This is all being changed in this branch, which is porting to Python and NEO4J*
+
+
 ### Database 
 [JanusGraph](http://janusgraph.org/) with an [HBase](https://hbase.apache.org/) backend running in [Docker](https://www.docker.com/). The data, all currently in JSON, is parsed and decoded to Scala classes with [circe-fs2](https://github.com/circe/circe-fs2). 
 
