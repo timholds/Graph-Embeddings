@@ -1,18 +1,23 @@
 version: "3"
 services:
-#    neo4j:
-#        image: neo4j:latest
-#        ports:
-#            - "7474:7474"
-#            - "7687:7687"
-#        environment:
-#            NEO4J_AUTH: username:password
-#        container_name: neo4j-container
-#    
+   # neo4j:
+   #     image: neo4j:latest
+   #     ports:
+   #         - "7474:7474"
+   #         - "7687:7687"
+   #     # environment:
+   #     #     NEO4J_AUTH: username:password
+   #     container_name: neo4j-container
+
     scipy-notebook:
         image: jupyter/scipy-notebook
+        environment:
+        	GRANT_SUDO: "yes"
         ports:
-            - 8888:8888
+            - "8888:8888"
         volumes:
-            - .:/home/jovyan/work
+            - ..:/home/jovyan/work
+            - ../data:/tmp/data
         container_name:   scipy-notebook-container
+        # links:
+        # 	neo4j
