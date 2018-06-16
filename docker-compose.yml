@@ -11,13 +11,15 @@ services:
 
     scipy-notebook:
         image: jupyter/scipy-notebook
-        environment:
-            GRANT_SUDO: "yes"
         ports:
             - "8888:8888"
+        environment:
+            - NB_UID=$UID
+            - NB_GID=$GID
+        user: root
         volumes:
-            - ..:/home/jovyan/work
-            - ../data:/tmp/data
+            - ./notebooks:/home/jovyan/work:z
+            - ./data:/tmp/data:Z
         container_name:   scipy-notebook-container
         # links:
         #     neo4j
