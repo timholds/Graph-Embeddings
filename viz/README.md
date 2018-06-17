@@ -26,6 +26,6 @@ Open http://127.0.0.1:8080
 
 ## Refs
 
-http://vallandingham.me//bubble_charts_with_d3v4.html
-http://bl.ocks.org/nadinesk/4c5b949d027fb5a4724c
-http://vallandingham.me/building_a_bubble_cloud.html
+http://vallandingham.me//bubble_charts_with_d3v4.html  
+http://bl.ocks.org/nadinesk/4c5b949d027fb5a4724c  
+http://vallandingham.me/building_a_bubble_cloud.html  
