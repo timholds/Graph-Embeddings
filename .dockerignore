@@ -1,0 +1,10 @@
+# Sepcific ignores
+notebooks
+neo4j
+data
+
+# General ignores
+.git
+.idea
+*.md
+!README.md
