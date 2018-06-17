@@ -3,7 +3,7 @@
 ##
 data/*
 !data/test/*
-
+neo4j/*
 
 ##
 ## Standard Ignores ##

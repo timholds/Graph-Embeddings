@@ -1,13 +1,17 @@
 version: "3"
 services:
-   # neo4j:
-   #     image: neo4j:latest
-   #     ports:
-   #         - "7474:7474"
-   #         - "7687:7687"
-   #     # environment:
-   #     #     NEO4J_AUTH: username:password
-   #     container_name: neo4j-container
+    neo4j:
+        image: neo4j:latest
+        ports:
+            - "7474:7474"
+            - "7687:7687"
+        environment:
+            NEO4J_AUTH: "none"
+        user: $UID:$GID
+        volumes:
+            - ./neo4j/data:/data
+#            - ./neo4j/logs:/logs
+        container_name: neo4j-container
 
     scipy-notebook:
         image: jupyter/scipy-notebook
@@ -16,10 +20,11 @@ services:
         environment:
             - NB_UID=$UID
             - NB_GID=$GID
+        hostname: $HOSTNAME.$DNSDOMAINNAME
         user: root
         volumes:
-            - ./notebooks:/home/jovyan/work:z
+            - ./notebooks:/home/jovyan/work:Z
             - ./data:/tmp/data:Z
-        container_name:   scipy-notebook-container
-        # links:
-        #     neo4j
+        container_name: scipy-notebook-container
+        links:
+            - neo4j:neo4j
