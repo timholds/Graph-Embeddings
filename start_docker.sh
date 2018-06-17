@@ -2,6 +2,7 @@
 
 chmod 777 -R notebooks
 chmod 777 -R neo4j
+chmod 777 requirements.txt
 
 export UID=$(id -u)
 export GID=$(id -g)
