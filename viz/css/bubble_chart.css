@@ -1,0 +1,17 @@
+circle {
+  fill: cadetblue;
+}
+
+label {
+  font-family:sans-serif;
+  font-size: 1.2em;
+}
+
+.menu {
+  width: 70%;
+}
+
+input[type=range] {
+  width: 80%;
+  margin: 13.8px 0;
+}

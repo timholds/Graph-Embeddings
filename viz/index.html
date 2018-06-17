@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title>Scaling Science</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/bubble_chart.css">
+</head>
+
+<body>
+    <div class="menu">
+      <label for="nRadius">
+             Year: <span id="nRadius-value">1948</span>
+      </label>
+      <input type="range" min="1948" max="2013" value="1948" id="nRadius">
+  	</div>
+
+    <div id="viz"></div>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="src/bubble_chart.js"></script>
+
+</body>
+</html>
