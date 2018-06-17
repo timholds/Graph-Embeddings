@@ -14,7 +14,8 @@ services:
         container_name: neo4j-container
 
     scipy-notebook:
-        image: jupyter/scipy-notebook
+        build: .
+#        image: jupyter/scipy-notebook
         ports:
             - "8888:8888"
         environment:

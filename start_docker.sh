@@ -8,10 +8,10 @@ export GID=$(id -g)
 export HOSTNAME=$(hostname)
 export DNSDOMAINNAME=$(dnsdomainname)
 
-echo "UID=$UID"
-echo "GID=$GID"
-echo "HOSTNAME=$HOSTNAME"
-echo "DNSDOMAINNAME=$DNSDOMAINNAME"
+echo "    UID=$UID"
+echo "    GID=$GID"
+echo "    HOSTNAME=$HOSTNAME"
+echo "    DNSDOMAINNAME=$DNSDOMAINNAME"
 
 docker-compose up
 
