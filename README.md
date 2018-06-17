@@ -9,24 +9,22 @@ In the future, we will move to active scraping and integration of [ArXiv](https:
 
 ## Dependencies and documentation
 
-TODO
-*This is all being changed in this branch, which is porting to Python and NEO4J*
+* TODO: This is all being changed in this branch, which is porting to Python and NEO4J*
 
+### Docker
+Run ./docker_start.sh to read some variables and build and launch neo4j and jupyter notebook containers. Console will print a token-based authentication link to paste into your browser to start a notebook, and there is an example notebook that shows how to connect to the database hosted by the neo4j docker instance. 
 
 ### Database 
-[JanusGraph](http://janusgraph.org/) with an [HBase](https://hbase.apache.org/) backend running in [Docker](https://www.docker.com/). The data, all currently in JSON, is parsed and decoded to Scala classes with [circe-fs2](https://github.com/circe/circe-fs2). 
+Neo4j
 
 ### Graph traversal
-We are using [gremlin-scala](https://github.com/mpollmeier/gremlin-scala), which provides a wrapper allowing the use of [Apache Tinkerpop 3](https://github.com/apache/tinkerpop) from Scala.  
+Cypher 
 
 ### Language
-Written in [Scala 2.12](https://www.scala-lang.org/) and JDK1.8 using [sbt](https://www.scala-sbt.org/) to manage dependencies (see [./build.sbt](https://github.com/jameswweis/scaling-science/blob/master/build.sbt) and compilation. 
-
-### IDE
-[IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/), which is [provided for free](https://www.jetbrains.com/idea/) to students and faculty members. See [./.idea](https://github.com/jameswweis/scaling-science/tree/master/.idea). 
+Python3
 
 ### Version control
-Git, obviously. As our team scales, leveraging proper best practices will become increasingly important. Please submit issues for new features and bugs, create branches when working on issues, and submit pull requests for merging back into master so everyone is synchronized. 
+Git. As our team scales, leveraging proper best practices will become increasingly important. Please submit issues for new features and bugs, create branches when working on issues, and submit pull requests for merging back into master so everyone is synchronized. 
 
 ### Project management
-We are starting to use [Github Projects](https://github.com/jameswweis/scaling-science/projects) to coordinate the work and issues in the different branches of this project. 
+We are using [Github Projects](https://github.com/jameswweis/scaling-science/projects) to coordinate the work and issues in the different branches of this project. 
