@@ -37,7 +37,7 @@ object BuildQuantaGraph {
   def buildJanusGraph(s: Stream[IO, Quanta]): ScalaGraph = {
 
     val cfg: BaseConfiguration = new BaseConfiguration()
-    cfg.setProperty("storage.backend", "inmemory")
+    cfg.setProperty("storage.backend", "hbase")
     //    val graph = JanusGraphFactory.open(cfg)
     val jdb: ScalaGraph = JanusGraphFactory.open(cfg).asScala
     val accum: ConcurrentHashMap[String, Either[List[Vertex], Vertex]] =

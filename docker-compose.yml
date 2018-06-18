@@ -18,7 +18,7 @@ jupyter:
       - hbase
   
 hbase:
-  image: harisekhon/hbase-dev
+  image: harisekhon/hbase-dev:1.2
   ports:
     - "2181:2181"
     - "60000:60000"

@@ -22,7 +22,7 @@ libraryDependencies ++= Seq(
   "io.circe" %% "circe-generic" % "0.9.3",
   "io.circe" %% "circe-fs2" % "0.9.0",
   "org.janusgraph" % "janusgraph-hbase" % "0.2.0",
-  "org.apache.hbase" % "hbase-shaded-client" % "2.0.0",
+  "org.apache.hbase" % "hbase-shaded-client" % "1.2.0",
   "com.michaelpollmeier" %% "gremlin-scala" % "3.2.5.2",
   "org.apache.tinkerpop" % "gremlin-driver" % "3.2.5",
   "org.slf4j" % "slf4j-nop" % "1.7.25",
