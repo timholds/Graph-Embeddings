@@ -3,11 +3,11 @@ package datastream
 import java.io.File
 import java.nio.file.Paths
 
-  import cats.effect.{IO, Effect}
-  import fs2.{Stream, text}
-  import io.circe.Json
-  import io.circe.fs2.{decoder, stringStreamParser}
-  import io.circe.generic.auto._
+import cats.effect.Effect
+import fs2.{Stream, text}
+import io.circe.Json
+import io.circe.fs2.{decoder, stringStreamParser}
+import io.circe.generic.auto._
 
 case class Quanta(title: Option[String],
                   lang: Option[String],
@@ -16,7 +16,21 @@ case class Quanta(title: Option[String],
                   `abstract`: Option[String],
                   url: Option[List[String]],
                   id: String,
-                  fos: Option[List[String]])
+                  fos: Option[List[String]],
+                  venue: Option[String],
+                  n_citation: Option[Int],
+                  keywords: Option[List[String]],
+                  page_stat: Option[String],
+                  page_end: Option[String],
+                  publisher: Option[String],
+                  volume: Option[String],
+                  issue: Option[String],
+                  issn: Option[String],
+                  isbn: Option[String],
+                  doi: Option[String],
+                  pdf: Option[String])
+
+
 
 class QuantaStream[F[_]]()(implicit F: Effect[F]) {
 
@@ -46,7 +60,7 @@ class QuantaStream[F[_]]()(implicit F: Effect[F]) {
   }
 
   val projectRoot: String = new java.io.File(".").getCanonicalPath
-  val dataFolder: String = projectRoot + "/data"
+  val dataFolder: String = projectRoot + "/data/test"
   val dataFiles: List[File] =
     getListOfFiles(dataFolder).filter(f => f.getName.endsWith(".txt"))
 

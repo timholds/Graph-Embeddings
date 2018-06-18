@@ -22,7 +22,19 @@ object BuildQuantaGraph {
                       url: Option[Array[String]],
                       fos: Option[Array[String]],
                       id: String,
-                      refs: Option[Array[String]])
+                      refs: Option[Array[String]],
+                      venue: Option[String],
+                      n_citation: Option[Int],
+                      keywords: Option[Array[String]],
+                      page_stat: Option[String],
+                      page_end: Option[String],
+                      publisher: Option[String],
+                      volume: Option[String],
+                      issue: Option[String],
+                      issn: Option[String],
+                      isbn: Option[String],
+                      doi: Option[String],
+                      pdf: Option[String])
 
   //  /**
   //    * Retrieval operations (including get) generally do not block,
@@ -50,7 +62,8 @@ object BuildQuantaGraph {
       }
 
       val dbQuanta = DBQuanta(q.title, q.lang, q.year, q.`abstract`, q.url,
-        q.fos, q.id, q.references)
+        q.fos, q.id, q.references, q.venue, q.n_citation, q.keywords, q.page_stat, q.page_end,
+        q.publisher, q.volume, q.issue, q.issn, q.isbn, q.doi, q.pdf)
     }
 
     val res = s.map(_.dbQuanta).through(insertPipe(accum, jdb))
