@@ -14,7 +14,7 @@ RUN apt install -y git-core \
                    sbt \
                    curl \
                    openjdk-8-dbg \
-                   openjdk-8-jdk
+                   openjdk-8-jdk 
 RUN echo "jovyan ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 USER $NB_USER
 WORKDIR /tmp
