@@ -20,11 +20,31 @@ function bubbleChart() {
   // @v4 strength to apply to the position forces
   var forceStrength = 0.03;
 
+  var year = { start: "1946", end: "2013"};
+
+  var maxValue = 30;   // max value of data
+
   // Sizes bubbles based on area.
   // @v4: new flattened scale names.
   var radiusScale = d3.scaleSqrt()
-    .range([5, 150])
-    .domain([0, 30]);
+    .range([0, 150])
+    .domain([0, maxValue]);
+
+  var rValue = function (d) {
+    return d.radius;
+  };
+
+  var idValue = function (d) {
+    return d.region;
+  };
+
+  var textValue = function (d) {
+    return d.region;
+  };
+
+  var numValue = function (d) {
+    return d.value;
+  };
 
   // These will be set in create_nodes and create_vis
   var svg = null;
@@ -47,7 +67,7 @@ function bubbleChart() {
   // @v4 Before the charge was a stand-alone attribute
   //  of the force layout. Now we can use it as a separate force!
   function charge(d) {
-    return -Math.pow(d.radius, 2.0) * forceStrength;
+    return -Math.pow(rValue(d), 2.0) * forceStrength;
   }
 
   // Here we create a force layout and
@@ -64,43 +84,6 @@ function bubbleChart() {
   // @v4 Force starts up automatically,
   //  which we don't want as there aren't any nodes yet.
   simulation.stop();
-
-
-  /*
-   * This data manipulation function takes the raw data from
-   * the CSV file and converts it into an array of node objects.
-   * Each node will store data and visualization values to visualize
-   * a bubble.
-   *
-   * rawData is expected to be an array of data objects, read in from
-   * one of d3's loading functions like d3.csv.
-   *
-   * This function returns the new node array, with a node in that
-   * array for each element in the rawData input.
-   */
-  function createNodes(rawData) {
-    // Use map() to convert raw data into node data.
-    // Checkout http://learnjsdata.com/ for more on
-    // working with data.
-    var myNodes = rawData.map(function (d) {
-      var node = {
-        region: d.region,
-        radius: radiusScale(+d["1946"]),
-        value: +d["1946"],
-        x: Math.random() * 900,
-        y: Math.random() * 800
-      };
-
-      for (var i = 1946; i <= 2013; i++) {
-        node[String(i)] = d[String(i)];
-      }
-
-      return node;
-
-    });
-
-    return myNodes;
-  }
 
   /*
    * Main entry point to the bubble chart. This function is returned
@@ -127,8 +110,7 @@ function bubbleChart() {
       .attr('height', height);
 
     // Bind nodes data to what will become DOM elements to represent them.
-    bubbles = svg.selectAll('.bubble')
-      .data(nodes, function (d) { return d.region; });
+    bubbles = svg.selectAll('.bubble').data(nodes, idValue);
 
     // Create new circle elements each with class `bubble`.
     // There will be one circle.bubble for each object in the nodes array.
@@ -150,7 +132,7 @@ function bubbleChart() {
     // correct radius
     bubbles.transition()
       .duration(2000)
-      .attr('r', function (d) { return d.radius; });
+      .attr('r', rValue);
 
     // label is the container div for all the labels that sit on top of
     // the bubbles
@@ -167,13 +149,109 @@ function bubbleChart() {
     // Set the simulation's nodes to our newly created nodes array.
     // @v4 Once we set the nodes, the simulation will start running automatically!
     simulation.nodes(nodes)
-      .force('collision', d3.forceCollide().radius(function(d) {    // avoid overlap
-        return d.radius;
-      }));
+      .force('collision', d3.forceCollide().radius(rValue));
 
     simulation.restart();
   };
 
+  /*
+   * This data manipulation function takes the raw data from
+   * the CSV file and converts it into an array of node objects.
+   * Each node will store data and visualization values to visualize
+   * a bubble.
+   *
+   * rawData is expected to be an array of data objects, read in from
+   * one of d3's loading functions like d3.csv.
+   *
+   * This function returns the new node array, with a node in that
+   * array for each element in the rawData input.
+   */
+  function createNodes(rawData) {
+    // Use map() to convert raw data into node data.
+    // Checkout http://learnjsdata.com/ for more on
+    // working with data.
+    var myNodes = rawData.map(function (d) {
+      var node = {
+        region: d.region,
+        radius: radiusScale(+d[year.start]),
+        value: +d[year.start],
+        x: Math.random() * 900,
+        y: Math.random() * 800
+      };
+
+      for (var i = +year.start; i <= +year.end; i++) {
+        node[String(i)] = d[String(i)];
+      }
+
+      return node;
+
+    });
+
+    return myNodes;
+  }
+
+  // ---
+  // updateLabels is more involved as we need to deal with getting the sizing
+  // to work well with the font size
+  // ---
+  function createLabels() {
+    // as in updateNodes, we use idValue to define what the unique id for each data
+    // point is
+    label = label.selectAll(".bubble-label").data(nodes, idValue);
+
+    // labels are anchors with div's inside them
+    // labelEnter holds our enter selection so it
+    // is easier to append multiple elements to this selection
+    label = label.enter().append("a")
+      .attr("class", "bubble-label")
+      .attr("href", function (d) {
+        return "#" + encodeURIComponent(idValue(d));
+      });
+
+    label.append("div")
+      .attr("class", "bubble-label-name")
+      .text(textValue);
+
+    label.append("div")
+      .attr("class", "bubble-label-value")
+      .text(numValue);
+
+    // label font size is determined based on the size of the bubble
+    // this sizing allows for a bit of overhang outside of the bubble
+    // - remember to add the 'px' at the end as we are dealing with
+    //  styling divs
+    label
+      .style("font-size", "0px")
+      .style("width", "0px")
+      .style("display", function(d) { return numValue(d) === 0 ? "none" : "block"; });
+
+    label
+      .transition().duration(2000)
+      .style("font-size", function (d) { return Math.max(8, radiusScale(numValue(d) / 2)) + "px"; })
+      .style("width", function (d) { return (2.5 * radiusScale(numValue(d))) + "px"; });
+
+    // interesting hack to get the 'true' text width
+    // - create a span inside the label
+    // - add the text to this span
+    // - use the span to compute the nodes 'dx' value
+    //  which is how much to adjust the label by when
+    //  positioning it
+    // - remove the extra span
+    label.append("span")
+      .text(textValue)
+      .each(function(d) { d.dx = Math.max(2.5 * radiusScale(numValue(d)), this.getBoundingClientRect().width); })
+      .remove();
+
+    // reset the width of the label to the actual width
+    label.style("width", function (d) { return d.dx + "px"; });
+
+    // compute and store each nodes 'dy' value - the
+    // amount to shift the label down
+    // 'this' inside of D3's each refers to the actual DOM element
+    // connected to the data node
+    return label.each(function(d) { d.dy = this.getBoundingClientRect().height; });
+
+  }
   /*
    * Callback function that is called after every tick of the
    * force simulation.
@@ -227,112 +305,73 @@ function bubbleChart() {
 
   // when the input range changes update the circle
   d3.select("#nRadius").on("input", function() {
+    updateSlider(+this.value);
+  });
+// when the input range changes update the circle
+  d3.select("#nRadius").on("change", function() {
     update(+this.value);
   });
 
-  function update(year) {
+  function updateSlider(year) {
     // adjust the text on the range slider
     d3.select("#nRadius-value").text(year);
     d3.select("#nRadius").property("value", year);
+  }
 
+  function update(year) {
     // update node sizes
     nodes.forEach(function (d) {
       d.radius = radiusScale(+d[String(year)]);
       d.value = +d[String(year)];
     });
 
+    simulation.force('collision', d3.forceCollide().radius(rValue));
+
+    var strength = simulation.force('collision').strength();
+
+    // turn off collision
+    simulation.force('collision').strength(strength * 0.1);
+
     bubbles.transition()
       .duration(1000)
-      .attr('r', function (d) { return d.radius; });
+      .attr('r', rValue);
 
     updateLabels();
 
-    simulation.force('collision', d3.forceCollide().radius(function(d) {    // avoid overlap
-        return d.radius;
-      }))
-      .alpha(1).restart();
+    // slowly bring collision force back up
+    endTime = 1000;
+    transitionTimer = d3.timer(function(elapsed) {
+      var dt = elapsed / endTime;
+      simulation.force('collision').strength(Math.pow(dt, 3) * strength);
+      if (dt >= 1.0) transitionTimer.stop();
+    });
+
+    simulation.alphaTarget(0.2).restart();
   }
 
   function updateLabels() {
     d3.select("#viz").selectAll(".bubble-label-value")
-      .text(function (d) { console.log(d.value); return d.value; });
-
+      .text(numValue);
 
     var label = d3.select("#viz").selectAll(".bubble-label");
 
     label
+      .style("display", function(d) { return numValue(d) === 0 ? "none" : "block"; });
+
+    label
       .transition().duration(1000)
-      .style("font-size", function (d) { return Math.max(8, radiusScale(d.value / 2)) + "px"; })
-      .style("width", function (d) { return (2.5 * radiusScale(d.value)) + "px"; });
+      .style("font-size", function (d) { return Math.max(8, radiusScale(numValue(d) / 2)) + "px"; })
+      .style("width", function (d) { return (2.5 * radiusScale(numValue(d))) + "px"; });
 
     label.append("span")
-      .text(function (d) { return d.region; })
-      .each(function(d) { d.dx = Math.max(2.5 * radiusScale(d.value), this.getBoundingClientRect().width); })
+      .text(idValue)
+      .each(function(d) { d.dx = Math.max(2.5 * radiusScale(numValue(d)), this.getBoundingClientRect().width); })
       .remove();
 
     label
       .style("width", function (d) { return d.dx + "px"; });
 
     return label.each(function(d) { d.dy = this.getBoundingClientRect().height; });
-  }
-
-  // ---
-  // updateLabels is more involved as we need to deal with getting the sizing
-  // to work well with the font size
-  // ---
-  function createLabels() {
-    // as in updateNodes, we use idValue to define what the unique id for each data
-    // point is
-    label = label.selectAll(".bubble-label").data(nodes, function (d) { return d.region; });
-
-    // labels are anchors with div's inside them
-    // labelEnter holds our enter selection so it
-    // is easier to append multiple elements to this selection
-    label = label.enter().append("a")
-      .attr("class", "bubble-label")
-      .attr("href", function (d) {
-        return "#" + encodeURIComponent(d.region);
-      });
-
-
-    label.append("div")
-      .attr("class", "bubble-label-name")
-      .text(function (d) { return d.region; });
-
-    label.append("div")
-      .attr("class", "bubble-label-value")
-      .text(function (d) { return d.value; });
-
-    // label font size is determined based on the size of the bubble
-    // this sizing allows for a bit of overhang outside of the bubble
-    // - remember to add the 'px' at the end as we are dealing with
-    //  styling divs
-    label
-      .style("font-size", function (d) { return Math.max(8, radiusScale(d.value / 2)) + "px"; })
-      .style("width", function (d) { return (2.5 * radiusScale(d.value)) + "px"; });
-
-    // interesting hack to get the 'true' text width
-    // - create a span inside the label
-    // - add the text to this span
-    // - use the span to compute the nodes 'dx' value
-    //  which is how much to adjust the label by when
-    //  positioning it
-    // - remove the extra span
-    label.append("span")
-      .text(function (d) { return d.region; })
-      .each(function(d) { d.dx = Math.max(2.5 * radiusScale(d.value), this.getBoundingClientRect().width); })
-      .remove();
-
-    // reset the width of the label to the actual width
-    label
-      .style("width", function (d) { return d.dx + "px"; });
-
-    // compute and store each nodes 'dy' value - the
-    // amount to shift the label down
-    // 'this' inside of D3's each refers to the actual DOM element
-    // connected to the data node
-    return label.each(function(d) { d.dy = this.getBoundingClientRect().height; });
-
   }
 
   // return the chart function from closure.
