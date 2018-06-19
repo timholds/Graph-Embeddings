@@ -214,7 +214,10 @@ function bubbleChart() {
     d3.select("#nRadius-value").text(year);
     d3.select("#nRadius").property("value", year);
 
-    updateNodeRadius(year);
+    // update node sizes
+    nodes.forEach(function (d) {
+      d.radius = radiusScale(+d[String(year)]);
+    });
 
     bubbles.transition()
       .duration(1000)
@@ -224,12 +227,6 @@ function bubbleChart() {
         return d.radius;
       }))
       .alpha(1).restart();
-  }
-
-  function updateNodeRadius(year) {
-    for (var i = 0; i < nodes.length; i++) {
-      nodes[i].radius = radiusScale(+nodes[i][String(year)]);
-    }
   }
 
   // return the chart function from closure.
