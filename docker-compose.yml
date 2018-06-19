@@ -5,9 +5,10 @@ services:
         ports:
             - "7474:7474"
             - "7687:7687"
+#        privileged: true
         environment:
-            - NEO4J_dbms_security_procedures_unrestricted=apoc.*
             - NEO4J_AUTH=none
+            - NEO4J_dbms_security_procedures_unrestricted=apoc.*
             - NEO4J_apoc_export_file_enabled=true
             - NEO4J_apoc_import_file_enabled=true
             - NEO4J_dbms_shell_enabled=true
@@ -29,7 +30,7 @@ services:
         restart: always
 #        image: jupyter/scipy-notebook
         ports:
-            - "8889:8888"
+            - "1234:8888"
         environment:
             - NB_UID=$UID
             - NB_GID=$GID
