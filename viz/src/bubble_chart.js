@@ -11,6 +11,7 @@ function bubbleChart() {
   var width = 600;
   var height = 600;
 
+  var margin = {top: 20, right: 0, bottom: 0, left: 0};
 
   // Locations to move bubbles towards, depending
   // on which view mode is selected.
@@ -22,13 +23,14 @@ function bubbleChart() {
   // Sizes bubbles based on area.
   // @v4: new flattened scale names.
   var radiusScale = d3.scaleSqrt()
-    .range([0, 150])
+    .range([5, 150])
     .domain([0, 30]);
 
   // These will be set in create_nodes and create_vis
   var svg = null;
   var bubbles = null;
   var nodes = [];
+  var label = null;
 
   // Charge function that is called for each node.
   // As part of the ManyBody force.
@@ -84,6 +86,7 @@ function bubbleChart() {
       var node = {
         region: d.region,
         radius: radiusScale(+d["1946"]),
+        value: +d["1946"],
         x: Math.random() * 900,
         y: Math.random() * 800
       };
@@ -149,6 +152,18 @@ function bubbleChart() {
       .duration(2000)
       .attr('r', function (d) { return d.radius; });
 
+    // label is the container div for all the labels that sit on top of
+    // the bubbles
+    // - remember that we are keeping the labels in plain html and
+    //  the bubbles in svg
+    label = d3.select(selector).selectAll("#bubble-labels")
+      .data([nodes])
+      .enter()
+      .append("div")
+        .attr("id", "bubble-labels");
+
+    createLabels();
+
     // Set the simulation's nodes to our newly created nodes array.
     // @v4 Once we set the nodes, the simulation will start running automatically!
     simulation.nodes(nodes)
@@ -170,6 +185,12 @@ function bubbleChart() {
     bubbles
       .attr('cx', function (d) { return d.x; })
       .attr('cy', function (d) { return d.y; });
+
+    // As the labels are created in raw html and not svg, we need
+    // to ensure we specify the 'px' for moving based on pixels
+    return label
+      .style("left", function (d) { return ((margin.left + d.x) - (d.dx / 2)) + "px"; })
+      .style("top", function (d) { return ((margin.top + d.y) - (d.dy / 2)) + "px"; });
   }
 
   /*
@@ -217,16 +238,101 @@ function bubbleChart() {
     // update node sizes
     nodes.forEach(function (d) {
       d.radius = radiusScale(+d[String(year)]);
+      d.value = +d[String(year)];
     });
 
     bubbles.transition()
       .duration(1000)
       .attr('r', function (d) { return d.radius; });
 
+    updateLabels();
+
     simulation.force('collision', d3.forceCollide().radius(function(d) {    // avoid overlap
         return d.radius;
       }))
       .alpha(1).restart();
+  }
+
+  function updateLabels() {
+    d3.select("#viz").selectAll(".bubble-label-value")
+      .text(function (d) { console.log(d.value); return d.value; });
+
+
+    var label = d3.select("#viz").selectAll(".bubble-label");
+
+    label
+      .transition().duration(1000)
+      .style("font-size", function (d) { return Math.max(8, radiusScale(d.value / 2)) + "px"; })
+      .style("width", function (d) { return (2.5 * radiusScale(d.value)) + "px"; });
+
+    label.append("span")
+      .text(function (d) { return d.region; })
+      .each(function(d) { d.dx = Math.max(2.5 * radiusScale(d.value), this.getBoundingClientRect().width); })
+      .remove();
+
+    label
+      .style("width", function (d) { return d.dx + "px"; });
+
+    return label.each(function(d) { d.dy = this.getBoundingClientRect().height; });
+  }
+
+  // ---
+  // updateLabels is more involved as we need to deal with getting the sizing
+  // to work well with the font size
+  // ---
+  function createLabels() {
+    // as in updateNodes, we use idValue to define what the unique id for each data
+    // point is
+    label = label.selectAll(".bubble-label").data(nodes, function (d) { return d.region; });
+
+    // labels are anchors with div's inside them
+    // labelEnter holds our enter selection so it
+    // is easier to append multiple elements to this selection
+    label = label.enter().append("a")
+      .attr("class", "bubble-label")
+      .attr("href", function (d) {
+        return "#" + encodeURIComponent(d.region);
+      });
+
+
+    label.append("div")
+      .attr("class", "bubble-label-name")
+      .text(function (d) { return d.region; });
+
+    label.append("div")
+      .attr("class", "bubble-label-value")
+      .text(function (d) { return d.value; });
+
+    // label font size is determined based on the size of the bubble
+    // this sizing allows for a bit of overhang outside of the bubble
+    // - remember to add the 'px' at the end as we are dealing with
+    //  styling divs
+    label
+      .style("font-size", function (d) { return Math.max(8, radiusScale(d.value / 2)) + "px"; })
+      .style("width", function (d) { return (2.5 * radiusScale(d.value)) + "px"; });
+
+    // interesting hack to get the 'true' text width
+    // - create a span inside the label
+    // - add the text to this span
+    // - use the span to compute the nodes 'dx' value
+    //  which is how much to adjust the label by when
+    //  positioning it
+    // - remove the extra span
+    label.append("span")
+      .text(function (d) { return d.region; })
+      .each(function(d) { d.dx = Math.max(2.5 * radiusScale(d.value), this.getBoundingClientRect().width); })
+      .remove();
+
+    // reset the width of the label to the actual width
+    label
+      .style("width", function (d) { return d.dx + "px"; });
+
+    // compute and store each nodes 'dy' value - the
+    // amount to shift the label down
+    // 'this' inside of D3's each refers to the actual DOM element
+    // connected to the data node
+    return label.each(function(d) { d.dy = this.getBoundingClientRect().height; });
+
   }
 
   // return the chart function from closure.
