@@ -21,8 +21,8 @@ function bubbleChart() {
 
   // Sizes bubbles based on area.
   // @v4: new flattened scale names.
-  var radiusScale = d3.scaleLinear()
-    .range([5, 150])
+  var radiusScale = d3.scaleSqrt()
+    .range([0, 150])
     .domain([0, 30]);
 
   // These will be set in create_nodes and create_vis
