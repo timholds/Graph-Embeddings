@@ -4,8 +4,7 @@
 data/*
 !data/test/*.txt
 neo4j/*
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
+notebooks/.ipynb_checkpoints/*.ipynb
 
 ##
 ## Standard Ignores ##
