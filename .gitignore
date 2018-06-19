@@ -2,8 +2,9 @@
 ##  Custom Ignores  ##
 ##
 data/*
-!data/test
-
+!data/test/*.txt
+neo4j/*
+notebook/.ipynb_checkpoints/
 
 ##
 ## Standard Ignores ##
