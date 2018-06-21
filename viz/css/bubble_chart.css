@@ -1,9 +1,6 @@
-circle {
-  fill: cadetblue;
-}
-
 .menu {
   width: 70%;
+  margin: auto;
 }
 
 input[type=range] {
@@ -20,17 +17,19 @@ a, a:visited {
 
 
 
-#vis {
+#viz {
   overflow: hidden;
   position: relative;
+  max-width: 1024px;
+  margin: auto;
 }
 
 
 
-.bubble-node {
+/* .bubble-node {
   /* fill: #d1e0f3; */
   fill: #DCE9BE;
-}
+} */
 
 .bubble-hover {
   /* fill: #b8c7d9; */
@@ -71,4 +70,28 @@ footer p {
   padding-top:20px;
   padding-bottom:20px;
   font: 13px sans-serif;
+}
+
+.tooltip {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+  -moz-border-radius:5px;
+	border-radius: 5px;
+  border: 2px solid #000;
+  background: #fff;
+	opacity: .9;
+  color: black;
+	padding: 10px;
+	width: 300px;
+	font-size: 12px;
+	z-index: 10;
+}
+
+.tooltip .title {
+	font-size: 13px;
+}
+
+.tooltip .name {
+  font-weight:bold;
 }
