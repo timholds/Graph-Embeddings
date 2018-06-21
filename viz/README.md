@@ -1,6 +1,6 @@
 # Scaling Science - Impact over time visualization
 
-[Click here for demo](https://viz-uvxembnbyp.now.sh)
+[Click here for demo](https://viz-galqmivbjt.now.sh)
 
 ## Run locally
 
