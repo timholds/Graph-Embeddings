@@ -27,7 +27,7 @@ function bubbleChart() {
     .domain([0, 1])
     .interpolator(d3.interpolateRainbow);
 
-  var year = { start: "1900", end: "1950"};
+  var year = { start: "1900", end: "2000"};
 
   var rValue = function (d) {
     return d.radius;
@@ -445,4 +445,4 @@ function addCommas(nStr) {
 }
 
 // Load the data.
-d3.csv('data/impact1000.csv').then(display);
+d3.csv('data/100_most_impactful_papers.csv').then(display);
