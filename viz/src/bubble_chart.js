@@ -49,7 +49,7 @@ function bubbleChart() {
     .domain([0, maxImpactValue])
     .interpolator(d3.interpolatePlasma);
 
-  var year = { start: "1900", end: "2000"};
+  var year = { start: "1950", end: "2000"};
 
 
   var rValue = function (d) {
