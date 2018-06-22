@@ -173,8 +173,8 @@ function bubbleChart() {
     // @v4: new flattened scale names.
     var radiusScale = d3.scaleSqrt()
         .range([0, 20])
-        .domain([0, 1]);
-        // .domain([0, maxValue]);
+        //.domain([0, 1]);
+        .domain([0, maxValue/8]);
 
     // Use map() to convert raw data into node data.
     // Checkout http://learnjsdata.com/ for more on
@@ -340,8 +340,8 @@ function bubbleChart() {
     // @v4: new flattened scale names.
     var radiusScale = d3.scaleSqrt()
       .range([0, 20])
-      .domain([0, 1]);
-      // .domain([0, maxValue]);
+      //.domain([0, 1]);
+      .domain([0, maxValue/8]);
 
     // update node sizes
     nodes.forEach(function (d) {
