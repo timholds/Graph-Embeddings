@@ -9,7 +9,7 @@
 function bubbleChart() {
   // Constants for sizing
   var width = 1024;
-  var height = 700;
+  var height = 750;
 
   // tooltip for mouseover functionality
   var tooltip = floatingTooltip('impact_tooltip', 240);
@@ -23,11 +23,34 @@ function bubbleChart() {
   // @v4 strength to apply to the position forces
   var forceStrength = 0.01;
 
+  var maxImpactValue = 500;
+
+
+
+  // var logScale = d3.scaleLog()
+  //   .base(2)
+  //   .domain([0.01, maxImpactValue])
+  //   .range([0, 20]);
+  //
+  // var radiusScale = function (value) {
+  //   return value > 0 ? logScale(value) : 0;
+  // };
+
+  var radiusScale = d3.scaleSqrt()
+    .domain([0, maxImpactValue])
+    .range([0, 50]);
+
+  // var radiusScale = d3.scalePow()
+  //   .exponent(0.5)
+  //   .domain([0, maxImpactValue])
+  //   .range([0, 30]);
+
   var colorScale = d3.scaleSequential()
-    .domain([0, 1])
-    .interpolator(d3.interpolateRainbow);
+    .domain([0, maxImpactValue])
+    .interpolator(d3.interpolatePlasma);
 
   var year = { start: "1900", end: "2000"};
+
 
   var rValue = function (d) {
     return d.radius;
@@ -167,14 +190,13 @@ function bubbleChart() {
    * array for each element in the rawData input.
    */
   function createNodes(rawData) {
-    var maxValue = d3.max(rawData, function(d) { return +d[year.start]; });
+    // var maxValue = d3.max(rawData, function(d) { return +d[year.start]; });
 
     // Sizes bubbles based on area.
     // @v4: new flattened scale names.
-    var radiusScale = d3.scaleSqrt()
-        .range([0, 20])
-        //.domain([0, 1]);
-        .domain([0, maxValue/8]);
+    // var radiusScale = d3.scaleLog()
+    //     .range([0, 20])
+    //     .domain([0, maxImpactValue]);
 
     // Use map() to convert raw data into node data.
     // Checkout http://learnjsdata.com/ for more on
@@ -334,14 +356,13 @@ function bubbleChart() {
   }
 
   function update(year) {
-    var maxValue = d3.max(nodes, function(d) { return +d[String(year)]; });
+    // var maxValue = d3.max(nodes, function(d) { return +d[String(year)]; });
 
     // Sizes bubbles based on area.
     // @v4: new flattened scale names.
-    var radiusScale = d3.scaleSqrt()
-      .range([0, 20])
-      //.domain([0, 1]);
-      .domain([0, maxValue/8]);
+    // var radiusScale = d3.ScaleLog()
+    //   .range([0, 20])
+    //   .domain([0, maxImpactValue]);
 
     // update node sizes
     nodes.forEach(function (d) {
@@ -444,5 +465,3 @@ function addCommas(nStr) {
   return x1 + x2;
 }
 
-// Load the data.
-d3.csv('data/100_most_impactful_papers.csv').then(display);
