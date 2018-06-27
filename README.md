@@ -9,16 +9,11 @@ In the future, we will move to active scraping and integration of [ArXiv](https:
 
 ## Dependencies and documentation
 
-* TODO: This is all being changed in this branch, which is porting to Python and NEO4J*
-
 ### Docker
-Run ./docker_start.sh to read some variables and build and launch neo4j and jupyter notebook containers. Console will print a token-based authentication link to paste into your browser to start a notebook, and there is an example notebook that shows how to connect to the database hosted by the neo4j docker instance. 
+Run `./docker_start.sh` to read/set some environmental variables and build and launch `neo4j` and `jupyter notebook` containers. Console will print a token-based authentication link to paste into your browser to connect to both the `jupyter` session and the `neo4j` broser portal. 
 
 ### Database 
 Neo4j
-
-### Graph traversal
-Cypher 
 
 ### Language
 Python3
