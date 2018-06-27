@@ -12,15 +12,15 @@ services:
             - NEO4J_apoc_export_file_enabled=true
             - NEO4J_apoc_import_file_enabled=true
             - NEO4J_dbms_shell_enabled=true
-            - NEO4J_dbms_memory_heap_max__size=100G
-            - NEO4J_dbms_memory_heap_initial__size=100G
-            - NEO4J_dbms_memory_pagecache_size=100G
+            - NEO4J_dbms_memory_heap_max__size=150G
+            - NEO4J_dbms_memory_heap_initial__size=150G
+            - NEO4J_dbms_memory_pagecache_size=150G
         user: $UID:$GID
         volumes:
             - ./neo4j/data:/data
             - ./neo4j/plugins:/plugins
             - ./data:/import
-#            - ./neo4j/logs:/logs
+            - ./neo4j/logs:/logs
         container_name: neo4j-container
 
     scipy-notebook:
@@ -30,7 +30,7 @@ services:
         restart: always
 #        image: jupyter/scipy-notebook
         ports:
-            - "1234:8888"
+            - "8888:8888"
         environment:
             - NB_UID=$UID
             - NB_GID=$GID
