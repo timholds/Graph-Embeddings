@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title>Scaling Science</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/bubble_chart.css">
+</head>
+
+<body>
+    <div class="menu">
+      <label for="nRadius">
+             Year: <span id="nRadius-value">1900</span>
+      </label>
+      <input type="range" min="1900" max="1950" value="1900" id="nRadius">
+  	</div>
+
+    <div id="viz"></div>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="src/tooltip.js"></script>
+  <script src="src/bubble_chart_decayed.js"></script>
+  <script type="text/javascript">
+    d3.csv('data/1000_most_impactful_papers_decayed.csv').then(display);
+  </script>
+
+</body>
+</html>
