@@ -19,8 +19,17 @@
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="src/tooltip.js"></script>
-  <script src="src/bubble_chart_decayed.js"></script>
+  <script src="src/bubble_chart.js"></script>
   <script type="text/javascript">
+
+    var decayBubbleChart = bubbleChart()
+      .year({start: 1900, end: 1950})
+      .maxImpactValue(0.3);
+
+    function display(data) {
+      decayBubbleChart('#viz', data);
+    }
+
     d3.csv('data/1000_most_impactful_papers_decayed.csv').then(display);
   </script>
 

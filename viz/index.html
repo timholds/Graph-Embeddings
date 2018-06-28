@@ -21,6 +21,15 @@
   <script src="src/tooltip.js"></script>
   <script src="src/bubble_chart.js"></script>
   <script type="text/javascript">
+
+    var myBubbleChart = bubbleChart()
+      .year({start: 1950, end: 2000})
+      .maxImpactValue(850);
+
+    function display(data) {
+      myBubbleChart('#viz', data);
+    }
+
     d3.csv('data/1000_most_impactful_papers.csv').then(display);
   </script>
 

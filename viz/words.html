@@ -19,9 +19,16 @@
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="src/tooltip.js"></script>
-  <script src="src/bubble_chart_words.js"></script>
+  <script src="src/bubble_chart.js"></script>
   <script type="text/javascript">
-  
+
+    var wordsBubbleChart = bubbleChart()
+      .year({start: 1950, end: 2000})
+      .maxImpactValue(45);
+
+    function display(data) {
+      wordsBubbleChart('#viz', data);
+    }
 
     d3.csv('data/100_most_impactful_words.csv').then(display);
   </script>

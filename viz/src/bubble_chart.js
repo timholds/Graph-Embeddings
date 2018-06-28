@@ -25,29 +25,12 @@ function bubbleChart() {
 
   var maxImpactValue = 500;
 
+  var maxCircleRadius = 50;
 
-
-  // var logScale = d3.scaleLog()
-  //   .base(2)
-  //   .domain([0.01, maxImpactValue])
-  //   .range([0, 20]);
-  //
-  // var radiusScale = function (value) {
-  //   return value > 0 ? logScale(value) : 0;
-  // };
-
-  var radiusScale = d3.scaleSqrt()
-    .domain([0, maxImpactValue])
-    .range([0, 50]);
-
-  // var radiusScale = d3.scalePow()
-  //   .exponent(0.5)
-  //   .domain([0, maxImpactValue])
-  //   .range([0, 30]);
+  var radiusScale = d3.scaleSqrt();
 
   var colorScale = d3.scaleSequential()
-    .domain([0, maxImpactValue])
-    .interpolator(d3.interpolatePlasma);
+    .interpolator(d3.interpolateCool);
 
   var year = { start: "1950", end: "2000"};
 
@@ -122,6 +105,11 @@ function bubbleChart() {
    * a d3 loading function like d3.csv.
    */
   var chart = function chart(selector, rawData) {
+    radiusScale.domain([0, maxImpactValue])
+      .range([0, maxCircleRadius]);
+
+    colorScale.domain([0, maxImpactValue]);
+
     // convert raw data into nodes data
     nodes = createNodes(rawData);
 
@@ -203,7 +191,7 @@ function bubbleChart() {
     // working with data.
     var myNodes = rawData.map(function (d) {
       var node = {
-        title: d.title,
+        title: idValue(d),
         radius: radiusScale(+d[year.start]),
         value: +d[year.start],
         x: Math.random() * 900,
@@ -320,10 +308,10 @@ function bubbleChart() {
     d3.select(this).attr('stroke', 'black');
 
     var content = '<span class="name">Title: </span><span class="value">' +
-                  d.title +
+                  idValue(d) +
                   '</span><br/>' +
                   '<span class="name">Impact Value: </span><span class="value">' +
-                  d.value +
+                  numValue(d) +
                   '</span>';
 
     tooltip.showTooltip(content, d3.event);
@@ -429,39 +417,36 @@ function bubbleChart() {
   //   return label.each(function(d) { d.dy = this.getBoundingClientRect().height; });
   // }
   //
+
+
+  chart.year = function(value) {
+    if (!arguments.length) {
+      return year;
+    } else {
+      year = value;
+      return chart;
+    }
+  };
+
+  chart.maxImpactValue = function(value) {
+    if (!arguments.length) {
+      return maxImpactValue;
+    } else {
+      maxImpactValue = value;
+      return chart;
+    }
+  };
+
+  chart.maxCircleRadius = function(value) {
+    if (!arguments.length) {
+      return maxCircleRadius;
+    } else {
+      maxCircleRadius= value;
+      return chart;
+    }
+  };
+
+
   // return the chart function from closure.
   return chart;
 }
-
-/*
- * Below is the initialization code as well as some helper functions
- * to create a new bubble chart instance, load the data, and display it.
- */
-
-var myBubbleChart = bubbleChart();
-
-/*
- * Function called once data is loaded from CSV.
- * Calls bubble chart function to display inside #viz div.
- */
-function display(data) {
-  myBubbleChart('#viz', data);
-}
-
-/*
- * Helper function to convert a number into a string
- * and add commas to it to improve presentation.
- */
-function addCommas(nStr) {
-  nStr += '';
-  var x = nStr.split('.');
-  var x1 = x[0];
-  var x2 = x.length > 1 ? '.' + x[1] : '';
-  var rgx = /(\d+)(\d{3})/;
-  while (rgx.test(x1)) {
-    x1 = x1.replace(rgx, '$1' + ',' + '$2');
-  }
-
-  return x1 + x2;
-}
-
