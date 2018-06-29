@@ -13,7 +13,12 @@
              Year: <span id="nRadius-value">1950</span>
       </label>
       <input type="range" min="1950" max="2000" value="1950" id="nRadius">
-  	</div>
+
+    	<div id="toolbar">
+        <a href="#" id="all" class="button active">All</a>
+        <a href="#" id="year" class="button">Split</a>
+      </div>
+    </div>
 
     <div id="viz"></div>
 
@@ -31,6 +36,8 @@
     }
 
     d3.csv('data/1000_most_impactful_papers.csv').then(display);
+
+    setupButtons();
   </script>
 
 </body>

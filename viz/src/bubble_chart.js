@@ -34,6 +34,11 @@ function bubbleChart() {
 
   var year = { start: "1950", end: "2000"};
 
+  var yearCenters = {
+    2008: { x: width / 3, y: height / 2 },
+    2009: { x: width / 2, y: height / 2 },
+    2010: { x: 2 * width / 3, y: height / 2 }
+  };
 
   var rValue = function (d) {
     return d.radius;
@@ -81,7 +86,7 @@ function bubbleChart() {
   var simulation = d3.forceSimulation()
     // .velocityDecay(0.2)
     .force('x', d3.forceX().strength(forceStrength).x(center.x))
-    .force('y', d3.forceY().strength(forceStrength * 1.2).y(center.y))
+    .force('y', d3.forceY().strength(forceStrength).y(center.y))
     .force('charge', d3.forceManyBody().strength(-1))
     // .force('charge', d3.forceManyBody().strength(function (d) { return charge(d); }))
     .on('tick', ticked);
@@ -178,24 +183,14 @@ function bubbleChart() {
    * array for each element in the rawData input.
    */
   function createNodes(rawData) {
-    // var maxValue = d3.max(rawData, function(d) { return +d[year.start]; });
-
-    // Sizes bubbles based on area.
-    // @v4: new flattened scale names.
-    // var radiusScale = d3.scaleLog()
-    //     .range([0, 20])
-    //     .domain([0, maxImpactValue]);
-
-    // Use map() to convert raw data into node data.
-    // Checkout http://learnjsdata.com/ for more on
-    // working with data.
     var myNodes = rawData.map(function (d) {
       var node = {
         title: idValue(d),
         radius: radiusScale(+d[year.start]),
         value: +d[year.start],
         x: Math.random() * 900,
-        y: Math.random() * 800
+        y: Math.random() * 800,
+        year: [2008, 2009, 2010][Math.floor(Math.random() * 3)]
       };
 
       for (var i = +year.start; i <= +year.end; i++) {
@@ -300,6 +295,47 @@ function bubbleChart() {
   }
 
   /*
+   * Provides a x value for each node to be used with the split by year
+   * x force.
+   */
+  function nodeYearPos(d) {
+    return yearCenters[d.year].x;
+  }
+
+
+  /*
+   * Sets visualization in "single group mode".
+   * The year labels are hidden and the force layout
+   * tick function is set to move all nodes to the
+   * center of the visualization.
+   */
+  function groupBubbles() {
+    // hideYearTitles();
+
+    // @v4 Reset the 'x' force to draw the bubbles to the center.
+    simulation.force('x', d3.forceX().strength(forceStrength).x(center.x));
+
+    // @v4 We can reset the alpha value and restart the simulation
+    simulation.alpha(1).restart();
+  }
+
+
+  /*
+   * Sets visualization in "split by year mode".
+   * The year labels are shown and the force layout
+   * tick function is set to move nodes to the
+   * yearCenter of their data's year.
+   */
+  function splitBubbles() {
+    // showYearTitles();
+
+    // @v4 Reset the 'x' force to draw the bubbles to their year centers
+    simulation.force('x', d3.forceX().strength(0.03).x(nodeYearPos));
+
+    // @v4 We can reset the alpha value and restart the simulation
+    simulation.alpha(1).restart();
+  }
+  /*
    * Function called on mouseover to display the
    * details of a bubble in the tooltip.
    */
@@ -327,6 +363,20 @@ function bubbleChart() {
 
     tooltip.hideTooltip();
   }
+/*
+   * Externally accessible function (this is attached to the
+   * returned chart function). Allows the visualization to toggle
+   * between "single group" and "split by year" modes.
+   *
+   * displayName is expected to be a string and either 'year' or 'all'.
+   */
+  chart.toggleDisplay = function (displayName) {
+    if (displayName === 'year') {
+      splitBubbles();
+    } else {
+      groupBubbles();
+    }
+  };
 
   // when the input range changes update the circle
   d3.select("#nRadius").on("input", function() {
@@ -449,4 +499,28 @@ function bubbleChart() {
 
   // return the chart function from closure.
   return chart;
+}
+
+/*
+ * Sets up the layout buttons to allow for toggling between view modes.
+ */
+function setupButtons() {
+  d3.select('#toolbar')
+    .selectAll('.button')
+    .on('click', function () {
+      // Remove active class from all buttons
+      d3.selectAll('.button').classed('active', false);
+      // Find the button just clicked
+      var button = d3.select(this);
+
+      // Set it as the active button
+      button.classed('active', true);
+
+      // Get the id of the button
+      var buttonId = button.attr('id');
+
+      // Toggle the bubble chart based on
+      // the currently clicked button.
+      myBubbleChart.toggleDisplay(buttonId);
+    });
 }
