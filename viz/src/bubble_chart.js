@@ -34,11 +34,18 @@ function bubbleChart() {
 
   var year = { start: "1950", end: "2000"};
 
-  var yearCenters = {
-    2008: { x: width / 3, y: height / 2 },
-    2009: { x: width / 2, y: height / 2 },
-    2010: { x: 2 * width / 3, y: height / 2 }
-  };
+  var fieldCenters = [
+    { x: 200, y: height / 2 },
+    { x: width / 2, y: height / 2 },
+    { x: width - 200, y: height / 2 }
+  ];
+
+  // X locations of the year titles.
+  var fieldsTitleX = [
+    { field: "Relational Database", x: 160 },
+    { field: "Data Model", x: width / 2 },
+    { field: "Social Network", x: width - 160 }
+  ];
 
   var rValue = function (d) {
     return d.radius;
@@ -194,7 +201,7 @@ function bubbleChart() {
         value: +d[year.start],
         x: Math.random() * 900,
         y: Math.random() * 800,
-        year: [2008, 2009, 2010][Math.floor(Math.random() * 3)]
+        field: Math.floor(Math.random() * 3)
       };
 
       for (var i = +year.start; i <= +year.end; i++) {
@@ -302,8 +309,8 @@ function bubbleChart() {
    * Provides a x value for each node to be used with the split by year
    * x force.
    */
-  function nodeYearPos(d) {
-    return yearCenters[d.year].x;
+  function nodeFieldPos(d) {
+    return fieldCenters[d.field].x;
   }
 
 
@@ -314,7 +321,7 @@ function bubbleChart() {
    * center of the visualization.
    */
   function groupBubbles() {
-    // hideYearTitles();
+    hideFieldTitles();
 
     // @v4 Reset the 'x' force to draw the bubbles to the center.
     simulation.force('x', d3.forceX().strength(forceStrength).x(center.x));
@@ -324,21 +331,34 @@ function bubbleChart() {
   }
 
 
-  /*
-   * Sets visualization in "split by year mode".
-   * The year labels are shown and the force layout
-   * tick function is set to move nodes to the
-   * yearCenter of their data's year.
-   */
   function splitBubbles() {
-    // showYearTitles();
+    showFieldTitles();
 
     // @v4 Reset the 'x' force to draw the bubbles to their year centers
-    simulation.force('x', d3.forceX().strength(0.03).x(nodeYearPos));
+    simulation.force('x', d3.forceX().strength(0.03).x(nodeFieldPos));
 
     // @v4 We can reset the alpha value and restart the simulation
     simulation.alpha(1).restart();
   }
+
+  function hideFieldTitles() {
+    svg.selectAll('.field').remove();
+  }
+
+  function showFieldTitles() {
+    // Another way to do this would be to create
+    // the year texts once and then just hide them.
+    var fields = svg.selectAll('.field')
+      .data(fieldsTitleX);
+
+    fields.enter().append('text')
+      .attr('class', 'field')
+      .attr('x', function (d) { return d.x; })
+      .attr('y', 60)
+      .attr('text-anchor', 'middle')
+      .text(function (d) { return d.field; });
+  }
+
   /*
    * Function called on mouseover to display the
    * details of a bubble in the tooltip.
@@ -375,7 +395,7 @@ function bubbleChart() {
    * displayName is expected to be a string and either 'year' or 'all'.
    */
   chart.toggleDisplay = function (displayName) {
-    if (displayName === 'year') {
+    if (displayName === 'field') {
       splitBubbles();
     } else {
       groupBubbles();
