@@ -30,7 +30,7 @@ function bubbleChart() {
   var radiusScale = d3.scaleSqrt();
 
   var colorScale = d3.scaleSequential()
-    .interpolator(d3.interpolateCool);
+    .interpolator(d3.interpolatePuBuGn);
 
   var year = { start: "1950", end: "2000"};
 
@@ -113,7 +113,7 @@ function bubbleChart() {
     radiusScale.domain([0, maxImpactValue])
       .range([0, maxCircleRadius]);
 
-    colorScale.domain([0, maxImpactValue]);
+    // colorScale.domain([0, maxImpactValue]);
 
     // convert raw data into nodes data
     nodes = createNodes(rawData);
@@ -133,6 +133,10 @@ function bubbleChart() {
     // Initially, their radius (r attribute) will be 0.
     // @v4 Selections are immutable, so lets capture the
     //  enter selection to apply our transtition to below.
+
+    var maxValue = d3.max(nodes, function(d) { return +d[String(year.start)]; });
+    colorScale.domain([0, maxValue]);
+
     var bubblesE = bubbles.enter().append('circle')
       .classed('bubble', true)
       .attr('r', 0)
@@ -414,6 +418,8 @@ function bubbleChart() {
 
     // turn off collision
     // simulation.force('collision').strength(strength * 0.1);
+    var maxValue = d3.max(nodes, function(d) { return +d[String(year)]; });
+    colorScale.domain([0, maxValue]);
 
     bubbles.transition()
       .duration(1000)
