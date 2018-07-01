@@ -21,7 +21,7 @@ function bubbleChart() {
   var center = { x: width / 2, y: height / 2 };
 
   // @v4 strength to apply to the position forces
-  var forceStrength = 0.01;
+  var forceStrength = 0.03;
 
   var maxImpactValue = 500;
 
@@ -34,17 +34,32 @@ function bubbleChart() {
 
   var year = { start: "1950", end: "2000"};
 
+  var centersX = [width / 4, width / 2, width - (width / 4)];
+  var centersY = [height / 4, height / 2, height - (height/ 4)];
+
   var fieldCenters = [
-    { x: 200, y: height / 2 },
-    { x: width / 2, y: height / 2 },
-    { x: width - 200, y: height / 2 }
+    { x: centersX[0], y: centersY[0] },
+    { x: centersX[1], y: centersY[0] },
+    { x: centersX[2], y: centersY[0] },
+    { x: centersX[0], y: centersY[1] },
+    { x: centersX[1], y: centersY[1] },
+    { x: centersX[2], y: centersY[1] },
+    { x: centersX[0], y: centersY[2] },
+    { x: centersX[1], y: centersY[2] },
+    { x: centersX[2], y: centersY[2] }
   ];
 
   // X locations of the year titles.
-  var fieldsTitleX = [
-    { field: "Relational Database", x: 160 },
-    { field: "Data Model", x: width / 2 },
-    { field: "Social Network", x: width - 160 }
+  var fieldsTitles = [
+    { field: "Relational Database", x: centersX[0] - 50, y: centersY[0] - 140 },
+    { field: "Data Model", x: centersX[1], y: centersY[0] - 140 },
+    { field: "Social Network", x: centersX[2] + 50, y: centersY[0] - 140 },
+    { field: "Statistics", x: centersX[0] - 50, y: centersY[1] - 90 },
+    { field: "Quantitative Finance", x: centersX[1], y: centersY[1] - 90 },
+    { field: "Microbiology", x: centersX[2] + 50, y: centersY[1] - 90 },
+    { field: "Mathematical Physics", x: centersX[0] - 50, y: centersY[2] - 30 },
+    { field: "Computer Science", x: centersX[1], y: centersY[2] - 30 },
+    { field: "Quantum Physics", x: centersX[2] + 50, y: centersY[2] - 30 }
   ];
 
   var rValue = function (d) {
@@ -94,7 +109,7 @@ function bubbleChart() {
     // .velocityDecay(0.2)
     .force('x', d3.forceX().strength(forceStrength).x(center.x))
     .force('y', d3.forceY().strength(forceStrength).y(center.y))
-    .force('charge', d3.forceManyBody().strength(-1))
+    .force('charge', d3.forceManyBody().strength(-2))
     // .force('charge', d3.forceManyBody().strength(function (d) { return charge(d); }))
     .on('tick', ticked);
 
@@ -132,8 +147,10 @@ function bubbleChart() {
       .attr('width', width)
       .attr('height', height);
 
+    var bubbleGroup = svg.append('g');
+
     // Bind nodes data to what will become DOM elements to represent them.
-    bubbles = svg.selectAll('.bubble').data(nodes, idValue);
+    bubbles = bubbleGroup.selectAll('.bubble').data(nodes, idValue);
 
     // Create new circle elements each with class `bubble`.
     // There will be one circle.bubble for each object in the nodes array.
@@ -201,7 +218,7 @@ function bubbleChart() {
         value: +d[year.start],
         x: Math.random() * 900,
         y: Math.random() * 800,
-        field: Math.floor(Math.random() * 3)
+        field: Math.floor(Math.random() * 9)
       };
 
       for (var i = +year.start; i <= +year.end; i++) {
@@ -309,10 +326,13 @@ function bubbleChart() {
    * Provides a x value for each node to be used with the split by year
    * x force.
    */
-  function nodeFieldPos(d) {
+  function nodeFieldPosX(d) {
     return fieldCenters[d.field].x;
   }
 
+  function nodeFieldPosY(d) {
+    return fieldCenters[d.field].y;
+  }
 
   /*
    * Sets visualization in "single group mode".
@@ -325,6 +345,7 @@ function bubbleChart() {
 
     // @v4 Reset the 'x' force to draw the bubbles to the center.
     simulation.force('x', d3.forceX().strength(forceStrength).x(center.x));
+    simulation.force('y', d3.forceY().strength(forceStrength).y(center.y));
 
     // @v4 We can reset the alpha value and restart the simulation
     simulation.alpha(1).restart();
@@ -335,7 +356,8 @@ function bubbleChart() {
     showFieldTitles();
 
     // @v4 Reset the 'x' force to draw the bubbles to their year centers
-    simulation.force('x', d3.forceX().strength(0.03).x(nodeFieldPos));
+    simulation.force('x', d3.forceX().strength(0.05).x(nodeFieldPosX));
+    simulation.force('y', d3.forceY().strength(0.05).y(nodeFieldPosY));
 
     // @v4 We can reset the alpha value and restart the simulation
     simulation.alpha(1).restart();
@@ -349,12 +371,19 @@ function bubbleChart() {
     // Another way to do this would be to create
     // the year texts once and then just hide them.
     var fields = svg.selectAll('.field')
-      .data(fieldsTitleX);
+      .data(fieldsTitles);
+
+    // fields.enter().append('circle')
+    //   .classed('bubble', true)
+    //   .attr('cx', function (d) { return d.x; })
+    //   .attr('cy', function (d) { return d.y; })
+    //   .attr('r', 5)
+    //   .attr('fill', "red");
 
     fields.enter().append('text')
       .attr('class', 'field')
       .attr('x', function (d) { return d.x; })
-      .attr('y', 60)
+      .attr('y', function (d) { return d.y; })
       .attr('text-anchor', 'middle')
       .text(function (d) { return d.field; });
   }
