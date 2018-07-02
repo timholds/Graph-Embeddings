@@ -127,10 +127,17 @@ def update(df, decay_rate, year_step):
     df1 = update_df_with_decay_scores(df, start_cols, decay_rate, year_step)
     write_to_csv(df1, decay_rate)
 
-def main(filename=file_name, num_results = 100, year_step=5, decay_rate=None):
+def main(filename=None, num_results = None, year_step=None, decay_rate=None):
+
+    if filename is None:
+        filename = file_name
+    if num_results is None:
+        num_results = 100
+    if year_step is None:
+        year_step = 5
     if decay_rate is None:
         decay_rate = 30
-    print(decay_rate)
+    print(num_results)
 
     """
     Take a CSV file worth of data, get the top results, apply exponential decay,
