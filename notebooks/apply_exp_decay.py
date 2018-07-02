@@ -106,9 +106,9 @@ def update_df_with_decay_scores(df, start_cols, decay_rate, year_step):
     df = df.round(3)
     return df.T
 
-path_out = '/Users/timholdsworth/code/scaling-science/Data/' + file_name[:-4] + '_' + str(num_results) + '_results_decayed_at_' + str(decay_rate) + '.csv'
-
-def write_to_csv(df, decay_rate, path_out):
+def write_to_csv(df, decay_rate):
+    path_out = root + '/Data/' + file_name[:-4] + '_' + str(
+        num_results) + '_results_decayed_at_' + str(decay_rate) + '.csv'
     df1 = df.round(3)
     df1.to_csv(path_out, index_label='title')
 
@@ -122,51 +122,54 @@ def data_prep(file_name, num_results):
     df5 = clean_for_viz(df4, num_results)
     return df5
 
-#decay_rate = 25
 def update(df, decay_rate, year_step):
     start_cols = get_total_years_pub(df)
     df1 = update_df_with_decay_scores(df, start_cols, decay_rate, year_step)
-    write_to_csv(df1, decay_rate, path_out)
+    write_to_csv(df1, decay_rate)
 
-    def main(file_name, num_results, year_step, decay_rate):
-        """
-        Take a CSV file worth of data, get the top results, apply exponential decay,
-        and write the decayed scores back to CSV
+def main(filename=file_name, num_results = 100, year_step=5, decay_rate=None):
+    if decay_rate is None:
+        decay_rate = 30
+    print(decay_rate)
 
-        The file should:
-            Be a CSV
-            Have a 1st column named 'title'
-            Have subsequent columns as single year values - i.e. 1900
+    """
+    Take a CSV file worth of data, get the top results, apply exponential decay,
+    and write the decayed scores back to CSV
 
-        Run this 'main' script from the root scaling-science folder
+    The file should:
+        Be a CSV
+        Have a 1st column named 'title'
+        Have subsequent columns as single year values - i.e. 1900
+
+    Run this 'main' script from the root scaling-science folder
 
 
-        Parameters
-        ----------
-        file_name: string
-            The name of the CSV file
+    Parameters
+    ----------
+    filename: string
+        The name of the CSV file
 
-        num_results: int
-            The number of top results you would like to return
+    num_results: int
+        The number of top results you would like to return
 
-        decay_rate: int
-            The rate at which you would like scores to decay.
-            **Note - smaller decay_rate values make scores decay *quicker*
+    decay_rate: int
+        The rate at which you would like scores to decay.
+        **Note - smaller decay_rate values make scores decay *quicker*
 
-        year_step: int
-            The number of years between each column
-            For example, if columns go 1900, 1905, 1910, year_step should be 5
+    year_step: int
+        The number of years between each column
+        For example, if columns go 1900, 1905, 1910, year_step should be 5
 
-        Returns
-        -------
-        CSV of floats with same column structure as that which was put in
-            Where each float represents the decayed impact value for that paper in that year
+    Returns
+    -------
+    CSV of floats with same column structure as that which was put in
+        Where each float represents the decayed impact value for that paper in that year
 
-        """
+    """
 
-        df = data_prep(file_name, num_results)
-        update(df, decay_rate, year_step)
-        print('Finished writing results')
+    df = data_prep(filename, num_results)
+    update(df, decay_rate, year_step)
+    print('Finished writing results')
 
 if __name__ == "__main__":
     main()
