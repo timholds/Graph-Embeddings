@@ -38,22 +38,24 @@ function bubbleChart() {
   var centersY = [height / 4, height / 2, height - (height/ 4)];
 
   var fieldCenters = [
-    { x: centersX[0], y: centersY[0] },
-    { x: centersX[1], y: centersY[0] },
-    { x: centersX[2], y: centersY[0] },
-    { x: centersX[0], y: centersY[1] },
+    { x: centersX[0] - 30, y: centersY[0] - 30},
+    { x: centersX[1], y: centersY[0] - 30},
+    { x: centersX[2] + 40, y: centersY[0] - 30},
+    { x: centersX[0] - 30, y: centersY[1] },
     { x: centersX[1], y: centersY[1] },
-    { x: centersX[2], y: centersY[1] },
-    { x: centersX[0], y: centersY[2] },
-    { x: centersX[1], y: centersY[2] },
-    { x: centersX[2], y: centersY[2] }
+    { x: centersX[2] + 40, y: centersY[1] },
+    { x: centersX[0] - 30, y: centersY[2] + 30 },
+    { x: centersX[1], y: centersY[2] + 30 },
+    { x: centersX[2] + 40, y: centersY[2] + 30 }
   ];
 
-  var fos = ["Biology", "Medicine", "Psychology", "Chemistry", "Classical mechanics",
-       "Atomic physics", "Chromatography", "Biochemistry", "Econometrics"];
+  var fos = ['Biology', 'Computer Science', 'Econometrics', 'Psychology',
+       'Chemistry', 'Classical mechanics', 'Materials Science',
+       'Mathematical optimization', 'Other'];
 
   function fosIndex(d) {
-    return fos.indexOf(d.primary_field);
+    var index = fos.indexOf(d.primary_field);
+    return index > -1 ? index : 8;
   }
 
   // X locations of the year titles.
@@ -61,12 +63,12 @@ function bubbleChart() {
     { field: fos[0], x: centersX[0] - 50, y: centersY[0] - 140 },
     { field: fos[1], x: centersX[1], y: centersY[0] - 140 },
     { field: fos[2], x: centersX[2] + 50, y: centersY[0] - 140 },
-    { field: fos[3], x: centersX[0] - 50, y: centersY[1] - 60 },
-    { field: fos[4], x: centersX[1], y: centersY[1] - 60 },
-    { field: fos[5], x: centersX[2] + 50, y: centersY[1] - 60 },
-    { field: fos[6], x: centersX[0] - 50, y: centersY[2] - 30 },
-    { field: fos[7], x: centersX[1], y: centersY[2] - 30 },
-    { field: fos[8], x: centersX[2] + 50, y: centersY[2] - 30 }
+    { field: fos[3], x: centersX[0] - 50, y: centersY[1] - 100 },
+    { field: fos[4], x: centersX[1], y: centersY[1] - 100 },
+    { field: fos[5], x: centersX[2] + 50, y: centersY[1] - 100 },
+    { field: fos[6], x: centersX[0] - 50, y: centersY[2] - 70 },
+    { field: fos[7], x: centersX[1], y: centersY[2] - 70 },
+    { field: fos[8], x: centersX[2] + 50, y: centersY[2] - 70 }
   ];
 
   var rValue = function (d) {
@@ -221,11 +223,12 @@ function bubbleChart() {
     var myNodes = rawData.map(function (d) {
       var node = {
         title: idValue(d),
-        radius: radiusScale(+d[year.start]),
+        radius: radiusScale(+d[year.start] > 0 ? +d[year.start] : 0),
         value: +d[year.start],
         x: Math.random() * 900,
         y: Math.random() * 800,
-        field: fosIndex(d)
+        field: fosIndex(d),
+        fieldText: d.primary_field
       };
 
       for (var i = +year.start; i <= +year.end; i++) {
@@ -363,8 +366,8 @@ function bubbleChart() {
     showFieldTitles();
 
     // @v4 Reset the 'x' force to draw the bubbles to their year centers
-    simulation.force('x', d3.forceX().strength(0.05).x(nodeFieldPosX));
-    simulation.force('y', d3.forceY().strength(0.05).y(nodeFieldPosY));
+    simulation.force('x', d3.forceX().strength(0.03).x(nodeFieldPosX));
+    simulation.force('y', d3.forceY().strength(0.03).y(nodeFieldPosY));
 
     // @v4 We can reset the alpha value and restart the simulation
     simulation.alpha(1).restart();
@@ -405,6 +408,9 @@ function bubbleChart() {
 
     var content = '<span class="name">Title: </span><span class="value">' +
                   idValue(d) +
+                  '</span><br/>' +
+                  '<span class="name">Primary Field: </span><span class="value">' +
+                  d.fieldText +
                   '</span><br/>' +
                   '<span class="name">Impact Value: </span><span class="value">' +
                   numValue(d) +
@@ -464,7 +470,7 @@ function bubbleChart() {
 
     // update node sizes
     nodes.forEach(function (d) {
-      d.radius = radiusScale(+d[String(year)]);
+      d.radius = radiusScale(+d[year] > 0 ? +d[year] : 0);
       d.value = +d[String(year)];
     });
 
