@@ -210,7 +210,9 @@ function bubbleChart() {
         x: Math.random() * 900,
         y: Math.random() * 800,
         field: fosIndex(d),
-        fieldText: d.primary_field
+        fieldText: d.primary_field,
+        pub: pubIndex(d),
+        pubText: d.publisher
       };
 
       for (var i = +year.start; i <= +year.end; i++) {
@@ -228,6 +230,13 @@ function bubbleChart() {
     var index = fos.indexOf(d.primary_field);
     return index > -1 ? index : 8;
   }
+
+  function pubIndex(d) {
+    var index = pubs.indexOf(d.publisher);
+    return index > -1 ? index : 8;
+  }
+
+
   // ---
   // updateLabels is more involved as we need to deal with getting the sizing
   // to work well with the font size
@@ -330,6 +339,13 @@ function bubbleChart() {
     return fieldCenters[d.field].y;
   }
 
+  function nodePubPosX(d) {
+    return fieldCenters[d.pub].x;
+  }
+
+  function nodePubPosY(d) {
+    return fieldCenters[d.pub].y;
+  }
   /*
    * Sets visualization in "single group mode".
    * The year labels are hidden and the force layout
@@ -337,8 +353,6 @@ function bubbleChart() {
    * center of the visualization.
    */
   function groupBubbles() {
-    hideFieldTitles();
-
     // @v4 Reset the 'x' force to draw the bubbles to the center.
     simulation.force('x', d3.forceX().strength(forceStrength).x(center.x));
     simulation.force('y', d3.forceY().strength(forceStrength).y(center.y));
@@ -348,25 +362,29 @@ function bubbleChart() {
   }
 
 
-  function splitBubbles() {
-    showFieldTitles();
+  function splitBubbles(category) {
+    showTitles(category);
 
-    // @v4 Reset the 'x' force to draw the bubbles to their year centers
-    simulation.force('x', d3.forceX().strength(0.03).x(nodeFieldPosX));
-    simulation.force('y', d3.forceY().strength(0.03).y(nodeFieldPosY));
+    if (category === 'field') {
+      simulation.force('x', d3.forceX().strength(0.03).x(nodeFieldPosX));
+      simulation.force('y', d3.forceY().strength(0.03).y(nodeFieldPosY));
+    } else {
+      simulation.force('x', d3.forceX().strength(0.03).x(nodePubPosX));
+      simulation.force('y', d3.forceY().strength(0.03).y(nodePubPosY));
+    }
 
     // @v4 We can reset the alpha value and restart the simulation
     simulation.alpha(1).restart();
   }
 
-  function hideFieldTitles() {
-    svg.selectAll('.field').remove();
+  function hideTitles() {
+    svg.selectAll('.title').remove();
   }
 
-  function showFieldTitles() {
+  function showTitles(category) {
     // Another way to do this would be to create
     // the year texts once and then just hide them.
-    var fields = svg.selectAll('.field')
+    var fields = svg.selectAll('.title')
       .data(fieldTitles);
 
     // fields.enter().append('circle')
@@ -377,11 +395,11 @@ function bubbleChart() {
     //   .attr('fill', "red");
 
     fields.enter().append('text')
-      .attr('class', 'field')
+      .attr('class', 'title')
       .attr('x', function (d) { return d.x; })
       .attr('y', function (d) { return d.y; })
       .attr('text-anchor', 'middle')
-      .text(function (d, i) { return fos[i]; });
+      .text(function (d, i) { return category === 'field' ? fos[i] : pubs[i]; });
   }
 
   /*
@@ -397,6 +415,9 @@ function bubbleChart() {
                   '</span><br/>' +
                   '<span class="name">Primary Field: </span><span class="value">' +
                   d.fieldText +
+                  '</span><br/>' +
+                  '<span class="name">Publisher: </span><span class="value">' +
+                  d.pubText +
                   '</span><br/>' +
                   '<span class="name">Impact Value: </span><span class="value">' +
                   numValue(d) +
@@ -420,13 +441,13 @@ function bubbleChart() {
    * returned chart function). Allows the visualization to toggle
    * between "single group" and "split by year" modes.
    *
-   * displayName is expected to be a string and either 'year' or 'all'.
    */
   chart.toggleDisplay = function (displayName) {
-    if (displayName === 'field') {
-      splitBubbles();
-    } else {
+    hideTitles();
+    if (displayName === 'all') {
       groupBubbles();
+    } else {
+      splitBubbles(displayName);
     }
   };
 

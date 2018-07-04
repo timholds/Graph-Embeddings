@@ -1,4 +1,4 @@
-var data_file = 'data/cluster_decay.csv';
+var data_file = 'data/decayed_pub.csv';
 
 var year = { start: "1950", end: "2020", step: "5"};
 
@@ -27,6 +27,12 @@ var titleOffset = {
   row: [-140, -100, -70], // row 1, 2, 3
   col: [-50, 0, 50],  // col 1, 2, 3
 };
+
+// Publisher titles (note: viz assumes Other as the last title)
+// To produce this list, count papers grouped by Publisher and take top 8 fields
+var pubs = ['IEEE', 'Cambridge University Press', 'American Institute of Physics',
+       'McGraw-Hill', 'Oxford University Press', 'Wiley', 'Academic Press',
+       'Elsevier', 'Other'];
 
 
 d3.select('#nRadius-value')
