@@ -20,56 +20,38 @@ function bubbleChart() {
   // on which view mode is selected.
   var center = { x: width / 2, y: height / 2 };
 
+  // centers of 3x3 grid
+  var centers = {
+    x: [ width * 0.25, width * 0.5, width * 0.75 ],
+    y: [ height * 0.25, height * 0.5, height * 0.75 ]
+  };
+
   // @v4 strength to apply to the position forces
   var forceStrength = 0.03;
-
-  var maxImpactValue = 500;
-
-  var maxCircleRadius = 50;
 
   var radiusScale = d3.scaleSqrt();
 
   var colorScale = d3.scaleSequential()
     .interpolator(d3.interpolatePuBuGn);
 
-  var year = { start: "1950", end: "2000"};
-
-  var centersX = [width / 4, width / 2, width - (width / 4)];
-  var centersY = [height / 4, height / 2, height - (height/ 4)];
-
-  var fieldCenters = [
-    { x: centersX[0] - 30, y: centersY[0] - 30},
-    { x: centersX[1], y: centersY[0] - 30},
-    { x: centersX[2] + 40, y: centersY[0] - 30},
-    { x: centersX[0] - 30, y: centersY[1] },
-    { x: centersX[1], y: centersY[1] },
-    { x: centersX[2] + 40, y: centersY[1] },
-    { x: centersX[0] - 30, y: centersY[2] + 30 },
-    { x: centersX[1], y: centersY[2] + 30 },
-    { x: centersX[2] + 40, y: centersY[2] + 30 }
-  ];
-
-  var fos = ['Biology', 'Computer Science', 'Econometrics', 'Psychology',
-       'Chemistry', 'Classical mechanics', 'Materials Science',
-       'Mathematical optimization', 'Other'];
-
-  function fosIndex(d) {
-    var index = fos.indexOf(d.primary_field);
-    return index > -1 ? index : 8;
+  function initCoords(offset) {
+    var coords = [];
+    for (var y = 0; y < 3; y++) {
+      for (var x = 0; x < 3; x++) {
+        coords.push({
+          x: centers.x[x] + offset.col[x],
+          y: centers.y[y] + offset.row[y]
+        });
+      }
+    }
+    return coords;
   }
 
-  // X locations of the year titles.
-  var fieldsTitles = [
-    { field: fos[0], x: centersX[0] - 50, y: centersY[0] - 140 },
-    { field: fos[1], x: centersX[1], y: centersY[0] - 140 },
-    { field: fos[2], x: centersX[2] + 50, y: centersY[0] - 140 },
-    { field: fos[3], x: centersX[0] - 50, y: centersY[1] - 100 },
-    { field: fos[4], x: centersX[1], y: centersY[1] - 100 },
-    { field: fos[5], x: centersX[2] + 50, y: centersY[1] - 100 },
-    { field: fos[6], x: centersX[0] - 50, y: centersY[2] - 70 },
-    { field: fos[7], x: centersX[1], y: centersY[2] - 70 },
-    { field: fos[8], x: centersX[2] + 50, y: centersY[2] - 70 }
-  ];
+  // initialize coordinates for category cluster centers
+  var fieldCenters = initCoords(offset);
+
+  // coordinates of category titles.
+  var fieldTitles = initCoords(titleOffset);
 
   var rValue = function (d) {
     return d.radius;
@@ -242,6 +224,10 @@ function bubbleChart() {
     return myNodes;
   }
 
+  function fosIndex(d) {
+    var index = fos.indexOf(d.primary_field);
+    return index > -1 ? index : 8;
+  }
   // ---
   // updateLabels is more involved as we need to deal with getting the sizing
   // to work well with the font size
@@ -381,7 +367,7 @@ function bubbleChart() {
     // Another way to do this would be to create
     // the year texts once and then just hide them.
     var fields = svg.selectAll('.field')
-      .data(fieldsTitles);
+      .data(fieldTitles);
 
     // fields.enter().append('circle')
     //   .classed('bubble', true)
@@ -395,7 +381,7 @@ function bubbleChart() {
       .attr('x', function (d) { return d.x; })
       .attr('y', function (d) { return d.y; })
       .attr('text-anchor', 'middle')
-      .text(function (d) { return d.field; });
+      .text(function (d, i) { return fos[i]; });
   }
 
   /*

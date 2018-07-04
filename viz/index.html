@@ -10,9 +10,9 @@
 <body>
     <div class="menu">
       <label for="nRadius">
-             Year: <span id="nRadius-value">1950</span>
+             Year: <span id="nRadius-value"></span>
       </label>
-      <input type="range" min="1950" max="2020" value="1950" step="5" id="nRadius">
+      <input type="range" id="nRadius">
 
     	<div id="toolbar">
         <a href="#" id="all" class="button active">All</a>
@@ -24,19 +24,17 @@
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="src/tooltip.js"></script>
+  <script src="data/bubble_parameters.js"></script>
   <script src="src/bubble_chart_cluster.js"></script>
   <script type="text/javascript">
 
-    var myBubbleChart = bubbleChart()
-      .year({start: 1950, end: 2020})
-      .maxImpactValue(5)
-      .maxCircleRadius(12);
+    var myBubbleChart = bubbleChart();
 
     function display(data) {
       myBubbleChart('#viz', data);
     }
 
-    d3.csv('data/cluster_decay.csv').then(display);
+    d3.csv(data_file).then(display);
 
     setupButtons();
   </script>
