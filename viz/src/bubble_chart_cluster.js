@@ -430,12 +430,9 @@ function bubbleChart() {
     }
   };
 
-  // when the input range changes update the circle
+// when the input range changes update the slider value
   d3.select("#nRadius").on("input", function() {
     updateSlider(+this.value);
-  });
-// when the input range changes update the circle
-  d3.select("#nRadius").on("change", function() {
     update(+this.value);
   });
 
