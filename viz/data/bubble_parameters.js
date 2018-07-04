@@ -35,4 +35,5 @@ d3.select('#nRadius-value')
 d3.select('#nRadius')
   .attr('min', year.start)
   .attr('max', year.end)
-  .attr('step', year.step);
+  .attr('step', year.step)
+  .attr('value', year.start);
