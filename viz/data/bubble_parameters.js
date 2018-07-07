@@ -4,7 +4,7 @@ var year = { start: "1950", end: "2020", step: "5"};
 
 var maxImpactValue = 5;
 
-var maxCircleRadius = 12;
+var maxCircleRadius = 13;
 
 // fields titles (note: viz assumes Other as the last title)
 // To produce this list, count papers grouped by field and take top 8 fields
