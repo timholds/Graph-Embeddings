@@ -1,7 +1,9 @@
 import pandas as pd
 import numpy as np
+import sys
+print(sys.path)
 
-file_name = 'Score_TitleField_166M_1900-2020-5.csv'
+filename = 'Score_TitleField_166M_1900-2020-5.csv'
 root = '/Users/timholdsworth/code/scaling-science'
 
 
@@ -147,7 +149,15 @@ def update(df, num_results, decay_rate, year_step):
     write_to_csv(df1, num_results, decay_rate)
 
 
-def main(file_name, num_results, year_step, decay_rate):
+def main(file_name=None, num_results=None, year_step=None, decay_rate=None):
+    if file_name == None:
+        file_name = filename
+    if num_results == None:
+        num_results = 25
+    if year_step == None:
+        year_step == 5
+    if decay_rate == None:
+        decay_rate == 25
     """
     Take a CSV file worth of data, get the top results, apply exponential decay,
     and write the decayed scores back to CSV
@@ -182,10 +192,17 @@ def main(file_name, num_results, year_step, decay_rate):
         Where each float represents the decayed impact value for that paper in that year
 
     """
+    file_name = sys.argv[0]
+    num_results = sys.argv[1]
+    year_step = sys.argv[2]
+    decay_rate = sys.argv[3]
 
     df = data_prep(file_name, num_results)
     update(df, num_results, decay_rate, year_step)
     print('Finished writing results')
 
+if __name__ == "__main__":
+    main()
 
-main(file_name, 100, 5, 30)
+
+#main(file_name, 100, 5, 30)
