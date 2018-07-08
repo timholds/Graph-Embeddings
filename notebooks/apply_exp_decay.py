@@ -4,33 +4,41 @@ import numpy as np
 file_name = 'Score_TitleField_166M_1900-2020-5.csv'
 root = '/Users/timholdsworth/code/scaling-science'
 
+
 def get_data(file_name):
-    path_in = root + '/Data/'+ file_name
+    path_in = root + '/Data/' + file_name
     df = pd.read_csv(path_in, encoding='latin1')
     return df
+
 
 # Add a column thats sums up all the values in a row, which are all the paper's pagerank scores in given years
 def add_score_sum(df):
     df['score_sum'] = df.sum(axis=1, skipna=True)
     return df
 
+
 # Add a column with the number of years since the paper was published
 def add_total_years_pub(df):
     df['total_years_pub'] = len(df.columns) - 2 - df.isnull().sum(axis=1, skipna=True)
     return df
+
 
 # Add a column with the average score for a paper
 def add_time_weighted_score(df):
     df['time_weighted_score'] = df['score_sum'] / df['total_years_pub']
     return df
 
+
 # Sort by the most popular papers according to time weighted score
 def sort(df):
     df = df.sort_values(by=['time_weighted_score'], ascending=False).reset_index(drop=True)
     return df
 
-num_results = 100
-def clean_for_viz(df, num_results):
+
+#num_results = 100
+def clean_for_viz(df, num_results=None):
+    if num_results == None:
+        num_results = 100
     df = df.head(num_results)
     df = df.round(3)
     df = df.rename(columns={"a.title": "title"})
@@ -50,9 +58,10 @@ def get_total_years_pub(df):
 
 # Method to calculate decay_scores for a given paper, returning the scores as a series
 def calc_decay_scores(df, start_col, index, decay_rate):
+
     # Get the nondecayed scores
     start = start_col[index]
-    impact_scores_unlogged = df.iloc[start:-3, index].reset_index(drop=True)
+    impact_scores_unlogged = df.iloc[index, start:-3].reset_index(drop=True)
     impact_scores = impact_scores_unlogged.astype(float).apply(np.log)
     # Generate a series of decay coefficients
     time = np.arange(len(impact_scores))
@@ -73,30 +82,34 @@ def update_df_with_decay_scores(df, start_cols, decay_rate, year_step):
 
     # Set the index to paper title and transpose main df
     df = df.set_index('title')
-    df = df.transpose()
 
     count = 0
+    # print(df)
 
     # For all papers, where each column represents a paper, update the score with the decayed_score
-    for column in df:
+    for index, row in df.iterrows():
         # Calculate the decay scores for each row
-        decay_score = calc_decay_scores(df, start_cols, df.columns.get_loc(column), decay_rate)
+        decay_score = calc_decay_scores(df, start_cols, df.index.get_loc(index), decay_rate)
 
         # Turn the decayed_score into a df with column names matching and back to year-indexed series
         decay_frame = decay_score.to_frame()
+        # print(decay_frame)
 
-        # Get the value of the column title from the dataframe itself - which is the column title
-        decay_frame.columns = [list(df.columns.values)[df.columns.get_loc(column)]]
+        # Get the value of the column title from the orig dataframe itself - which is the column title
+        decay_frame.columns = [list(df.index.values)[df.index.get_loc(index)]]
+        # print("The index values are " + str([list(df.index.values)[df.index.get_loc(index)]]))
+        # print("The columns are " + str(decay_frame.columns))
 
         # Build an index of years for the decay_frame
         time = np.arange(len(decay_score))
         year_index = start_index[count]
-        years = df.index.values.tolist()
+        years = df.columns.values.tolist()
         year = years[-year_index]
         year_list = ['' + str((int(year)) + year_step * t) + '' for t in time]
         year_series = pd.Series(year_list)
         decay_frame['years'] = year_series
         decay_frame = decay_frame.set_index('years').round(2)
+        decay_frame = decay_frame.T
 
         # Update the dataframe with the new values
         df.update(decay_frame)
@@ -104,13 +117,18 @@ def update_df_with_decay_scores(df, start_cols, decay_rate, year_step):
         count = count + 1
 
     df = df.round(3)
-    return df.T
+    return df
 
-def write_to_csv(df, decay_rate):
-    path_out = root + '/Data/' + file_name[:-4] + '_' + str(
-        num_results) + '_results_decayed_at_' + str(decay_rate) + '.csv'
+
+def write_to_csv(df, num_results=None, decay_rate=None):
+    if num_results == None:
+        num_results = 100
+    if decay_rate == None:
+        decay_rate = 25
+    path_out = '/Users/timholdsworth/code/scaling-science/Data/' + file_name[:-4] + '_' + str(num_results) + '_results_decayed_at_' + str(decay_rate) + '.csv'
     df1 = df.round(3)
     df1.to_csv(path_out, index_label='title')
+
 
 # Takes in data, finds most impactful papers, applies decay scores, writes these to csv
 def data_prep(file_name, num_results):
@@ -122,23 +140,14 @@ def data_prep(file_name, num_results):
     df5 = clean_for_viz(df4, num_results)
     return df5
 
-def update(df, decay_rate, year_step):
+
+def update(df, num_results, decay_rate, year_step):
     start_cols = get_total_years_pub(df)
     df1 = update_df_with_decay_scores(df, start_cols, decay_rate, year_step)
-    write_to_csv(df1, decay_rate)
+    write_to_csv(df1, num_results, decay_rate)
 
-def main(filename=None, num_results = None, year_step=None, decay_rate=None):
 
-    if filename is None:
-        filename = file_name
-    if num_results is None:
-        num_results = 100
-    if year_step is None:
-        year_step = 5
-    if decay_rate is None:
-        decay_rate = 30
-    print(num_results)
-
+def main(file_name, num_results, year_step, decay_rate):
     """
     Take a CSV file worth of data, get the top results, apply exponential decay,
     and write the decayed scores back to CSV
@@ -153,7 +162,7 @@ def main(filename=None, num_results = None, year_step=None, decay_rate=None):
 
     Parameters
     ----------
-    filename: string
+    file_name: string
         The name of the CSV file
 
     num_results: int
@@ -174,9 +183,9 @@ def main(filename=None, num_results = None, year_step=None, decay_rate=None):
 
     """
 
-    df = data_prep(filename, num_results)
-    update(df, decay_rate, year_step)
+    df = data_prep(file_name, num_results)
+    update(df, num_results, decay_rate, year_step)
     print('Finished writing results')
 
-if __name__ == "__main__":
-    main()
+
+main(file_name, 100, 5, 30)
