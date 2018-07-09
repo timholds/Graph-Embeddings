@@ -10,34 +10,27 @@
 <body>
     <div class="menu">
       <label for="nRadius">
-             Year: <span id="nRadius-value"></span>
+             Year: <span id="nRadius-value">1950</span>
       </label>
-      <input type="range" id="nRadius">
-
-    	<div id="toolbar">
-        <a href="#" id="all" class="button active">All</a>
-        <a href="#" id="field" class="button">Field</a>
-        <a href="#" id="pub" class="button">Publisher</a>
-      </div>
-    </div>
+      <input type="range" min="1950" max="2000" value="1950" id="nRadius">
+  	</div>
 
     <div id="viz"></div>
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="src/tooltip.js"></script>
-  <script src="data/bubble_parameters.js"></script>
-  <script src="src/bubble_chart_cluster.js"></script>
+  <script src="src/bubble_chart.js"></script>
   <script type="text/javascript">
 
-    var myBubbleChart = bubbleChart();
+    var wordsBubbleChart = bubbleChart()
+      .year({start: 1950, end: 2000})
+      .maxImpactValue(45);
 
     function display(data) {
-      myBubbleChart('#viz', data);
+      wordsBubbleChart('#viz', data);
     }
 
-    d3.csv(data_file).then(display);
-
-    setupButtons();
+    d3.csv('data/100_most_impactful_words.csv').then(display);
   </script>
 
 </body>
