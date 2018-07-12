@@ -29,11 +29,6 @@ function bubbleChart() {
   // @v4 strength to apply to the position forces
   var forceStrength = 0.03;
 
-  var radiusScale = d3.scaleSqrt();
-
-  var colorScale = d3.scaleSequential()
-    .interpolator(d3.interpolatePuBuGn);
-
   function initCoords(offset) {
     var coords = [];
     for (var y = 0; y < 3; y++) {
@@ -65,9 +60,14 @@ function bubbleChart() {
     return d.title.substring(0, 10);
   };
 
-  var numValue = function (d) {
-    return +d.value > 0 ? (+d.value).toFixed(2) : 0;
+  var colorValue = function (d, year) {
+    if (year) {
+      return +d[String(year) + color.suffix];
+    }
+
+    return +d[d.year + color.suffix];
   };
+
 
   // These will be set in create_nodes and create_vis
   var svg = null;
@@ -126,8 +126,6 @@ function bubbleChart() {
     radiusScale.domain([0, maxImpactValue])
       .range([0, maxCircleRadius]);
 
-    // colorScale.domain([0, maxImpactValue]);
-
     // convert raw data into nodes data
     nodes = createNodes(rawData);
 
@@ -143,43 +141,22 @@ function bubbleChart() {
     // Bind nodes data to what will become DOM elements to represent them.
     bubbles = bubbleGroup.selectAll('.bubble').data(nodes, idValue);
 
-    // Create new circle elements each with class `bubble`.
-    // There will be one circle.bubble for each object in the nodes array.
-    // Initially, their radius (r attribute) will be 0.
-    // @v4 Selections are immutable, so lets capture the
-    //  enter selection to apply our transtition to below.
-
-    var maxValue = d3.max(nodes, function(d) { return +d[String(year.start)]; });
-    colorScale.domain([0, maxValue]);
+    color.scale.domain([minColorValue(nodes, year.start), maxColorValue(nodes, year.start)]);
 
     var bubblesE = bubbles.enter().append('circle')
       .classed('bubble', true)
       .attr('r', 0)
-      .attr('fill', function (d) { return colorScale(d.value); } )
+      .attr('fill', function (d) { return color.scale(d.colorValue); } )
       .on('mouseover', showDetail)
       .on('mouseout', hideDetail);
 
     // @v4 Merge the original empty selection and the enter selection
     bubbles = bubbles.merge(bubblesE);
-
-
     // Fancy transition to make bubbles appear, ending with the
     // correct radius
     bubbles.transition()
       .duration(2000)
       .attr('r', rValue);
-
-    // label is the container div for all the labels that sit on top of
-    // the bubbles
-    // - remember that we are keeping the labels in plain html and
-    //  the bubbles in svg
-    // label = d3.select(selector).selectAll("#bubble-labels")
-    //   .data([nodes])
-    //   .enter()
-    //   .append("div")
-    //     .attr("id", "bubble-labels");
-    //
-    // createLabels();
 
     // Set the simulation's nodes to our newly created nodes array.
     // @v4 Once we set the nodes, the simulation will start running automatically!
@@ -188,6 +165,18 @@ function bubbleChart() {
 
     simulation.restart();
   };
+
+  function maxColorValue(nodes, year) {
+    if (color.max) {
+      return color.max;
+    }
+    return d3.max(nodes, function(d) { return +d[String(year) + color.suffix]; });
+  }
+
+  function minColorValue(nodes, year) {
+    return color.min;
+    // return d3.min(nodes, function(d) { return +d[String(year) + color.suffix]; });
+  }
 
   /*
    * This data manipulation function takes the raw data from
@@ -205,8 +194,10 @@ function bubbleChart() {
     var myNodes = rawData.map(function (d) {
       var node = {
         title: idValue(d),
+        impactValue: +d[year.start],
         radius: radiusScale(+d[year.start] > 0 ? +d[year.start] : 0),
-        value: +d[year.start],
+        colorValue: colorValue(d, year.start),
+        year: year.start,
         x: Math.random() * 900,
         y: Math.random() * 800,
         field: fosIndex(d),
@@ -215,8 +206,9 @@ function bubbleChart() {
         pubText: d.publisher
       };
 
-      for (var i = +year.start; i <= +year.end; i++) {
+      for (var i = +year.start; i <= +year.end; i += +year.step) {
         node[String(i)] = d[String(i)];
+        node[String(i) + color.suffix] = d[String(i) + color.suffix]; // TODO
       }
 
       return node;
@@ -237,77 +229,6 @@ function bubbleChart() {
   }
 
 
-  // ---
-  // updateLabels is more involved as we need to deal with getting the sizing
-  // to work well with the font size
-  // ---
-  // function createLabels() {
-  //   var maxValue = d3.max(nodes, function(d) { return +d[String(year.start)]; });
-  //
-  //   // Sizes bubbles based on area.
-  //   // @v4: new flattened scale names.
-  //   var radiusScale = d3.scaleSqrt()
-  //     .range([0, 20])
-  //     .domain([0, maxValue]);
-  //
-  //   // as in updateNodes, we use idValue to define what the unique id for each data
-  //   // point is
-  //   label = label.selectAll(".bubble-label").data(nodes, idValue);
-  //
-  //   // labels are anchors with div's inside them
-  //   // labelEnter holds our enter selection so it
-  //   // is easier to append multiple elements to this selection
-  //   label = label.enter().append("a")
-  //     .attr("class", "bubble-label")
-  //     .attr("href", function (d) {
-  //       return "#" + encodeURIComponent(idValue(d));
-  //     });
-  //
-  //   label.append("div")
-  //     .attr("class", "bubble-label-name")
-  //     .text(textValue);
-  //
-  //   label.append("div")
-  //     .attr("class", "bubble-label-value")
-  //     .text(numValue);
-  //
-  //   // label font size is determined based on the size of the bubble
-  //   // this sizing allows for a bit of overhang outside of the bubble
-  //   // - remember to add the 'px' at the end as we are dealing with
-  //   //  styling divs
-  //   label
-  //     .style("font-size", "0px")
-  //     .style("width", "0px")
-  //     // .style("display", function(d) { return numValue(d) === 0 ? "none" : "block"; } );
-  //     .style("display", "none"); // TODO move labels to mouseovers
-  //
-  //   label
-  //     .transition().duration(2000)
-  //     .style("font-size", function (d) { return Math.max(8, radiusScale(numValue(d) / 2)) + "px"; })
-  //     .style("width", function (d) { return (2.5 * radiusScale(numValue(d))) + "px"; });
-  //
-  //   // interesting hack to get the 'true' text width
-  //   // - create a span inside the label
-  //   // - add the text to this span
-  //   // - use the span to compute the nodes 'dx' value
-  //   //  which is how much to adjust the label by when
-  //   //  positioning it
-  //   // - remove the extra span
-  //   label.append("span")
-  //     .text(textValue)
-  //     .each(function(d) { d.dx = Math.max(2.5 * radiusScale(numValue(d)), this.getBoundingClientRect().width); })
-  //     .remove();
-  //
-  //   // reset the width of the label to the actual width
-  //   label.style("width", function (d) { return d.dx + "px"; });
-  //
-  //   // compute and store each nodes 'dy' value - the
-  //   // amount to shift the label down
-  //   // 'this' inside of D3's each refers to the actual DOM element
-  //   // connected to the data node
-  //   return label.each(function(d) { d.dy = this.getBoundingClientRect().height; });
-  //
-  // }
   /*
    * Callback function that is called after every tick of the
    * force simulation.
@@ -319,12 +240,6 @@ function bubbleChart() {
     bubbles
       .attr('cx', function (d) { return d.x; })
       .attr('cy', function (d) { return d.y; });
-
-    // As the labels are created in raw html and not svg, we need
-    // to ensure we specify the 'px' for moving based on pixels
-    // return label
-    //   .style("left", function (d) { return ((margin.left + d.x) - (d.dx / 2)) + "px"; })
-    //   .style("top", function (d) { return ((margin.top + d.y) - (d.dy / 2)) + "px"; });
   }
 
   /*
@@ -346,9 +261,10 @@ function bubbleChart() {
   function nodePubPosY(d) {
     return fieldCenters[d.pub].y;
   }
+
   /*
    * Sets visualization in "single group mode".
-   * The year labels are hidden and the force layout
+   * The group titles are hidden and the force layout
    * tick function is set to move all nodes to the
    * center of the visualization.
    */
@@ -387,13 +303,6 @@ function bubbleChart() {
     var fields = svg.selectAll('.title')
       .data(fieldTitles);
 
-    // fields.enter().append('circle')
-    //   .classed('bubble', true)
-    //   .attr('cx', function (d) { return d.x; })
-    //   .attr('cy', function (d) { return d.y; })
-    //   .attr('r', 5)
-    //   .attr('fill', "red");
-
     fields.enter().append('text')
       .attr('class', 'title')
       .attr('x', function (d) { return d.x; })
@@ -420,7 +329,10 @@ function bubbleChart() {
                   d.pubText +
                   '</span><br/>' +
                   '<span class="name">Impact Value: </span><span class="value">' +
-                  numValue(d) +
+                  d.impactValue +
+                  '</span><br/>' +
+                  '<span class="name">Change in Impact Value: </span><span class="value">' +
+                  colorValue(d) +
                   '</span>';
 
     tooltip.showTooltip(content, d3.event);
@@ -475,7 +387,9 @@ function bubbleChart() {
     // update node sizes
     nodes.forEach(function (d) {
       d.radius = radiusScale(+d[year] > 0 ? +d[year] : 0);
-      d.value = +d[String(year)];
+      d.impactValue = +d[year];
+      d.colorValue = colorValue(d, year);
+      d.year = year;
     });
 
     simulation.force('collision', d3.forceCollide().radius(rValue));
@@ -484,15 +398,14 @@ function bubbleChart() {
 
     // turn off collision
     // simulation.force('collision').strength(strength * 0.1);
-    var maxValue = d3.max(nodes, function(d) { return +d[String(year)]; });
-    colorScale.domain([0, maxValue]);
+
+    color.scale.domain([minColorValue(nodes, year), maxColorValue(nodes, year)]);
 
     bubbles.transition()
       .duration(1000)
-      .attr('fill', function (d) { return colorScale(d.value); } )
+      .attr('fill', function (d) { return color.scale(d.colorValue); } )
       .attr('r', rValue);
 
-    // updateLabels(year);
 
     // slowly bring collision force back up
     // endTime = 1000;
@@ -504,42 +417,6 @@ function bubbleChart() {
 
     simulation.alphaTarget(0.2).restart();
   }
-
-  // function updateLabels(year) {
-  //   var maxValue = d3.max(nodes, function(d) { return +d[String(year)]; });
-  //
-  //   // Sizes bubbles based on area.
-  //   // @v4: new flattened scale names.
-  //   var radiusScale = d3.scaleSqrt()
-  //     .range([0, 20])
-  //     .domain([0, maxValue]);
-  //
-  //   d3.select("#viz").selectAll(".bubble-label-value")
-  //     .text(numValue);
-  //
-  //   var label = d3.select("#viz").selectAll(".bubble-label");
-  //
-  //   label
-  //     // .style("display", function(d) { return numValue(d) === 0 ? "none" : "block"; });
-  //     .style("display", "none"); // TODO move labels to mouseovers
-  //
-  //   label
-  //     .transition().duration(1000)
-  //     .style("font-size", function (d) { return Math.max(8, radiusScale(numValue(d) / 2)) + "px"; })
-  //     .style("width", function (d) { return (2.5 * radiusScale(numValue(d))) + "px"; });
-  //
-  //   label.append("span")
-  //     .text(idValue)
-  //     .each(function(d) { d.dx = Math.max(2.5 * radiusScale(numValue(d)), this.getBoundingClientRect().width); })
-  //     .remove();
-  //
-  //   label
-  //     .style("width", function (d) { return d.dx + "px"; });
-  //
-  //   return label.each(function(d) { d.dy = this.getBoundingClientRect().height; });
-  // }
-  //
-
 
   chart.year = function(value) {
     if (!arguments.length) {
