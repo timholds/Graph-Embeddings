@@ -1,11 +1,15 @@
 ##
 ##  Custom Ignores  ##
 ##
-data/*
-!data/test/*.txt
+#data/*
+!data/test/*
+!data/result/*
+!data/patents/*
 neo4j/*
 !neo4j/plugins
-.ipynb_checkpoints
+!neo4j/logs/*
+!neo4j/data/*
+notebooks/.ipynb_checkpoints/*
 
 ##
 ## Standard Ignores ##
