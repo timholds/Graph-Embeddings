@@ -2,13 +2,13 @@
 ##  Custom Ignores  ##
 ##
 #data/*
-!data/test/*
-!data/result/*
-!data/patents/*
-neo4j/*
-!neo4j/plugins
-!neo4j/logs/*
-!neo4j/data/*
+#!data/test/*
+#!data/result/*
+#!data/patents/*
+#neo4j/*
+#!neo4j/plugins
+#!neo4j/logs/*
+#!neo4j/data/*
 
 ##
 ## Standard Ignores ##
