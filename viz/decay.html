@@ -10,34 +10,27 @@
 <body>
     <div class="menu">
       <label for="nRadius">
-             Year: <span id="nRadius-value"></span>
+             Year: <span id="nRadius-value">1900</span>
       </label>
-      <input type="range" id="nRadius">
-
-    	<div id="toolbar">
-        <a href="#" id="all" class="button active">All</a>
-        <a href="#" id="field" class="button">Field</a>
-        <a href="#" id="pub" class="button">Publisher</a>
-      </div>
-    </div>
+      <input type="range" min="1900" max="1950" value="1900" id="nRadius">
+  	</div>
 
     <div id="viz"></div>
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="src/tooltip.js"></script>
-  <script src="data/bubble_parameters.js"></script>
-  <script src="src/bubble_chart_cluster.js"></script>
+  <script src="src/bubble_chart.js"></script>
   <script type="text/javascript">
 
-    var myBubbleChart = bubbleChart();
+    var decayBubbleChart = bubbleChart()
+      .year({start: 1900, end: 1950})
+      .maxImpactValue(0.3);
 
     function display(data) {
-      myBubbleChart('#viz', data);
+      decayBubbleChart('#viz', data);
     }
 
-    d3.csv(data_file).then(display);
-
-    setupButtons();
+    d3.csv('data/1000_most_impactful_papers_decayed.csv').then(display);
   </script>
 
 </body>

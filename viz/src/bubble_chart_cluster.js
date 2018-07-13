@@ -20,47 +20,38 @@ function bubbleChart() {
   // on which view mode is selected.
   var center = { x: width / 2, y: height / 2 };
 
+  // centers of 3x3 grid
+  var centers = {
+    x: [ width * 0.25, width * 0.5, width * 0.75 ],
+    y: [ height * 0.25, height * 0.5, height * 0.75 ]
+  };
+
   // @v4 strength to apply to the position forces
   var forceStrength = 0.03;
-
-  var maxImpactValue = 500;
-
-  var maxCircleRadius = 50;
 
   var radiusScale = d3.scaleSqrt();
 
   var colorScale = d3.scaleSequential()
     .interpolator(d3.interpolatePuBuGn);
 
-  var year = { start: "1950", end: "2000"};
+  function initCoords(offset) {
+    var coords = [];
+    for (var y = 0; y < 3; y++) {
+      for (var x = 0; x < 3; x++) {
+        coords.push({
+          x: centers.x[x] + offset.col[x],
+          y: centers.y[y] + offset.row[y]
+        });
+      }
+    }
+    return coords;
+  }
 
-  var centersX = [width / 4, width / 2, width - (width / 4)];
-  var centersY = [height / 4, height / 2, height - (height/ 4)];
+  // initialize coordinates for category cluster centers
+  var fieldCenters = initCoords(offset);
 
-  var fieldCenters = [
-    { x: centersX[0], y: centersY[0] },
-    { x: centersX[1], y: centersY[0] },
-    { x: centersX[2], y: centersY[0] },
-    { x: centersX[0], y: centersY[1] },
-    { x: centersX[1], y: centersY[1] },
-    { x: centersX[2], y: centersY[1] },
-    { x: centersX[0], y: centersY[2] },
-    { x: centersX[1], y: centersY[2] },
-    { x: centersX[2], y: centersY[2] }
-  ];
-
-  // X locations of the year titles.
-  var fieldsTitles = [
-    { field: "Relational Database", x: centersX[0] - 50, y: centersY[0] - 140 },
-    { field: "Data Model", x: centersX[1], y: centersY[0] - 140 },
-    { field: "Social Network", x: centersX[2] + 50, y: centersY[0] - 140 },
-    { field: "Statistics", x: centersX[0] - 50, y: centersY[1] - 90 },
-    { field: "Quantitative Finance", x: centersX[1], y: centersY[1] - 90 },
-    { field: "Microbiology", x: centersX[2] + 50, y: centersY[1] - 90 },
-    { field: "Mathematical Physics", x: centersX[0] - 50, y: centersY[2] - 30 },
-    { field: "Computer Science", x: centersX[1], y: centersY[2] - 30 },
-    { field: "Quantum Physics", x: centersX[2] + 50, y: centersY[2] - 30 }
-  ];
+  // coordinates of category titles.
+  var fieldTitles = initCoords(titleOffset);
 
   var rValue = function (d) {
     return d.radius;
@@ -214,11 +205,14 @@ function bubbleChart() {
     var myNodes = rawData.map(function (d) {
       var node = {
         title: idValue(d),
-        radius: radiusScale(+d[year.start]),
+        radius: radiusScale(+d[year.start] > 0 ? +d[year.start] : 0),
         value: +d[year.start],
         x: Math.random() * 900,
         y: Math.random() * 800,
-        field: Math.floor(Math.random() * 9)
+        field: fosIndex(d),
+        fieldText: d.primary_field,
+        pub: pubIndex(d),
+        pubText: d.publisher
       };
 
       for (var i = +year.start; i <= +year.end; i++) {
@@ -231,6 +225,17 @@ function bubbleChart() {
 
     return myNodes;
   }
+
+  function fosIndex(d) {
+    var index = fos.indexOf(d.primary_field);
+    return index > -1 ? index : 8;
+  }
+
+  function pubIndex(d) {
+    var index = pubs.indexOf(d.publisher);
+    return index > -1 ? index : 8;
+  }
+
 
   // ---
   // updateLabels is more involved as we need to deal with getting the sizing
@@ -334,6 +339,13 @@ function bubbleChart() {
     return fieldCenters[d.field].y;
   }
 
+  function nodePubPosX(d) {
+    return fieldCenters[d.pub].x;
+  }
+
+  function nodePubPosY(d) {
+    return fieldCenters[d.pub].y;
+  }
   /*
    * Sets visualization in "single group mode".
    * The year labels are hidden and the force layout
@@ -341,8 +353,6 @@ function bubbleChart() {
    * center of the visualization.
    */
   function groupBubbles() {
-    hideFieldTitles();
-
     // @v4 Reset the 'x' force to draw the bubbles to the center.
     simulation.force('x', d3.forceX().strength(forceStrength).x(center.x));
     simulation.force('y', d3.forceY().strength(forceStrength).y(center.y));
@@ -352,26 +362,30 @@ function bubbleChart() {
   }
 
 
-  function splitBubbles() {
-    showFieldTitles();
+  function splitBubbles(category) {
+    showTitles(category);
 
-    // @v4 Reset the 'x' force to draw the bubbles to their year centers
-    simulation.force('x', d3.forceX().strength(0.05).x(nodeFieldPosX));
-    simulation.force('y', d3.forceY().strength(0.05).y(nodeFieldPosY));
+    if (category === 'field') {
+      simulation.force('x', d3.forceX().strength(0.03).x(nodeFieldPosX));
+      simulation.force('y', d3.forceY().strength(0.03).y(nodeFieldPosY));
+    } else {
+      simulation.force('x', d3.forceX().strength(0.03).x(nodePubPosX));
+      simulation.force('y', d3.forceY().strength(0.03).y(nodePubPosY));
+    }
 
     // @v4 We can reset the alpha value and restart the simulation
     simulation.alpha(1).restart();
   }
 
-  function hideFieldTitles() {
-    svg.selectAll('.field').remove();
+  function hideTitles() {
+    svg.selectAll('.title').remove();
   }
 
-  function showFieldTitles() {
+  function showTitles(category) {
     // Another way to do this would be to create
     // the year texts once and then just hide them.
-    var fields = svg.selectAll('.field')
-      .data(fieldsTitles);
+    var fields = svg.selectAll('.title')
+      .data(fieldTitles);
 
     // fields.enter().append('circle')
     //   .classed('bubble', true)
@@ -381,11 +395,11 @@ function bubbleChart() {
     //   .attr('fill', "red");
 
     fields.enter().append('text')
-      .attr('class', 'field')
+      .attr('class', 'title')
       .attr('x', function (d) { return d.x; })
       .attr('y', function (d) { return d.y; })
       .attr('text-anchor', 'middle')
-      .text(function (d) { return d.field; });
+      .text(function (d, i) { return category === 'field' ? fos[i] : pubs[i]; });
   }
 
   /*
@@ -398,6 +412,12 @@ function bubbleChart() {
 
     var content = '<span class="name">Title: </span><span class="value">' +
                   idValue(d) +
+                  '</span><br/>' +
+                  '<span class="name">Primary Field: </span><span class="value">' +
+                  d.fieldText +
+                  '</span><br/>' +
+                  '<span class="name">Publisher: </span><span class="value">' +
+                  d.pubText +
                   '</span><br/>' +
                   '<span class="name">Impact Value: </span><span class="value">' +
                   numValue(d) +
@@ -421,22 +441,19 @@ function bubbleChart() {
    * returned chart function). Allows the visualization to toggle
    * between "single group" and "split by year" modes.
    *
-   * displayName is expected to be a string and either 'year' or 'all'.
    */
   chart.toggleDisplay = function (displayName) {
-    if (displayName === 'field') {
-      splitBubbles();
-    } else {
+    hideTitles();
+    if (displayName === 'all') {
       groupBubbles();
+    } else {
+      splitBubbles(displayName);
     }
   };
 
-  // when the input range changes update the circle
+// when the input range changes update the slider value
   d3.select("#nRadius").on("input", function() {
     updateSlider(+this.value);
-  });
-// when the input range changes update the circle
-  d3.select("#nRadius").on("change", function() {
     update(+this.value);
   });
 
@@ -457,7 +474,7 @@ function bubbleChart() {
 
     // update node sizes
     nodes.forEach(function (d) {
-      d.radius = radiusScale(+d[String(year)]);
+      d.radius = radiusScale(+d[year] > 0 ? +d[year] : 0);
       d.value = +d[String(year)];
     });
 
