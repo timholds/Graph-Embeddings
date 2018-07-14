@@ -201,14 +201,13 @@ function bubbleChart() {
         x: Math.random() * 900,
         y: Math.random() * 800,
         field: fosIndex(d),
-        fieldText: d.primary_field,
         pub: pubIndex(d),
-        pubText: d.publisher
       };
 
-      for (var i = +year.start; i <= +year.end; i += +year.step) {
-        node[String(i)] = d[String(i)];
-        node[String(i) + color.suffix] = d[String(i) + color.suffix]; // TODO
+      for(var key in d) {
+          // Skip loop if the property is from prototype
+          if (!d.hasOwnProperty(key)) continue;
+          node[key] = d[key];
       }
 
       return node;
@@ -323,10 +322,10 @@ function bubbleChart() {
                   idValue(d) +
                   '</span><br/>' +
                   '<span class="name">Primary Field: </span><span class="value">' +
-                  d.fieldText +
+                  d.primary_field +
                   '</span><br/>' +
                   '<span class="name">Publisher: </span><span class="value">' +
-                  d.pubText +
+                  d.publisher +
                   '</span><br/>' +
                   '<span class="name">Impact Value: </span><span class="value">' +
                   d.impactValue +
@@ -363,6 +362,12 @@ function bubbleChart() {
     }
   };
 
+  chart.toggleColor = function (displayName) {
+    color = COLOR[displayName];
+    update(d3.select("#nRadius").property("value"));
+  };
+
+
 // when the input range changes update the slider value
   d3.select("#nRadius").on("input", function() {
     updateSlider(+this.value);
@@ -376,14 +381,6 @@ function bubbleChart() {
   }
 
   function update(year) {
-    // var maxValue = d3.max(nodes, function(d) { return +d[String(year)]; });
-
-    // Sizes bubbles based on area.
-    // @v4: new flattened scale names.
-    // var radiusScale = d3.ScaleLog()
-    //   .range([0, 20])
-    //   .domain([0, maxImpactValue]);
-
     // update node sizes
     nodes.forEach(function (d) {
       d.radius = radiusScale(+d[year] > 0 ? +d[year] : 0);
@@ -402,7 +399,7 @@ function bubbleChart() {
     color.scale.domain([minColorValue(nodes, year), maxColorValue(nodes, year)]);
 
     bubbles.transition()
-      .duration(1000)
+      .duration(800)
       .attr('fill', function (d) { return color.scale(d.colorValue); } )
       .attr('r', rValue);
 
@@ -458,7 +455,7 @@ function setupButtons() {
     .selectAll('.button')
     .on('click', function () {
       // Remove active class from all buttons
-      d3.selectAll('.button').classed('active', false);
+      d3.select('#toolbar').selectAll('.button').classed('active', false);
       // Find the button just clicked
       var button = d3.select(this);
 
@@ -471,5 +468,24 @@ function setupButtons() {
       // Toggle the bubble chart based on
       // the currently clicked button.
       myBubbleChart.toggleDisplay(buttonId);
+    });
+
+  d3.select('#toolbar-color')
+    .selectAll('.button')
+    .on('click', function () {
+      // Remove active class from all buttons
+      d3.select('#toolbar-color').selectAll('.button').classed('active', false);
+      // Find the button just clicked
+      var button = d3.select(this);
+
+      // Set it as the active button
+      button.classed('active', true);
+
+      // Get the id of the button
+      var buttonId = button.attr('id');
+
+      // Toggle the bubble chart based on
+      // the currently clicked button.
+      myBubbleChart.toggleColor(buttonId);
     });
 }

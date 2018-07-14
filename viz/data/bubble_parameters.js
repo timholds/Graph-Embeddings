@@ -8,28 +8,30 @@ var maxCircleRadius = 13;
 
 var radiusScale = d3.scaleSqrt();
 
-
 // Set the metric to use for color:
 //   data file must have year fields (e.g. 1950, 1955, ...)
 //   with the specified suffix (e.g. 1950_D, 1955_D).
 //   min and max are used for color interpolation
+var COLOR = {
+  // Color: impactValue
+  impact: {
+    suffix: "",
+    scale: d3.scaleSequential()
+      .interpolator(d3.interpolatePuBuGn),  // Sequential: from 0 to max values
+    min: 0
+  },
 
-// Color: impactValue
-// var color = {
-//   suffix: "",
-//   scale: d3.scaleSequential()
-//     .interpolator(d3.interpolatePuBuGn),  // Sequential: from 0 to max values
-//   min: 0
-// };
-
-// Color: derivative
-var color = {
-  suffix: "_D",
-  scale: d3.scaleSequential()
-    .interpolator(d3.interpolateRdYlGn),     // Diverging: from negative to positive values
-  min: -1,
-  max: 1
+  // Color: derivative
+  change: {
+    suffix: "_D",
+    scale: d3.scaleSequential()
+      .interpolator(d3.interpolateRdYlGn),     // Diverging: from negative to positive values
+    min: -1,
+    max: 1
+  }
 };
+
+var color = COLOR.impact;
 
 
 // fields titles (note: viz assumes Other as the last title)
