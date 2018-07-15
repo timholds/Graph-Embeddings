@@ -72,8 +72,9 @@ function bubbleChart() {
   // These will be set in create_nodes and create_vis
   var svg = null;
   var bubbles = null;
+  var bubbleGroup = null;
   var nodes = [];
-  var label = null;
+  var labels = null;
 
   // Charge function that is called for each node.
   // As part of the ManyBody force.
@@ -136,22 +137,35 @@ function bubbleChart() {
       .attr('width', width)
       .attr('height', height);
 
-    var bubbleGroup = svg.append('g');
-
-    // Bind nodes data to what will become DOM elements to represent them.
-    bubbles = bubbleGroup.selectAll('.bubble').data(nodes, idValue);
+    bubbleGroup = svg.append("g")
+      .selectAll("g")
+      .data(nodes, idValue)
+      .enter()
+      .append("g")
+      .on('click', function(d) {
+        d3.select(this)
+          .selectAll('text')
+          .style('visibility', function () {
+            return d3.select(this).style('visibility') === 'visible' ? 'hidden' : 'visible';
+          });
+      });
 
     color.scale.domain([minColorValue(nodes, year.start), maxColorValue(nodes, year.start)]);
 
-    var bubblesE = bubbles.enter().append('circle')
+    bubbles = bubbleGroup.append('circle')
       .classed('bubble', true)
       .attr('r', 0)
       .attr('fill', function (d) { return color.scale(d.colorValue); } )
       .on('mouseover', showDetail)
       .on('mouseout', hideDetail);
 
-    // @v4 Merge the original empty selection and the enter selection
-    bubbles = bubbles.merge(bubblesE);
+    labels = bubbleGroup.append('text')
+      .text(idValue)
+      .attr('x', 15)
+      .attr('y', 5)
+      .style('visibility', 'hidden');
+
+
     // Fancy transition to make bubbles appear, ending with the
     // correct radius
     bubbles.transition()
@@ -236,9 +250,10 @@ function bubbleChart() {
    * These x and y values are modified by the force simulation.
    */
   function ticked() {
-    bubbles
-      .attr('cx', function (d) { return d.x; })
-      .attr('cy', function (d) { return d.y; });
+    bubbleGroup
+      .attr("transform", function(d) {
+        return "translate(" + d.x + "," + d.y + ")";
+      })
   }
 
   /*
@@ -367,6 +382,10 @@ function bubbleChart() {
     update(d3.select("#nRadius").property("value"));
   };
 
+  chart.hideLabels = function () {
+    labels.style('visibility', 'hidden');
+  };
+
 
 // when the input range changes update the slider value
   d3.select("#nRadius").on("input", function() {
@@ -402,7 +421,6 @@ function bubbleChart() {
       .duration(800)
       .attr('fill', function (d) { return color.scale(d.colorValue); } )
       .attr('r', rValue);
-
 
     // slowly bring collision force back up
     // endTime = 1000;
@@ -487,5 +505,10 @@ function setupButtons() {
       // Toggle the bubble chart based on
       // the currently clicked button.
       myBubbleChart.toggleColor(buttonId);
+    });
+
+  d3.select('#clear-labels')
+    .on('click', function () {
+      myBubbleChart.hideLabels();
     });
 }
