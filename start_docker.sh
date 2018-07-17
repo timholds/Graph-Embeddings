@@ -1,7 +1,9 @@
 #!/bin/bash
 
+chmod +x start_docker.sh
 chmod 777 -R notebooks
 chmod 777 -R neo4j
+chmod 777 -R data
 chmod 777 requirements.txt
 
 export UID=$(id -u)
