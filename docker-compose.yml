@@ -30,7 +30,7 @@ services:
         restart: always
 #        image: jupyter/scipy-notebook
         ports:
-            - "8888:8888"
+            - "1234:8888"
         environment:
             - NB_UID=$UID
             - NB_GID=$GID
