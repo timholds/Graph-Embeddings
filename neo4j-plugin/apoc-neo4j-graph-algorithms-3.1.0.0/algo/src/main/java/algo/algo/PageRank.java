@@ -35,8 +35,8 @@ public class PageRank {
     public Log log;
 
 
-    @Procedure("algo.algo.pageRank")
-    @Description("CALL algo.algo.pageRank(nodes) YIELD node, score - calculates page rank for given nodes")
+    @Procedure("algo.algo.pageRank.stream")
+    @Description("CALL algo.algo.pageRank.stream(nodes) YIELD node, score - calculates page rank for given nodes")
     public Stream<NodeScore> pageRank(
             @Name("nodes") List<Node> nodes) {
         return innerPageRank(
@@ -44,8 +44,8 @@ public class PageRank {
                 nodes);
     }
 
-    @Procedure("algo.algo.pageRank2")
-    @Description("CALL algo.algo.pageRank2(nodes) YIELD node, score - calculates page rank for given nodes")
+    @Procedure("algo.algo.pageRank2.stream")
+    @Description("CALL algo.algo.pageRank2.stream(nodes) YIELD node, score - calculates page rank for given nodes")
     public Stream<NodeScore> pageRank2(
             @Name("nodes") List<Node> nodes) {
         return innerPageRank2(
