@@ -6,6 +6,10 @@ chmod 777 -R neo4j
 chmod 777 -R data
 chmod 777 requirements.txt
 
+# FOR USE WITH MATLABER CLUSTER
+chown -R `id -u`:mlusers neo4j
+chown -R `id -u`:mlusers data
+
 export UID=$(id -u)
 export GID=$(id -g)
 export HOSTNAME=$(hostname)
