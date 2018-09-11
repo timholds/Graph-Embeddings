@@ -7,8 +7,17 @@ chmod 777 -R data
 chmod 777 requirements.txt
 
 # FOR USE WITH MATLABER CLUSTER
-chown -R `id -u`:mlusers neo4j
-chown -R `id -u`:mlusers data
+
+if [[ $HOSTNAME = *"matlaber"* ]]; then
+  echo "Changing groupid to mlusers and symlinking folders"
+  chown -R `id -u`:mlusers neo4j
+  chown -R `id -u`:mlusers data
+
+fi
+
+
+
+
 
 export UID=$(id -u)
 export GID=$(id -g)

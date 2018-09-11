@@ -5,7 +5,7 @@ services:
         ports:
             - "7474:7474"
             - "7687:7687"
-#        privileged: true
+        privileged: true
         environment:
             - NEO4J_AUTH=none
             - NEO4J_dbms_security_procedures_unrestricted=apoc.*,algo.*
