@@ -13,6 +13,11 @@ chmod 777 -R data
 chmod 777 requirements.txt
 
 # Export some environmental variables for Docker
+if [[ $HOSTNAME = *"matlaber"* ]]; then
+  echo "Changing groupid to mlusers and symlinking folders"
+  chown -R `id -u`:mlusers neo4j
+  chown -R `id -u`:mlusers data
+fi
 export UID=$(id -u)
 export GID=$(id -g)
 export HOSTNAME=$(hostname)
