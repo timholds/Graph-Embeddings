@@ -1,4 +1,2 @@
 py2neo==4.0
-jgraph==0.2.1
-networkx==2.1
 pyldavis==2.1
