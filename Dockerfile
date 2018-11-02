@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook
+FROM jupyter/scipy-notebook:610bb8b938db
 USER root
 COPY ./requirements.txt /home/jovyan/requirements.txt
 WORKDIR /home/jovyan
