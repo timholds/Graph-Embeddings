@@ -1,0 +1,27 @@
+{"title": "Paper0", "year":1980, "id":0}
+{"title": "Paper1", "year":1980, "references": ["0"], "id": "1",}
+{"title": "Paper2", "year":1980, "references": ["0", "1"], "id": "2"}
+{"title": "Paper3", "year":1985, "references": ["0", "1", "2"], "id": "3"}
+{"title": "Paper4", "year":1985, "references": ["0", "1", "2", "3"], "id": "4"}
+{"title": "Paper5", "year":1985, "references": ["1", "4"], "id": "5"}
+{"title": "Paper6", "year":1985, "references": ["1", "4"], "id": "6"}
+{"title": "Paper7", "year":1985, "id":7}
+{"title": "Paper8", "year":1985, "references": ["7", "4"], "id": "8",}
+{"title": "Paper9", "year":1990, "references": ["1", "6", "8"], "id": "9"}
+{"title": "Paper10", "year":1990, "references": ["5", "2", "4"], "id": "10"}
+{"title": "Paper11", "year":1990, "references": ["0", "10", "8", "11"], "id": "11"}
+{"title": "Paper12", "year":1990, "references": ["10", "4"], "id": "12"}
+{"title": "Paper13", "year":1990, "references": ["6", "7"], "id": "13"}
+{"title": "Paper14", "year":1990, "references": ["0", "10", "8", "11"], "id": "14"}
+{"title": "Paper15", "year":1990, "references": ["10", "9"], "id": "15"}
+{"title": "Paper16", "year":1990, "references": ["8", "3"], "id": "16"}
+{"title": "Paper17", "year":1985, "id":17}
+{"title": "Paper18", "year":1985, "references": ["7", "4"], "id": "18",}
+{"title": "Paper19", "year":1990, "references": ["1", "6", "8"], "id": "19"}
+{"title": "Paper20", "year":1990, "references": ["5", "2", "4"], "id": "20"}
+{"title": "Paper21", "year":1995, "references": ["0", "20", "18", "11"], "id": "21"}
+{"title": "Paper22", "year":1995, "references": ["10", "14"], "id": "22"}
+{"title": "Paper23", "year":1995, "references": ["6", "19", "7"], "id": "23"}
+{"title": "Paper24", "year":1995, "references": ["0", "16", "18", "11"], "id": "24"}
+{"title": "Paper25", "year":1995, "references": ["10", "9", "5"], "id": "25"}
+{"title": "Paper26", "year":1995, "references": ["8", "3", "14"], "id": "26"}
