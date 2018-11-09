@@ -3,17 +3,19 @@
 # Create correct symbolic links to neo4j and data directories
 # (edit as appropriate for local environment)
 echo "Creating symbolic links..."
-if [ ! -f neo4j ]; then
+if [ ! -L ./neo4j ]; then
     echo "    Linking neo4j folder..."
-    ln -s /dtmp/`whoami`/neo4j neo4j
+    ln -s /dtmp/`whoami`/neo4j ./neo4j
+    echo "    neo4j -> /dtmp/`whoami`/neo4j"
 else
-    echo "    Using existing neo4j folder..."
+    echo "    Using existing neo4j symlink..."
 fi
-if [ ! -f data ]; then
+if [ ! -L ./data ]; then
     echo "    Linking data folder..."
-    ln -s /dtmp/`whoami`/data data
+    ln -s /dtmp/`whoami`/data ./data
+    echo "    data -> /dtmp/`whoami`/data"
 else
-    echo "    Using existing data folder..."
+    echo "    Using existing data symlink..."
 fi
 
 # Change permissions to make things easy
@@ -27,30 +29,29 @@ chmod 777 requirements.txt
 # Export some environmental variables for Docker
 echo "Exporting environmental variables..."
 if [[ $HOSTNAME = *"matlaber"* ]]; then
-  echo "    Changing groupid to mlusers and symlinking folders"
-  chown -R `id -u`:mlusers neo4j
-  chown -R `id -u`:mlusers data
+    echo "    Changing groupid to mlusers and symlinking folders"
+    chown -R `id -u`:mlusers neo4j
+    chown -R `id -u`:mlusers data
 fi
+echo "    UID=$UID"
 export UID=$(id -u)
+echo "    GID=$GID"
 export GID=$(id -g)
 export HOSTNAME=$(hostname)
-export DNSDOMAINNAME=$(dnsdomainname)
-
-# Say what we did
-echo " Created symbolic links:"
-echo "    neo4j -> /dtmp/`whoami`/neo4j"
-echo "    data -> /dtmp/`whoami`/data"
-echo " Set environmental variables:"
-echo "    UID=$UID"
-echo "    GID=$GID"
 echo "    HOSTNAME=$HOSTNAME"
+export DNSDOMAINNAME=$(dnsdomainname)
 echo "    DNSDOMAINNAME=$DNSDOMAINNAME"
+
 
 #  Launch Docker
 echo "Launching Docker..."
-echo "    Building services..."
+if [ -f ./neo4j/data/dbms/auth ]; then
+    echo "   Removing neo4j database authentication lock..."
+    rm ./neo4j/data/dbms/auth
+fi
+echo "   Building services..."
 docker-compose build
-echo "    (Re)building and launching services..."
+echo "   (Re)building and launching services..."
 docker-compose up
 
 # Rename containers
