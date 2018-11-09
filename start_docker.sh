@@ -52,5 +52,14 @@ echo "    Building services..."
 docker-compose build
 echo "    (Re)building and launching services..."
 docker-compose up
+
+# Rename containers
+#echo "Renaming Docker containers..."
+#echo "    Renaming SciPy Notebook container..."
+#docker rename scipy-notebook-container scipy-notebook-container
+#echo "    Renaming Neo4j container..."
+#docker rename neo4j-container neo4j-container
+
 echo "Done."
+
 
