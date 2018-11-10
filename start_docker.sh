@@ -33,10 +33,10 @@ if [[ $HOSTNAME = *"matlaber"* ]]; then
     chown -R `id -u`:mlusers neo4j
     chown -R `id -u`:mlusers data
 fi
-echo "    UID=$UID"
 export UID=$(id -u)
-echo "    GID=$GID"
+echo "    UID=$UID"
 export GID=$(id -g)
+echo "    GID=$GID"
 export HOSTNAME=$(hostname)
 echo "    HOSTNAME=$HOSTNAME"
 export DNSDOMAINNAME=$(dnsdomainname)
