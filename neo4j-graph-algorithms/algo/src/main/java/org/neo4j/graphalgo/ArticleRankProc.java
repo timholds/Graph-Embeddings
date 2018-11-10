@@ -87,7 +87,7 @@ public final class ArticleRankProc {
         TerminationFlag terminationFlag = TerminationFlag.wrap(transaction);
         PageRankResult scores = evaluate(graph, tracker, terminationFlag, configuration, statsBuilder);
 
-        log.info("PageRank: overall memory usage: %s", tracker.getUsageString());
+        log.info("ArticleRank: overall memory usage: %s", tracker.getUsageString());
 
         write(graph, terminationFlag, scores, configuration, statsBuilder);
 
@@ -117,7 +117,7 @@ public final class ArticleRankProc {
         TerminationFlag terminationFlag = TerminationFlag.wrap(transaction);
         PageRankResult scores = evaluate(graph, tracker, terminationFlag, configuration, statsBuilder);
 
-        log.info("PageRank: overall memory usage: %s", tracker.getUsageString());
+        log.info("ArticleRank: overall memory usage: %s", tracker.getUsageString());
 
         if (graph instanceof HugeGraph) {
             HugeGraph hugeGraph = (HugeGraph) graph;
@@ -181,7 +181,7 @@ public final class ArticleRankProc {
         int iterations = configuration.getIterations(DEFAULT_ITERATIONS);
         final int batchSize = configuration.getBatchSize();
         final int concurrency = configuration.getConcurrency(Pools.getNoThreadsInDefaultPool());
-        log.debug("Computing article rank with damping of " + dampingFactor + " and " + iterations + " iterations.");
+        log.debug("Computing articlerank with damping of " + dampingFactor + " and " + iterations + " iterations.");
 
 
         List<Node> sourceNodes = configuration.get("sourceNodes", new ArrayList<>());
