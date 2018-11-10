@@ -11,9 +11,9 @@ services:
             - NEO4J_apoc_export_file_enabled=true
             - NEO4J_apoc_import_file_enabled=true
             - NEO4J_dbms_shell_enabled=true
-            - NEO4J_dbms_memory_heap_max__size=350G
-            - NEO4J_dbms_memory_heap_initial__size=350G
-            - NEO4J_dbms_memory_pagecache_size=350G
+            - NEO4J_dbms_memory_heap_max__size=459G
+            - NEO4J_dbms_memory_heap_initial__size=459G
+            - NEO4J_dbms_memory_pagecache_size=459G
             - NEO4J_AUTH=neo4j/myneo
         user: $UID:$GID
         volumes:
@@ -23,22 +23,22 @@ services:
             - ./neo4j/logs:/logs
         container_name: neo4j-container
 
-    scipy-notebook:
-        build:
-            context: .
-            dockerfile: Dockerfile
-        restart: always
-#        image: jupyter/scipy-notebook
-        ports:
-            - "1234:8888"
-        environment:
-            - NB_UID=$UID
-            - NB_GID=$GID
-        hostname: $HOSTNAME.$DNSDOMAINNAME
-        user: root
-        volumes:
-            - ./notebooks:/home/jovyan/work:Z
-            - ./data:/tmp/data:Z
-        container_name: scipy-notebook-container
-        links:
-            - neo4j:neo4j
+#    scipy-notebook:
+#        build:
+#            context: .
+#            dockerfile: Dockerfile
+#        restart: always
+##        image: jupyter/scipy-notebook
+#        ports:
+#            - "1234:8888"
+#        environment:
+#            - NB_UID=$UID
+#            - NB_GID=$GID
+#        hostname: $HOSTNAME.$DNSDOMAINNAME
+#        user: root
+#        volumes:
+#            - ./notebooks:/home/jovyan/work:Z
+#            - ./data:/tmp/data:Z
+#        container_name: scipy-notebook-container
+#        links:
+#            - neo4j:neo4j
