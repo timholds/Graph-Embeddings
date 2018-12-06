@@ -45,9 +45,13 @@ echo "    DNSDOMAINNAME=$DNSDOMAINNAME"
 
 #  Launch Docker
 echo "Launching Docker..."
-if [ -f ./neo4j/data/dbms/auth ]; then
-    echo "   Removing neo4j database authentication lock..."
-    rm ./neo4j/data/dbms/auth
+if [ -f ./neo4j/neo4j-coauthor/data/dbms/auth ]; then
+    echo "   Removing neo4j-coauthor database authentication lock..."
+    rm ./neo4j/neo4j-coauthor/data/dbms/auth
+fi
+if [ -f ./neo4j/neo4j-quanta/data/dbms/auth ]; then
+    echo "   Removing neo4j-quanta database authentication lock..."
+    rm ./neo4j/neo4j-quanta/data/dbms/auth
 fi
 echo "   Building services..."
 docker-compose build
