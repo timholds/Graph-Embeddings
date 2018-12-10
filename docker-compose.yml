@@ -1,5 +1,6 @@
 version: "3"
 services:
+
     neo4j-quanta:
         image: neo4j:3.4.0
         ports:
@@ -12,9 +13,9 @@ services:
             - NEO4J_apoc_import_file_enabled=true
             - NEO4J_dbms_shell_enabled=true
             - NEO4J_AUTH=neo4j/myneo
-            - NEO4J_dbms_memory_heap_max__size=75G
-            - NEO4J_dbms_memory_heap_initial__size=75G
-            - NEO4J_dbms_memory_pagecache_size=75G
+            - NEO4J_dbms_memory_heap_max__size=200G
+            - NEO4J_dbms_memory_heap_initial__size=200G
+            - NEO4J_dbms_memory_pagecache_size=200G
         user: $UID:$GID
         volumes:
             - ./neo4j/neo4j-quanta/data:/data
@@ -22,7 +23,7 @@ services:
             - ./neo4j/neo4j-quanta/logs:/logs
             - ./data:/import
         container_name: neo4j-quanta
-
+    
     neo4j-coauthor:
         image: neo4j:3.4.0
         ports:
@@ -30,29 +31,29 @@ services:
             - "7688:7687"
         privileged: true
         environment:
+            - NEO4J_AUTH=neo4j/myneo
             - NEO4J_dbms_security_procedures_unrestricted=apoc.*,algo.*
             - NEO4J_apoc_export_file_enabled=true
             - NEO4J_apoc_import_file_enabled=true
             - NEO4J_dbms_shell_enabled=true
-            - NEO4J_AUTH=neo4j/myneo
-            - NEO4J_dbms_memory_heap_max__size=10G
-            - NEO4J_dbms_memory_heap_initial__size=10G
-            - NEO4J_dbms_memory_pagecache_size=10G
+            - NEO4J_dbms_memory_heap_max__size=150G
+            - NEO4J_dbms_memory_heap_initial__size=150G
+            - NEO4J_dbms_memory_pagecache_size=150G
         user: $UID:$GID
         volumes:
             - ./neo4j/neo4j-coauthor/data:/data
             - ./neo4j/neo4j-coauthor/plugins:/plugins
             - ./neo4j/neo4j-coauthor/logs:/logs
+            - ./data:/import
         container_name: neo4j-coauthor
-            
+
     scipy-notebook:
         build:
             context: .
             dockerfile: Dockerfile
         restart: always
-#        image: jupyter/scipy-notebook
         ports:
-            - "1234:8888"
+            - "8888:8888"
         environment:
             - NB_UID=$UID
             - NB_GID=$GID
@@ -61,6 +62,7 @@ services:
         volumes:
             - ./notebooks:/home/jovyan/work:Z
             - ./data:/tmp/data:Z
+            - ./neo4j:/tmp/neo4j:Z  
         container_name: scipy-notebook-container
         links:
             - neo4j-quanta:neo4j-quanta
