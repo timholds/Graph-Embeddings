@@ -19,6 +19,7 @@ neo4j
 ###################
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+__pycache__
 
 # Compiled source #
 ###################
