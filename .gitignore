@@ -1,7 +1,7 @@
 ##
 ##  Custom Ignores  ##
 ##
-data
+./data
 neo4j
 #!data/test/*
 #!data/result/*
