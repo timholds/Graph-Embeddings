@@ -13,9 +13,10 @@ services:
             - NEO4J_apoc_import_file_enabled=true
             - NEO4J_dbms_shell_enabled=true
             - NEO4J_AUTH=neo4j/myneo
-            - NEO4J_dbms_memory_heap_max__size=425G
-            - NEO4J_dbms_memory_heap_initial__size=425G
-            - NEO4J_dbms_memory_pagecache_size=425G
+            - NEO4J_dbms_memory_heap_max__size=500G
+            - NEO4J_dbms_memory_heap_initial__size=500G
+            - NEO4J_dbms_memory_pagecache_size=500G
+            - NEO4J_dbms_connector_bolt_advertised__address=:7687
         user: $UID:$GID
         volumes:
             - ./neo4j/neo4j-quanta/data:/data
@@ -24,28 +25,29 @@ services:
             - ./data:/import
         container_name: neo4j-quanta
     
-#    neo4j-coauthor:
+#    neo4j-quanta-two:
 #        image: neo4j:3.4.0
 #        ports:
-#            - "7475:7474"
-#            - "7688:7687"
+#            - "7474:7474"
+#            - "7687:7687"
 #        privileged: true
 #        environment:
-#            - NEO4J_AUTH=neo4j/myneo
 #            - NEO4J_dbms_security_procedures_unrestricted=apoc.*,algo.*
 #            - NEO4J_apoc_export_file_enabled=true
 #            - NEO4J_apoc_import_file_enabled=true
 #            - NEO4J_dbms_shell_enabled=true
-#            - NEO4J_dbms_memory_heap_max__size=5G
-#            - NEO4J_dbms_memory_heap_initial__size=5G
-#            - NEO4J_dbms_memory_pagecache_size=5G
+#            - NEO4J_AUTH=neo4j/myneo
+#            - NEO4J_dbms_memory_heap_max__size=500G
+#            - NEO4J_dbms_memory_heap_initial__size=500G
+#            - NEO4J_dbms_memory_pagecache_size=500G
+#            - NEO4J_dbms_connector_bolt_advertised__address=:7687
 #        user: $UID:$GID
 #        volumes:
-#            - ./neo4j/neo4j-coauthor/data:/data
-#            - ./neo4j/neo4j-coauthor/plugins:/plugins
-#            - ./neo4j/neo4j-coauthor/logs:/logs
+#            - ./neo4j/neo4j-quanta-two/data:/data
+#            - ./neo4j/neo4j-quanta-two/plugins:/plugins
+#            - ./neo4j/neo4j-quanta-two/logs:/logs
 #            - ./data:/import
-#        container_name: neo4j-coauthor
+#        container_name: neo4j-quanta-two
 
     scipy-notebook:
         build:
@@ -66,4 +68,4 @@ services:
         container_name: scipy-notebook-container
         links:
             - neo4j-quanta:neo4j-quanta
-#            - neo4j-coauthor:neo4j-coauthor
+#            - neo4j-quanta-two:neo4j-quanta-two
