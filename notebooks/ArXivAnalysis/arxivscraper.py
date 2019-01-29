@@ -150,19 +150,20 @@ class Scraper(object):
             root = ET.fromstring(xml)
             records = root.findall(OAI + 'ListRecords/' + OAI + 'record')
             for record in records:
-                meta = record.find(OAI + 'metadata').find(ARXIV + 'arXiv')
-                record = Record(meta).output()
-                if self.append_all:
-                    ds.append(record)
-                else:
-                    save_record = False
-                    for key in self.keys:
-                        for word in self.filters[key]:
-                            if word.lower() in record[key]:
-                                save_record = True
-
-                    if save_record:
+                if not record is None:
+                    meta = record.find(OAI + 'metadata').find(ARXIV + 'arXiv')
+                    record = Record(meta).output()
+                    if self.append_all:
                         ds.append(record)
+                    else:
+                        save_record = False
+                        for key in self.keys:
+                            for word in self.filters[key]:
+                                if word.lower() in record[key]:
+                                    save_record = True
+
+                        if save_record:
+                            ds.append(record)
 
             try:
                 token = root.find(OAI + 'ListRecords').find(OAI + 'resumptionToken')
