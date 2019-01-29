@@ -1,15 +1,9 @@
 ##
 ##  Custom Ignores  ##
 ##
-./data
+data
 neo4j
-#!data/test/*
-#!data/result/*
-#!data/patents/*
-#neo4j/*
-#!neo4j/plugins
-#!neo4j/logs/*
-#!neo4j/data/*
+!viz/virality/data
 
 ##
 ## Standard Ignores ##
