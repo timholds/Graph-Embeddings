@@ -1,0 +1,102 @@
+{"id": "5bf573b81c5a1dcdd96ec666", "DisplayName": "Eureka", "NormalizedName": "eureka", "JournalId": "465895"}
+{"id": "5bf573b81c5a1dcdd96ec610", "DisplayName": "British Journal of Radiology", "NormalizedName": "british journal of radiology", "JournalId": "142542876"}
+{"id": "5bf573b81c5a1dcdd96ec611", "DisplayName": "British Journal of Radiology", "NormalizedName": "british journal of radiology", }
+{"id": "5bf573b81c5a1dcdd96ec667", "DisplayName": "The Artist and Journal of Home Culture", "NormalizedName": "the artist and journal of home culture", "JournalId": "1137746"}
+{"id": "5bf573b81c5a1dcdd96ec668", "DisplayName": "Cumberland Law Review", "NormalizedName": "cumberland law review", "JournalId": "2978343"}
+{"id": "5bf573b81c5a1dcdd96ec669", "DisplayName": "Comparative Medicine East and West", "NormalizedName": "comparative medicine east and west", "JournalId": "3010151"}
+{"id": "5bf573b81c5a1dcdd96ec66a", "DisplayName": "Physiological Measurement", "NormalizedName": "physiological measurement", "JournalId": "3164724"}
+{"id": "5bf573b81c5a1dcdd96ec66b", "DisplayName": "Theoretical Population Biology", "NormalizedName": "theoretical population biology", "JournalId": "17807283"}
+{"id": "5bf573b81c5a1dcdd96ec66c", "DisplayName": "International Journal of Multiphase Flow", "NormalizedName": "international journal of multiphase flow", "JournalId": "18204665"}
+{"id": "5bf573b81c5a1dcdd96ec66d", "DisplayName": "Acta Veterinaria Hungarica", "NormalizedName": "acta veterinaria hungarica", "JournalId": "27908409"}
+{"id": "5bf573b81c5a1dcdd96ec66e", "DisplayName": "Revista Latinoamericana de Qu\u00edmica", "NormalizedName": "revista latinoamericana de quimica", "JournalId": "40275224"}
+{"id": "5bf573b81c5a1dcdd96ec66f", "DisplayName": "Scandinavian Journal of Rheumatology", "NormalizedName": "scandinavian journal of rheumatology", "JournalId": "42124886"}
+{"id": "5bf573b81c5a1dcdd96ec670", "DisplayName": "Current Archaeology", "NormalizedName": "current archaeology", "JournalId": "43712856"}
+{"id": "5bf573b81c5a1dcdd96ec671", "DisplayName": "Nutrition and Health", "NormalizedName": "nutrition and health", "JournalId": "46496192"}
+{"id": "5bf573b81c5a1dcdd96ec672", "DisplayName": "Advances in Immunology", "NormalizedName": "advances in immunology", "JournalId": "50054696"}
+{"id": "5bf573b81c5a1dcdd96ec673", "DisplayName": "Journal of the American Research Center in Egypt", "NormalizedName": "journal of the american research center in egypt", "JournalId": "50585835"}
+{"id": "5bf573b81c5a1dcdd96ec674", "DisplayName": "Food Microbiology", "NormalizedName": "food microbiology", "JournalId": "50630504"}
+{"id": "5bf573b81c5a1dcdd96ec675", "DisplayName": "Journal of Electronics Manufacturing", "NormalizedName": "journal of electronics manufacturing", "JournalId": "51897464"}
+{"id": "5bf573b81c5a1dcdd96ec676", "DisplayName": "International Journal of Global Environmental Issues", "NormalizedName": "international journal of global environmental issues", "JournalId": "54941560"}
+{"id": "5bf573b81c5a1dcdd96ec677", "DisplayName": "Currents", "NormalizedName": "currents", "JournalId": "56137297"}
+{"id": "5bf573b81c5a1dcdd96ec678", "DisplayName": "Journal of International Medical Research", "NormalizedName": "journal of international medical research", "JournalId": "62018274"}
+{"id": "5bf573b81c5a1dcdd96ec679", "DisplayName": "British Veterinary Journal", "NormalizedName": "british veterinary journal", "JournalId": "67731806"}
+{"id": "5bf573b81c5a1dcdd96ec67a", "DisplayName": "Turkish Journal of Medical Sciences", "NormalizedName": "turkish journal of medical sciences", "JournalId": "68332911"}
+{"id": "5bf573b81c5a1dcdd96ec67b", "DisplayName": "Filtration Industry Analyst", "NormalizedName": "filtration industry analyst", "JournalId": "74082208"}
+{"id": "5bf573b81c5a1dcdd96ec67c", "DisplayName": "Industrial & Engineering Chemistry Chemical & Engineering Data Series", "NormalizedName": "industrial & engineering chemistry chemical & engineering data series", "JournalId": "74993422"}
+{"id": "5bf573b81c5a1dcdd96ec67d", "DisplayName": "Epilepsy Currents", "NormalizedName": "epilepsy currents", "JournalId": "76379409"}
+{"id": "5bf573b81c5a1dcdd96ec67e", "DisplayName": "Macedonian Journal of Chemistry and Chemical Engineering", "NormalizedName": "macedonian journal of chemistry and chemical engineering", "JournalId": "78666835"}
+{"id": "5bf573b81c5a1dcdd96ec67f", "DisplayName": "Religion and Human Rights", "NormalizedName": "religion and human rights", "JournalId": "79201580"}
+{"id": "5bf573b81c5a1dcdd96ec680", "DisplayName": "Scandinavian Journal of Forest Research", "NormalizedName": "scandinavian journal of forest research", "JournalId": "79820318"}
+{"id": "5bf573b81c5a1dcdd96ec681", "DisplayName": "The Open Acoustics Journal", "NormalizedName": "the open acoustics journal", "JournalId": "80222133"}
+{"id": "5bf573b81c5a1dcdd96ec682", "DisplayName": "Hearing Research", "NormalizedName": "hearing research", "JournalId": "82774605"}
+{"id": "5bf573b81c5a1dcdd96ec683", "DisplayName": "Journal of Occupational and Organizational Psychology", "NormalizedName": "journal of occupational and organizational psychology", "JournalId": "87328381"}
+{"id": "5bf573b81c5a1dcdd96ec684", "DisplayName": "Evolution", "NormalizedName": "evolution", "JournalId": "87560609"}
+{"id": "5bf573b81c5a1dcdd96ec685", "DisplayName": "Journal of Central South University of Technology", "NormalizedName": "journal of central south university of technology", "JournalId": "88256731"}
+{"id": "5bf573b81c5a1dcdd96ec686", "DisplayName": "Journal of Computer-aided Materials Design", "NormalizedName": "journal of computer aided materials design", "JournalId": "96107623"}
+{"id": "5bf573b81c5a1dcdd96ec687", "DisplayName": "Transportation Research Part B-methodological", "NormalizedName": "transportation research part b methodological", "JournalId": "96305778"}
+{"id": "5bf573b81c5a1dcdd96ec688", "DisplayName": "Handbooks of Management Accounting Research", "NormalizedName": "handbooks of management accounting research", "JournalId": "98941412"}
+{"id": "5bf573b81c5a1dcdd96ec689", "DisplayName": "Sports Engineering", "NormalizedName": "sports engineering", "JournalId": "99453086"}
+{"id": "5bf573b81c5a1dcdd96ec68a", "DisplayName": "European Journal of Language Policy", "NormalizedName": "european journal of language policy", "JournalId": "103271999"}
+{"id": "5bf573b81c5a1dcdd96ec68b", "DisplayName": "The American Review of Public Administration", "NormalizedName": "the american review of public administration", "JournalId": "106702950"}
+{"id": "5bf573b81c5a1dcdd96ec68c", "DisplayName": "Journal of Emergency Management", "NormalizedName": "journal of emergency management", "JournalId": "107004239"}
+{"id": "5bf573b81c5a1dcdd96ec68d", "DisplayName": "Progress in Lipid Research", "NormalizedName": "progress in lipid research", "JournalId": "108758393"}
+{"id": "5bf573b81c5a1dcdd96ec68e", "DisplayName": "Journal of Cellular and Comparative Physiology", "NormalizedName": "journal of cellular and comparative physiology", "JournalId": "117687505"}
+{"id": "5bf573b81c5a1dcdd96ec68f", "DisplayName": "Annual Review of Ecology, Evolution, and Systematics", "NormalizedName": "annual review of ecology evolution and systematics", "JournalId": "119405978"}
+{"id": "5bf573b81c5a1dcdd96ec690", "DisplayName": "Journal of Information Security", "NormalizedName": "journal of information security", "JournalId": "119503851"}
+{"id": "5bf573b81c5a1dcdd96ec691", "DisplayName": "Journal of Manufacturing Processes", "NormalizedName": "journal of manufacturing processes", "JournalId": "120037611"}
+{"id": "5bf573b81c5a1dcdd96ec692", "DisplayName": "Mapping Sciences & Remote Sensing", "NormalizedName": "mapping sciences & remote sensing", "JournalId": "125331230"}
+{"id": "5bf573b81c5a1dcdd96ec693", "DisplayName": "Ire Transactions on Product Engineering and Production", "NormalizedName": "ire transactions on product engineering and production", "JournalId": "132147440"}
+{"id": "5bf573b81c5a1dcdd96ec694", "DisplayName": "European Journal of Phycology", "NormalizedName": "european journal of phycology", "JournalId": "133660675"}
+{"id": "5bf573b81c5a1dcdd96ec695", "DisplayName": "Journal of Nuclear Medicine Technology", "NormalizedName": "journal of nuclear medicine technology", "JournalId": "139240842"}
+{"id": "5bf573b81c5a1dcdd96ec696", "DisplayName": "Listy Filologicke", "NormalizedName": "listy filologicke", "JournalId": "139597178"}
+{"id": "5bf573b81c5a1dcdd96ec697", "DisplayName": "Precision Engineering-journal of The International Societies for Precision Engineering and Nanotechnology", "NormalizedName": "precision engineering journal of the international societies for precision engineering and nanotechnology", "JournalId": "140928716"}
+{"id": "5bf573b81c5a1dcdd96ec698", "DisplayName": "Journal of English for Academic Purposes", "NormalizedName": "journal of english for academic purposes", "JournalId": "145743673"}
+{"id": "5bf573b81c5a1dcdd96ec699", "DisplayName": "Journal of Aerosol Medicine and Pulmonary Drug Delivery", "NormalizedName": "journal of aerosol medicine and pulmonary drug delivery", "JournalId": "148726610"}
+{"id": "5bf573b81c5a1dcdd96ec69a", "DisplayName": "New Zealand Journal of History", "NormalizedName": "new zealand journal of history", "JournalId": "161366077"}
+{"id": "5bf573b81c5a1dcdd96ec69b", "DisplayName": "Contemporary Perspectives in Family Research", "NormalizedName": "contemporary perspectives in family research", "JournalId": "162117930"}
+{"id": "5bf573b81c5a1dcdd96ec69c", "DisplayName": "British Journal of Guidance & Counselling", "NormalizedName": "british journal of guidance & counselling", "JournalId": "163078014"}
+{"id": "5bf573b81c5a1dcdd96ec69d", "DisplayName": "Arab Studies Quarterly", "NormalizedName": "arab studies quarterly", "JournalId": "164212335"}
+{"id": "5bf573b81c5a1dcdd96ec69e", "DisplayName": "Epistemologia", "NormalizedName": "epistemologia", "JournalId": "168277307"}
+{"id": "5bf573b81c5a1dcdd96ec69f", "DisplayName": "Global Ecology and Biogeography", "NormalizedName": "global ecology and biogeography", "JournalId": "169694011"}
+{"id": "5bf573b81c5a1dcdd96ec6a0", "DisplayName": "Journal of Clinical Densitometry", "NormalizedName": "journal of clinical densitometry", "JournalId": "170982493"}
+{"id": "5bf573b81c5a1dcdd96ec6a1", "DisplayName": "IEEE Transactions on Engineering Writing and Speech", "NormalizedName": "ieee transactions on engineering writing and speech", "JournalId": "174019123"}
+{"id": "5bf573b81c5a1dcdd96ec6a2", "DisplayName": "Mathematical Problems in Engineering", "NormalizedName": "mathematical problems in engineering", "JournalId": "178238111"}
+{"id": "5bf573b81c5a1dcdd96ec6a3", "DisplayName": "Theoretical and Applied Fracture Mechanics", "NormalizedName": "theoretical and applied fracture mechanics", "JournalId": "179906512"}
+{"id": "5bf573b81c5a1dcdd96ec6a4", "DisplayName": "Pediatric Critical Care Medicine", "NormalizedName": "pediatric critical care medicine", "JournalId": "180821644"}
+{"id": "5bf573b81c5a1dcdd96ec6a5", "DisplayName": "Journal of Integrative Bioinformatics", "NormalizedName": "journal of integrative bioinformatics", "JournalId": "181844767"}
+{"id": "5bf573b81c5a1dcdd96ec6a6", "DisplayName": "Annual Reports on Nmr Spectroscopy", "NormalizedName": "annual reports on nmr spectroscopy", "JournalId": "183279240"}
+{"id": "5bf573b81c5a1dcdd96ec6a7", "DisplayName": "International Journal of Nanomanufacturing", "NormalizedName": "international journal of nanomanufacturing", "JournalId": "184466155"}
+{"id": "5bf573b81c5a1dcdd96ec6a8", "DisplayName": "University of Pennsylvania Journal of Constitutional Law", "NormalizedName": "university of pennsylvania journal of constitutional law", "JournalId": "186731534"}
+{"id": "5bf573b81c5a1dcdd96ec6a9", "DisplayName": "Mobilization", "NormalizedName": "mobilization", "JournalId": "190942573"}
+{"id": "5bf573b81c5a1dcdd96ec6aa", "DisplayName": "Computer Audit Update", "NormalizedName": "computer audit update", "JournalId": "194297245"}
+{"id": "5bf573b81c5a1dcdd96ec6ab", "DisplayName": "Annual Review of Physiology", "NormalizedName": "annual review of physiology", "JournalId": "196366644"}
+{"id": "5bf573b81c5a1dcdd96ec6ac", "DisplayName": "Molecular Urology", "NormalizedName": "molecular urology", "JournalId": "196879544"}
+{"id": "5bf573b81c5a1dcdd96ec6ad", "DisplayName": "Acta Chimica Sinica", "NormalizedName": "acta chimica sinica", "JournalId": "205376447"}
+{"id": "5bf573b81c5a1dcdd96ec6ae", "DisplayName": "Nuovo Cimento Della Societa Italiana Di Fisica A-nuclei Particles and Fields", "NormalizedName": "nuovo cimento della societa italiana di fisica a nuclei particles and fields", "JournalId": "205877589"}
+{"id": "5bf573b81c5a1dcdd96ec6af", "DisplayName": "Expert Reviews in Molecular Medicine", "NormalizedName": "expert reviews in molecular medicine", "JournalId": "207438450"}
+{"id": "5bf573b81c5a1dcdd96ec6b0", "DisplayName": "Peckhamia", "NormalizedName": "peckhamia", "JournalId": "943873383"}
+{"id": "5bf573b81c5a1dcdd96ec6b1", "DisplayName": "Studi Piemontesi", "NormalizedName": "studi piemontesi", "JournalId": "988156201"}
+{"id": "5bf573b81c5a1dcdd96ec6b2", "DisplayName": "Palaeontographica Abteilung A-palaozoologie-stratigraphie", "NormalizedName": "palaeontographica abteilung a palaozoologie stratigraphie", "JournalId": "993389578"}
+{"id": "5bf573b81c5a1dcdd96ec6b3", "DisplayName": "Theatre Research in Canada-recherches Theatrales Au Canada", "NormalizedName": "theatre research in canada recherches theatrales au canada", "JournalId": "997569005"}
+{"id": "5bf573b81c5a1dcdd96ec6b4", "DisplayName": "International Gas Engineering and Management", "NormalizedName": "international gas engineering and management", "JournalId": "1001999377"}
+{"id": "5bf573b81c5a1dcdd96ec6b5", "DisplayName": "Journal of The Atomic Energy Society of Japan", "NormalizedName": "journal of the atomic energy society of japan", "JournalId": "1008334261"}
+{"id": "5bf573b81c5a1dcdd96ec6b6", "DisplayName": "IEEE Journal of Translational Engineering in Health and Medicine", "NormalizedName": "ieee journal of translational engineering in health and medicine", "JournalId": "2477164297"}
+{"id": "5bf573b81c5a1dcdd96ec6b7", "DisplayName": "arXiv: Computer Vision and Pattern Recognition", "NormalizedName": "arxiv computer vision and pattern recognition", "JournalId": "2597175965"}
+{"id": "5bf573b81c5a1dcdd96ec6b8", "DisplayName": "Boletim do Museu de Biologia Mello Leit\u00e3o", "NormalizedName": "boletim do museu de biologia mello leitao", "JournalId": "2736309657"}
+{"id": "5bf573b81c5a1dcdd96ec6b9", "DisplayName": "Polish Botanical Journal", "NormalizedName": "polish botanical journal", "JournalId": "2736411279"}
+{"id": "5bf573b81c5a1dcdd96ec6ba", "DisplayName": "Environmental Stresses in Crop Sciences", "NormalizedName": "environmental stresses in crop sciences", "JournalId": "2736736438"}
+{"id": "5bf573b81c5a1dcdd96ec6bb", "DisplayName": "Revista de Letras Norte@mentos", "NormalizedName": "revista de letras norte mentos", "JournalId": "2737115538"}
+{"id": "5bf573b81c5a1dcdd96ec6bc", "DisplayName": "Munibe Ciencias Naturales", "NormalizedName": "munibe ciencias naturales", "JournalId": "2737136005"}
+{"id": "5bf573b81c5a1dcdd96ec6bd", "DisplayName": "Econometrics", "NormalizedName": "econometrics", "JournalId": "2737431740"}
+{"id": "5bf573b81c5a1dcdd96ec6be", "DisplayName": "e-conservation Journal", "NormalizedName": "e conservation journal", "JournalId": "2737630320"}
+{"id": "5bf573b81c5a1dcdd96ec6bf", "DisplayName": "Atlantic Review of Economics", "NormalizedName": "atlantic review of economics", "JournalId": "2737966377"}
+{"id": "5bf573b81c5a1dcdd96ec6c0", "DisplayName": "P\u00e1ginas", "NormalizedName": "paginas", "JournalId": "2738031195"}
+{"id": "5bf573b81c5a1dcdd96ec6c1", "DisplayName": "Sexualidad, Salud y Sociedad: Revista Latinoamericana", "NormalizedName": "sexualidad salud y sociedad revista latinoamericana", "JournalId": "2738120869"}
+{"id": "5bf573b81c5a1dcdd96ec6c2", "DisplayName": "Revista Brasileira de Recursos H\u00eddricos", "NormalizedName": "revista brasileira de recursos hidricos", "JournalId": "2738248793"}
+{"id": "5bf573b81c5a1dcdd96ec6c3", "DisplayName": "Parole Rubate : Rivista Internazionale di Studi sulla Citazione", "NormalizedName": "parole rubate rivista internazionale di studi sulla citazione", "JournalId": "2738347192"}
+{"id": "5bf573b81c5a1dcdd96ec6c4", "DisplayName": "Revista Virtual de la Sociedad Paraguaya de Medicina Interna", "NormalizedName": "revista virtual de la sociedad paraguaya de medicina interna", "JournalId": "2738352793"}
+{"id": "5bf573b81c5a1dcdd96ec6c5", "DisplayName": "Cuadernos de Econom\u00eda", "NormalizedName": "cuadernos de economia", "JournalId": "2738594227"}
+{"id": "5bf573b81c5a1dcdd96ec6c6", "DisplayName": "Conex\u00f5es Culturais", "NormalizedName": "conexoes culturais", "JournalId": "2739150457"}
+{"id": "5bf573b81c5a1dcdd96ec6c7", "DisplayName": "Cirug\u00eda Cardiovascular", "NormalizedName": "cirugia cardiovascular", "JournalId": "2739184106"}
+{"id": "5bf573b81c5a1dcdd96ec6c8", "DisplayName": "Arquipelago : Life and Marine Sciences", "NormalizedName": "arquipelago life and marine sciences", "JournalId": "2739295176"}
+{"id": "5bf573b81c5a1dcdd96ec6c9", "DisplayName": "National Medical Journal of China", "NormalizedName": "national medical journal of china", "JournalId": "2751117172"}
