@@ -1,6 +1,7 @@
 {"id": "5bf573b81c5a1dcdd96ec666", "DisplayName": "Eureka", "NormalizedName": "eureka", "JournalId": "465895"}
+{"id": "5bf573b81c5a1dcdd96ec612", "DisplayName": "Journal of Testing Tricky Databases", "NormalizedName": "journal of testing tricky databases", "JournalId": "1566264511"}
 {"id": "5bf573b81c5a1dcdd96ec610", "DisplayName": "British Journal of Radiology", "NormalizedName": "british journal of radiology", "JournalId": "142542876"}
-{"id": "5bf573b81c5a1dcdd96ec611", "DisplayName": "British Journal of Radiology", "NormalizedName": "british journal of radiology", }
+{"id": "5bf573b81c5a1dcdd96ec611", "DisplayName": "The Alan Review", "NormalizedName": "british journal of radiology", "JournalId": "2764854764"}
 {"id": "5bf573b81c5a1dcdd96ec667", "DisplayName": "The Artist and Journal of Home Culture", "NormalizedName": "the artist and journal of home culture", "JournalId": "1137746"}
 {"id": "5bf573b81c5a1dcdd96ec668", "DisplayName": "Cumberland Law Review", "NormalizedName": "cumberland law review", "JournalId": "2978343"}
 {"id": "5bf573b81c5a1dcdd96ec669", "DisplayName": "Comparative Medicine East and West", "NormalizedName": "comparative medicine east and west", "JournalId": "3010151"}
