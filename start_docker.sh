@@ -43,8 +43,8 @@ export DNSDOMAINNAME=$(dnsdomainname)
 echo "    DNSDOMAINNAME=$DNSDOMAINNAME"
 
 
-#  Launch Docker
-echo "Launching Docker..."
+# Remove authentication locks, if they exist
+echo "Looking for database locks..."
 if [ -f ./neo4j/neo4j-coauthor/data/dbms/auth ]; then
     echo "   Removing neo4j-coauthor database authentication lock..."
     rm ./neo4j/neo4j-coauthor/data/dbms/auth
@@ -53,18 +53,13 @@ if [ -f ./neo4j/neo4j-quanta/data/dbms/auth ]; then
     echo "   Removing neo4j-quanta database authentication lock..."
     rm ./neo4j/neo4j-quanta/data/dbms/auth
 fi
+
+# Launch Docker
+echo "Launching Docker..."
 echo "   Building services..."
 docker-compose build
 echo "   (Re)building and launching services..."
 docker-compose up
-
-# Rename containers
-#echo "Renaming Docker containers..."
-#echo "    Renaming SciPy Notebook container..."
-#docker rename scipy-notebook-container scipy-notebook-container
-#echo "    Renaming Neo4j container..."
-#docker rename neo4j-container neo4j-container
-
 echo "Done."
 
 

@@ -1,7 +1,7 @@
 version: "3"
 services:
 
-    neo4j-quanta:
+    neo4j-allquanta:
         image: neo4j:3.4.0
         ports:
             - "7474:7474"
@@ -13,41 +13,41 @@ services:
             - NEO4J_apoc_import_file_enabled=true
             - NEO4J_dbms_shell_enabled=true
             - NEO4J_AUTH=neo4j/myneo
-            - NEO4J_dbms_memory_heap_max__size=500G
-            - NEO4J_dbms_memory_heap_initial__size=500G
-            - NEO4J_dbms_memory_pagecache_size=500G
+            - NEO4J_dbms_memory_heap_max__size=400G
+            - NEO4J_dbms_memory_heap_initial__size=400G
+            - NEO4J_dbms_memory_pagecache_size=400G
             - NEO4J_dbms_connector_bolt_advertised__address=:7687
         user: $UID:$GID
         volumes:
-            - ./neo4j/neo4j-quanta/data:/data
-            - ./neo4j/neo4j-quanta/plugins:/plugins
-            - ./neo4j/neo4j-quanta/logs:/logs
+            - ./neo4j/neo4j-allquanta/data:/data
+            - ./neo4j/neo4j-allquanta/plugins:/plugins
+            - ./neo4j/neo4j-allquanta/logs:/logs
             - ./data:/import
-        container_name: neo4j-quanta
+        container_name: neo4j-allquanta
     
-#    neo4j-quanta-two:
-#        image: neo4j:3.4.0
-#        ports:
-#            - "7474:7474"
-#            - "7687:7687"
-#        privileged: true
-#        environment:
-#            - NEO4J_dbms_security_procedures_unrestricted=apoc.*,algo.*
-#            - NEO4J_apoc_export_file_enabled=true
-#            - NEO4J_apoc_import_file_enabled=true
-#            - NEO4J_dbms_shell_enabled=true
-#            - NEO4J_AUTH=neo4j/myneo
-#            - NEO4J_dbms_memory_heap_max__size=500G
-#            - NEO4J_dbms_memory_heap_initial__size=500G
-#            - NEO4J_dbms_memory_pagecache_size=500G
-#            - NEO4J_dbms_connector_bolt_advertised__address=:7687
-#        user: $UID:$GID
-#        volumes:
-#            - ./neo4j/neo4j-quanta-two/data:/data
-#            - ./neo4j/neo4j-quanta-two/plugins:/plugins
-#            - ./neo4j/neo4j-quanta-two/logs:/logs
-#            - ./data:/import
-#        container_name: neo4j-quanta-two
+    neo4j-top42:
+        image: neo4j:3.4.0
+        ports:
+            - "7475:7474"
+            - "7688:7687"
+        privileged: true
+        environment:
+            - NEO4J_dbms_security_procedures_unrestricted=apoc.*,algo.*
+            - NEO4J_apoc_export_file_enabled=true
+            - NEO4J_apoc_import_file_enabled=true
+            - NEO4J_dbms_shell_enabled=true
+            - NEO4J_AUTH=neo4j/myneo
+            - NEO4J_dbms_memory_heap_max__size=100G
+            - NEO4J_dbms_memory_heap_initial__size=100G
+            - NEO4J_dbms_memory_pagecache_size=100G
+            - NEO4J_dbms_connector_bolt_advertised__address=:7688
+        user: $UID:$GID
+        volumes:
+            - ./neo4j/neo4j-top42/data:/data
+            - ./neo4j/neo4j-top42/plugins:/plugins
+            - ./neo4j/neo4j-top42/logs:/logs
+            - ./data:/import
+        container_name: neo4j-top42
 
     scipy-notebook:
         build:
@@ -67,5 +67,5 @@ services:
             - ./neo4j:/tmp/neo4j:Z  
         container_name: scipy-notebook-container
         links:
-            - neo4j-quanta:neo4j-quanta
-#            - neo4j-quanta-two:neo4j-quanta-two
+            - neo4j-allquanta:neo4j-allquanta
+            - neo4j-top42:neo4j-top42

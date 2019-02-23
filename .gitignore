@@ -4,6 +4,8 @@
 data
 neo4j
 !viz/virality/data
+*.csv
+notebooks/ArXivAnalysis/physics_*
 
 ##
 ## Standard Ignores ##
