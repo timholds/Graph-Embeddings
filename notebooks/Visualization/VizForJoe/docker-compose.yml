@@ -1,0 +1,18 @@
+version: "3"
+services:
+
+    scipy-notebook:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: always
+        ports:
+            - "8888:8888"
+        environment:
+            - NB_UID=$UID
+            - NB_GID=$GID
+        hostname: $HOSTNAME.$DNSDOMAINNAME
+        user: root
+        volumes:
+            - ./:/home/jovyan/work:Z
+        container_name: joe-notebook
