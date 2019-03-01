@@ -3,14 +3,14 @@
 # Create correct symbolic links to neo4j and data directories
 # (edit as appropriate for local environment)
 echo "Creating symbolic links..."
-if [ ! -L ./neo4j ]; then
+if ! [ -d ./neo4j ]; then
     echo "    Linking neo4j folder..."
     ln -s /dtmp/`whoami`/neo4j ./neo4j
     echo "    neo4j -> /dtmp/`whoami`/neo4j"
 else
     echo "    Using existing neo4j symlink..."
 fi
-if [ ! -L ./data ]; then
+if ! [ -d ./data ]; then
     echo "    Linking data folder..."
     ln -s /dtmp/`whoami`/data ./data
     echo "    data -> /dtmp/`whoami`/data"
