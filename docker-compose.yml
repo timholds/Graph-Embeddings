@@ -48,6 +48,7 @@ services:
             - ./neo4j/neo4j-magtwo/logs:/logs
             - ./data:/import
         container_name: neo4j-magtwo
+        command: "start-notebook.sh --NotebookApp.token='scaling-science'"
 
     scipy-notebook:
         build:
