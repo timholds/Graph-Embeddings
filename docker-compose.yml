@@ -13,9 +13,9 @@ services:
             - NEO4J_apoc_import_file_enabled=true
             - NEO4J_dbms_shell_enabled=true
             - NEO4J_AUTH=neo4j/myneo
-            - NEO4J_dbms_memory_heap_max__size=400G
-            - NEO4J_dbms_memory_heap_initial__size=400G
-            - NEO4J_dbms_memory_pagecache_size=400G
+            - NEO4J_dbms_memory_heap_max__size=500G
+            - NEO4J_dbms_memory_heap_initial__size=500G
+            - NEO4J_dbms_memory_pagecache_size=500G
             - NEO4J_dbms_connector_bolt_advertised__address=:7687
         user: $UID:$GID
         volumes:
@@ -25,7 +25,7 @@ services:
             - ./data:/import
         container_name: neo4j-allquanta
     
-    neo4j-top42:
+    neo4j-magtwo:
         image: neo4j:3.4.0
         ports:
             - "7475:7474"
@@ -37,17 +37,18 @@ services:
             - NEO4J_apoc_import_file_enabled=true
             - NEO4J_dbms_shell_enabled=true
             - NEO4J_AUTH=neo4j/myneo
-            - NEO4J_dbms_memory_heap_max__size=100G
-            - NEO4J_dbms_memory_heap_initial__size=100G
-            - NEO4J_dbms_memory_pagecache_size=100G
+            - NEO4J_dbms_memory_heap_max__size=50G
+            - NEO4J_dbms_memory_heap_initial__size=50G
+            - NEO4J_dbms_memory_pagecache_size=50G
             - NEO4J_dbms_connector_bolt_advertised__address=:7688
         user: $UID:$GID
         volumes:
-            - ./neo4j/neo4j-top42/data:/data
-            - ./neo4j/neo4j-top42/plugins:/plugins
-            - ./neo4j/neo4j-top42/logs:/logs
+            - ./neo4j/neo4j-magtwo/data:/data
+            - ./neo4j/neo4j-magtwo/plugins:/plugins
+            - ./neo4j/neo4j-magtwo/logs:/logs
             - ./data:/import
-        container_name: neo4j-top42
+        container_name: neo4j-magtwo
+        command: "start-notebook.sh --NotebookApp.token='scaling-science'"
 
     scipy-notebook:
         build:
@@ -65,7 +66,7 @@ services:
             - ./notebooks:/home/jovyan/work:Z
             - ./data:/tmp/data:Z
             - ./neo4j:/tmp/neo4j:Z  
-        container_name: scipy-notebook-container
+        container_name: scipy-notebook
         links:
             - neo4j-allquanta:neo4j-allquanta
-            - neo4j-top42:neo4j-top42
+            - neo4j-magtwo:neo4j-magtwo

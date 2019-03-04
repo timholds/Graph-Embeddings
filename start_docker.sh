@@ -1,25 +1,33 @@
 #!/bin/bash
 
+# Colors
+RED=`tput setaf 1`
+BLUE=`tput setaf 4`
+GREEN=`tput setaf 2`
+MAGENTA=`tput setaf 6`
+BLACK_BG=`tput setab 0`
+RESET=`tput sgr0`
+
 # Create correct symbolic links to neo4j and data directories
 # (edit as appropriate for local environment)
-echo "Creating symbolic links..."
-if [ ! -L ./neo4j ]; then
-    echo "    Linking neo4j folder..."
+echo "${MAGENTA}Creating symbolic links...${RESET}"
+if ! [ -d ./neo4j ]; then
+    echo "    ${GREEN}Linking neo4j folder...{$RESET}"
     ln -s /dtmp/`whoami`/neo4j ./neo4j
-    echo "    neo4j -> /dtmp/`whoami`/neo4j"
+    echo "    ${GREEN}neo4j -> /dtmp/`whoami`/neo4j"
 else
-    echo "    Using existing neo4j symlink..."
+    echo "    ${GREEN}Using existing neo4j symlink..."
 fi
-if [ ! -L ./data ]; then
-    echo "    Linking data folder..."
+if ! [ -d ./data ]; then
+    echo "    ${GREEN}Linking data folder...${RESET}"
     ln -s /dtmp/`whoami`/data ./data
     echo "    data -> /dtmp/`whoami`/data"
 else
-    echo "    Using existing data symlink..."
+    echo "    ${GREEN}Using existing data symlink...${RESET}"
 fi
 
 # Change permissions to make things easy
-echo "Setting permissions..."
+echo "${MAGENTA}Setting permissions...${RESET}"
 chmod +x start_docker.sh
 chmod 777 -R notebooks
 chmod 777 -R neo4j
@@ -27,39 +35,39 @@ chmod 777 -R data
 chmod 777 requirements.txt
 
 # Export some environmental variables for Docker
-echo "Exporting environmental variables..."
+echo "${MAGENTA}Exporting environmental variables...${RESET}"
 if [[ $HOSTNAME = *"matlaber"* ]]; then
-    echo "    Changing groupid to mlusers and symlinking folders"
+    echo "    ${GREEN}Changing groupid to mlusers and symlinking folders"
     chown -R `id -u`:mlusers neo4j
     chown -R `id -u`:mlusers data
 fi
-export UID=$(id -u)
-echo "    UID=$UID"
+export UID=$(id -u) &> /dev/null
+echo "    ${GREEN}UID=$UID"
 export GID=$(id -g)
-echo "    GID=$GID"
+echo "    ${GREEN}GID=$GID"
 export HOSTNAME=$(hostname)
-echo "    HOSTNAME=$HOSTNAME"
+echo "    ${GREEN}HOSTNAME=$HOSTNAME"
 export DNSDOMAINNAME=$(dnsdomainname)
-echo "    DNSDOMAINNAME=$DNSDOMAINNAME"
+echo "    ${GREEN}DNSDOMAINNAME=$DNSDOMAINNAME"
 
 
 # Remove authentication locks, if they exist
-echo "Looking for database locks..."
+echo "${MAGENTA}Looking for database locks...${RESET}"
 if [ -f ./neo4j/neo4j-coauthor/data/dbms/auth ]; then
-    echo "   Removing neo4j-coauthor database authentication lock..."
+    echo "   ${GREEN}Removing neo4j-coauthor database authentication lock..."
     rm ./neo4j/neo4j-coauthor/data/dbms/auth
 fi
 if [ -f ./neo4j/neo4j-quanta/data/dbms/auth ]; then
-    echo "   Removing neo4j-quanta database authentication lock..."
+    echo "   ${GREEN}Removing neo4j-quanta database authentication lock..."
     rm ./neo4j/neo4j-quanta/data/dbms/auth
 fi
 
 # Launch Docker
-echo "Launching Docker..."
-echo "   Building services..."
+echo "${MAGENTA}Launching Docker...${RESET}"
+echo "   ${GREEN}Building containers...${BLUE}"
 docker-compose build
-echo "   (Re)building and launching services..."
+echo "   ${GREEN}Launching containers...${BLUE}"
 docker-compose up
-echo "Done."
 
-
+export DONE="DOCKER LAUNCHED"
+for (( i = 0; i < 17; i++ )); do echo -n "$(tput setaf $i)$(tput setab $(($i+1)))${DONE:$i:1}";done
