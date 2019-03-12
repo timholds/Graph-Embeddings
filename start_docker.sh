@@ -63,11 +63,13 @@ if [ -f ./neo4j/neo4j-quanta/data/dbms/auth ]; then
 fi
 
 # Launch Docker
+export DONE="LAUNCHING DOCKER!"
+for (( i = 0; i < 17; i++ )); do echo -n "$(tput setaf $i)$(tput setab $(($i+1)))${DONE:$i:1}";done
+
 echo "${MAGENTA}Launching Docker...${RESET}"
 echo "   ${GREEN}Building containers...${BLUE}"
 docker-compose build
 echo "   ${GREEN}Launching containers...${BLUE}"
 docker-compose up
 
-export DONE="DOCKER LAUNCHED"
-for (( i = 0; i < 17; i++ )); do echo -n "$(tput setaf $i)$(tput setab $(($i+1)))${DONE:$i:1}";done
+
