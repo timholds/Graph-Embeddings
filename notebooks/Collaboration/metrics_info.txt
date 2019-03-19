@@ -7,7 +7,7 @@ InterClusterRatio 		= coauthors in same louvain cluster / coauthors
 IntraClusterRatio 		= coauthors in different louvain cluster / coauthors
 
 
-pct_collab_unweighted 		= [sum(1) for every pub pub published with >=1 other prof] / num_pubs
+pct_collab_unweighted 		= [sum(1) for pub published with >=1 other prof] / num_pubs
 pct_collab_linauth 		= [sum(1/pub.num_authors) for ""] / num_pubs
 pct_collab_linprof		= [sum(1/pub.num_profs) for ""] / num_pubs
 pct_collab_sqrtauth		= [sum(1/sqrt(pub.num_authors)) for ""] / num_pubs
