@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.opencypher:okapi-ir:0.2.4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.opencypher/okapi-ir/jars/okapi-ir-0.2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.opencypher/okapi-ir/srcs/okapi-ir-0.2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

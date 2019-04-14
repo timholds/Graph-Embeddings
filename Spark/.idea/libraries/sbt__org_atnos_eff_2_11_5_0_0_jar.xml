@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.atnos:eff_2.11:5.0.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.atnos/eff_2.11/jars/eff_2.11-5.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.atnos/eff_2.11/srcs/eff_2.11-5.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
