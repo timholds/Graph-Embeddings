@@ -5,6 +5,7 @@ echo ""
 export DONE="Here we go!"
 for (( i = 0; i < 17; i++ )); do echo -n "$(tput setaf $i)$(tput setab $(($i+1)))${DONE:$i:1}";done
 echo ""
+echo ""
 
 # Colors
 RED=`tput setaf 1`
