@@ -16,3 +16,4 @@ services:
         volumes:
             - ./:/home/jovyan/work:Z
         container_name: joe-notebook
+        command: "start-notebook.sh --NotebookApp.token='01f969db8a2720c17e5809d2c5aa20b183c117af1cdede54'"
