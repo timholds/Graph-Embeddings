@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Useful message
+echo ""
+export DONE="Here we go!"
+for (( i = 0; i < 17; i++ )); do echo -n "$(tput setaf $i)$(tput setab $(($i+1)))${DONE:$i:1}";done
+echo ""
+echo ""
+
 # Colors
 RED=`tput setaf 1`
 BLUE=`tput setaf 4`
@@ -77,6 +84,4 @@ docker-compose build
 echo "   ${GREEN}Launching containers...${BLUE}"
 docker-compose up
 
-# export DONE="DOCKER LAUNCHED"
-# for (( i = 0; i < 17; i++ )); do echo -n "$(tput setaf $i)$(tput setab $(($i+1)))${DONE:$i:1}";done
 
