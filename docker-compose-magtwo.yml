@@ -1,7 +1,7 @@
 version: "3"
 services:
     
-    neo4j-magone:
+    neo4j-magtwo:
         image: neo4j:3.4.0
         ports:
             - "7474:7474"
@@ -13,17 +13,17 @@ services:
             - NEO4J_apoc_import_file_enabled=true
             - NEO4J_dbms_shell_enabled=true
             - NEO4J_AUTH=neo4j/myneo
-            - NEO4J_dbms_memory_heap_max__size=200G
-            - NEO4J_dbms_memory_heap_initial__size=200G
-            - NEO4J_dbms_memory_pagecache_size=200G
+            - NEO4J_dbms_memory_heap_max__size=600G
+            - NEO4J_dbms_memory_heap_initial__size=600G
+            - NEO4J_dbms_memory_pagecache_size=600G
             - NEO4J_dbms_connector_bolt_advertised__address=:7687
         user: $UID:$GID
         volumes:
-            - ./neo4j/neo4j-magone/data:/data
-            - ./neo4j/neo4j-magone/plugins:/plugins
-            - ./neo4j/neo4j-magone/logs:/logs
+            - ./neo4j/neo4j-magtwo/data:/data
+            - ./neo4j/neo4j-magtwo/plugins:/plugins
+            - ./neo4j/neo4j-magtwo/logs:/logs
             - ./data:/import
-        container_name: neo4j-magone
+        container_name: neo4j-magtwo
 
     scipy-notebook:
         build:
@@ -43,4 +43,4 @@ services:
             - ./neo4j:/tmp/neo4j:Z  
         container_name: scipy-notebook
         links:
-            - neo4j-magone:neo4j-magone
+            - neo4j-magtwo:neo4j-magtwo
