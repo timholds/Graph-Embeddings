@@ -17,6 +17,8 @@ notebooks/ArXivAnalysis/physics_*
 */.ipynb_checkpoints/*
 __pycache__
 
+ss-env/
+
 # Compiled source #
 ###################
 *.com
