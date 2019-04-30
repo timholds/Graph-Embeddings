@@ -20,14 +20,14 @@ RESET=`tput sgr0`
 echo "${MAGENTA}Creating symbolic links...${RESET}"
 if ! [ -d ./neo4j ]; then
     echo "    ${GREEN}Linking neo4j folder...{$RESET}"
-    ln -s /dtmp/`whoami`/neo4j ./neo4j
+    ln -s "/dtmp/$(whoami)/neo4j" ./neo4j
     echo "    ${GREEN}neo4j -> /dtmp/`whoami`/neo4j"
 else
     echo "    ${GREEN}Using existing neo4j symlink..."
 fi
 if ! [ -d ./data ]; then
     echo "    ${GREEN}Linking data folder...${RESET}"
-    ln -s /dtmp/`whoami`/data ./data
+    ln -s "/dtmp/$(whoami)/data" ./data
     echo "    data -> /dtmp/`whoami`/data"
 else
     echo "    ${GREEN}Using existing data symlink...${RESET}"
@@ -79,9 +79,21 @@ fi
 #echo " "
 
 echo "${MAGENTA}Launching Docker...${RESET}"
+
+if [ "$1" == "magone" ] || [ "$1" == "v1" ]
+then 
+	DOCKER_COMPOSE="docker-compose-magone.yml"
+elif [ "$1" == "magtwo" ] || [ "$1" == "v2" ] 
+then 
+	DOCKER_COMPOSE="docker-compose-magtwo.yml"
+else
+	DOCKER_COMPOSE="docker-compose.yml"
+fi
+
+echo "   ${GREEN}Using ${DOCKER_COMPOSE}...${BLUE}"
 echo "   ${GREEN}Building containers...${BLUE}"
-docker-compose build
+docker-compose -f "$DOCKER_COMPOSE" build
 echo "   ${GREEN}Launching containers...${BLUE}"
-docker-compose up
+docker-compose -f "$DOCKER_COMPOSE" up
 
 
