@@ -1,0 +1,51 @@
+avg_PR,avg_PR_val,max_PR,max_PR_val,median_PR,median_PR_val,min_PR,min_PR_val
+Brian K. Kit,9.555594249999997,Brian K. Kit,18.255841499999995,Brian K. Kit,9.555594249999997,Deniz Kural,3.3099005
+William M. McLaren,3.3099005,Jason S. Simon,4.104761,Deniz Kural,3.3099005,William M. McLaren,3.3099005
+Marcus W. Albrecht,3.3099005,Preti Jain,3.8888525,Marcus W. Albrecht,3.3099005,Dmitriy Smirnov,3.3099005
+Victor Ananiev,3.3099005,Bjoern Chapuy,3.7278285,Victor Ananiev,3.3099005,Marcus W. Albrecht,3.3099005
+Deniz Kural,3.3099005,Daniel J. Weisenberger,3.3705905,William M. McLaren,3.3099005,Victor Ananiev,3.3099005
+Dmitriy Smirnov,3.3099005,Rileen Sinha,3.3705905,Dmitriy Smirnov,3.3099005,Nicholas G. Campbell,1.5443145000000005
+Rileen Sinha,1.9430866875,Daniel Carlin,3.3705905,Andy Rimmer,1.9276475,Wilson Suraweera,1.2525944999999998
+Andy Rimmer,1.9276475,Deniz Kural,3.3099005,Arif Harmanci,1.75771125,Sophie Egea,1.212585
+Arif Harmanci,1.75771125,Angeliki Kerasidou,3.3099005,Rileen Sinha,1.61627125,Douglas Voet,1.212585
+Nicholas G. Campbell,1.5443145000000005,Marcus W. Albrecht,3.3099005,Nicholas G. Campbell,1.5443145000000005,Andres Colubri,1.1555755
+Preti Jain,1.4242264999999998,Peter H. Sudmant,3.3099005,Sophie Egea,1.39796575,André Kahles,0.8779229999999999
+Sophie Egea,1.39796575,Yinlong Xie,3.3099005,B. Arman Aksoy,1.39796575,Brian K. Kit,0.8553469999999999
+Hugo Y K Lam,1.3858801666666665,William M. McLaren,3.3099005,Soheil Feizi,1.3506334999999998,Zhengqing Ouyang,0.747703
+Soheil Feizi,1.3506334999999998,Jared T. Simpson,3.3099005,Wilson Suraweera,1.2525944999999998,Andreas Untergasser,0.6977399999999999
+David J. Witherspoon,1.2792108333333332,Dmitriy Smirnov,3.3099005,Douglas Voet,1.212585,Jesús Costantino,0.6168710000000001
+Angeliki Kerasidou,1.274776666666667,Arif Harmanci,3.3099005,Andres Colubri,1.1555755,Vanessa Hus,0.5958165
+Wilson Suraweera,1.2525944999999998,Hugo Y K Lam,3.3099005,Eftichia Duketis,1.0700655,Eftichia Duketis,0.5958165
+Yinlong Xie,1.2246351666666666,Andy Rimmer,3.3099005,Mia Grifford,1.06198625,Andy Rimmer,0.5453944999999999
+Douglas Voet,1.212585,David J. Witherspoon,3.3099005,Patrick D. Hsu,1.029563,Mia Grifford,0.53335
+B. Arman Aksoy,1.199101875,Zamin Iqbal,3.3099005,André Kahles,0.8779229999999999,Gregory M. Sokol,0.4916405
+Andres Colubri,1.1555755,Victor Ananiev,3.3099005,Nicholas Matthews,0.8439995000000001,Sasan Amini,0.4560595
+Jason S. Simon,1.1391237500000002,Travis I. Zack,3.161159,Qunyuan Zhang,0.7573505,Loredana Lopez,0.45292299999999996
+Daniel J. Weisenberger,1.0914145,Manuel A. Rivas,2.7154614999999995,Zhengqing Ouyang,0.747703,Sharon P G Fowler,0.4254850000000001
+Eftichia Duketis,1.0700655,Josh Stuart,2.6918485,Christopher W. Toon,0.7246509999999999,Min Seok Kwon,0.4254850000000001
+Mia Grifford,1.06198625,Michael J. Ziller,2.551267,Jesús Costantino,0.7124535,Gemma Buck,0.4254850000000001
+Patrick D. Hsu,1.029563,Soheil Feizi,2.551267,Hugo Y K Lam,0.6977399999999999,Haiyang Wu,0.4165005
+Zamin Iqbal,1.0079985,Wendy L. McArdle,2.0617349999999997,Andreas Untergasser,0.6977399999999999,B. Arman Aksoy,0.4098535
+Qunyuan Zhang,0.9957754999999999,Jennifer L. Bragg-Gresham,2.0617349999999997,Jane M. Landolin,0.645941,Hongrong Luo,0.40760100000000005
+Travis I. Zack,0.9790232142857144,Qunyuan Zhang,2.0617349999999997,Vanessa Hus,0.5958165,Felix Grassmann,0.40760100000000005
+Daniel Carlin,0.9535843333333331,Carolina Medina-Gomez,2.0617349999999997,Daniel J. Weisenberger,0.566704,Irene de Bruijn,0.3983700000000001
+Manuel A. Rivas,0.9118465,Patrick D. Hsu,1.8311045,Shannon J. McCall,0.5139615,Jutta Bulkescher,0.3958625
+André Kahles,0.8779229999999999,Richard Bourgon,1.6701655000000002,Aaron Noll,0.49870825,Francesco Paolo Di Giorgio,0.389071
+Nicholas Matthews,0.8439995000000001,Alex K. Shalek,1.6214520000000001,Gregory M. Sokol,0.4916405,Dunecan Massey,0.3691045000000001
+Jared T. Simpson,0.8125762142857142,Rahul Satija,1.5951615,Yujun Han,0.4874330000000001,Sagi D. Shapira,0.3639535
+Zhengqing Ouyang,0.747703,Sahil Seth,1.5906225,Mohammadsharif Tabebordbar,0.46971899999999994,Olukemi K. Amodu,0.35256350000000003
+Christopher W. Toon,0.7337743333333334,B. Arman Aksoy,1.5906225,Sarah E. Soden,0.46262575,Eric Van Nostrand,0.3480415
+Peter H. Sudmant,0.7306001499999999,Mia Grifford,1.5906225,Sasan Amini,0.4560595,Nabil Hafez,0.347234
+Jesús Costantino,0.7124535,Sophie Egea,1.5833464999999998,Loredana Lopez,0.45292299999999996,Thomas Brefort,0.3420065
+Petar Stojanov,0.7080335,Petar Stojanov,1.5833464999999998,Haiyang Wu,0.44434650000000003,Zhaoshi Jiang,0.33953300000000003
+Andreas Untergasser,0.6977399999999999,Eftichia Duketis,1.5443145000000005,So-Youn Shin,0.42961175,Pablo Marin-Garcia,0.3304210000000001
+Vanessa Hus,0.5958165,Nicholas G. Campbell,1.5443145000000005,Gemma Buck,0.4254850000000001,Elizabeth J. Duncan,0.32334900000000005
+Jane M. Landolin,0.5860839999999999,Nicholas Matthews,1.5276459999999998,Min Seok Kwon,0.4254850000000001,Charles Blatti,0.3157245000000001
+Paula F. Campos,0.5847098333333334,Omar O. Abudayyeh,1.4557955000000002,Sharon P G Fowler,0.4254850000000001,Jingyi Jessica Li,0.3005180000000001
+Wendy L. McArdle,0.56929905,Christopher W. Toon,1.3225495000000005,Peter H. Sudmant,0.42355125,Lucia Carbone,0.29628499999999997
+Bjoern Chapuy,0.5393153,Mark Pinese,1.3225495000000005,Felix Grassmann,0.40760100000000005,Andrew Adey,0.29628499999999997
+Mark Pinese,0.5156632000000001,Marina Pajic,1.3225495000000005,Hongrong Luo,0.40760100000000005,Rileen Sinha,0.29262150000000003
+Angela Chou,0.5156632000000001,Rita T. Lawlor,1.3225495000000005,Travis I. Zack,0.4069422500000001,Emilio J. Córdova,0.2873260000000001
+Shannon J. McCall,0.5139615,Emily K. Colvin,1.3225495000000005,Robert V. Bruggner,0.4067595,John S. Burg,0.2854305
+Wiam Bshara,0.5041950000000001,Angela Chou,1.3225495000000005,Irene de Bruijn,0.3983700000000001,Boudewijn ten Hallers,0.284623
+Emily K. Colvin,0.5002646000000001,David C. Wedge,1.27081,Jutta Bulkescher,0.3958625,David Comartin,0.28005
