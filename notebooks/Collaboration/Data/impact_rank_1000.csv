@@ -1,0 +1,1001 @@
+avg_PR,avg_PR_val,max_PR,max_PR_val,median_PR,median_PR_val,min_PR,min_PR_val,avg_AR,avg_AR_val,max_AR,max_AR_val,median_AR,median_AR_val,min_AR,min_AR_val
+Ulrich K. Laemmli,35.50143112,Joseph Sambrook,4942.38921,Thomas R. Dawber,2.91298025,McBride Ow,0.174004,Ulrich K. Laemmli,18.63265422,Oliver H. Lowry,2160.619064,C Redmond,1.1851215,McBride Ow,0.165453
+Stephen F. Altschul,23.04129245,Tom Maniatis,4942.38921,Tavia Gordon,2.518032,Dennis A. Senne,0.1633705,Stephen F. Altschul,12.87406547,Joseph Sambrook,1502.146478,W. M. Cowan,1.16348475,Dennis A. Senne,0.1596305
+David J. Lipman,22.62252451,Oliver H. Lowry,4713.407514,C Redmond,2.28352125,Victor E. Koteliansky,0.159826,David J. Lipman,12.56146413,Tom Maniatis,1502.146478,Robert T. DeBoy,1.158474,Victor E. Koteliansky,0.1586955
+Tom Maniatis,20.38707761,Ulrich K. Laemmli,2664.815842,Parkhurst A. Shore,2.24471875,Colm O'hUigin,0.1594435,Oliver H. Lowry,8.934022589,Ulrich K. Laemmli,1408.893786,Robert J. Dodson,1.1195355,Colm O'hUigin,0.1585425
+Oliver H. Lowry,19.52019893,Lars Hedin,2039.665534,W. M. Cowan,1.98925125,J J Mekalanos,0.159418,Tom Maniatis,7.046122629,Paul Meier,600.3728335,Hoda Khouri,1.1169855,J J Mekalanos,0.157327
+Joseph Sambrook,17.17398586,Paul Meier,1335.049007,Arthur Purdy Stout,1.9683625,K. H. Cowan,0.1565705,Mark S. Guyer,5.915697373,Nicoletta Sacchi,422.102206,Tavia Gordon,1.1055105,K. H. Cowan,0.1540545
+Lars Hedin,14.92640862,Linus Pauling,1062.882866,G. E. Palade,1.736083,B. A. Roe,0.1547855,Kary B. Mullis,5.502183802,Marshal F. Folstein,383.7379235,Thomas R. Dawber,1.0979795,B. A. Roe,0.153842
+Kary B. Mullis,13.43851561,David S. Johnson,1062.522355,A. L. Hodgkin,1.6695875,Donna Van Engen,0.1541395,Theophil Staehelin,5.422972375,Susan E. Folstein,383.7379235,Ellen E. Walters,1.0158865,Jun Lin Guan,0.153485
+William H. Stein,12.5679033,Max Born,1033.047322,J L Goldstein,1.61592275,Per Olof Nyman,0.154046,Joseph Sambrook,5.39906644,Saul A. Teukolsky,379.590731,W. James Kent,0.98560525,Per Olof Nyman,0.153383
+Randall K. Saiki,12.03060771,E. Wolf,1033.047322,John C. Cassel,1.5574045,Jun Lin Guan,0.1536975,Koichiro Tamura,5.3803199,Eugene W. Myers,377.100282,J L Goldstein,0.96638675,Jana S. McBride,0.1527285
+Stanford Moore,11.63096951,Saul A. Teukolsky,983.9231275,Jerome Vinograd,1.5477995,Jana S. McBride,0.153145,Desmond G. Higgins,4.936433147,David J. Lipman,377.100282,Katherine W. Timothy,0.96199225,T. Aitchison,0.1524395
+Theophil Staehelin,10.45941825,G. M. Sheldrick,916.4721,Katherine W. Timothy,1.52651125,T. Aitchison,0.152771,Lucinda Fulton,4.911550493,Webb Miller,377.100282,Robert C. Onofrio,0.933122,Donna Van Engen,0.1523715
+Mark S. Guyer,9.793896,R. A. Fisher,810.1715845,Robert T. DeBoy,1.509507,Siegfried W. de Laat,0.152244,William T. Friedewald,4.879249991,Stephen F. Altschul,377.100282,H. R. Horvitz,0.92546775,Siegfried W. de Laat,0.152023
+Saul A. Teukolsky,9.395554907,David E. Goldberg,801.7872355,Stephen F. Altschul,1.49666775,Werner E. Mayer,0.1519805,Randall K. Saiki,4.855073919,David S. Johnson,373.3937465,Ivica Letunic,0.918349,Werner E. Mayer,0.151768
+William T. Friedewald,8.964273648,Ronald L. Rivest,750.924145,Robert J. Dodson,1.48668875,Barrie Entsch,0.1517935,W. James Kent,4.842709865,G. M. Sheldrick,371.887657,Erika Schmid,0.9049275,Barrie Entsch,0.151649
+Paul Meier,8.787056689,Folke Skoog,745.801127,J. R. Asbridge,1.473382,Li Yuan Yu-Lee,0.151479,Arian Smit,4.724848913,David E. Goldberg,362.821795,Taylor A. Sohn,0.8970905,Li Yuan Yu-Lee,0.15136
+Amos Tversky,8.76723154,Nicoletta Sacchi,731.224188,Ellen E. Walters,1.4666415,Marvin H. Stromer,0.1506375,Harry Towbin,4.3925625,Folke Skoog,358.6732935,Stephen F. Altschul,0.883142,Marvin H. Stromer,0.1505015
+Sidney P. Colowick,8.708221635,Sidney P. Colowick,716.125961,Erika Schmid,1.456161,Graham Tc,0.150527,Amos Tversky,4.36847984,Jinghui Zhang,341.1991125,Mark S. Guyer,0.8620875,S. Qasim Mehdi,0.1505015
+A. F. Huxley,8.368940366,Nathan O. Kaplan,716.125961,Mark S. Guyer,1.4355485,S. Qasim Mehdi,0.1505185,Eugene W. Myers,4.359116426,Zheng Zhang,341.1991125,Nikola P. Pavletich,0.84785,Graham Tc,0.150493
+Harry Towbin,8.099871606,Edward A. Dennis,716.125961,Hoda Khouri,1.433568,Oliver Zerbe,0.15,Julie D. Thompson,4.298280621,Alejandro A. Schäffer,341.1991125,G. E. Palade,0.8435575,Oliver Zerbe,0.15
+Koichiro Tamura,8.0748726,Donald B. Rubin,695.8230735,H. R. Horvitz,1.43149825,Olivera Stojadinovic,0.15,Masatoshi Nei,4.148148778,Lars Hedin,324.3165825,Corey S. Goodman,0.823472,Olivera Stojadinovic,0.15
+W. James Kent,8.072425574,Nan M. Laird,695.8230735,W. James Kent,1.42284525,Olivera J. Finn,0.15,Carole A. Cull,4.125469391,Harry Towbin,318.0229445,M S Brown,0.822928,Olivera J. Finn,0.15
+Lucinda Fulton,8.016209144,Marshal F. Folstein,691.3541475,M S Brown,1.362406,Oliver von Bohlen und Halbach,0.15,Jeffrey Vieira,4.121233667,Gordon J,318.0229445,Jorja G. Henikoff,0.816247,Oliver von Bohlen und Halbach,0.15
+Arian Smit,7.993313538,Susan E. Folstein,691.3541475,M. H. F. Wilkins,1.360281,Oliver Zolk,0.15,Alan Coulson,4.070809527,Theophil Staehelin,318.0229445,A. L. Hodgkin,0.81599625,Oliver Zolk,0.15
+Torsten N. Wiesel,7.961387611,D. R. Cox,683.054348,Taylor A. Sohn,1.3360305,Oliver Zierau,0.15,Paul Meier,4.002976753,Marjorie B. Lees,316.4277495,Claudia A. Seipp,0.8121415,Oliver Zierau,0.15
+Jeffrey Vieira,7.91359,Eugene W. Myers,671.087827,Jorja G. Henikoff,1.332877,Olivier Aumont,0.15,Terrence S. Furey,3.921193851,D. R. Cox,299.647194,Richard R. Hudson,0.807424,Olivier Aumont,0.15
+Folke Skoog,7.789837377,David J. Lipman,671.087827,James H. Jandl,1.31920475,Olivier Aznar,0.15,William H. Stein,3.907518768,Julie D. Thompson,298.809366,Akira Nagafuchi,0.7941215,Olivier Aznar,0.15
+Marilyn Bergner,7.779460016,Webb Miller,671.087827,Claudia A. Seipp,1.272765,Olivia Boyer,0.15,Josep F. Abril,3.857527796,Desmond G. Higgins,298.809366,Parkhurst A. Shore,0.79189875,Olivia Boyer,0.15
+Eugene W. Myers,7.745312883,Stephen F. Altschul,671.087827,William H. Stein,1.2703765,Olivier Balmes,0.15,Toby J. Gibson,3.814334509,Toby J. Gibson,298.809366,Jeremy D. Selengut,0.7816775,Olivier Balmes,0.15
+Thomas R. Dawber,7.642534185,Edwin M. Southern,648.880115,Harold Weintraub,1.262684,Oliver Zeitz,0.15,Katherine M. Flegal,3.772395251,Edwin M. Southern,286.956405,Michael VonKorff,0.780258,Oliver Zeitz,0.15
+Desmond G. Higgins,7.564525714,Marjorie B. Lees,617.689994,David S. Hogness,1.26239075,Olivier Barbier,0.15,C Redmond,3.767959732,Nan M. Laird,284.563893,Lucinda Fulton,0.7763225,Olivier Barbier,0.15
+Alan Coulson,7.555357791,Isaac L. Chuang,609.762928,F. Sanger,1.2490925,Oliver Yu,0.15,Stanford Moore,3.727466917,Donald B. Rubin,284.563893,Tom Maniatis,0.77628,Oliver Yu,0.15
+A. L. Hodgkin,7.505620481,Theophil Staehelin,599.362515,Ivica Letunic,1.2346,Oliver Yoa-Pu Hu,0.15,Michael C. Wendl,3.697125523,Masatoshi Nei,252.8471545,Albert J. Belanger,0.77563825,Oliver Yoa-Pu Hu,0.15
+Leon Festinger,7.410507422,Gordon J,599.362515,B. Frank Polk,1.226933,Oliver Y. Martin,0.15,I. M. Stratton,3.674888375,Naruya Saitou,252.8471545,Kenneth J. Kemphues,0.76888075,Oliver Y. Martin,0.15
+Carole A. Cull,7.355377352,Harry Towbin,599.362515,Robert C. Onofrio,1.2241705,Olivia Befani,0.15,A. F. Huxley,3.628079482,E. Wolf,247.24636,J. R. Asbridge,0.767916,Olivia Befani,0.15
+G. E. Palade,7.347475956,Jinghui Zhang,587.235089,Patrick Brill-Edwards,1.220575,Olivia McAuliffe,0.15,Michael C. Zody,3.550058893,Max Born,247.24636,John W. Newport,0.766437,Olivia McAuliffe,0.15
+Masatoshi Nei,7.310998437,Alejandro A. Schäffer,587.235089,Kenneth J. Kemphues,1.207468,Olivia M. Pereira-Smith,0.15,Felsenfeld Al,3.541868232,Stanley Lemeshow,242.8423145,Leland H. Hartwell,0.76149425,Olivia M. Pereira-Smith,0.15
+C Redmond,7.130098,Zheng Zhang,587.235089,Don W. Fawcett,1.1983305,Olivia Harris,0.15,James I. Cleeman,3.511887672,David W. Hosmer,242.8423145,Harold Weintraub,0.7434955,Olivia Harris,0.15
+John G. Kirkwood,7.057047221,Harry Smith,571.8986665,Carroll M. Williams,1.18583125,Olivia M. Martinez,0.15,Marjorie B. Lees,3.498777774,John H. Holland,239.0763385,Naoufal Zamzami,0.74247125,Olivia M. Martinez,0.15
+Rebecca DerSimonian,6.79543294,Marshall N. Rosenbluth,564.7682715,Leland H. Hartwell,1.18340025,Olivia Kershaw,0.15,Rebecca DerSimonian,3.48056826,Charles Watson,233.781068,M. P. Austin,0.7257475,Olivia Kershaw,0.15
+Marjorie B. Lees,6.774530087,John H. Holland,537.4055475,Norman K. Wessells,1.160225,Olivia Keiser,0.15,Kenneth J. Livak,3.472142449,George Paxinos,233.781068,Marianne Kearney,0.723869,Olivia Keiser,0.15
+Terrence S. Furey,6.727183068,Jeffrey H Miller,535.1492055,R. J. Winchester,1.158814,Olivia Pagani,0.15,Jacques Ferlay,3.454670256,J Martin Bland,225.298561,John C. Cassel,0.7180805,Olivia Pagani,0.15
+Eli Robins,6.702421125,Miller Ja,535.1492055,Michael VonKorff,1.1581425,Olivia Reinaud,0.15,Folke Skoog,3.38962853,Douglas G. Altman,225.298561,Arthur Purdy Stout,0.713091,Olivia Reinaud,0.15
+Richard Helm,6.676928386,J. F. A. P. Miller,535.1492055,Nikola P. Pavletich,1.150977,Olivia I. Okereke,0.15,Jane Peterson,3.377161673,F. Smith,222.301036,Gary Struhl,0.712105,Olivia I. Okereke,0.15
+I. M. Stratton,6.603055173,Joseph O. Hirschfelder,517.772613,Sidney Udenfriend,1.146778,Olivia Hurtado,0.15,Daniel Kahneman,3.34817184,Gary G. Koch,213.870617,Richard Tizard,0.7109065,Olivia Hurtado,0.15
+Josep F. Abril,6.522288028,J. S. Bell,516.3479195,Lawrence Garfinkel,1.146268,Olivia Gosseries,0.15,Saul A. Teukolsky,3.339353111,Mary Osborn,207.8681125,Pascal Haffter,0.700426,Olivia Gosseries,0.15
+Julie D. Thompson,6.514283382,Stanley Lemeshow,493.9296625,Corey S. Goodman,1.136136,Olivia Carter-Pokras,0.15,Steven E. Scherer,3.316766955,Klaus Weber,207.8681125,M Klagsbrun,0.695972,Olivia Carter-Pokras,0.15
+R. A. Fisher,6.491161795,David W. Hosmer,493.9296625,Albert J. Belanger,1.12747875,Oliver Y. Gutiérrez,0.15,Kara Dolinski,3.297050432,Andrew P. Feinberg,207.7609785,David J. Dooling,0.6931755,Oliver Y. Gutiérrez,0.15
+Katherine M. Flegal,6.442795939,S. Chandrasekhar,488.643691,Tom Maniatis,1.1256895,Olivia Fromigué,0.15,LaDeana W. Hillier,3.287995624,Bert Vogelstein,207.7609785,Jerome Vinograd,0.6909655,Olivia Fromigué,0.15
+Daniel Kahneman,6.386626882,Geoffrey E. Hinton,484.6708505,Richard Tizard,1.12429975,Olivia Steele-Mortimer,0.15,Webb Miller,3.259007231,Nathan O. Kaplan,205.7042845,Lynn A. G. Ries,0.68925275,Olivia Steele-Mortimer,0.15
+Joseph L. Fleiss,6.289152448,Mary Osborn,481.6988,Daniel McGee,1.12325,Olivier Adotevi,0.15,Sean R. Eddy,3.257823302,Edward A. Dennis,205.7042845,Don W. Fawcett,0.6883645,Olivier Adotevi,0.15
+Russell Higuchi,6.220269333,Klaus Weber,481.6988,Max H. Myers,1.120224,Olivia Fletcher,0.15,Nicoletta Sacchi,3.257767319,Sidney P. Colowick,205.7042845,Jérôme Giraudat,0.68791825,Olivia Fletcher,0.15
+B. G. Barrell,6.163210369,Julie D. Thompson,477.5991395,Akira Nagafuchi,1.11869825,Olivier Alard,0.15,Susan E. Folstein,3.244890217,Aaron T. Beck,204.983765,F. W. Alt,0.68711925,Olivier Alard,0.15
+Michael C. Wendl,6.14578354,Desmond G. Higgins,477.5991395,Richard R. Hudson,1.1163225,Olivier Andreoletti,0.15,Deanna M. Church,3.243110701,James Kennedy,202.9720445,Kim Nasmyth,0.683936,Olivier Andreoletti,0.15
+E. Kellenberger,6.140783644,Toby J. Gibson,477.5991395,Jeffrey M. Piehler,1.115668,Olivia García-Suárez,0.15,John E. Ware,3.169620824,Marshall N. Rosenbluth,201.8539885,J. D. A. Van Embden,0.6836215,Olivia García-Suárez,0.15
+John H. Holland,6.11030093,C. N. R. Rao,475.525284,William B. Kannel,1.1088765,A A Pitsillides,0.15,Margaret D. Carroll,3.168385478,David G. Lowe,200.10961,Patrick Brill-Edwards,0.6813775,A A Pitsillides,0.15
+James I. Cleeman,6.094596787,Wang,471.761399,Stanford Moore,1.1083835,Oliver Wrong,0.15,Marilyn Bergner,3.167795641,Jacob Cohen,196.2929145,Joan Cornoni-Huntley,0.676575,Oliver Wrong,0.15
+N. E. Day,6.005238168,P. J. Flory,465.2436755,William P. Castelli,1.1062245,Oliver Ullrich,0.15,A. L. Hodgkin,3.155069731,Patricia Cohen,196.2929145,P De Camilli,0.6737275,Oliver Ullrich,0.15
+John E. Ware,5.971838606,F. Smith,461.4562115,Earl W. Sutherland,1.10302425,Oliver Tschauner,0.15,Torsten N. Wiesel,3.127103278,Linus Pauling,193.2518695,Joseph L. Goldstein,0.669605,Oliver Tschauner,0.15
+Parkhurst A. Shore,5.958040172,Myunghee C. Paik,454.563774,V. G. Allfrey,1.097393,Oliver Trapp,0.15,Marshal F. Folstein,3.109436192,Harry Smith,190.8550395,Joan Massagué,0.668823,Oliver Trapp,0.15
+Felsenfeld Al,5.876095884,Joseph L. Fleiss,454.563774,Abraham Kagan,1.09588,Oliver Thomusch,0.15,Tobias Doerks,3.096030786,John M. Chirgwin,189.6461865,Hugh R.B. Pelham,0.667701,Oliver Thomusch,0.15
+Michael C. Zody,5.869607379,Bruce Levin,454.563774,J. D. A. Van Embden,1.094656,Oliver Thomas,0.15,Catherine A. Ball,3.084877131,Raymond J. MacDonald,189.6461865,Daniel McGee,0.6669275,Oliver Thomas,0.15
+Toby J. Gibson,5.78559179,Benoit B. Mandelbrot,454.172825,Allan C. Wilson,1.090848,Oliver Thews,0.15,David P. Bartel,3.083369166,William J. Rutter,189.6461865,Srinivasa M. Srinivasula,0.66376975,Oliver Thews,0.15
+LaDeana W. Hillier,5.776614942,Bert Vogelstein,432.126715,P. F. Scholander,1.08908,Oliver T. Wolf,0.15,Russell Higuchi,3.061445695,Tim R. Mosmann,187.29722,David S. Hogness,0.66006375,Oliver T. Wolf,0.15
+David A. Hungerford,5.757985173,Andrew P. Feinberg,432.126715,David R. Redwood,1.0806225,Oliver T. Keppler,0.15,B. G. Barrell,3.058143131,Charles R. Johnson,187.1728225,Michael L. Frigge,0.65845725,Oliver T. Keppler,0.15
+P. Armitage,5.709226519,Ed Harlow,429.0507435,J.Ward Kennedy,1.0778855,Oliver T. Fackler,0.15,Renaud Capdeville,3.052902545,Myunghee C. Paik,185.847375,James H. Jandl,0.65821925,Oliver T. Fackler,0.15
+Steven E. Scherer,5.682538882,David Lane,429.0507435,M. Lois Murphy,1.073865,Oliver T. Bruns,0.15,Mark T. Ross,3.043689981,Bruce Levin,185.847375,Paulson Jc,0.657178,Oliver T. Bruns,0.15
+Nicoletta Sacchi,5.666109856,J Martin Bland,425.559343,Lynn A. G. Ries,1.07377575,Oliver Stumper,0.15,Aravind Subramanian,3.023182817,Joseph L. Fleiss,185.847375,William B. Kannel,0.6556735,Oliver Stumper,0.15
+Edwin M. Southern,5.63638177,Douglas G. Altman,425.559343,Richard B. Shekelle,1.0713915,Oliver Strohm,0.15,Todd M. Lowe,2.996264582,Sumio Iijima,185.7995285,Allan C. Wilson,0.65446225,Oliver Strohm,0.15
+Webb Miller,5.628769208,Charles R. Johnson,419.8162415,N. Raphael Shulman,1.067983,Oliver Stork,0.15,Richard H. Creech,2.973903865,John P. Perdew,184.5760725,Laurie Davidson,0.653149,Oliver Stork,0.15
+Kara Dolinski,5.621880538,John Matthews,419.2280075,Jeremy D. Selengut,1.0658835,Oliver Stoeltzing,0.15,Granger G. Sutton,2.954710519,Kieron Burke,184.5760725,Jun Song Chen,0.652758,Oliver Stoeltzing,0.15
+Geoffrey E. Hinton,5.574407764,P. Armitage,419.2280075,Betty J. Flehinger,1.06508025,Oliver Stiedl,0.15,Michael B. Eisen,2.942966503,Thomas D. Schmittgen,183.976406,R W Mahley,0.6490265,Oliver Stiedl,0.15
+Nathan Mantel,5.570693868,Aaron T. Beck,418.2275405,Lucinda Fulton,1.0616335,Oliver Stich,0.15,Kevin McKernan,2.93669168,Kenneth J. Livak,183.976406,Norman K. Wessells,0.642524,Oliver Stich,0.15
+Nan M. Laird,5.563993464,James Kennedy,418.1180095,John W. Newport,1.053176,Oliver Steinbock,0.15,Martin Gibson,2.912907393,Ronald L. Rivest,176.6004375,James I. Cleeman,0.641334,Oliver Steinbock,0.15
+Jane Peterson,5.561131812,Tetsuo Maita,414.5373335,James G. Hirsch,1.0509405,Oliver Steigelmann,0.15,Ellen E. Walters,2.885988774,Robert Tibshirani,173.5095145,M. A. Fiatarone,0.6407135,Oliver Steigelmann,0.15
+Susan E. Folstein,5.552500623,Gerhard Braunitzer,414.5373335,A E Weyman,1.04761275,Oliver Stegle,0.15,Martin Ringwald,2.880284093,Weitao Yang,172.8658435,Carol Churcher,0.638461,Oliver Stegle,0.15
+Deanna M. Church,5.552075318,Genji Matsuda,414.5373335,D. R. Curtis,1.04599775,Oliver Speck,0.15,Edward J. Roccella,2.870755858,Robert G. Parr,172.8658435,Marek Kubin,0.63773425,Oliver Speck,0.15
+Marshal F. Folstein,5.55098108,Naruya Saitou,410.3333695,M Klagsbrun,1.0452795,Oliver Tüscher,0.15,Richard Helm,2.865680566,Miller Ja,170.187604,Gerald M. Rubin,0.636727,Oliver Tüscher,0.15
+David S. Johnson,5.546929501,Masatoshi Nei,410.3333695,David H. Culver,1.044285,Oliver Valerius,0.15,Jeffrey C. Lee,2.854716414,Jeffrey H Miller,170.187604,Richard D. Klausner,0.634721,Oliver Valerius,0.15
+Renaud Capdeville,5.539595759,William Haenszel,409.5917785,John G. Kirkwood,1.03931675,Oliver Witzke,0.15,Tim R. Mosmann,2.851627891,J. F. A. P. Miller,170.187604,William P. Castelli,0.632817,Oliver Witzke,0.15
+Tavia Gordon,5.535141971,Nathan Mantel,409.5917785,Paulson Jc,1.0351815,Oliver Vonend,0.15,Leon Festinger,2.842042969,Benoit B. Mandelbrot,169.301853,D. C. Van Essen,0.632783,Oliver Vonend,0.15
+Sean R. Eddy,5.530374625,Richard M. Karp,408.6788785,Dennis Slone,1.029002,Oliver Wirths,0.15,John P. Huelsenbeck,2.83458305,Amos Tversky,168.206543,E. P. Greenberg,0.6324005,Oliver Wirths,0.15
+Catherine A. Ball,5.498627444,Robert D. Braun,400.4299005,M. P. Austin,1.0264095,Oliver Wildner,0.15,Timothy Fennell,2.83350533,Daniel Kahneman,168.206543,Jonathan A. Raper,0.6298845,Oliver Wildner,0.15
+R W Davis,5.494681391,Jacob Cohen,400.056555,Solomon A. Berson,1.018632,Olivier Barthelemy,0.15,Stephen T. Sherry,2.83062494,Geoffrey E. Hinton,165.7765035,P Leder,0.629859,Olivier Barthelemy,0.15
+Sidney J. Cutler,5.48114475,Gary G. Koch,399.5654675,David J. Dooling,1.0181305,Oliver Wieben,0.15,Thomas R. Dawber,2.830430885,Donald Geman,162.707485,Peter J. Savage,0.6298505,Oliver Wieben,0.15
+Richard H. Creech,5.479562873,L. H. Bennett,399.4594725,F. W. Alt,1.016677,Oliver Wessely,0.15,Wayne J. Higgins,2.82396842,Cathy D. Sherbourne,157.301485,Ulrich K. Laemmli,0.628346,Oliver Wessely,0.15
+Qui-Lim Choo,5.474031635,Donald Geman,390.8872905,Philip J. Held,1.0130135,Oliver Werzer,0.15,Parnesh Raniga,2.809702417,John E. Ware,157.301485,George K. Aghajanian,0.62597025,Oliver Werzer,0.15
+J. Gillis,5.464086372,Raymond J. MacDonald,383.3882845,Robert A. Rosati,1.00922675,Oliver Werz,0.15,Jane G. Schaller,2.7950247,Isaac L. Chuang,157.296011,Uwe Schönbeck,0.6227275,Oliver Werz,0.15
+Margaret D. Carroll,5.453607817,John M. Chirgwin,383.3882845,Colin Feyerabend,1.0089165,Oliver Welz,0.15,Carl-Magnus Rudenstam,2.78975643,Robert I. Levy,153.991194,R. J. Winchester,0.6213165,Oliver Welz,0.15
+Elizabeth Lacy,5.45360511,William J. Rutter,383.3882845,Marianne Kearney,1.0068595,Oliver Weigert,0.15,Nj Bell,2.781075676,William T. Friedewald,153.991194,S L Kunkel,0.619115,Oliver Weigert,0.15
+William Haenszel,5.410531541,Charles Watson,379.2008445,Paul J. Flory,0.996549,Oliver Weichenrieder,0.15,R W Davis,2.769398201,Donald S. Fredrickson,153.991194,Earl W. Sutherland,0.616786,Oliver Weichenrieder,0.15
+Anthony R. Kerlavage,5.402233712,George Paxinos,379.2008445,Gary Struhl,0.9956225,Oliver Warschkow,0.15,John H. Holland,2.76410351,George Scatchard,153.51703,Lily Y. Jan,0.61452925,Oliver Warschkow,0.15
+David G. Lowe,5.344118407,George A. Miller,374.6402375,Henry G. Kunkel,0.992588,Oliver Waldmann,0.15,David J. Dooling,2.760636836,William Haenszel,152.325704,B. G. Barrell,0.613675,Oliver Waldmann,0.15
+D. R. Cox,5.315893776,Jacob N. Israelachvili,374.0272175,Joan Cornoni-Huntley,0.9882275,Oliver Waidmann,0.15,David R. Bentley,2.755598351,Nathan Mantel,152.325704,Lawrence Garfinkel,0.61344125,Oliver Waidmann,0.15
+F. Sanger,5.309912968,Sumio Iijima,371.6377995,Naoufal Zamzami,0.9867485,Oliver Wagner,0.15,Thomas D. Schmittgen,2.750627568,Shelley E. Taylor,151.991399,David H. Culver,0.6104875,Oliver Wagner,0.15
+Kenneth J. Livak,5.266744856,John D. Ferry,367.272956,Yvonne Stirling,0.98353125,Oliver W. Sakowitz,0.15,Robert C. Onofrio,2.750028908,Susan T. Fiske,151.991399,Abraham Kagan,0.608966,Oliver W. Sakowitz,0.15
+Michael L. Watson,5.260505382,Patricia Cohen,366.8461795,B. G. Barrell,0.979396,Oliver W. M. Rauhut,0.15,Patrick O. Brown,2.746449602,D. Taylor,151.991399,Elizabeth D. Hay,0.607606,Oliver W. M. Rauhut,0.15
+Mark T. Ross,5.214497897,P. G. Smith,366.289812,L.L.M. van Deenen,0.9780785,Oliver W. Jones,0.15,Ian Korf,2.744509842,Daniel L. Schacter,151.991399,W. Michael O'Fallon,0.60509,Oliver W. Jones,0.15
+Martin Gibson,5.204725661,Malcolm C. Pike,366.289812,Gerald M. Rubin,0.97705,Oliver W. Howarth,0.15,N. E. Day,2.738962955,John M. Darley,151.991399,Arian Smit,0.60352175,Oliver W. Howarth,0.15
+Michael B. Eisen,5.184005957,Julian Peto,366.289812,P De Camilli,0.974857,Oliver W. Hakenberg,0.15,Karen O'Rourke,2.73691967,Mark R. Rosenzweig,151.991399,John R. Glenney,0.60309675,Oliver W. Hakenberg,0.15
+Tobias Doerks,5.169363384,David R. Cox,366.289812,R W Mahley,0.9742875,Olivier Baron,0.15,David G. Lowe,2.727037432,Robert J. Sternberg,151.991399,Arthur M. Sobol,0.6007295,Olivier Baron,0.15
+David R. Cox,5.163874163,Richard Peto,366.289812,Joseph L. Goldstein,0.9712275,Olivier Berger,0.15,Richard R. Copley,2.722041727,Ross L. Prentice,151.6267575,Demetrios Papahadjopoulos,0.6001005,Olivier Berger,0.15
+Michael R. Hee,5.147980875,Robert Tibshirani,362.474264,George Brawerman,0.97099375,Olivier Basset,0.15,Gavin Sherlock,2.71615255,C. N. R. Rao,150.6326145,Keaven M. Anderson,0.598851,Olivier Basset,0.15
+Granger G. Sutton,5.108430175,David G. Lowe,359.1655795,James M. Woodruff,0.97001625,Olivier Chinot,0.15,Mary Burden,2.684372295,David A. Drachman,149.271042,G Blobel,0.5980605,Olivier Chinot,0.15
+Jacques Ferlay,5.102005956,Ross L. Prentice,354.0073035,Demetrios Papahadjopoulos,0.9686095,Olivier David,0.15,Cynthia L. Ogden,2.677672062,Robert Katzman,149.271042,Frank E. Speizer,0.5976015,Olivier David,0.15
+Tetsuo Maita,5.087498087,William H. Stein,349.4215705,Richard G. Wyatt,0.9682355,Olivier Danos,0.15,Joseph L. Fleiss,2.672227106,Donald L. Price,149.271042,Helen Rayburn,0.595349,Olivier Danos,0.15
+Todd M. Lowe,5.065050276,Stanford Moore,349.4215705,K. R. Chan,0.9661275,Olivier Dangles,0.15,Lars Hedin,2.667606799,Guy M. McKhann,149.271042,Richard B. Shekelle,0.59449475,Olivier Dangles,0.15
+Peter W. J. Rigby,5.04860542,R. Mead,348.522449,Richard D. Klausner,0.95903,Olivier D. Christophe,0.15,Sidney P. Colowick,2.666990604,P. Armitage,149.0603015,G. D. Farquhar,0.59294775,Olivier D. Christophe,0.15
+Richard M. Karp,5.045439966,Daniel Kahneman,346.8743755,Robert P. Perry,0.95735125,Olivier Cuvillier,0.15,Jill P. Mesirov,2.664656141,John Matthews,149.0603015,Thomas Jenuwein,0.5915665,Olivier Cuvillier,0.15
+David L. Donoho,5.009885277,Amos Tversky,346.8743755,Frank T. Lindgren,0.9570835,Olivier Cussenot,0.15,Jeremy Peterson,2.658280847,Malcolm C. Pike,142.709671,Max H. Myers,0.5907505,Olivier Cussenot,0.15
+Parnesh Raniga,4.999071815,George Scatchard,345.217411,James I. Cleeman,0.956378,Olivier Coux,0.15,Victor R. Ambros,2.657278335,Julian Peto,142.709671,Robin B. Foster,0.590504,Olivier Coux,0.15
+Carl-Magnus Rudenstam,4.9955287,Kazuo Nakamoto,343.735232,Bernard B. Brodie,0.9554005,Olivier Coulon,0.15,Anthony R. Kerlavage,2.652930091,David R. Cox,142.709671,Sandra Melnick,0.5893055,Olivier Coulon,0.15
+Martin Ringwald,4.98573738,Donald R. Huffman,343.6025215,E. P. Greenberg,0.954984,Olivier Coulembier,0.15,Sergey V. Morozov,2.650490921,Richard Peto,142.709671,Ellson Y. Chen,0.588294,Olivier Coulembier,0.15
+Jane G. Schaller,4.9780322,Ralph E. Johnson,343.32883,John W. Pickren,0.9546015,Olivier Corminboeuf,0.15,G. E. Palade,2.641577263,P. G. Smith,142.709671,Scott D. Emr,0.5880475,Olivier Corminboeuf,0.15
+Kevin McKernan,4.96756846,Richard Helm,343.32883,Sandra Melnick,0.953998,Olivier Corcos,0.15,Amy E. Pasquinelli,2.613471873,Randall K. Saiki,142.554784,Joseph P. Miletich,0.587631,Olivier Corcos,0.15
+Nj Bell,4.965918037,Ingrid Daubechies,338.529271,Elliot W. Strong,0.953437,Olivier Coqueret,0.15,David L. Donoho,2.609083467,David H. Gelfand,142.554784,Ross Jakes,0.5872655,Olivier Coqueret,0.15
+Fred Ederer,4.95983498,F. P. Bowden,338.367516,Reginald A. Clift,0.95013475,Olivier Colliot,0.15,Edwin M. Southern,2.596149544,Kary B. Mullis,142.554784,Cliff Tabin,0.5859395,Olivier Colliot,0.15
+Yoav Freund,4.937621167,S. Goldstein,326.701351,Carl R. Woese,0.9454215,Olivier Collin,0.15,Susan M. Hailpern,2.587477607,Russell Higuchi,142.554784,Darlene Groth,0.58450725,Olivier Collin,0.15
+Jeffrey C. Lee,4.902525716,Tim R. Mosmann,320.1580085,Joel C. Kleinman,0.943543,Olivier Collignon,0.15,Martin Poenie,2.587176009,Henry A. Erlich,142.554784,James M. Woodruff,0.5838145,Olivier Collignon,0.15
+Patrick O. Brown,4.895728543,J. J. Hopfield,316.3088855,Jeanne G. Waggoner,0.94168575,Olivier Cointault,0.15,Nan M. Laird,2.585941257,R. Mead,142.1894625,Philip J. Held,0.5829305,Olivier Cointault,0.15
+Georges Köhler,4.889621506,Eladio Viñuela,316.04825,David B. Pryor,0.94021525,Olivier Clément,0.15,Aaron L. Halpern,2.570506879,P. J. Flory,140.7609185,Richard G. W. Anderson,0.5828115,Olivier Clément,0.15
+John R. Carson,4.858998193,Stacey F. Bent,314.3368345,Arthur M. Sobol,0.938341,Olivier Clermont,0.15,Patrick Minx,2.5636688,Richard Helm,140.65177,Jeffrey M. Piehler,0.582769,Olivier Clermont,0.15
+Jeremy H. Burroughes,4.85332947,Joseph R. Lakowicz,311.8880355,Werner R. Loewenstein,0.938171,Olivier Civelli,0.15,Lee Rowen,2.556512323,Ralph E. Johnson,140.65177,T. K. Sampath,0.5813835,Olivier Civelli,0.15
+Aravind Subramanian,4.849703024,Henry A. Erlich,304.5559185,D. C. Van Essen,0.936709,Olivier De Lacharriere,0.15,Jonathan Marchini,2.554017902,Mary E. Charlson,140.435037,R J Lefkowitz,0.581324,Olivier De Lacharriere,0.15
+Edward J. Roccella,4.843957887,Norman Arnheim,304.5559185,Robert F. Meenan,0.9350005,Olivier De Wever,0.15,Pamela Whittaker,2.545069307,R. A. Fisher,138.1343335,S I Reed,0.580474,Olivier De Wever,0.15
+Ronald A. Laskey,4.833858475,Randall K. Saiki,304.5559185,P Leder,0.934261,Olivier Decaux,0.15,Ivica Letunic,2.536775273,Steven H. Strogatz,137.5574385,W. M. Crist,0.5801765,Olivier Decaux,0.15
+Donald B. Rubin,4.833353284,Kary B. Mullis,304.5559185,M. A. Fiatarone,0.930946,Olivier Dewit,0.15,Mark Dickson,2.531044943,David Lane,137.411502,Endel Tulving,0.5784765,Olivier Dewit,0.15
+Liesi E. Hebert,4.813730109,Alex Pentland,303.075227,Pascal Haffter,0.930657,Olivier Dulac,0.15,J. Michael Cherry,2.528877248,Ed Harlow,137.411502,R W Alexander,0.5766575,Olivier Dulac,0.15
+Mary Burden,4.792241,Graeme A. Reid,299.165244,Peter J. Savage,0.92474525,Olivier Duchamp,0.15,David L. Swofford,2.525420767,Ingrid Daubechies,136.338513,Christiane Nüsslein-Volhard,0.57573525,Olivier Duchamp,0.15
+Ingrid Daubechies,4.772238399,David A. Patterson,297.640752,Michael L. Frigge,0.923738,Olivier Dubreuil,0.15,Toby Bloom,2.52496936,Joseph O. Hirschfelder,135.7779295,E.D. Salmon,0.5755695,Olivier Dubreuil,0.15
+V. S. Kalyanaraman,4.741264476,Philip E. Hartman,297.101954,Lee N. Robins,0.923415,Olivier Dubourg,0.15,Jennifer Baldwin,2.506797981,A. K. Geim,135.2242395,Donald D. Newmeyer,0.5749915,Olivier Dubourg,0.15
+Ian Korf,4.727543425,H. C. Liu,296.3633805,Keaven M. Anderson,0.9217235,Olivier Dubois,0.15,N. Ferrara,2.506557157,Sergey V. Morozov,135.2242395,Carl R. Woese,0.5736315,Olivier Dubois,0.15
+David R. Bentley,4.721570111,Eicke R. Weber,296.3633805,James I. Garrels,0.9211795,Olivier Dorseuil,0.15,Karen A. Ketchum,2.505773565,D. S. Jiang,135.2242395,Robert P. Perry,0.5733,Olivier Dorseuil,0.15
+Tim R. Mosmann,4.704295441,Russell Higuchi,295.1582335,W. Michael O'Fallon,0.914558,Olivier Dormond,0.15,Eric Pelletier,2.499281274,I. V. Grigorieva,135.2242395,Mark E. Molliver,0.5731725,Olivier Dormond,0.15
+Donald R. Huffman,4.694366742,David H. Gelfand,295.1582335,Ulrich K. Laemmli,0.91449,Olivier Diat,0.15,Aileen Robertson,2.498978203,K. S. Novoselov,135.2242395,Stanley J. Korsmeyer,0.573096,Olivier Diat,0.15
+James B. Hicks,4.687589671,Allen J. Bard,294.646457,Jonathan A. Raper,0.913606,Olivier Devuyst,0.15,Michaele C. Christian,2.490029222,Wang,133.270914,D. R. Curtis,0.57182525,Olivier Devuyst,0.15
+Stephen T. Sherry,4.67400634,Larry R. Faulkner,294.646457,Marek Kubin,0.91181675,Olivier Delaire,0.15,Sean Humphray,2.483238006,George A. Miller,131.974936,J.Ward Kennedy,0.571481,Olivier Delaire,0.15
+Gavin Sherlock,4.658018803,J. Beringer,294.341494,Jennifer J. Anderson,0.90828925,Olivier Detry,0.15,Peter W. J. Rigby,2.47732363,Graeme A. Reid,131.3978115,Robert M. Weisskoff,0.5704865,Olivier Detry,0.15
+C. Milstein,4.654990117,P.-G. De Gennes,294.0087785,S I Reed,0.907367,Olivier Detante,0.15,Yoav Freund,2.474323222,Patrick H. O'Farrell,131.255921,Lawrence F. Brown,0.56841675,Olivier Detante,0.15
+David P. Bartel,4.638705786,Mark R. Rosenzweig,293.892609,Robin B. Foster,0.902607,Olivier Descamps,0.15,J Holmes,2.47198509,Rebecca DerSimonian,131.122896,Clare M. Waterman-Storer,0.5656245,Olivier Descamps,0.15
+Richard R. Copley,4.608264284,Daniel L. Schacter,293.892609,Rosa Hendler,0.8994195,Olivier Dereure,0.15,Trevor Hawkins,2.470469381,Alex Pentland,129.6972335,Lora Lewis,0.5633975,Olivier Dereure,0.15
+J. J. Hopfield,4.600537337,Robert J. Sternberg,293.892609,Eugene R. Passamani,0.8972435,Olivier Denis,0.15,Robert B. Catalano,2.461294833,A. L. Page,129.1524855,Gary Buell,0.5625305,Olivier Denis,0.15
+David W. Hosmer,4.594307682,Shelley E. Taylor,293.892609,Nathan Maccoby,0.89712025,Olivier Delelis,0.15,Chad Nusbaum,2.460979617,R. H. Miller,129.1524855,B. Frank Polk,0.5609835,Olivier Delelis,0.15
+Isaac L. Chuang,4.555010109,John M. Darley,293.892609,Ellson Y. Chen,0.895654,Olivier Delattre,0.15,Tavia Gordon,2.457948819,Patrick O. Brown,124.871809,K. R. Chan,0.5604905,Olivier Delattre,0.15
+Victor R. Ambros,4.554485948,D. Taylor,293.892609,Edwin H. Eylar,0.89500375,Olivier Delalande,0.15,Eli Robins,2.4562105,Michael B. Eisen,124.871809,David B. Pryor,0.560448,Olivier Delalande,0.15
+Allen Newell,4.547892808,Susan T. Fiske,293.892609,Jean Paul Revel,0.89486775,Olivier Chosidow,0.15,Gordon J,2.449386349,Paul T. Spellman,124.871809,Lewis G. Tilney,0.55955975,Olivier Chosidow,0.15
+Paul Milgrom,4.523670155,Patrick H. O'Farrell,289.558595,G. B. Kistiakowsky,0.89379675,Olivier Chazouillères,0.15,Margherita Maffei,2.437846427,David Botstein,124.871809,Solomon A. Berson,0.5572435,Olivier Chazouillères,0.15
+Trevor Hawkins,4.512534784,Arthur W. Adamson,288.303706,Hugh R.B. Pelham,0.8936905,Olivier Bastien,0.15,Vishwanath R. Iyer,2.436547855,Kazuo Nakamoto,123.0487545,James I. Garrels,0.55718825,Olivier Bastien,0.15
+Gordon J,4.487161387,P. J. E. Peebles,283.738526,Harold T. Dodge,0.89354175,Olivier Chavignon,0.15,Michael L. Metzker,2.431696747,J. S. Bell,122.460121,S H Orkin,0.55689925,Olivier Chavignon,0.15
+Joseph O. Hirschfelder,4.477160837,Manfred Bochmann,283.0236335,Frank E. Speizer,0.89152725,Olivier Bouché,0.15,Robert Baertsch,2.415467852,Martin Fishbein,122.358291,Jeanne G. Waggoner,0.55664,Olivier Bouché,0.15
+Cynthia L. Ogden,4.474879625,Geoffrey Wilkinson,283.0236335,Kim Nasmyth,0.891319,Olivier Bouchez,0.15,H. R. Horvitz,2.408601337,Russell F. Doolittle,122.266559,Marc van de Wetering,0.5561895,Olivier Bouchez,0.15
+Wayne J. Higgins,4.46681884,P. C. Eklund,282.7431335,Fuller Albright,0.890962,Olivier Boucher,0.15,Donald B. Rubin,2.406381104,Douglas P. Wagner,122.145927,William H. Stein,0.55613,Olivier Boucher,0.15
+Michaele C. Christian,4.455371698,G. Dresselhaus,282.7431335,S L Kunkel,0.8853095,Olivier Bouchaud,0.15,Clifford L. Johnson,2.39937698,William A. Knaus,122.145927,Michael E. Greenberg,0.55525025,Olivier Bouchaud,0.15
+M. D. Poulik,4.441018492,M. S. Dresselhaus,282.7431335,Mary J. Matthews,0.8844935,Olivier Boss,0.15,Michael R. Hee,2.396680794,Barbara J. McNeil,122.068458,Cyrus Chothia,0.5551525,Olivier Boss,0.15
+W. M. Cowan,4.43424704,K. A. Müller,281.0283095,George K. Aghajanian,0.88227925,Olivier Bonny,0.15,Geoffrey E. Hinton,2.390249557,James A. Hanley,122.068458,Norton B. Gilula,0.554498,Olivier Bonny,0.15
+Richard Peto,4.433599332,J. G. Bednorz,281.0283095,Jeffrey C. Watkins,0.880643,Olivier Blin,0.15,David W. Hosmer,2.3816461,Stacey F. Bent,120.6635865,Rosa Hendler,0.5526535,Olivier Blin,0.15
+Amy E. Pasquinelli,4.431322068,John E. Ware,278.7975525,Costan W. Berard,0.87923625,Olivier Bletry,0.15,Richard R. Hudson,2.379355633,Richard A. Olshen,120.6245715,Karen O'Rourke,0.551557,Olivier Bletry,0.15
+Robert L. Spitzer,4.427168457,Cathy D. Sherbourne,278.7975525,Philip E. Bernatz,0.876376,Olivier Blacque,0.15,Ghia Euskirchen,2.378485491,Wladek Minor,119.7206815,B. Lawrence Riggs,0.5503415,Olivier Blacque,0.15
+Jill P. Mesirov,4.425110245,C. Milstein,278.379548,Ross Jakes,0.8760615,Olivier Bienayme,0.15,D. R. Matthews,2.378318637,Zbyszek Otwinowski,119.7206815,Linda M. Rolnitzky,0.5490155,Olivier Bienayme,0.15
+Aileen Robertson,4.423612384,Georges Köhler,278.379548,Joan Massagué,0.875203,Olivier Beyssac,0.15,Paul Predki,2.371163282,Georges Köhler,118.7657405,Friedrich Bonhoeffer,0.5481655,Olivier Beyssac,0.15
+Patrick H. O'Farrell,4.4230785,David B. Johnson,276.758802,John R. Glenney,0.87445075,Olivier Bertrand,0.15,Richard Durbin,2.367909403,C. Milstein,118.7657405,Sheila C. Barton,0.547885,Olivier Bertrand,0.15
+F. Barre-Sinoussi,4.407754593,David J. Schlegel,275.0076915,J T Fallon,0.87422975,Olivier Berton,0.15,Christopher B. Burge,2.364663472,Ahmedin Jemal,118.020758,S F Schlossman,0.547851,Olivier Berton,0.15
+Robert B. Catalano,4.406805333,Marc Davis,275.0076915,Suzanne M. Paley,0.874081,Olivier Bernard,0.15,P Park,2.357307227,Jacques Ferlay,118.020758,L.L.M. van Deenen,0.5476895,Olivier Bernard,0.15
+John P. Huelsenbeck,4.39587444,Leon Festinger,274.4409115,Denis Gospodarowicz,0.87383875,Oliver Soehnlein,0.15,Elizabeth Lacy,2.349458127,Freddie Bray,118.020758,William J. Henzel,0.547664,Oliver Soehnlein,0.15
+Clifford L. Johnson,4.395269364,Michael H. Kutner,271.990761,Alex B. Novikoff,0.87355825,Olivier Benveniste,0.15,Eric S. Lander,2.334949341,Elizabeth Ward,118.020758,Tim Hunkapiller,0.54688625,Olivier Benveniste,0.15
+Sergey V. Morozov,4.393883835,William T. Friedewald,266.4637975,Nael Martini,0.8732565,Olivier Bensaude,0.15,J Martin Bland,2.33493909,David Forman,118.020758,Howard G. Welgus,0.5453435,Olivier Bensaude,0.15
+J. Michael Cherry,4.389767429,Donald S. Fredrickson,266.4637975,Reubin Andres,0.87296325,Olivier Baudoin,0.15,Daniel C. Koboldt,2.333477197,Jian Pei,117.5313025,Jordan D. Tobin,0.545301,Olivier Baudoin,0.15
+J Holmes,4.381099806,Robert I. Levy,266.4637975,Lily Y. Jan,0.8727125,Olivier Baud,0.15,David R. Cox,2.333359171,Michael Grätzel,116.484196,Reubin Andres,0.545301,Olivier Baud,0.15
+al. et,4.365706371,David Glick,264.4030915,Jérôme Giraudat,0.8709275,Olivier Bouriaud,0.15,E. Kellenberger,2.33333022,Oliver Smithies,115.9756155,Timothy Fennell,0.5450205,Olivier Bouriaud,0.15
+Ronald L. Rivest,4.363453704,John G. Kirkwood,262.564567,G Blobel,0.8696525,Olivier Boutaud,0.15,Qui-Lim Choo,2.32438309,J. J. Hopfield,115.970728,Thomas M. Jessell,0.5443235,Olivier Boutaud,0.15
+William P. Castelli,4.356139539,Walter Gilbert,261.5311965,R J Lefkowitz,0.8657,Olivier Boyer,0.15,David Botstein,2.322730603,L. H. Bennett,115.1063035,L. J. Ignarro,0.54335025,Olivier Boyer,0.15
+Lee Rowen,4.353325266,Robert A. Woodruff,260.33245,Benjamin F. Hankey,0.86349,Olivier Capitain,0.15,Pui Yan Kwok,2.319811528,Matthew H. Liang,114.5125275,Dana Giulian,0.54323125,Olivier Capitain,0.15
+B. A. Roe,4.351682701,George Winokur,260.33245,Charles A. Alford,0.85987325,Olivier Chastel,0.15,Lora Lewis,2.317701274,Gene G. Hunder,114.5125275,Elliot W. Strong,0.543125,Olivier Chastel,0.15
+Lee N. Robins,4.33506432,John P. Feighner,260.33245,W. Dansgaard,0.859138,Olivier Chassande,0.15,Cole Trapnell,2.30306054,James F. Fries,114.5125275,Carroll M. Williams,0.54291675,Olivier Chassande,0.15
+John E. Helzer,4.334251008,Eli Robins,260.33245,George B. Hutchison,0.8579905,Olivier Chaloin,0.15,W. M. Cowan,2.286616127,Ronald L. Wilder,114.5125275,James G. Hirsch,0.5428955,Olivier Chaloin,0.15
+Teresa C. Horan,4.331091046,Samuel B. Guze,260.33245,Kaplan No,0.856299,Olivier Chabre,0.15,Georges Köhler,2.284314566,Jane G. Schaller,114.5125275,Colin Feyerabend,0.5428105,Olivier Chabre,0.15
+Michael S. Gottlieb,4.326576869,Oliver Smithies,260.218584,David M. Berkson,0.855007,Olivier Cazorla,0.15,Robert Tibshirani,2.279190159,Harvinder S. Luthra,114.5125275,M B Brenner,0.542717,Olivier Cazorla,0.15
+F. C. Greenwood,4.319573601,Rakesh Agrawal,258.406248,Shunzaburo Iwatsuki,0.852049,Olivier Cassar,0.15,Rajinder Kaul,2.27491377,Frank C. Arnett,114.5125275,A Grinvald,0.542445,Olivier Cassar,0.15
+Dienstag Jl,4.305913788,George A. Bray,255.984156,Joseph P. Miletich,0.8509525,Olivier Casasnovas,0.15,B. A. Roe,2.273069739,Thomas A. Medsger,114.5125275,Leena Mykkänen,0.542411,Olivier Casasnovas,0.15
+Karen O'Rourke,4.296865651,K. A. Gschneidner,255.897235,Elizabeth D. Hay,0.8497115,Olivier Caron,0.15,Stephen J. Aldington,2.271958417,Robert S. Pinals,114.5125275,Spyros Artavanis-Tsakonas,0.5423175,Olivier Caron,0.15
+Vishwanath R. Iyer,4.2922047,V. K. Pecharsky,255.897235,Ramzi S. Cotran,0.8475525,Olivier Cador,0.15,Patrick H. O'Farrell,2.268786,John T. Sharp,114.5125275,Argiris Efstratiadis,0.5423175,Olivier Cador,0.15
+W. Dansgaard,4.278545653,Douglas P. Wagner,255.237108,Howard A. Schneiderman,0.84736975,Olivier Braissant,0.15,Christie Kovar,2.266463875,D. Bloch,114.5125275,George E. Palade,0.54219,Olivier Braissant,0.15
+J Martin Bland,4.277946509,William A. Knaus,255.237108,Paul Doty,0.8462605,Olivier C. Martin,0.15,William P. Castelli,2.26395469,John D. Ferry,114.221615,Stanford Moore,0.541935,Olivier C. Martin,0.15
+Aaron L. Halpern,4.274490803,Kieron Burke,254.6751305,L. Lorand,0.845912,Olivier Bénichou,0.15,Alan J. Buckler,2.257137958,William R. Pearson,113.4538865,E Kieff,0.5416715,Olivier Bénichou,0.15
+Helga Boedtker,4.26579265,John P. Perdew,254.6751305,Richard J. Havlik,0.845623,Olivier Buriez,0.15,Anne S. Olsen,2.257099266,Albert László Barabási,112.514305,Santos A. Susin,0.541272,Olivier Buriez,0.15
+Karen A. Ketchum,4.252893591,J. W. T. Spinks,254.3910945,Paul D. Sorlie,0.844824,Olivier Bruyère,0.15,Scott M. Hammond,2.251102494,Réka Albert,112.514305,Yvonne Stirling,0.540201,Olivier Bruyère,0.15
+Mark Dickson,4.249848057,Dean Burk,254.03633,Endel Tulving,0.8443905,Olivier Brugière,0.15,Richard D. Piner,2.249296145,Rakesh Agrawal,112.1681255,James O. Taylor,0.5401585,Olivier Brugière,0.15
+Scott Shenker,4.246190631,Thomas A. Witten,253.9795585,S F Schlossman,0.843923,Olivier Brocq,0.15,al. et,2.246202738,Donald R. Huffman,111.9680525,A E Weyman,0.54015,Olivier Brocq,0.15
+Timothy Fennell,4.24043383,Sidney J. Cutler,253.0056455,Karl A. Piez,0.843294,Olivier Brison,0.15,Gabor T. Marth,2.244384992,Joseph R. Lakowicz,111.746126,Yuh Nung Jan,0.53935525,Olivier Brison,0.15
+Ellen E. Walters,4.224294718,Fred Ederer,253.0056455,Wallace H. Clark,0.8418405,Olivier Briand,0.15,Jane Rogers,2.243828295,Eugenia Kalnay,111.6313845,Benjamin F. Hankey,0.53778275,Olivier Briand,0.15
+Patrick Minx,4.2191962,Mary E. Charlson,252.493937,J. C. Eccles,0.84179375,Oliver Spadiut,0.15,Brufman G,2.242371184,Ants Leetmaa,111.6313845,V. G. Allfrey,0.537413,Oliver Spadiut,0.15
+Jeremy Peterson,4.218359466,Robert G. Parr,252.4411945,Laurie Davidson,0.841594,Oliver Schwarz,0.15,Tarjei S. Mikkelsen,2.237528077,Wayne J. Higgins,111.6313845,Jian Kang Zhu,0.537141,Oliver Schwarz,0.15
+Richard R. Hudson,4.21323358,Robert C. Reid,251.9613185,A. J. Dalton,0.8415855,Oliver Smithies,0.15,Zoltán N. Oltvai,2.233053855,Richard W. Reynolds,111.6313845,Thomas E. Kreis,0.5371325,Oliver Smithies,0.15
+W. Brian Arthur,4.20256775,Robert Katzman,251.652556,Sanford L. Palay,0.84156,Oliver Senn,0.15,Andrew Kasarskis,2.231671675,Jia Wang,111.6313845,Paul D. Sorlie,0.5368945,Oliver Senn,0.15
+David Botstein,4.201626074,Guy M. McKhann,251.652556,Sheldon Penman,0.84132625,Oliver Hampe,0.15,Suzanna E. Lewis,2.220759327,Jacob N. Israelachvili,111.4474615,Richard J. Havlik,0.5368945,Oliver Hampe,0.15
+Margherita Maffei,4.197619387,Donald L. Price,251.652556,Daniel J. Diver,0.840268,Oliver H. Lowry,0.15,Robert J. Dodson,2.218693308,David B. Johnson,111.0216625,G Schatz,0.5365375,Oliver H. Lowry,0.15
+Richard Durbin,4.192145036,David A. Drachman,251.652556,Julius Axelrod,0.839299,Oliver H. Krämer,0.15,Arthur L. Delcher,2.215010872,Fred J. Sigworth,109.9197565,Werner Risau,0.5362995,Oliver H. Krämer,0.15
+Raymond J. MacDonald,4.188837378,Michael Polanyi,250.9127585,Donald D. Matson,0.8392225,Oliver H. Heckl,0.15,Erica Sodergren,2.210818515,Owen P. Hamill,109.9197565,Denis Gospodarowicz,0.5362315,Oliver H. Heckl,0.15
+P Park,4.188080922,Steven H. Strogatz,250.461332,Mark E. Molliver,0.8385085,Oliver H. Beahrs,0.15,Liesi E. Hebert,2.204290717,Bert Sakmann,109.9197565,John Spieth,0.53432325,Oliver H. Beahrs,0.15
+Nicholas B. Lydon,4.186885802,N. F. Mott,250.3989505,Srinivasa M. Srinivasula,0.837939,Oliver Gröning,0.15,Louis A. Tartaglia,2.200263433,Erwin Neher,109.9197565,Michael Grunstein,0.5341405,Oliver Gröning,0.15
+Marshall N. Rosenbluth,4.180113631,E. A. Davis,250.3989505,G. D. Farquhar,0.83771375,Oliver Gross,0.15,Fuli Yu,2.199152406,Stanford Moore,108.856942,Richard G. Wyatt,0.5339705,Oliver Gross,0.15
+Jennifer Baldwin,4.178724799,James A. Hanley,248.8175,Edward H. Soule,0.8375905,Oliver Grimm,0.15,Nicholas B. Lydon,2.197244931,William H. Stein,108.856942,T S Zimmerman,0.533639,Oliver Grimm,0.15
+Martin Poenie,4.161461464,Barbara J. McNeil,248.8175,S H Orkin,0.83717825,Oliver Griesbeck,0.15,Owen P. Hamill,2.195103326,Henry R. Black,107.9488955,Mary R. Avarbock,0.5331375,Oliver Griesbeck,0.15
+Toby Bloom,4.15857994,Rebecca DerSimonian,247.486876,Linda M. Rolnitzky,0.83666825,Oliver Grauer,0.15,Sandra W. Clifton,2.1933316,Daniel W. Jones,107.9488955,K Matsushima,0.5324745,Oliver Grauer,0.15
+H. R. Horvitz,4.156144054,J. Gillis,246.183639,Cliff Tabin,0.8347515,Oliver Goetze,0.15,Richard C. Eastman,2.192491978,Barry J. Materson,107.9488955,Thomas Edlund,0.530239,Oliver Goetze,0.15
+Donald Geman,4.10927348,A. L. Page,240.9745075,J. Ieuan Harris,0.832941,Oliver Glidewell,0.15,Jörg Schultz,2.191711058,George L. Bakris,107.9488955,W S Argraves,0.529933,Oliver Glidewell,0.15
+Gabor Gyapay,4.108669543,R. H. Miller,240.9745075,M. Karplus,0.8320655,Oliver Gimm,0.15,Ants Leetmaa,2.191334075,Jackson T. Wright,107.9488955,D. C. Wiley,0.529899,Oliver Gimm,0.15
+Robert C. Onofrio,4.107327085,Robert L. Spitzer,239.893503,D L Taylor,0.8319975,Oliver Gessner,0.15,A. McGuire,2.189691875,Lee A. Green,107.9488955,A. M. Gronenborn,0.52952925,Oliver Gessner,0.15
+David J. Dooling,4.095201745,Jean Endicott,239.893503,Argiris Efstratiadis,0.831989,Oliver Gautschi,0.15,I. V. Grigorieva,2.18219095,Edward J. Roccella,107.9488955,John F. Heidelberg,0.52880675,Oliver Gautschi,0.15
+William B. Kannel,4.091075219,Paul T. Spellman,237.3177225,D. D. Coffman,0.8315555,Oliver Ganslandt,0.15,Fredrik Ronquist,2.18125675,Suzanne Oparil,107.9488955,David R. Redwood,0.5282245,Oliver Ganslandt,0.15
+Eric Pelletier,4.090122766,Patrick O. Brown,237.3177225,Goldberg Al,0.83076075,Oliver Galm,0.15,François Artiguenave,2.179503871,William C. Cushman,107.9488955,David W. Rose,0.52810125,Oliver Galm,0.15
+A. McGuire,4.085675768,David Botstein,237.3177225,Daniel H. Haft,0.8306035,Oliver G. Schmidt,0.15,David S. Johnson,2.178121993,Joseph L. Izzo,107.9488955,Roger A. Nicoll,0.5270345,Oliver G. Schmidt,0.15
+Michael L. Metzker,4.076977297,Michael B. Eisen,237.3177225,George E. Palade,0.830561,Oliver G. Pybus,0.15,Jennifer R. Wortman,2.177873025,Aram V. Chobanian,107.9488955,Hanne H. Rasmussen,0.52681775,Oliver G. Pybus,0.15
+Stephen J. Aldington,4.075211222,Kenneth J. Livak,236.2024885,Minze Stuiver,0.8303315,Oliver Hankinson,0.15,Bert Vogelstein,2.177423562,Jaap Verweij,107.75218,Ralph S. Paffenbarger,0.52587,Oliver Hankinson,0.15
+David L. Sackett,4.073220943,Thomas D. Schmittgen,236.2024885,Helen Rayburn,0.82983,Oliver Hantschel,0.15,Ronald A. Laskey,2.168499215,Susan G. Arbuck,107.75218,W S Lane,0.52584025,Oliver Hantschel,0.15
+Irving Langmuir,4.070511192,Weitao Yang,236.178391,Cyrus Chothia,0.8268295,Oliver Hardt,0.15,Raymond J. MacDonald,2.155602173,Martine Van Glabbeke,107.75218,Tony Kouzarides,0.52582325,Oliver Hardt,0.15
+Walter Gilbert,4.066902872,Philip Holmes,235.598113,Lawrence F. Brown,0.8260135,Oliver Hummel,0.15,Jeremy H. Burroughes,2.152430644,Michaele C. Christian,107.75218,John I. Hedges,0.52568725,Oliver Hummel,0.15
+Troy Moore,4.06436519,Rodney A. Brooks,234.321991,Richard W. Eppley,0.82563525,Oliver Janka,0.15,Richard W. Reynolds,2.150199378,Larry Rubinstein,107.75218,M G Caron,0.525649,Oliver Janka,0.15
+Ivica Letunic,4.063645109,Sydney Brenner,234.115985,Nancy L. R. Bucher,0.825427,Oliver J. Semmes,0.15,William F. Novotny,2.147561985,Patrick Therasse,107.75218,Xiong Wen (David) Lou,0.525462,Oliver J. Semmes,0.15
+Ben Z. Locke,4.062862538,Richard A. Olshen,234.008239,Roman W. DeSanctis,0.823047,Oliver J. Schmitz,0.15,Teresa C. Horan,2.144750133,J. Wanders,107.75218,J T Fallon,0.52537275,Oliver J. Schmitz,0.15
+David L. Swofford,4.06179605,A. Howie,233.422062,Karen O'Rourke,0.8225285,Oliver J. Rider,0.15,William Haenszel,2.14299925,Allan Van Oosterom,107.75218,Marianne LeMeur,0.5250285,Oliver J. Rider,0.15
+Sean Humphray,4.05909305,P. B. Hirsch,233.422062,D. C. Wiley,0.819579,Oliver J. Rando,0.15,Trampisch Hj,2.138799205,Richard Kaplan,107.75218,James C. Carrington,0.524935,Oliver J. Rando,0.15
+Paul Predki,4.056228164,Mark Weiser,232.6076005,Robert K. Selander,0.81943025,Oliver J. Ott,0.15,Carrie Sougnez,2.137556534,Elizabeth Eisenhauer,107.75218,John D. Termine,0.5248415,Oliver J. Ott,0.15
+Andreas Thess,4.030026337,Richard B. Firestone,232.02252,T S Zimmerman,0.818423,Oliver J,0.15,George J. Taylor,2.133409736,Richard M. Karp,107.721852,D. A. Baylor,0.52466725,Oliver J,0.15
+N. Ferrara,4.02184712,Jian Pei,231.987279,R W Alexander,0.817454,Oliver Husser,0.15,Lee A. Green,2.132749563,Leon Festinger,107.3881675,D L Taylor,0.5242975,Oliver Husser,0.15
+J. S. Bell,4.020595246,Amnon Aharony,230.5453645,R. E. Rundle,0.814921,Oliver Howes,0.15,Nathan Mantel,2.130879582,James J. Heckman,107.1245315,Sheldon Penman,0.5226485,Oliver Howes,0.15
+Richard C. Eastman,4.015411587,Dietrich Stauffer,230.5453645,Curtis G. Hames,0.81410075,Oliver Hartley,0.15,Troy Moore,2.129830112,Kung Yee Liang,106.9102805,T A Springer,0.522368,Oliver Hartley,0.15
+Amy J. Weiner,4.014057587,Barry Halliwell,229.0480895,William B. Joyner,0.8139605,Oliver Holmes,0.15,Tim Hubbard,2.124363872,Scott L. Zeger,106.9102805,Werner R. Loewenstein,0.5223,Oliver Holmes,0.15
+P Sandercock,4.013351426,John M.C. Gutteridge,229.0480895,James O. Taylor,0.8121245,Oliver Hofmann,0.15,Kenneth Macleod,2.117800117,Walter Gilbert,106.2201315,Mark A. DePristo,0.522283,Oliver Hofmann,0.15
+Robert Tibshirani,4.009789032,Ronald A. Laskey,228.67505,Helen Goodell,0.81201825,Oliver Hoffmann,0.15,Douglas L. Johnson,2.111617407,Roger Y. Tsien,106.091994,Patricia S. Goldman-Rakic,0.5217815,Oliver Hoffmann,0.15
+Myunghee C. Paik,4.0059978,William M. Bonner,228.67505,Darlene Groth,0.81166125,Oliver Hobert,0.15,Ellson Y. Chen,2.108449392,Martin Poenie,106.091994,Judith R. McNamara,0.5213905,Oliver Hobert,0.15
+Waldo E. Cohn,3.999829848,Robert Morris,227.815071,Tim Hunkapiller,0.8108495,Oliver Hill,0.15,D. R. Cox,2.10552327,R. C. Turner,105.724573,G. Damsma,0.5211525,Oliver Hill,0.15
+D. R. Matthews,3.999205366,David Park,226.5494295,Helga Boedtker,0.81070925,Oliver Heiri,0.15,Richard H. Chapman,2.104018617,D. R. Matthews,105.724573,Arvind K. Virmani,0.52105475,Oliver Heiri,0.15
+Miller Ja,3.99645974,William R. Pearson,226.2815095,Arthur Z. Eisen,0.810501,Oliver Heese,0.15,C Rose,2.101304944,Larry R. Faulkner,104.998367,Ramzi S. Cotran,0.51948225,Oliver Heese,0.15
+Brufman G,3.98670614,Ching W. Tang,225.8245495,Lila R. Elveback,0.8101355,Oliver Hartmann,0.15,M. E. J. Newman,2.098861902,Allen J. Bard,104.998367,Susan K. McConnell,0.5189765,Oliver Hartmann,0.15
+George J. Taylor,3.972564408,Daniel I. Arnon,223.912619,Victor S. Behar,0.80974875,Oliver G. Ottmann,0.15,Gabor Gyapay,2.098692271,Robert Morris,103.3067565,Jennifer J. Anderson,0.5188235,Oliver G. Ottmann,0.15
+Chad Nusbaum,3.965102229,Richard Bellman,221.8674935,Lewis G. Tilney,0.80838025,Oliver G. Opitz,0.15,Lucy Matthews,2.094423803,Robert Axelrod,103.2191895,N. Raphael Shulman,0.5179395,Oliver G. Opitz,0.15
+E. Orowan,3.952617549,Anantha P. Chandrakasan,221.3137865,Ralph S. Paffenbarger,0.807832,Oliver G. Harlen,0.15,Zhiping Gu,2.091119827,Marc Davis,102.930861,Breck Byers,0.51664325,Oliver G. Harlen,0.15
+George Scatchard,3.940237812,David Pines,220.748341,Brenda K. Edwards,0.8050185,Oliver C. Singer,0.15,Richard Peto,2.090433351,David J. Schlegel,102.930861,Robert F. Meenan,0.516435,Oliver C. Singer,0.15
+Pamela Whittaker,3.934697026,Janet M. Corrigan,219.6511355,John D. Termine,0.8049675,Oliver Dewald,0.15,Sarah Milne,2.090352233,Michael H. Kutner,102.7743335,Teresa Fernandes-Alnemri,0.51618,Oliver Dewald,0.15
+Jerome S. Bruner,3.920352334,Masao Doi,219.1560105,Joe Sambrook,0.804636,Oliver Daumke,0.15,Jian Bing Fan,2.081727,Daniel I. Arnon,102.7237075,Caroline H. Damsky,0.516146,Oliver Daumke,0.15
+Jonathan Marchini,3.92006879,A. Gibson,218.595172,Norton B. Gilula,0.8045255,Oliver D. Schein,0.15,Robert D. Fleischmann,2.080853088,Anantha P. Chandrakasan,102.0590245,Daniel J. Diver,0.5161375,Oliver D. Schein,0.15
+Mark S. Boguski,3.919174173,David R. Boone,217.413315,Christiane Nüsslein-Volhard,0.8044575,Oliver D. Mücke,0.15,Ahmedin Jemal,2.076139627,Williams B,101.985967,William G. Dunphy,0.515993,Oliver D. Mücke,0.15
+Anne S. Olsen,3.903112711,James T. Staley,217.413315,Margaret N. Wesley,0.80363725,Oliver D. King,0.15,Trevor Hastie,2.073225743,Carol J. Lovatt,100.753926,Robert K. Selander,0.51577625,Oliver D. King,0.15
+Benoit B. Mandelbrot,3.897656875,Paul De Vos,217.413315,E.D. Salmon,0.803565,Oliver Cromwell,0.15,Douglas Hanahan,2.073044643,Zoann Nugent,100.753926,Chi-Cheng Luo,0.515517,Oliver Cromwell,0.15
+Eric S. Lander,3.896320605,Don J. Brenner,217.413315,Jun Song Chen,0.8012615,Oliver Cope,0.15,Paul Milgrom,2.072549863,D Wright,100.753926,Anthony R. Cashmore,0.5148115,Oliver Cope,0.15
+G. I. Taylor,3.866139316,George M. Garrity,217.413315,Maurice Ewing,0.8012445,Oliver Christ,0.15,U. Veronesi,2.068289917,D Clark,100.753926,Nairn Ac,0.5146415,Oliver Christ,0.15
+Donna K. Slonim,3.86477142,Fred A. Rainey,217.413315,Doney K,0.8004285,Oliver C. Richards,0.15,P Sandercock,2.067695912,Eva M. Kohner,100.753926,Reginald A. Clift,0.51455225,Oliver C. Richards,0.15
+Sewall Wright,3.855418621,Karl-Heinz Schleifer,217.413315,James C. Feeley,0.7996295,Oliver Dittrich-Breiholz,0.15,Susan G. Arbuck,2.063694342,Sidney C. Smith,100.753926,Steven A. Hillyard,0.514395,Oliver Dittrich-Breiholz,0.15
+Albert László Barabási,3.854500253,Michael Goodfellow,217.413315,Michael B. Mock,0.7996295,Oliver C. Mullins,0.15,Craig C. Mello,2.06087561,David R. McCance,100.753926,Augustine Kong,0.5143355,Oliver C. Mullins,0.15
+Robert D. Fleischmann,3.852829593,F. C. Greenwood,217.237892,John E. Ware,0.799587,Oliver Bögler,0.15,Thomas E. Carew,2.058967596,Je Tooke,100.753926,John M. Edmond,0.5137575,Oliver Bögler,0.15
+Jerome Cornfield,3.844573521,J. Glover,217.237892,Florence W. Haynes,0.7990855,Oliver Bähr,0.15,Sarah E. Fowler,2.057051019,K Williams,100.753926,Jean Paul Revel,0.5136895,Oliver Bähr,0.15
+Robert Baertsch,3.843265741,Edmund A. Gehan,216.5703275,Paul Peter Rosen,0.7978275,Oliver Busch,0.15,Martine Van Glabbeke,2.056051365,Robert Gregory,100.753926,Fernando Nottebohm,0.5129925,Oliver Busch,0.15
+Ghia Euskirchen,3.837273727,James J. Heckman,216.1214,Edgar G. Harrison,0.79720275,Oliver Burk,0.15,F Taylor,2.05583238,Sudhesh Kumar,100.753926,Goldberg Al,0.5124655,Oliver Burk,0.15
+F. P. Bowden,3.828759625,Daniel E. Goldberg,215.9273875,W. M. Crist,0.7965695,Oliver Bunk,0.15,Alane Gray,2.055719535,S Clarke,100.753926,Michael A. Gimbrone,0.51241025,Oliver Bunk,0.15
+Trampisch Hj,3.818817934,Russell F. Doolittle,215.888466,Jordan D. Tobin,0.7949375,Oliver Brüstle,0.15,Lee N. Robins,2.053254508,Andrew Neil,100.753926,Peter H. Quail,0.511845,Oliver Brüstle,0.15
+Ellson Y. Chen,3.815102059,Chris Brown,215.5774085,G Schatz,0.794368,Oliver Brand,0.15,Mark S. Boguski,2.053067109,Sj Wilson,100.753926,M. Lois Murphy,0.51149225,Oliver Brand,0.15
+Douglas P. Wagner,3.814669656,Warren J. Hehre,215.204896,North Wr,0.794215,Oliver Distler,0.15,Marcy Silver,2.045173837,Richard Stevens,100.753926,Alan H. Sharp,0.511148,Oliver Distler,0.15
+Pui Yan Kwok,3.804923343,Martin Fishbein,212.924856,André Cournand,0.7927105,Oliver Dorigo,0.15,Michael Feolo,2.044403337,K Jones,100.753926,Brenda K. Edwards,0.511131,Oliver Dorigo,0.15
+Charles Tanford,3.803899376,Gerald R. Fink,212.829146,Uwe Schönbeck,0.79226,Oliver Friedrich,0.15,Albert László Barabási,2.043911898,Meade Tw,100.753926,Linda S. Park,0.511097,Oliver Friedrich,0.15
+Alan J. Buckler,3.803547633,Fred Sherman,212.829146,John Spieth,0.7910955,Oliver F. Lange,0.15,W. Richard McCombie,2.036754083,F Taylor,100.753926,Heinz Furthmayr,0.51013225,Oliver F. Lange,0.15
+Howard H. Hiatt,3.783288857,James B. Hicks,212.829146,Thomas E. Kreis,0.7909765,Oliver Frey,0.15,William H. Majoros,2.034595481,Richard H. Chapman,100.753926,Mary E. Hatten,0.5094905,Oliver Frey,0.15
+Julius Marmur,3.782956194,P. Fouque,212.495844,B. S. Oppenheimer,0.789625,Oliver Freudenreich,0.15,Richard S. Lazarus,2.034586094,Jim Mann,100.753926,Doney K,0.5093035,Oliver Freudenreich,0.15
+James J. Gibson,3.781988836,Ronald J. Buta,212.495844,T. K. Sampath,0.7888005,Oliver Frank,0.15,Albert J. Belanger,2.033193518,Laurence Kennedy,100.753926,E. H. Sage,0.509159,Oliver Frank,0.15
+Suzanna E. Lewis,3.778511955,Robert Axelrod,211.9835235,W. von E. Doering,0.7882225,Oliver Flossmann,0.15,M Bond,2.032666656,M Fernandez,100.753926,Vishva M. Dixit,0.509074,Oliver Flossmann,0.15
+Richard S. Lazarus,3.776907453,D. S. Jiang,211.792877,H. Holtzer,0.7877465,Oliver Fitzgerald,0.15,Audrey Duncanson,2.029129802,Connie L. Davis,100.753926,B. R. Franza,0.508462,Oliver Fitzgerald,0.15
+Jean Morissette,3.77338816,A. K. Geim,211.792877,T A Springer,0.78665,Oliver FitzGerald,0.15,William B. Kannel,2.026469596,C. J. Bulpitt,100.753926,J A Ledbetter,0.50819,Oliver FitzGerald,0.15
+C Rose,3.768473375,I. V. Grigorieva,211.792877,Robert M. Weisskoff,0.786514,Oliver Fiehn,0.15,John E. Helzer,2.023388515,Peter F. Sharp,100.753926,Margaret N. Wesley,0.50807525,Oliver Fiehn,0.15
+Andrew Kasarskis,3.768247806,K. S. Novoselov,211.792877,Richard G. W. Anderson,0.785562,Oliver F. W. James,0.15,Raymond D. Miller,2.023069667,K McPherson,100.753926,Eddy M. De Robertis,0.50731875,Oliver F. W. James,0.15
+Dean Burk,3.766109436,Sergey V. Morozov,211.792877,Edwin G. Beven,0.7849245,Oliver F. Bathe,0.15,Robert S. Fulton,2.021188459,D Nelson,100.753926,McGarry Jd,0.50727625,Oliver F. Bathe,0.15
+Solomon A. Berson,3.761675722,Norman E. Breslow,211.5693695,Anthony R. Cashmore,0.784678,Oliver Drognitz,0.15,Ben Z. Locke,2.020670955,I. M. Stratton,100.753926,Yves-Alain Barde,0.506592,Oliver Drognitz,0.15
+Susan M. Hailpern,3.755460664,N. E. Day,211.5693695,Peggy S. Hayes,0.783845,Oliver Einsle,0.15,Kimmen Sjölander,2.01958782,John Yudkin,100.753926,Jeffrey S. Flier,0.50625625,Oliver Einsle,0.15
+Christopher B. Burge,3.754154116,Douglas Henderson,211.072604,George W. Gorman,0.7836325,Oliver Eickelberg,0.15,A. K. Geim,2.01923925,R Price,100.753926,John W. Tamkun,0.506065,Oliver Eickelberg,0.15
+Harold T. Dodge,3.745505721,C. W. Chu,208.0595665,Karen M. Vranizan,0.78133325,Oliver Ebert,0.15,Donna K. Slonim,2.016466994,M Richard,100.753926,K. P. Campbell,0.5059545,Oliver Ebert,0.15
+Alane Gray,3.736962421,Gao L,208.0595665,Th. Dobzhansky,0.78108675,Oliver Ebenhöh,0.15,Todd D. Taylor,2.013675717,P. D. Home,100.753926,Roel Nusse,0.5058695,Oliver Ebenhöh,0.15
+Kenneth Macleod,3.732926955,M. K. Wu,208.0595665,George J. Nemo,0.78104,Oliver E. Owen,0.15,Ingrid Daubechies,2.011149972,R. J. Young,100.753926,Sanford L. Palay,0.5058355,Oliver E. Owen,0.15
+Max Born,3.728748264,Y. Q. Wang,208.0595665,B. Lawrence Riggs,0.780887,Oliver E. Jensen,0.15,Anup Madan,2.004395971,E Thomson,100.753926,Shunzaburo Iwatsuki,0.5050875,Oliver E. Jensen,0.15
+Richard H. Chapman,3.728732228,R. L. Meng,208.0595665,Leena Mykkänen,0.7795015,Oliver E. Craig,0.15,Kim C. Worley,2.002627873,Carole A. Cull,100.753926,Ali Hemmati-Brivanlou,0.50504075,Oliver E. Craig,0.15
+Bert Vogelstein,3.722112654,P. H. Hor,208.0595665,L. J. Ignarro,0.779425,Oliver E. Blacque,0.15,Torben Palshof,2.001976222,Ziyah Mehta,100.753926,Henry G. Kunkel,0.5045775,Oliver E. Blacque,0.15
+Joachim Messing,3.715923843,C. H. Townes,207.3964985,Howard G. Welgus,0.77851975,Oliver Johnson,0.15,Colin N. Dewey,1.998161296,A. McGuire,100.753926,Andrew J. P. Docherty,0.50431825,Oliver Johnson,0.15
+Rajinder Kaul,3.704158461,Peter W. J. Rigby,205.5319725,Hanne H. Rasmussen,0.777504,Oliver Josephs,0.15,Andersen Kw,1.995082636,Joe Leigh Simpson,100.753926,Sidney Udenfriend,0.5034045,Oliver Josephs,0.15
+F Taylor,3.700493759,Paul Berg,205.5319725,Clare M. Waterman-Storer,0.77737225,Oliver Kamm,0.15,Jean Thierry-Mieg,1.992565141,P Park,100.753926,J. T. Parsons,0.50311125,Oliver Kamm,0.15
+Ants Leetmaa,3.698486713,Wladek Minor,205.526439,Carol Churcher,0.7772745,Oliver Quarrell,0.15,E Howard,1.988083246,Mary Burden,100.753926,Nancy L. R. Bucher,0.5027075,Oliver Quarrell,0.15
+Paul Doty,3.697403154,Zbyszek Otwinowski,205.526439,Breck Byers,0.77700675,Oliver Rinner,0.15,William Saurin,1.986547561,Stephen J. Aldington,100.753926,Julius Axelrod,0.502138,Oliver Rinner,0.15
+Allyson Ross Davies,3.696537025,Robert C. Goodlin,205.360077,Lewis B. Woolner,0.77645,Oliver Riesterer,0.15,Wolfgang Kabsch,1.986435145,Richard Greenwood,100.753926,Dennis Y. Loh,0.501951,Oliver Riesterer,0.15
+Douglas L. Johnson,3.691096852,John R. Glover,205.360077,Jack Orloff,0.7761695,Oliver Riedel,0.15,Noriko Sakaguchi,1.9861292,S Mason,100.753926,John D. Aber,0.5018745,Oliver Riedel,0.15
+Andersen Kw,3.690344427,Kung Yee Liang,204.9437045,Friedrich Bonhoeffer,0.7759485,Oliver Reiser,0.15,Paul Emsley,1.98498289,C Fox,100.753926,Edward D. Bird,0.500863,Oliver Reiser,0.15
+Genji Matsuda,3.684563824,Scott L. Zeger,204.9437045,C. Mary Beard,0.774716,Oliver Razum,0.15,Loren F. Hiratzka,1.983616701,R Parker,100.753926,Steven D. Tanksley,0.5000895,Oliver Razum,0.15
+David S. Hogness,3.679800811,John A. Robinson,204.0805465,S. Peter Nissley,0.77454175,Oliver Ratcliffe,0.15,Keith Nelson,1.983171259,Anne Dornhorst,100.753926,Peter L. Strick,0.49983875,Oliver Ratcliffe,0.15
+Thomas D. Schmittgen,3.678267723,Deborah Estrin,204.0445405,R. Kuntzman,0.77448225,Oliver Rackham,0.15,Paul T. Spellman,1.981814247,E Howard,100.753926,M. G. Bawendi,0.4996135,Oliver Rackham,0.15
+David H. Culver,3.677450112,Ramesh Govindan,204.0445405,Jerome Gross,0.774393,Oliver R. Thiel,0.15,K Sakai,1.981701318,Simon L. Howell,100.753926,Craig E. Jahr,0.499333,Oliver R. Thiel,0.15
+U. Veronesi,3.67711325,Michael Grätzel,203.1847995,Dwayne M. Reed,0.77427825,Oliver Puk,0.15,Alan T. Bankier,1.981310237,C Rose,100.753926,Richard W. Eppley,0.49820675,Oliver Puk,0.15
+Vern Paxson,3.676164027,Louis J. Farrugia,202.4635575,Scott D. Emr,0.77372575,Oliver Rivero-Arias,0.15,Robert H. Waterston,1.981245249,M Hoyle,100.753926,John P. Huelsenbeck,0.49785825,Oliver Rivero-Arias,0.15
+Jane Rogers,3.670425381,M. L. Jackson,201.7299055,Wesley M. Brown,0.772931,Oliver Popp,0.15,Paul D. Sorlie,1.980994686,Aileen Robertson,100.753926,Ronald M. Lindsay,0.4974545,Oliver Popp,0.15
+Floyd Ratliff,3.664650284,Réka Albert,200.410136,Ira Herskowitz,0.7720215,Oliver Plettenburg,0.15,Henderson Ic,1.980149127,Richard C. Eastman,100.753926,James D. Finkelstein,0.49707625,Oliver Plettenburg,0.15
+Bela Julesz,3.660220117,Albert László Barabási,200.410136,Allan M. Skene,0.7704235,Oliver Planz,0.15,David Haussler,1.971189369,J Clarke,100.753926,Brigid L. M. Hogan,0.497021,Oliver Planz,0.15
+P. B. Hirsch,3.647493564,Robert M. Silverstein,199.773418,Marilyn Bergner,0.77033425,Oliver Peters,0.15,Ralph S. Paffenbarger,1.96796576,Michael B. Murphy,100.753926,Julie M. Cherrington,0.496766,Oliver Peters,0.15
+François Artiguenave,3.642707855,Paul Davies,199.4262015,E. Orowan,0.7700155,Oliver Pabst,0.15,Tong Ihn Lee,1.967620316,George L. King,100.753926,Reijo Salovaara,0.496511,Oliver Pabst,0.15
+Jean Thierry-Mieg,3.642115516,David M. Green,197.669107,K. Marcker,0.768885,Oliver P. Peoples,0.15,Carol Churcher,1.966557327,Ahmed M. El-Nahas,100.753926,Martha L. Gray,0.4963835,Oliver P. Peoples,0.15
+Arthur L. Delcher,3.640092161,Ronald L. Wilder,196.337259,Lowell H. Ericsson,0.76877025,Oliver P. Flint,0.15,Robert L. Spitzer,1.965881458,Jonathan C. Levy,100.753926,Jayne Lesley,0.4960435,Oliver P. Flint,0.15
+P. G. Smith,3.6310192,James F. Fries,196.337259,E Kieff,0.768664,Oliver P. Ernst,0.15,Wendy Winckler,1.964208151,H. Keen,100.753926,G. Mark Lathrop,0.495236,Oliver P. Ernst,0.15
+Jörg Schultz,3.627920177,D. Bloch,196.337259,Peter D. Wood,0.7678735,Oliver Ritter,0.15,A. K. Mitchell,1.964003672,P. J. Watkins,100.753926,Arthur Z. Eisen,0.4952105,Oliver Ritter,0.15
+David Haussler,3.626522499,Thomas A. Medsger,196.337259,Hyun Wha Kim,0.7678055,Oliver S. P. Davis,0.15,Steven D. Averbuch,1.962072,P. M. Bell,100.753926,Wendy Winckler,0.494624,Oliver S. P. Davis,0.15
+Robert F. Meenan,3.625236753,Robert S. Pinals,196.337259,T J Brady,0.767559,Oliver Ohlenschläger,0.15,Ralf W. Grosse-Kunstleve,1.960368711,D. R. Hadden,100.753926,J. T. Kiehl,0.4941055,Oliver Ohlenschläger,0.15
+Paul J. Flory,3.624423636,Harvinder S. Luthra,196.337259,Stanley J. Korsmeyer,0.767559,Oliver Schoor,0.15,Gary J. Olsen,1.959894691,Dj Brown,100.753926,Lee N. Robins,0.4937315,Oliver Schoor,0.15
+Gary J. Olsen,3.617970883,Gene G. Hunder,196.337259,Joel M. Dalrymple,0.76452875,Oliver Semler,0.15,Kung-Yee Liang,1.958669829,R. Willox,100.753926,Alan Poland,0.493723,Oliver Semler,0.15
+Walter M. Fitch,3.61659084,Frank C. Arnett,196.337259,Heinz Furthmayr,0.764261,Oliver Seitz,0.15,C. Milstein,1.958661133,J Graham,100.753926,David W. Bilheimer,0.4934085,Oliver Seitz,0.15
+Owen P. Hamill,3.614141616,Matthew H. Liang,196.337259,Zanvil A. Cohn,0.76384875,Oliver Schweiger,0.15,Mark A. DePristo,1.958597939,A Graham,100.753926,Margaret B. Davis,0.4930855,Oliver Schweiger,0.15
+Alan T. Bankier,3.611284851,Jane G. Schaller,196.337259,Arian Smit,0.76295625,Olivier Dupuis,0.15,Clare Seamark,1.957976086,J Holmes,100.753926,W. G. Deuser,0.491921,Olivier Dupuis,0.15
+Cyrus Levinthal,3.603825029,John T. Sharp,196.337259,Michael Grunstein,0.7620255,Oliver Schwardt,0.15,Robert E. Kleiger,1.957577789,Donald Pearson,100.753926,Ira Herskowitz,0.4918105,Oliver Schwardt,0.15
+Tim Hubbard,3.603055823,Susan T. Dumais,196.060618,Purnell W. Choppin,0.7617025,Oliver Schuster,0.15,Monique G. Lê,1.957409864,Clare Seamark,100.753926,Douglas J. Schwartzentruber,0.49119425,Oliver Schuster,0.15
+Sarah Milne,3.600192727,Michael S. Turner,194.3033195,M. G. Bawendi,0.7604275,Oliver Schulz,0.15,O'Donnell Cj,1.956727063,Norman Waugh,100.753926,John E. Ware,0.4908585,Oliver Schulz,0.15
+M Bond,3.59694274,A. F. Huxley,194.1833165,John F. Annegers,0.7600365,Oliver Schröder,0.15,Richa Agarwala,1.956102333,Parnesh Raniga,100.753926,Carl O. Pabo,0.49082875,Oliver Schröder,0.15
+George H. Mead,3.594828387,A. L. Hodgkin,194.1833165,Jorge J. Yunis,0.7597305,Oliver Schnell,0.15,K. S. Novoselov,1.952638598,J Wilson,100.753926,David J. Lipman,0.4907565,Oliver Schnell,0.15
+Erica Sodergren,3.592913541,Weiping Li,192.80352,Neil M. H. Graham,0.758583,Oliver S. Smart,0.15,Gerald M. Rubin,1.950217395,George J. Taylor,100.753926,Marilyn Bergner,0.49062475,Oliver S. Smart,0.15
+Albert J. Belanger,3.59213875,R. Phillips,192.4131915,H. G. Khorana,0.75817075,Oliver Schmitz,0.15,Russell Ross,1.946778117,A Wilson,100.753926,Barry M. Gumbiner,0.4900935,Oliver Schmitz,0.15
+Kung-Yee Liang,3.584558167,Marvin Turck,192.25357,Henry J. Norris,0.757529,Oliver Schmidt,0.15,M. G. Bawendi,1.944874243,Nj Bell,100.753926,Erik J. Bergstralh,0.48942625,Oliver Schmidt,0.15
+Argiris Efstratiadis,3.583897744,William M. M. Kirby,192.25357,William J. Henzel,0.756866,Oliver Schlüter,0.15,Michele Cargill,1.942747235,David J. Spiegelhalter,100.753926,Paul Peter Rosen,0.489116,Oliver Schlüter,0.15
+Lucy Matthews,3.581645787,Marie L. Landry,191.4516885,S.C. Harrison,0.7560245,Oliver Schilling,0.15,T. N. Bhat,1.940140406,James A. Stockman,100.753926,Gordon Saksena,0.488589,Oliver Schilling,0.15
+Thomas C. Chalmers,3.572744728,Michael A. Pfaller,191.4516885,Ralph N. Adams,0.75545075,Oliver Schildgen,0.15,Réka Albert,1.938896471,Michael Marmot,100.753926,Alfred G. Gilman,0.48828725,Oliver Schildgen,0.15
+M. E. J. Newman,3.5725709,Ellen Jo Baron,191.4516885,Charles B. Carrington,0.754979,Oliver Sartor,0.15,Victor E. Velculescu,1.936001238,Gary Frost,100.753926,Richard Breathnach,0.4882235,Oliver Sartor,0.15
+Henderson Ic,3.571321592,James H. Jorgensen,191.4516885,Thomas Jenuwein,0.75353825,Oliver Sachs,0.15,Mark Diekhans,1.93430625,B. Davis,100.753926,Rebecca E. Hussey,0.487637,Oliver Sachs,0.15
+John M. Chirgwin,3.561509911,Ronald H. Reeder,191.2516665,William J. Martone,0.753432,Oliver S. Wenger,0.15,P. Armitage,1.933986534,Adam Fletcher,100.753926,Béatrice Vanbervliet,0.48752225,Oliver S. Wenger,0.15
+Scott M. Hammond,3.561344178,Y. R. Shen,190.7540595,Donald D. Newmeyer,0.7532705,Oliver Otto,0.15,Jean Morissette,1.92933798,M Bond,100.753926,Anu Srinivasan,0.487484,Oliver Otto,0.15
+Deborah Wentworth,3.557307413,Paul Taylor,190.385321,Joseph C. Eggleston,0.7525905,Oliver Oeckler,0.15,Kenneth W. Kinzler,1.928130525,A C Burden,100.753926,Allan M. Skene,0.487093,Oliver Oeckler,0.15
+Sandra W. Clifton,3.5538193,Anil K. Jain,188.0250665,Charles A. Chidsey,0.7517065,Oliver Kayser,0.15,Christopher K. Raymond,1.926601068,Martin Gibson,100.753926,Dwayne M. Reed,0.4868805,Oliver Kayser,0.15
+Gabor T. Marth,3.553333727,Owen P. Hamill,187.8543865,Louis B. Thomas,0.75096275,Oliver Kretschmar,0.15,Andreas Rump,1.92651796,Jeremy White,100.753926,D L Kasper,0.486685,Oliver Kretschmar,0.15
+Jillian Boreham,3.552181836,Bert Sakmann,187.8543865,David W. Bilheimer,0.75078425,Oliver L. Phillips,0.15,Joachim Messing,1.926198065,M Anderson,100.753926,C. Richard Taylor,0.48664675,Oliver L. Phillips,0.15
+Trevor Hastie,3.549649628,Fred J. Sigworth,187.8543865,Paul W. Gast,0.750355,Oliver Kühn,0.15,Zhongwu Lai,1.925722791,Richard C. Strange,100.753926,A. E. Korten,0.486583,Oliver Kühn,0.15
+Ralph S. Paffenbarger,3.546041629,Erwin Neher,187.8543865,Duane M. Ilstrup,0.7484085,Oliver Kuss,0.15,P. D. Home,1.923558721,Hans-Gerd Lipinski,100.753926,Rik Derynck,0.486566,Oliver Kuss,0.15
+E Howard,3.543841675,Roger E. Kirk,187.533537,J. T. Kiehl,0.7483575,Oliver Kurzai,0.15,David V. Goeddel,1.921844349,Spencer B. King,100.753926,Sheila Scully,0.4860985,Oliver Kurzai,0.15
+Torben Palshof,3.54077777,G. Mancini,187.480752,Eli Robins,0.7471845,Oliver Kuhn,0.15,W. Dansgaard,1.918035813,J Burns,100.753926,Charles A. Alford,0.485563,Oliver Kuhn,0.15
+Jennifer R. Wortman,3.540284332,George J. Taylor,186.988058,Spyros Artavanis-Tsakonas,0.746887,Oliver Kudlacek,0.15,J Burns,1.9177737,Kenneth Macleod,100.753926,Mary J. Matthews,0.485291,Oliver Kudlacek,0.15
+Jian Bing Fan,3.538963167,Kenneth Macleod,186.988058,Judith R. McNamara,0.745493,Oliver Kröcher,0.15,Stanley J. Korsmeyer,1.914892377,Rury R. Holman,100.753926,John W. M. Rudd,0.485002,Oliver Kröcher,0.15
+Tarjei S. Mikkelsen,3.534697712,P. J. Watkins,186.988058,Joel D. Meyers,0.74378025,Oliver Kretz,0.15,Alejandro A. Schäffer,1.91079544,Rajinder Kaul,100.363912,Hediye Erdjument-Bromage,0.48473,Oliver Kretz,0.15
+Oliver Smithies,3.531957787,K Williams,186.988058,Peter M. Ray,0.743215,Oliver Krauss,0.15,Mike Rothe,1.910584054,James E. Galagan,100.363912,Carl-Magnus Rudenstam,0.484543,Oliver Krauss,0.15
+Zhiping Gu,3.526618788,Adam Fletcher,186.988058,Gordon Saksena,0.7428325,Oliver Lange,0.15,Charmaine D. Royal,1.910356206,Bruce W. Birren,100.363912,R.K. O'Nions,0.484101,Oliver Lange,0.15
+Clare Seamark,3.506309707,A Graham,186.988058,M G Caron,0.74184225,Oliver Krause,0.15,Steven H. Strogatz,1.910303577,François Artiguenave,100.363912,Ian M. Kerr,0.483948,Oliver Krause,0.15
+Craig C. Mello,3.504952914,E Howard,186.988058,Werner Risau,0.7417445,Oliver Kohlbacher,0.15,Hamilton O. Smith,1.910293446,Stefan Taudien,100.363912,Seymour Benzer,0.4835315,Oliver Kohlbacher,0.15
+J. L. Weiland,3.503783843,Je Tooke,186.988058,R E Humbel,0.7407585,Oliver Koch,0.15,Dmitriy A. Dikin,1.905446577,Raju Kucherlapati,100.363912,Stephan S. Monroe,0.483302,Oliver Koch,0.15
+Norman E. Breslow,3.502734708,Clare Seamark,186.988058,Charles Tanford,0.7406395,Oliver Kluth,0.15,Freddie Bray,1.902985832,John Burton,100.363912,J. C. Avise,0.4829705,Oliver Kluth,0.15
+George A. Miller,3.502613995,K McPherson,186.988058,Kathryn B. Davis,0.73890975,Oliver Klein,0.15,Sj Wilson,1.899865512,Matthew Jones,100.363912,J. Brett,0.4826305,Oliver Klein,0.15
+Daniel C. Koboldt,3.500560383,Zoann Nugent,186.988058,Jonathan W. M. Gold,0.7379365,Oliver Kim,0.15,James C. Mullikin,1.898832584,James Gilbert,100.363912,Anne O'Garra,0.4823925,Oliver Kim,0.15
+Kimmen Sjölander,3.49755918,Spencer B. King,186.988058,Jerome Cornfield,0.73690375,Oliver Kepp,0.15,George H. Mead,1.897958577,Jun Gu,100.363912,Bart Barrell,0.48231175,Oliver Kepp,0.15
+Richard W. Reynolds,3.497555074,Joe Leigh Simpson,186.988058,Kenneth D. Tartof,0.73667425,Oliver Keil,0.15,Jeremy White,1.897832228,Simon Kasif,100.363912,Nicholas F. Totty,0.482265,Oliver Keil,0.15
+William F. Novotny,3.497480331,K Jones,186.988058,Dana Giulian,0.73665725,Oliver Laeyendecker,0.15,Katherine W. Timothy,1.896350815,Ian Dunham,100.363912,S.C. Harrison,0.4816105,Oliver Laeyendecker,0.15
+P. D. Home,3.492534566,Jeremy White,186.988058,H. A. Laitinen,0.736262,Oliver Langer,0.15,Paul McGale,1.895442177,Deanna M. Church,100.363912,C. Mary Beard,0.481551,Oliver Langer,0.15
+Lucian L. Leape,3.490231054,D Clark,186.988058,Irwin H. Lepow,0.7359645,Oliver Niehuis,0.15,J Graham,1.895434988,Panos Deloukas,100.363912,Klaus Hahlbrock,0.48142775,Oliver Niehuis,0.15
+Sidney Udenfriend,3.488902151,Michael B. Murphy,186.988058,J A Ledbetter,0.73580725,Oliver Miera,0.15,Thomas Tuschl,1.895211531,Atsushi Toyoda,100.363912,Mark E. Ewen,0.4812535,Oliver Miera,0.15
+Carol Redmond,3.487736161,Sudhesh Kumar,186.988058,Virginia S. Hinshaw,0.73449825,Oliver Neuhaus,0.15,Bruce W. Birren,1.890575856,Michael Proctor,100.363912,Andrew B. Lassar,0.481058,Oliver Neuhaus,0.15
+Samuel B. Guze,3.48013559,P Park,186.988058,M B Brenner,0.733899,Oliver Nayler,0.15,Yudong D. He,1.889014773,Robert S. Fulton,100.363912,Jeffrey D. Palmer,0.48078175,Oliver Nayler,0.15
+William R. Pearson,3.479697832,Parnesh Raniga,186.988058,R C Mulligan,0.7328705,Oliver Müller,0.15,Graham R. Bignell,1.8885084,Michael J. Doyle,100.363912,Wenbiao Liu,0.480565,Oliver Müller,0.15
+M. G. Sarngadharan,3.475798854,Ahmed M. El-Nahas,186.988058,Sheila C. Barton,0.731944,Oliver Mühlemann,0.15,F. C. Greenwood,1.888004444,Sandra W. Clifton,100.363912,Helga Boedtker,0.4805565,Oliver Mühlemann,0.15
+A. K. Mitchell,3.475774238,Gary Frost,186.988058,W S Lane,0.731179,Oliver Morton,0.15,Amy J. Weiner,1.887526199,Todd D. Taylor,100.363912,Karen M. Vranizan,0.48052675,Oliver Morton,0.15
+Robert H. Waterston,3.474741697,Carole A. Cull,186.988058,W S Argraves,0.7311025,Oliver Morgan,0.15,Jorja G. Henikoff,1.885365186,Arian Smit,100.363912,Jeffrey C. Watkins,0.4802335,Oliver Morgan,0.15
+Kenneth J. Arrow,3.471506104,S Mason,186.988058,Caroline H. Damsky,0.730091,Oliver Molt,0.15,Stéphane Guindon,1.88381708,Richard A. Gibbs,100.363912,D. L. Rothman,0.4798935,Oliver Molt,0.15
+Monique G. Lê,3.469193591,F Taylor,186.988058,Jun-ichi Tomizawa,0.72956825,Oliver Mirus,0.15,Stacey Gabriel,1.882985701,Asao Fujiyama,100.363912,David Tilman,0.479477,Oliver Mirus,0.15
+Leland H. Hartwell,3.465127564,P. D. Home,186.988058,Michael A. Gimbrone,0.729326,Oliver Meyer,0.15,Alex Bateman,1.879631832,Doron Lancet,100.363912,Richard S. Lazarus,0.4794515,Oliver Meyer,0.15
+Eugene R. Passamani,3.463663611,R. C. Turner,186.988058,Rebecca E. Hussey,0.72884575,Oliver Lenz,0.15,John V. Moran,1.873409425,Hans Lehrach,100.363912,Jacques Ferlay,0.479392,Oliver Lenz,0.15
+Louis A. Tartaglia,3.462732149,Richard Greenwood,186.988058,Robert P. Abelson,0.7280935,Oliver May,0.15,Deborah Wentworth,1.873112486,Henning Hermjakob,100.363912,R C Mulligan,0.4790265,Oliver May,0.15
+Thomas J. Dull,3.450225029,A C Burden,186.988058,A. M. Gronenborn,0.72739225,Oliver Martinez,0.15,Walter Gilbert,1.866736137,Christopher B. Burge,100.363912,N. M. Le Douarin,0.478916,Oliver Martinez,0.15
+Fuli Yu,3.449693964,Simon L. Howell,186.988058,E M Scolnick,0.72504625,Oliver M. Weber,0.15,Thomas J. Dull,1.86506508,Thomas A. Jones,100.363912,John F. Annegers,0.4783125,Oliver M. Weber,0.15
+Hamilton O. Smith,3.446847745,M Richard,186.988058,Richard S. Lazarus,0.723852,Oliver M. Steinmetz,0.15,Michael P. Bevilacqua,1.864878679,LaDeana W. Hillier,100.363912,Harold T. Dodge,0.478185,Oliver M. Steinmetz,0.15
+Thomas E. Carew,3.440910019,Eva M. Kohner,186.988058,Verner Schomaker,0.7237415,Oliver M. Sieber,0.15,Hailing Hsu,1.864339981,William Morris,100.363912,Eugene R. Passamani,0.478168,Oliver M. Sieber,0.15
+William A. Knaus,3.440177564,John Yudkin,186.988058,Paul A. Blake,0.72341,Oliver M. Schlüter,0.15,Joseph D. Mosca,1.863673574,Raymond M. Wheeler,100.363912,Paul Tempst,0.4773095,Oliver M. Schlüter,0.15
+B. E. Warren,3.438710462,David R. McCance,186.988058,Charles J. MacLean,0.7233335,Oliver Lindqvist,0.15,Charles Atkinson,1.86364216,David L. Nelson,100.363912,Wallace H. Clark,0.4772925,Oliver Lindqvist,0.15
+K Sakai,3.438323909,Sj Wilson,186.988058,A Grinvald,0.723189,Oliver Liesenfeld,0.15,John M. Chirgwin,1.861727146,Wonhee Jang,100.363912,C H Heldin,0.4766975,Oliver Liesenfeld,0.15
+Maynard V. Olson,3.437737305,Sidney C. Smith,186.988058,Alfred G. Gilman,0.722628,Olivier Dulieu,0.15,Fred Ederer,1.86149625,Alan Williams,100.363912,Betty J. Flehinger,0.475907,Olivier Dulieu,0.15
+Robert J. Dodson,3.437076792,Mary Burden,186.988058,Richard Breathnach,0.721659,Olivier Elemento,0.15,Andrew P. Holmes,1.860991099,William Saurin,100.363912,Robert A. Rosati,0.47571575,Olivier Elemento,0.15
+Keith Nelson,3.435569922,B. Davis,186.988058,Gary Buell,0.72160375,Olivier Duron,0.15,Kristin Ardlie,1.860688949,Glen A. Evans,100.363912,H. Holtzer,0.4755925,Olivier Duron,0.15
+David W. Tank,3.434190946,Hans-Gerd Lipinski,186.988058,Pramod C. Sogani,0.7215825,Olle Björk,0.15,Robert F. Meenan,1.856886574,Karsten Hokamp,100.363912,Robert D. Terry,0.475584,Olle Björk,0.15
+Todd D. Taylor,3.429961725,C Rose,186.988058,Mary Betty Stevens,0.721506,Olle Sangfelt,0.15,Donald Geman,1.855135757,Maynard V. Olson,100.363912,Donald R. Senger,0.475295,Olle Sangfelt,0.15
+G. Flandrin,3.424576523,E Thomson,186.988058,Dixie E. Snider,0.72095775,Olle Ringdén,0.15,Kazuto Kato,1.854738827,Helmut Blöcker,100.363912,Rosa S. P. Beddington,0.4752015,Olle Ringdén,0.15
+J. G. Bednorz,3.417712212,Jim Mann,186.988058,Gerhard L. Closs,0.7206305,Olle Pellmyr,0.15,Ewan Birney,1.853493466,David Haussler,100.363912,R M Zinkernagel,0.47511225,Olle Pellmyr,0.15
+Howard K. Schachman,3.416510758,J Clarke,186.988058,Ephraim Katchalski,0.72020975,Olle Olerup,0.15,Bruce Culleton,1.853133409,Hidemi Watanabe,100.363912,Morten Hentzer,0.474649,Olle Olerup,0.15
+Steven H. Strogatz,3.41640522,J Burns,186.988058,Robert J. Garrison,0.71967,Olle Nilsson,0.15,Douglas P. Wagner,1.851901827,Yasushi Totoki,100.363912,Masatoshi Nei,0.4745895,Olle Nilsson,0.15
+William H. Majoros,3.411065375,Aileen Robertson,186.988058,John T. Finch,0.71916,Olle Nerman,0.15,Bigger Jt,1.851478852,Lee Rowen,100.363912,Melville R. Klauber,0.4744875,Olle Nerman,0.15
+Ed Harlow,3.410461838,Richard C. Eastman,186.988058,Thomas Y. Shih,0.7179785,Olle Melander,0.15,Maynard V. Olson,1.851161184,Anne S. Olsen,100.363912,Charles J. MacLean,0.47431325,Olle Melander,0.15
+H. Craig,3.40971175,Nj Bell,186.988058,John W. M. Rudd,0.717528,Olle Matsson,0.15,Hoda Khouri,1.846858877,Huanming Yang,100.363912,Martin E. Hemler,0.4742155,Olle Matsson,0.15
+Steven D. Averbuch,3.408956,Ziyah Mehta,186.988058,J. T. Parsons,0.71723475,Olle Lindvall,0.15,A. R. Hunt,1.842269693,George M. Weinstock,100.363912,Nael Martini,0.4738245,Olle Lindvall,0.15
+Robert E. Kleiger,3.407837575,M Fernandez,186.988058,Nairn Ac,0.71721775,Olle Larsson,0.15,Karsten Hokamp,1.840450765,Chad Nusbaum,100.363912,al. et,0.47320825,Olle Larsson,0.15
+Zoltán N. Oltvai,3.406129616,Robert Gregory,186.988058,Joseph L. Fleiss,0.71627,Olle Larm,0.15,Leland H. Hartwell,1.837089015,Jennifer Baldwin,100.363912,Pius Loetscher,0.473153,Olle Larm,0.15
+Martine Van Glabbeke,3.405704478,R. Willox,186.988058,Edward D. Bird,0.7162275,Olle Kämpe,0.15,Peter J. Turnbaugh,1.832793095,Peer Bork,100.363912,Lowell H. Ericsson,0.47305525,Olle Kämpe,0.15
+J Burns,3.4047817,I. M. Stratton,186.988058,McGarry Jd,0.71592575,Olle Korsgren,0.15,William R. Pearson,1.831471776,Simon G. Gregory,100.363912,Marc W. Kirschner,0.4730255,Olle Korsgren,0.15
+Lee A. Green,3.402524375,Richard C. Strange,186.988058,N. Ronald Morris,0.715454,Olle Isaksson,0.15,D Nelson,1.831371565,Susan L. Naylor,100.363912,Sally H. Zigmond,0.4718185,Olle Isaksson,0.15
+Amos Marc Bairoch,3.39874683,Dj Brown,186.988058,Walton L. Fangman,0.7152925,Olle Inganäs,0.15,F. Schedin,1.821578962,L. Aravind,100.363912,George A. Reichard,0.4714105,Olle Inganäs,0.15
+Loren F. Hiratzka,3.3975621,Michael Marmot,186.988058,Judson J. Van Wyk,0.715267,Olle Hernell,0.15,Vincent Ferretti,1.820164121,Jeremy Schmutz,100.363912,Joel M. Dalrymple,0.471249,Olle Hernell,0.15
+Sarah E. Fowler,3.392647519,M Hoyle,186.988058,K. P. Campbell,0.7148335,Olle Heinonen,0.15,Andreas Thess,1.818659271,Stephan Beck,100.363912,E. S. Dennis,0.471096,Olle Heinonen,0.15
+Anup Madan,3.389459022,J Holmes,186.988058,Sylvia Hoffstein,0.7142215,Olle Heby,0.15,Argiris Efstratiadis,1.818377571,Yuri I. Wolf,100.363912,Ralph J. Coates,0.4710535,Olle Heby,0.15
+Cole Trapnell,3.3868374,D. R. Matthews,186.988058,Peter C. Pairolero,0.71415775,Olle Eriksson,0.15,David L. Sackett,1.815481634,Jeffrey A. Bailey,100.363912,John Doebley,0.4706285,Olle Eriksson,0.15
+Arthur Purdy Stout,3.385271189,R. J. Young,186.988058,K Matsushima,0.713414,Olle Stendahl,0.15,Emily Bernstein,1.814733028,Steven E. Scherer,100.363912,Wesley M. Brown,0.470059,Olle Stendahl,0.15
+Lore Zech,3.383516605,A. McGuire,186.988058,N. E. Day,0.71306125,Olle Stål,0.15,Wonhee Jang,1.8140467,Jörg Schultz,100.363912,S Falkow,0.4698805,Olle Stål,0.15
+Jacob Cohen,3.382596657,D. R. Hadden,186.988058,Marc van de Wetering,0.71175225,Olle Svensson,0.15,Amos Marc Bairoch,1.809484991,Norman A. Doggett,100.363912,R E Humbel,0.469872,Olle Svensson,0.15
+Daniel W. Bradley,3.381778177,C. J. Bulpitt,186.988058,Carl-Magnus Rudenstam,0.71136975,Olli Kallioniemi,0.15,Sidney C. Smith,1.808327567,Susan Lucas,100.363912,Peter D. Wood,0.469821,Olli Kallioniemi,0.15
+Russell Ross,3.378671417,Laurence Kennedy,186.988058,Patricia W. Wahl,0.71130175,Olli Ritvos,0.15,Mark F. Pittenger,1.802712182,Serafim Batzoglou,100.363912,Clare Lister,0.4697445,Olli Ritvos,0.15
+Réka Albert,3.376859806,Richard H. Chapman,186.988058,Klaus Hahlbrock,0.71112325,Olli Polo,0.15,Jillian Boreham,1.802675425,Andrew J. Mungall,100.363912,Jean-Roger Le Gall,0.46953625,Olli Polo,0.15
+William Saurin,3.376020047,Richard Stevens,186.988058,Richard O. Russell,0.710745,Olli Pietiläinen,0.15,Elia Stupka,1.802655467,Lucinda Fulton,100.363912,Judson J. Van Wyk,0.4695065,Olli Pietiläinen,0.15
+J Graham,3.373583433,J Wilson,186.988058,JoAnn Coleman,0.710575,Olli P. Heinonen,0.15,Scott Shenker,1.802307758,Nicola Mulder,100.363912,C. B. Field,0.4693535,Olli P. Heinonen,0.15
+I. V. Grigorieva,3.37342973,P. M. Bell,186.988058,Samuel A. Latt,0.7101245,Olli Orama,0.15,W. Brian Arthur,1.801151375,Takehiko Itoh,100.363912,Lars Brattström,0.468818,Olli Orama,0.15
+Susan G. Arbuck,3.365225984,Donald Pearson,186.988058,Marco Baggiolini,0.7096315,Olli Meurman,0.15,F. Sanger,1.801098065,Kim C. Worley,100.363912,Seymour J. Klebanoff,0.46869475,Olli Meurman,0.15
+Paul T. Spellman,3.360334888,Carol J. Lovatt,186.988058,T. M. L. Wigley,0.7093935,Olli Lohi,0.15,Donald D. Newmeyer,1.799161221,Carrie Sougnez,100.363912,Eli Canaani,0.4677045,Olli Lohi,0.15
+Bigger Jt,3.35748557,Norman Waugh,186.988058,Stephanie J. Ventura,0.70898125,Olli Koskimies,0.15,Roland Heilig,1.798583905,Robert H. Waterston,100.363912,Zanvil A. Cohn,0.46767475,Olli Koskimies,0.15
+Sj Wilson,3.354241852,M Anderson,186.988058,John E. McNeal,0.7085945,Olli Ikkala,0.15,J. J. Hopfield,1.797077287,Catherine Robert,100.363912,Francine Brière,0.467662,Olli Ikkala,0.15
+Daniel I. Arnon,3.349236065,George L. King,186.988058,David M. Kipnis,0.7078635,Olle Söder,0.15,Myunghee C. Paik,1.795544292,Nobuyoshi Shimizu,100.363912,Morgan Sheng,0.46723275,Olle Söder,0.15
+Jeremy White,3.348716747,David J. Spiegelhalter,186.988058,Thomas Edlund,0.707821,Olli H. Laitinen,0.15,Claudia A. Seipp,1.795415331,Jill P. Mesirov,100.363912,Lori Hutwagner,0.4669055,Olli H. Laitinen,0.15
+Paul E. Meehl,3.343644875,Andrew Neil,186.988058,Thomas M. Jessell,0.707821,Olli Gröhn,0.15,Sidney J. Cutler,1.795051042,Paul Predki,100.363912,Ghia Euskirchen,0.4668715,Olli Gröhn,0.15
+M. G. Bawendi,3.333680284,Meade Tw,186.988058,James W. Posakony,0.7068775,Olli Eskola,0.15,Andrew H. Wyllie,1.791317026,Donna M. Muzny,100.363912,Jean-Marie Cornuet,0.466778,Olli Eskola,0.15
+John A. Pople,3.331106227,D Nelson,186.988058,Margaret B. Davis,0.705917,Olli Carpén,0.15,Zemin Ning,1.789844231,Paul Richardson,100.363912,David W. Meinke,0.46653575,Olli Carpén,0.15
+Carrie Sougnez,3.327887714,Anne Dornhorst,186.988058,Ian M. Kerr,0.70541125,Olli A. Jänne,0.15,Donald R. Huffman,1.789320661,Tobias Doerks,100.363912,Costan W. Berard,0.46640825,Olli A. Jänne,0.15
+Robert P. Abelson,3.326017327,A Wilson,186.988058,J. L. Hoard,0.70537725,Olle Zetterström,0.15,Hartmut Land,1.787728582,Michael L. Metzker,100.363912,Edwin H. Eylar,0.466268,Olle Zetterström,0.15
+Raymond D. Miller,3.325569833,C Fox,186.988058,Gordon M. Tomkins,0.7052115,Olle Teleman,0.15,Stephen E. Haynesworth,1.78351983,Eric S. Lander,100.363912,Anita B. Roberts,0.466115,Olle Teleman,0.15
+Michael Feolo,3.324938962,Martin Gibson,186.988058,Lars Brattström,0.7046165,Olle Söderman,0.15,Ramon Parsons,1.782819874,Mark T. Ross,100.363912,George A. Kaplan,0.46587275,Olle Söderman,0.15
+Michele Cargill,3.321620068,Stephen J. Aldington,186.988058,Timothy Fennell,0.704234,Olle Björneholm,0.15,Katherine S. Elliott,1.781482096,Francis S. Collins,100.363912,Henry J. Norris,0.465758,Olle Björneholm,0.15
+Herbert W. Boyer,3.313621636,D Wright,186.988058,Ali Hemmati-Brivanlou,0.70376225,Olke C. Uhlenbeck,0.15,William J. Henzel,1.780030438,Trevor Hawkins,100.363912,Joel D. Meyers,0.46571975,Olke C. Uhlenbeck,0.15
+Norman Arnheim,3.313534503,Connie L. Davis,186.988058,Philip J. Fialkow,0.703129,Olli S. Miettinen,0.15,D. C. Van Essen,1.779657913,Richard Durbin,100.363912,J. Ieuan Harris,0.4655795,Olli S. Miettinen,0.15
+Julian Peto,3.309646231,H. Keen,186.988058,Michael J. Chamberlin,0.7030695,Oljan Repic,0.15,Rodney M. Hewick,1.779551691,Lucy Matthews,100.363912,Miriam J. Alter,0.465435,Oljan Repic,0.15
+W. Richard McCombie,3.30922825,S Clarke,186.988058,Vishva M. Dixit,0.701786,Olivier Thierry Rutschmann,0.15,Allan M. Skene,1.779306239,Kevin McKernan,100.363912,Daniel H. Haft,0.465044,Olivier Thierry Rutschmann,0.15
+George Kuo,3.306700804,J Graham,186.988058,Carl O. Pabo,0.70151825,Olivier Thibault,0.15,Zhaodan Cao,1.777254032,Ken Dewar,100.363912,Neil M. H. Graham,0.46485275,Olivier Thibault,0.15
+Deborah Estrin,3.297298711,R Price,186.988058,McBride Ow,0.7012505,Olivier Thaunat,0.15,Guy Plunkett,1.774660811,Terrence S. Furey,100.363912,E. M. De Robertis,0.4647805,Olivier Thaunat,0.15
+Barth Hoogstraten,3.291831329,Peter F. Sharp,186.988058,Alden V. Loud,0.70124625,Olivier Thas,0.15,Alastair Kent,1.773954373,Eric Pelletier,100.363912,Duane M. Ilstrup,0.46439375,Olivier Thas,0.15
+Andreas Rump,3.290034218,Rury R. Holman,186.988058,Eugene S. Hurwitz,0.70065125,Olivier Tenaillon,0.15,Michael L. Watson,1.773340664,Richard R. Copley,100.363912,Hans J. Geuze,0.4642875,Olivier Tenaillon,0.15
+Fredrik Ronquist,3.2875695,Jonathan C. Levy,186.988058,Yuh Nung Jan,0.70050675,Olivier Taïeb,0.15,James B. Hicks,1.770811316,Christopher K. Raymond,100.363912,Daniel Porte,0.464262,Olivier Taïeb,0.15
+Lora Lewis,3.286358226,James A. Stockman,186.988058,D. L. Rothman,0.6991255,Olivier Taboureau,0.15,Robert M. Kuhn,1.769436056,James C. Mullikin,100.363912,James W. Posakony,0.4641685,Olivier Taboureau,0.15
+Richard D. Piner,3.285494966,R Parker,186.988058,Miguel Marin-Padilla,0.69874725,Olivier Staub,0.15,Hidemi Watanabe,1.759681007,Lisa French,100.363912,E. Rolland Dickson,0.464075,Olivier Staub,0.15
+Pierre R. Villeneuve,3.28510175,M Bond,186.988058,Michael E. Greenberg,0.698726,Olivier Spertini,0.15,Endel Tulving,1.758758219,Douglas L. Johnson,100.363912,Michael J. Chamberlin,0.4640155,Olivier Spertini,0.15
+Zhongwu Lai,3.281780645,E. Kellenberger,186.0479495,Jayne Lesley,0.6981905,Olivier Sperandio,0.15,M. Overgaard,1.75726822,Jan Fang Cheng,100.363912,Yaron S N Butterfield,0.463939,Olivier Sperandio,0.15
+David V. Goeddel,3.281099229,David Brewster,185.37061,Allyson Ross Davies,0.69779525,Olivier Spalla,0.15,Francis M. Miezin,1.75726262,Roland Heilig,100.363912,R. S. J. Frackowiak,0.463888,Olivier Spalla,0.15
+Rodney A. Brooks,3.275539237,B. Kohler,185.37061,Edward Witten,0.69742975,Olivier Soubrane,0.15,Katsuaki Hoshino,1.755126198,Jean Thierry-Mieg,100.363912,Kevin J. Tomaselli,0.463735,Olivier Soubrane,0.15
+Stanley Lemeshow,3.272258935,Freddie Bray,185.37061,E. R. Stanley,0.697213,Olivier Sorg,0.15,Douglas G. Altman,1.754198971,Tim Hubbard,100.363912,Peter M. Ray,0.463514,Olivier Sorg,0.15
+D Nelson,3.271513266,D. Forman,185.37061,Lora Lewis,0.6971875,Olivier Sordet,0.15,Douglas B. Rusch,1.751678375,Todd M. Lowe,100.363912,Denis Leung,0.463395,Olivier Sordet,0.15
+Gerald M. Rubin,3.268230553,R. Swaminathan,185.37061,Karen Huff,0.6969495,Olivier Soppera,0.15,Huyen Dinh,1.750831849,Mark Dickson,100.363912,Gail R. Martin,0.4633015,Olivier Soppera,0.15
+Endel Tulving,3.264817323,William J. Mellman,184.8160275,B. N. La Du,0.69680075,Olivier Sitbon,0.15,David Altshuler,1.750628619,Leroy Hood,100.363912,Frank T. Lindgren,0.4632505,Olivier Sitbon,0.15
+Rodger Staden,3.260605992,David A. Hungerford,184.8160275,Otto Lowenstein,0.69618875,Olivier Sire,0.15,Jay R. Ritter,1.749533224,Anup Madan,100.363912,Gerry Weinmaster,0.463225,Olivier Sire,0.15
+Michael H. Kutner,3.259986604,Gregory W. Wornell,184.774029,Denise B. Kandel,0.695887,Olivier Silvie,0.15,Andrew Neil,1.749368352,Sean Humphray,100.363912,Xiao Jian Sun,0.46314,Olivier Silvie,0.15
+Wolfgang Kabsch,3.257902984,Martine Van Glabbeke,184.63672,Mitchell D. Greenberg,0.6955895,Olivier Schwartz,0.15,Naoufal Zamzami,1.745718159,Yoshiyuki Sakaki,100.363912,Barry Gumbiner,0.46299975,Olivier Schwartz,0.15
+Rory Collins,3.255011881,Elizabeth Eisenhauer,184.63672,Melville R. Klauber,0.695496,Olivier Thoumine,0.15,David L. Pearle,1.745547079,Jane Grimwood,100.363912,F. G. Behm,0.462885,Olivier Thoumine,0.15
+Kim C. Worley,3.249000161,Jaap Verweij,184.63672,Jack P. Whisnant,0.6951645,Olivier Tillement,0.15,G. D. Farquhar,1.745004458,Edward C. Uberbacher,100.363912,Stephen M. J. Searle,0.46281275,Olivier Tillement,0.15
+Mark S. Chee,3.246332651,Larry Rubinstein,184.63672,Linda S. Park,0.695122,Olivier Tournilhac,0.15,Joel E. Richardson,1.74437639,Jun Yu,100.363912,Jack Orloff,0.462783,Olivier Tournilhac,0.15
+Abraham Kagan,3.245885489,Allan Van Oosterom,184.63672,Peter H. Quail,0.694629,Olivier Vincent,0.15,James A. Stockman,1.743237898,Tarjei S. Mikkelsen,100.363912,Cecile M. Pickart,0.4625365,Olivier Vincent,0.15
+Paul D. Sorlie,3.24496817,Patrick Therasse,184.63672,J. Brett,0.6942295,Oliviero Sacco,0.15,James R. Hudson,1.742903696,André Rosenthal,100.363912,Bernard B. Brodie,0.4624175,Oliviero Sacco,0.15
+Jorja G. Henikoff,3.243708695,Richard Kaplan,184.63672,Erik J. Bergstralh,0.69386825,Oliviero Riggio,0.15,Huaiyu Mi,1.742659352,Richard Reinhardt,100.363912,Claudia Lukas,0.4620265,Oliviero Riggio,0.15
+Daniel T. Colbert,3.241346596,Michaele C. Christian,184.63672,Keith R. Porter,0.693745,Oliviero Olivieri,0.15,David H. Culver,1.741143439,Jane Peterson,100.363912,Ronald H. A. Plasterk,0.4619245,Oliviero Olivieri,0.15
+Richa Agarwala,3.23688125,J. Wanders,184.63672,John S. Spika,0.6937025,Oliviero E. Varnier,0.15,E Robinson,1.740560625,Jane Rogers,100.363912,Emad S. Alnemri,0.4619075,Oliviero E. Varnier,0.15
+Christie Kovar,3.234430144,Susan G. Arbuck,184.63672,G. Mark Lathrop,0.6936005,Oliviero Carugo,0.15,W Jack,1.74028954,Andreas Rump,100.363912,P. F. Scholander,0.461848,Oliviero Carugo,0.15
+T. N. Bhat,3.231428623,P. Kumar,184.3319865,G. Damsma,0.6933115,Olivier Witasse,0.15,G. Flandrin,1.739277539,Nigel P. Carter,100.363912,Alan J. Buckler,0.46179275,Olivier Witasse,0.15
+Cladd E. Stevens,3.226734788,Eli Yablonovitch,183.635726,Ashby C. Moncure,0.6932435,Olivier Voinnet,0.15,Chris C A Spencer,1.736326352,Ewan Birney,100.363912,Peggy S. Hayes,0.4617375,Olivier Voinnet,0.15
+James R. Rice,3.226245529,Andrew B. Holmes,183.533794,Barbara F. Reskin,0.6930395,Olivier Vittecoq,0.15,George L. Gabor Miklos,1.733885854,Sarah Milne,100.363912,William B. Joyner,0.4616865,Olivier Vittecoq,0.15
+Christopher K. Raymond,3.224531973,Jeremy H. Burroughes,183.533794,E. D. Mellits,0.692725,Olivier Vignaux,0.15,Kim Rutherford,1.733731279,Chris P. Ponting,100.363912,George Brawerman,0.46168225,Olivier Vignaux,0.15
+Robert I. Levy,3.223153105,A. R. Brown,183.533794,Steven D. Tanksley,0.692181,Olivier Toussaint,0.15,Rory Collins,1.733506048,Evan E. Eichler,100.363912,Charles B. Kimmel,0.461117,Olivier Toussaint,0.15
+Alejandro A. Schäffer,3.221413442,D. D. C. Bradley,183.533794,Ronald F. Dorfman,0.69187075,Olivier Vidal,0.15,Boris Reva,1.730296667,Jean Weissenbach,100.363912,John T. Finch,0.461032,Olivier Vidal,0.15
+Edgardo Lander,3.21444414,Richard H. Friend,183.533794,Edmund A. Gehan,0.691433,Olivier Verola,0.15,Rhian Gwilliam,1.729838208,Richard M. Myers,100.363912,Margaret D. Carroll,0.460658,Olivier Verola,0.15
+Allan M. Skene,3.208752471,Richard W. Reynolds,183.5206445,Dennis Y. Loh,0.691348,Olivier Varenne,0.15,Eric A. Jaffe,1.728227753,Eugene V. Koonin,100.363912,Thomas R. Price,0.46062825,Olivier Varenne,0.15
+Jerome Vinograd,3.208118718,Eugenia Kalnay,183.5206445,M. A. H. Russell,0.69108875,Olivier Vanakker,0.15,William A. Knaus,1.725737236,Bruce A. Roe,100.363912,P. H. Bennett,0.46059,Olivier Vanakker,0.15
+John C. Cassel,3.204705415,Jia Wang,183.5206445,Susan K. McConnell,0.6905745,Olivier Vallon,0.15,Hiroaki Hemmi,1.724991038,Sean R. Eddy,100.363912,Robert Tjian,0.4603775,Olivier Vallon,0.15
+Rodney M. Hewick,3.203227818,Ants Leetmaa,183.5206445,al. et,0.690549,Olivier Turrini,0.15,Stanley Lemeshow,1.722341821,Richard K. Wilson,100.363912,E. R. Stanley,0.46032225,Olivier Turrini,0.15
+Robert G. Parr,3.195779085,Wayne J. Higgins,183.5206445,B. R. Franza,0.6902855,Olivier Tribut,0.15,Mark S. Chee,1.720386352,Marco A. Marra,100.363912,Günter Blobel,0.4601055,Olivier Tribut,0.15
+Earl W. Sutherland,3.193985363,Noam Chomsky,182.8657535,Arvind K. Virmani,0.69026,Olivier Tredan,0.15,S. Moncada,1.71691301,David R. Bentley,100.363912,Edwin G. Krebs,0.4598845,Olivier Tredan,0.15
+Ch. Gerber,3.19323589,J. Murphy,182.214526,Leonard T. Kurland,0.690175,Olli Ruuskanen,0.15,Michael Zuker,1.714737174,Daniel G. Brown,100.363912,Pramod C. Sogani,0.4597315,Olli Ruuskanen,0.15
+Nawab Qizilbash,3.190999758,Roderick J. A. Little,180.854033,James D. Finkelstein,0.6899795,Olli Saksela,0.15,Aaron McKenna,1.713812568,Elaine R. Mardis,100.363912,Robert P. Abelson,0.4592555,Olli Saksela,0.15
+Joe Sambrook,3.190858311,Ch. Gerber,180.3914205,O'Fallon Wm,0.689393,Olivier Dussurget,0.15,Ahmed M. El-Nahas,1.71209703,John D. McPherson,100.363912,J R McIntosh,0.45902175,Olivier Dussurget,0.15
+Richard G. Margolese,3.183931714,C. F. Quate,180.3914205,Oliver Glidewell,0.6890445,Oluf Andersen,0.15,Serafim Batzoglou,1.71150677,Erica Sodergren,100.363912,Edwin G. Beven,0.4590005,Oluf Andersen,0.15
+Douglas Hanahan,3.178446877,G. Binnig,180.3914205,George A. Reichard,0.6887385,Omar A. Abdul-Rahman,0.15,Harold Weintraub,1.709310073,A. R. Hunt,100.363912,John W. Pickren,0.4589155,Omar A. Abdul-Rahman,0.15
+David H. Gelfand,3.175499948,Alan R. Katritzky,180.323922,J. S. Waugh,0.6883645,Omana V. Nainan,0.15,Thomas D. Willis,1.709131625,W. Richard McCombie,100.363912,Rosemary Carpenter,0.4588475,Omana V. Nainan,0.15
+A. R. Hunt,3.173891646,Charles W. Rees,180.323922,Richard C. Eastman,0.688254,Omaida C. Velazquez,0.15,Robert S. Pinals,1.706705984,Matthias Platzer,100.363912,Edward Witten,0.4588135,Omaida C. Velazquez,0.15
+Richard E. Nisbett,3.17375219,Kenneth J. Arrow,180.1023865,G. I. Taylor,0.688237,Omae T,0.15,Paul Liska,1.706459,Yoshihide Hayashizaki,100.363912,Jacques J. Peschon,0.458771,Omae T,0.15
+Taylor Ja,3.173575071,Williams B,180.019112,Bernadine H. Bulkley,0.68813925,Om Prakash Singh,0.15,Russell Turner,1.705715826,Kenneth H. Wolfe,100.363912,Robert J. Garrison,0.45848625,Om Prakash Singh,0.15
+Jerome Y. Lettvin,3.172518148,Nobuyoshi Shimizu,179.527591,John F. Heidelberg,0.6877185,Om Prakash,0.15,David S. Hogness,1.705123658,Roel P. Funke,100.363912,Michael P. Bevilacqua,0.458329,Om Prakash,0.15
+C. V. Shank,3.16411772,Jan Fang Cheng,179.527591,F. G. Behm,0.6867665,Om Parkash,0.15,Daphne W. Bell,1.703776856,Patrick Minx,100.363912,Kenneth D. Tartof,0.45829925,Om Parkash,0.15
+William A. Sibley,3.162160598,Mark S. Guyer,179.527591,Michael L. Watson,0.68669,Om P. Sharma,0.15,C Fox,1.703545168,Shinsei Minoshima,100.363912,Mark S. Boguski,0.4582695,Om P. Sharma,0.15
+James C. Mullikin,3.158328249,Michael Morgan,179.527591,James C. Carrington,0.6864265,Om P. Ganda,0.15,Taro Kawai,1.702551333,Ronald W. Davis,100.363912,L. M. Kunkel,0.4580825,Om P. Ganda,0.15
+Donald S. Fredrickson,3.156477222,Shinsei Minoshima,179.527591,Terence J. Harrist,0.68589525,Om P. Bahl,0.15,Sandra Silberman,1.701709833,Kazuhiko Kawasaki,100.363912,S C Rall,0.45804,Om P. Bahl,0.15
+Bruce W. Birren,3.154459098,LaDeana W. Hillier,179.527591,D. A. Baylor,0.6857465,Olwyn Byron,0.15,Tina Graves,1.700877659,John V. Moran,100.363912,Magda Puype,0.4575895,Olwyn Byron,0.15
+Joel E. Richardson,3.150066701,Michael C. Zody,179.527591,Stephan S. Monroe,0.68574225,Olvert A. Berkhemer,0.15,Marianne Kearney,1.70061336,Patrick Wincker,100.363912,Edward Guadagnoli,0.457377,Olvert A. Berkhemer,0.15
+Joan Keesey,3.146343102,Bruce W. Birren,179.527591,Béatrice Vanbervliet,0.684888,Olveen Carrasquillo,0.15,Gary W. Trucks,1.700498894,Masahira Hattori,100.363912,James R. Priess,0.45719,Olveen Carrasquillo,0.15
+Robert S. Fulton,3.146242247,Douglas L. Johnson,179.527591,Kristine L. MacDonald,0.68434825,Oluwole Fadare,0.15,Roland M. H. Schein,1.698475058,Alex Bateman,100.363912,LaDeana W. Hillier,0.4571645,Oluwole Fadare,0.15
+Katherine W. Timothy,3.145577556,Richard A. Gibbs,179.527591,Seymour Benzer,0.684327,Oluwatoyin Adeyemi,0.15,Michael D. McLellan,1.698346049,Elia Stupka,100.363912,Amos Marc Bairoch,0.457139,Oluwatoyin Adeyemi,0.15
+Eric A. Jaffe,3.144074,Alan Coulson,179.527591,Nils-Erik Andén,0.68400825,Oluwasanmi Koyejo,0.15,Roel P. Funke,1.697688108,Felsenfeld Al,100.363912,Thomas E. Carew,0.45704975,Oluwasanmi Koyejo,0.15
+Morton Kramer,3.143283006,Stephan Beck,179.527591,Douglas J. Schwartzentruber,0.68397,Oluwarotimi Akinola,0.15,Dennis G. Ballinger,1.696135695,Michael Morgan,100.363912,Hans Thoenen,0.456952,Oluwarotimi Akinola,0.15
+R. R. Ernst,3.141466542,Michael Proctor,179.527591,H. Craig,0.68377025,Olusegun Babaniyi,0.15,David A. Hungerford,1.695116269,Tetsushi Yada,100.363912,Xian Liang Tang,0.456867,Olusegun Babaniyi,0.15
+P. J. Flory,3.140109769,James Gilbert,179.527591,Alan Poland,0.683715,Olufunmilayo I. Olopade,0.15,Fred Ramsdell,1.69495582,Roger A. Schultz,100.363912,Andrew Wakeham,0.456731,Olufunmilayo I. Olopade,0.15
+B. Gutenberg,3.138654389,Tim Hubbard,179.527591,S. J. Singer,0.68334525,Omar A. Ibrahimi,0.15,Cyrus Chothia,1.694584828,Ian Korf,100.363912,Roger M. Perlmutter,0.456544,Omar A. Ibrahimi,0.15
+Frederick Mosteller,3.138083083,Richa Agarwala,179.527591,R.K. O'Nions,0.683307,Omar A. Saleh,0.15,George Scatchard,1.693796415,Alan Coulson,100.363912,Denise B. Kandel,0.4565185,Omar A. Saleh,0.15
+Wonhee Jang,3.136199147,Jane Peterson,179.527591,W. F. Bale,0.682984,Omar Abdel-Wahab,0.15,Richard M. Karp,1.693726182,Richa Agarwala,100.363912,John E. McNeal,0.456459,Omar Abdel-Wahab,0.15
+Karl A. Piez,3.130653588,Sandra W. Clifton,179.527591,Alan J. Buckler,0.682933,Omar E. Franco,0.15,Robert I. Levy,1.693234804,Michael C. Wendl,100.363912,Joel D. Killen,0.456357,Omar E. Franco,0.15
+Howard A. Eder,3.128934116,Jane Rogers,179.527591,Daniel Porte,0.6823295,Omar H. Pivetta,0.15,Darren A. Natale,1.692438105,Mark S. Guyer,100.363912,Elizabeth A. Gilpin,0.455932,Omar H. Pivetta,0.15
+Kenneth W. Kinzler,3.128083898,Karsten Hokamp,179.527591,E L Reinherz,0.6822445,Omar H. Dabbous,0.15,J. Craig Venter,1.691910706,Douglas R. Smith,100.363912,Miguel Marin-Padilla,0.455762,Omar H. Dabbous,0.15
+Brian Haynes,3.127708667,Robert S. Fulton,179.527591,Robert K. Mortimer,0.6819555,Omar García,0.15,Nawab Qizilbash,1.69122329,W. James Kent,100.363912,Nicholas J. Cowan,0.4556685,Omar García,0.15
+Richard Bellman,3.127395506,Paul Richardson,179.527591,Jacqueline Kosecoff,0.6814285,Omar Faruque,0.15,Pablo Tamayo,1.689414382,Aravind Subramanian,100.363912,Douglas S. Levine,0.455541,Omar Faruque,0.15
+Halsted R. Holman,3.126543515,Yuri I. Wolf,179.527591,Ernest L. Wynder,0.680553,Omar Farooq,0.15,Anne O'Garra,1.688326785,Michael C. Zody,100.363912,Raymond J. Lasek,0.45537525,Omar Farooq,0.15
+Michael P. Bevilacqua,3.122454567,William Morris,179.527591,Thomas R. Price,0.6803575,Omar Faiz,0.15,Auke Tellegen,1.687142176,Don J. Brenner,99.347652,Howard E. Ganther,0.45532425,Omar Faiz,0.15
+Mikulas Popovic,3.120214242,David R. Bentley,179.527591,John E. Wennberg,0.68033625,Omar F. Mohammed,0.15,Dienstag Jl,1.683642034,James T. Staley,99.347652,S. Peter Nissley,0.4549375,Omar F. Mohammed,0.15
+John E. Wennberg,3.11910525,Tetsushi Yada,179.527591,Mitchell L. Cohen,0.679958,Omar Eton,0.15,James E. Galagan,1.683349,Karl-Heinz Schleifer,99.347652,Nathan Maccoby,0.4546315,Omar Eton,0.15
+Michael Polanyi,3.115460837,Paul Predki,179.527591,C. Richard Taylor,0.67986875,Omar Defeo,0.15,Leonid Kruglyak,1.682943742,George M. Garrity,99.347652,B Beutler,0.4545635,Omar Defeo,0.15
+Victor E. Velculescu,3.109709293,Ian Korf,179.527591,J. C. Avise,0.6787425,Omar Albagha,0.15,Robert T. DeBoy,1.682244472,Fred A. Rainey,99.347652,Nelson Butters,0.4536625,Omar Albagha,0.15
+Ahmedin Jemal,3.109547824,Douglas R. Smith,179.527591,Bart Barrell,0.67790525,Omar Dary,0.15,Larry Rubinstein,1.680342702,Paul De Vos,99.347652,Joe Sambrook,0.45362425,Omar Dary,0.15
+James A. Stockman,3.108973022,Ken Dewar,179.527591,Raymond J. Lasek,0.67672375,Omar D. Lopez,0.15,Werner Risau,1.679386622,Michael Goodfellow,99.347652,O'Fallon Wm,0.453569,Omar D. Lopez,0.15
+John M. Leonard,3.108723006,A. R. Hunt,179.527591,K. K. Kelly,0.6767195,Omar Boutureira,0.15,Jeffrey N. Rottman,1.679063134,David R. Boone,99.347652,Susan M. Berget,0.45353925,Omar Boutureira,0.15
+James R. Hudson,3.105955688,Roland Heilig,179.527591,Omana V. Nainan,0.6765325,Omar Bouamra,0.15,Jeremy D. Selengut,1.6758,Gavin Sherlock,98.988187,Sarah Edkins,0.45335225,Omar Bouamra,0.15
+Karsten Hokamp,3.104939098,Jörg Schultz,179.527591,George Wald,0.676184,Omar Bagasra,0.15,Parkhurst A. Shore,1.675674164,Kara Dolinski,98.988187,Jane Hu-Li,0.453314,Omar Bagasra,0.15
+Roland Heilig,3.104499417,W. James Kent,179.527591,Fernando Nottebohm,0.675725,Omar Azzaroni,0.15,Helga Boedtker,1.67493723,Gerald M. Rubin,98.988187,S. C. Raimondi,0.453093,Omar Azzaroni,0.15
+Jean Endicott,3.098520154,Kazuhiko Kawasaki,179.527591,Jean-Roger Le Gall,0.67553375,Omar Alonso,0.15,Helen Skaletsky,1.674373472,J. Michael Cherry,98.988187,Marco Baggiolini,0.4530505,Omar Alonso,0.15
+Alex Bateman,3.096737084,Atsushi Toyoda,179.527591,Alexander B. Gutman,0.675402,Omar Ali,0.15,Sam Griffiths-Jones,1.674324061,Michael Ashburner,98.988187,Reddi Ah,0.4528805,Omar Ali,0.15
+Douglas G. Altman,3.096390834,Richard K. Wilson,179.527591,W. H. Zachariasen,0.6752915,Oluf Pedersen,0.15,Donna F. Stroup,1.673126357,Martin Ringwald,98.988187,Rolf Kemler,0.452855,Oluf Pedersen,0.15
+Bernard B. Brodie,3.095175913,Yasushi Totoki,179.527591,Ben Z. Locke,0.67494725,Olsson I,0.15,Elisabeth Buchdunger,1.672266063,Suzanna E. Lewis,98.988187,E M Scolnick,0.45273175,Olsson I,0.15
+David B. Johnson,3.094768651,Donna M. Muzny,179.527591,A. E. Korten,0.674654,Olli Silvennoinen,0.15,Jeffrey C. Barrett,1.672206067,Judith A. Blake,98.988187,Eric Courchesne,0.4524725,Olli Silvennoinen,0.15
+Frederick C. Neidhardt,3.090514507,James C. Mullikin,179.527591,Charles D. Keeling,0.67436075,Olson,0.15,Kristian Cibulskis,1.672180504,David P. Hill,98.988187,Kristian Cibulskis,0.45228125,Olson,0.15
+Claudia A. Seipp,3.089785871,Deanna M. Church,179.527591,J. B. Gurdon,0.6741865,Olof Flodmark,0.15,Keith J. Worsley,1.671887136,Andrew Kasarskis,98.988187,S. D. Tanksley,0.45199225,Olof Flodmark,0.15
+George L. Gabor Miklos,3.089174988,Alan Williams,179.527591,Wendy Winckler,0.673872,Olof Engström,0.15,Louis Fehrenbacher,1.671769252,Catherine A. Ball,98.988187,Charles D. Gilbert,0.45184775,Olof Engström,0.15
+Tomaso Poggio,3.087397474,Helmut Blöcker,179.527591,A. Klug,0.6737615,Olof Dahlqvist Leinhard,0.15,F. Barre-Sinoussi,1.669483195,Joel E. Richardson,98.988187,Lee A. Witters,0.4518265,Olof Dahlqvist Leinhard,0.15
+Marcy Silver,3.085751349,Christopher K. Raymond,179.527591,Steven A. Hillyard,0.67371475,Olof Bengtsson,0.15,Nigel P. Carter,1.66797489,Janan T. Eppig,98.988187,R. Tycko,0.45175,Olof Bengtsson,0.15
+A. K. Geim,3.085529176,Ronald W. Davis,179.527591,Julie M. Cherrington,0.6735235,Olof Beck,0.15,Jon Teague,1.665678539,Georg Kresse,98.4182705,Richard H. Scheller,0.451155,Olof Beck,0.15
+Arthur B. Lamb,3.08397815,Aravind Subramanian,179.527591,Michael P. Bevilacqua,0.6732345,Olof Andersson,0.15,Christoph Kalka,1.665225482,Paul Taylor,97.9749105,B. N. La Du,0.4510275,Olof Andersson,0.15
+John V. Moran,3.07324605,Matthew Jones,179.527591,John W. Donovan,0.6731665,Olof Akre,0.15,Erik L. L. Sonnhammer,1.663677309,Koichiro Tamura,97.7556615,Douglass J. Forbes,0.4507555,Olof Akre,0.15
+Paul McGale,3.069703838,Robert H. Waterston,179.527591,Jeffrey S. Flier,0.67304325,Ollivier Legrand,0.15,Norman E. Breslow,1.662535113,Joel T. Dudley,97.7556615,P R Larsen,0.450679,Ollivier Legrand,0.15
+Robert Axelrod,3.069334367,Doron Lancet,179.527591,Jan Koch-Weser,0.6729795,Ollivier Hyrien,0.15,Kikuko Hotta,1.661975303,Sudhir Kumar,97.7556615,Martin G. Low,0.45046225,Ollivier Hyrien,0.15
+E Robinson,3.0673225,Andrew J. Mungall,179.527591,Edward Guadagnoli,0.6724355,Ollie Jay,0.15,Lisa French,1.661075731,Roderick J. A. Little,97.7183975,Craig H. Mermel,0.45039,Ollie Jay,0.15
+Andrew Neil,3.061009487,Wonhee Jang,179.527591,Nicholas F. Totty,0.672223,Olli-Pekka Kallioniemi,0.15,Morten Kjeldgaard,1.658287701,T. N. Bhat,97.526799,Fred Esch,0.449795,Olli-Pekka Kallioniemi,0.15
+Hartmut Land,3.060563311,François Artiguenave,179.527591,Andrew J. P. Docherty,0.67209975,Olli-P. Kallioniemi,0.15,Hilary A. Coller,1.658130808,Gary L. Gilliland,97.526799,William J. Martone,0.4496675,Olli-P. Kallioniemi,0.15
+Colin N. Dewey,3.057355583,Hans Lehrach,179.527591,John P. Huelsenbeck,0.67205725,Olli Yli-Harja,0.15,Erich Bluhmki,1.657520027,Philip E. Bourne,97.526799,Ronald F. Dorfman,0.4495655,Olli Yli-Harja,0.15
+Alex Pentland,3.053739436,Jeremy Schmutz,179.527591,Jian Kang Zhu,0.6717045,Olli Vuolteenaho,0.15,John M.C. Gutteridge,1.656892952,Helen M. Berman,97.526799,David M. Kipnis,0.4494295,Olli Vuolteenaho,0.15
+John R. Marler,3.051967726,Panos Deloukas,179.527591,Harry J. Lynch,0.67139425,Olli Vapalahti,0.15,Rodger Staden,1.656484031,John D. Westbrook,97.526799,Ian S. Trowbridge,0.44904275,Olli Vapalahti,0.15
+Yudong D. He,3.045980487,Yoshiyuki Sakaki,179.527591,Dennis A. Senne,0.671339,Olli Vainio,0.15,Raffaella Sordella,1.653897966,Robert C. Reid,97.4671375,Dennis Slone,0.448877,Olli Vainio,0.15
+Elia Stupka,3.043502841,John V. Moran,179.527591,P. H. Bennett,0.6713305,Olli T. Raitakari,0.15,Robert A. Weinberg,1.653463972,Louis J. Farrugia,97.438569,Stanislas du Manoir,0.4487835,Olli T. Raitakari,0.15
+Edward Witten,3.042748647,Lucy Matthews,179.527591,W. G. Deuser,0.6712625,Olli T. Pentikäinen,0.15,Jinghui Zhang,1.652542395,David A. Patterson,97.2781145,Chris Kintner,0.44877925,Olli T. Pentikäinen,0.15
+M. Overgaard,3.03836478,Terrence S. Furey,179.527591,Benjamin J. Miflin,0.6710585,Olli Simell,0.15,Richard E. Nisbett,1.652395078,Barry Halliwell,96.426814,Mitchell D. Greenberg,0.4487155,Olli Simell,0.15
+Michael K. Showe,3.036410167,Sarah Milne,179.527591,D L Kasper,0.670965,Olof H. Pearson,0.15,William H. Dietz,1.650420271,John M.C. Gutteridge,96.426814,Peter K. Wellauer,0.44866025,Olof H. Pearson,0.15
+Jay R. Ritter,3.035994644,L. Aravind,179.527591,Pentti K. Siiteri,0.67071,Olof Johansson,0.15,David W. Tank,1.650052203,M. H. Gault,95.3982205,Sibley Ld,0.44856675,Olof Johansson,0.15
+S. L. McCall,3.034149777,Andreas Rump,179.527591,E. Rolland Dickson,0.670251,Olof Johnell,0.15,Jean-Roger Le Gall,1.650027202,Daniel E. Goldberg,94.972702,Eduard C. Hurt,0.448486,Olof Johnell,0.15
+Ahmed M. El-Nahas,3.034111045,David L. Nelson,179.527591,S Falkow,0.670234,Olof Theander,0.15,Joseph H. Connell,1.649974652,Matthias Egger,94.4198195,Sean R. Eddy,0.44821825,Olof Theander,0.15
+John M.C. Gutteridge,3.034095828,Raymond M. Wheeler,179.527591,Roger A. Nicoll,0.670047,Olsen Sf,0.15,Michael S. Gottlieb,1.649712277,George Davey Smith,94.4198195,Walton L. Fangman,0.4481035,Olsen Sf,0.15
+W Jack,3.033661879,George M. Weinstock,179.527591,William G. Dunphy,0.6699195,Olsen B,0.15,Jonathan Butler,1.647829906,Martin Schneider,94.4198195,Kristleifur Kristjansson,0.4480695,Olsen B,0.15
+Graham R. Bignell,3.0309847,Bruce A. Roe,179.527591,Lori Hutwagner,0.669894,Olsen,0.15,Edgardo Lander,1.64767076,Marie L. Landry,94.373401,Lisa Y S Chan,0.4480525,Olsen,0.15
+A. Howie,3.027903354,Ewan Birney,179.527591,Claire V. Broome,0.669877,Olov Wiklund,0.15,Beverley Shields,1.645669185,James H. Jorgensen,94.373401,Richard C. Eastman,0.4479845,Olov Wiklund,0.15
+Mike Rothe,3.027418634,William Saurin,179.527591,Robert A. Duce,0.6698005,Olov Sterner,0.15,Emily S. Winn-Deen,1.64483227,Ellen Jo Baron,94.373401,Philip E. Bernatz,0.447738,Olov Sterner,0.15
+P. F. Scholander,3.024297831,Huanming Yang,179.527591,James L. Meek,0.66916725,Olov Rolandsson,0.15,L. Di Martino,1.644184542,Michael A. Pfaller,94.373401,F. Sanger,0.4476445,Olov Rolandsson,0.15
+M. H. F. Wilkins,3.023326103,Nigel P. Carter,179.527591,Michael Goitein,0.668449,Olof Zachrisson,0.15,S. Cobbe,1.643223289,David P. Bartel,93.988504,Richard B. Simerly,0.4475765,Olof Zachrisson,0.15
+Miriam J. Alter,3.022267997,Serafim Batzoglou,179.527591,Robert D. Terry,0.668347,Olof Wennerström,0.15,Robert J. Garrison,1.642327013,Patrick E. Shrout,93.5517825,Harvey T. McMahon,0.44724925,Olof Wennerström,0.15
+Ewan Birney,3.013696389,Anne S. Olsen,179.527591,Amos Marc Bairoch,0.668296,Olof Sydow,0.15,Michele L. Pearson,1.641244315,Philip Holmes,93.496116,McBride Ow,0.447211,Olof Sydow,0.15
+Federico Girosi,3.01339075,Jane Grimwood,179.527591,Wishwa N. Kapoor,0.668109,Olof Karis,0.15,Lawrence G. Hunsicker,1.640161444,S. Chandrasekhar,93.2788305,Sharon W. Weiss,0.4470325,Olof Karis,0.15
+D. J. E. Ingram,3.013135473,Ian Dunham,179.527591,Hans Thoenen,0.6672335,Olof Stephansson,0.15,Charles T. Kresge,1.639305108,Paul Berg,93.1901925,Joel C. Kleinman,0.4469985,Olof Stephansson,0.15
+Bates Dw,3.01265967,Simon G. Gregory,179.527591,Augustine Kong,0.66715275,Olof Solin,0.15,Therese Sørlie,1.638590441,Peter W. J. Rigby,93.1901925,North Wr,0.4467775,Olof Solin,0.15
+Noriko Sakaguchi,3.011984283,Richard Durbin,179.527591,Mark S. Boguski,0.6655335,Olof Rådmark,0.15,John D. McPherson,1.6369739,Gregory W. Wornell,93.103552,P Marrack,0.44669675,Olof Rådmark,0.15
+Benjamin A. Barnes,3.007042464,Todd M. Lowe,179.527591,Lauren V. Ackerman,0.665457,Olof Ramström,0.15,McGuire Wl,1.635133813,Janet M. Corrigan,92.7585795,Karen Hsiao,0.446582,Olof Ramström,0.15
+J. F. A. P. Miller,3.006396112,Francis S. Collins,179.527591,David L. Donoho,0.6653805,Olof Olsson,0.15,Nicholas Kassebaum,1.634923621,Arthur W. Adamson,92.7052165,Linda K. McDougal,0.44573625,Olof Olsson,0.15
+Mark Diekhans,3.00460025,Mark T. Ross,179.527591,Tony Kouzarides,0.66488325,Olof Nyrén,0.15,D. Williams Parsons,1.634616263,David L. Donoho,92.6780845,Christie Kovar,0.44558325,Olof Nyrén,0.15
+Richard C. Graham,3.001430036,Michael L. Metzker,179.527591,Elizabeth A. Gilpin,0.664233,Olof Liberg,0.15,A. P. Alivisatos,1.633864538,Norman Arnheim,92.455835,Robert M. Kuhn,0.44555775,Olof Liberg,0.15
+C Fox,2.99992898,Thomas A. Jones,179.527591,Marianne LeMeur,0.664097,Olof Larsson,0.15,Ken Dewar,1.632153217,F. C. Greenwood,91.9953985,Alex B. Novikoff,0.44548975,Olof Larsson,0.15
+Audrey Duncanson,2.99928067,Yoshihide Hayashizaki,179.527591,David W. Rose,0.66407575,Olivier Schueller,0.15,P. Andrew Futreal,1.631318455,J. Glover,91.9953985,Cornelia I. Bargmann,0.4453155,Olivier Schueller,0.15
+Thomas Tuschl,2.998183549,Richard M. Myers,179.527591,Fred Esch,0.663842,Olivier Schakman,0.15,R Peto,1.630003139,Russell Ross,91.9399615,Emre Kokmen,0.4450605,Olivier Schakman,0.15
+Charmaine D. Royal,2.997052198,David Haussler,179.527591,Mark A. DePristo,0.6636805,Olivier Schaad,0.15,Jacob Cohen,1.629354711,Jeffrey Vieira,91.5597055,Beal Mf,0.4448565,Olivier Schaad,0.15
+Michele L. Pearson,2.995934431,Eric S. Lander,179.527591,R. A. F. Dixon,0.66349775,Olivier H.J. Destrée,0.15,Laurence Kennedy,1.628674682,Joachim Messing,91.5597055,Eli Robins,0.444763,Olivier H.J. Destrée,0.15
+Elisabeth Buchdunger,2.993924156,Mark Dickson,179.527591,John M. Edmond,0.6633405,Olivier Joffre,0.15,Alexander E. Urban,1.62838579,N. E. Day,91.4845995,Catherine Stehman-Breen,0.444202,Olivier Joffre,0.15
+Sandra Silberman,2.992892833,Catherine Robert,179.527591,Jeffrey D. Palmer,0.66322575,Olivier Jeannin,0.15,Sam T. Roweis,1.6272767,Norman E. Breslow,91.4845995,Patricia W. Wahl,0.44409575,Olivier Jeannin,0.15
+Hidemi Watanabe,2.992555479,Maynard V. Olson,179.527591,J R McIntosh,0.66238425,Olivier Jaillon,0.15,Dominic A. Scudiero,1.626776542,Philip E. Hartman,91.011957,C De Laet,0.444032,Olivier Jaillon,0.15
+James E. Grizzle,2.992053405,Susan L. Naylor,179.527591,Hermes C. Grillo,0.66202725,Olivier J. Rouxel,0.15,Michael E. Greenberg,1.626090146,Geoffrey Wilkinson,90.886531,Tom Kadesch,0.443743,Olivier J. Rouxel,0.15
+N. F. Mott,2.991271856,Trevor Hawkins,179.527591,David Tilman,0.66179775,Olivier Irion,0.15,Mary Jane Ferraro,1.625225355,Manfred Bochmann,90.886531,Thomas Y. Shih,0.4434285,Olivier Irion,0.15
+Sidney C. Smith,2.990771439,Norman A. Doggett,179.527591,Rosemary Carpenter,0.661717,Olivier Humbert,0.15,Carol W. Greider,1.624595844,Mary Jane Ferraro,89.9310035,W. Dansgaard,0.44342,Olivier Humbert,0.15
+Kazuto Kato,2.989126882,Elia Stupka,179.527591,Thomas E. Carew,0.661598,Olivier Huillard,0.15,Nahida H. Gordon,1.623614615,A. L. Hodgkin,89.5870085,R W Davis,0.443046,Olivier Huillard,0.15
+Alfonse T. Masi,2.986493671,Alex Bateman,179.527591,Santos A. Susin,0.660901,Olivier Hugli,0.15,Nancy F. Hansen,1.621526769,A. F. Huxley,89.5870085,C. Conrad Johnston,0.44296525,Olivier Hugli,0.15
+C. Katz,2.981891303,Michael C. Wendl,179.527591,L A Herzenberg,0.6607565,Olivier Huet,0.15,Andrew Menzies,1.620693173,Weiping Li,88.604451,Roman W. DeSanctis,0.44291,Olivier Huet,0.15
+Freddie Bray,2.980178976,Jeffrey A. Bailey,179.527591,Margaret D. Carroll,0.660459,Olivier Honnay,0.15,David H. Gelfand,1.620097541,Ronald A. Laskey,88.145706,Noël P. Burtt,0.4428845,Olivier Honnay,0.15
+Arne Tiselius,2.979770608,Henning Hermjakob,179.527591,Miriam J. Alter,0.66039525,Olivier Hernandez,0.15,Suzannah Bumpstead,1.618526017,William M. Bonner,88.145706,Gary Felsenfeld,0.442672,Olivier Hernandez,0.15
+McGuire Wl,2.976469583,Eric Pelletier,179.527591,David C. Poskanzer,0.660374,Olivier Hermine,0.15,Simon Myers,1.616431714,Jean Endicott,87.9958595,Carol W. Greider,0.4425615,Olivier Hermine,0.15
+Roland M. H. Schein,2.976436754,Peer Bork,179.527591,Masatoshi Nei,0.66018275,Olivier Herault,0.15,Catherine A. Lozupone,1.616134579,Eli Robins,87.9958595,Kevin J. Horgan,0.442366,Olivier Herault,0.15
+Donna F. Stroup,2.971391143,Tobias Doerks,179.527591,Nelson Butters,0.6593455,Olivier Heinzlef,0.15,Yasushi Totoki,1.6160073,Robert L. Spitzer,87.9958595,R.A. Demel,0.4423065,Olivier Heinzlef,0.15
+Erich Bluhmki,2.969184662,Richard Reinhardt,179.527591,Janet V. Passonneau,0.65934125,Olivier Hartmann,0.15,John R. Marler,1.615979828,Andrew Y. Ng,87.307606,George B. Hutchison,0.4420005,Olivier Hartmann,0.15
+Emily Bernstein,2.968623493,Jean Weissenbach,179.527591,James R. Gnarra,0.6590565,Olivier Harismendy,0.15,Andrew Wakeham,1.615630504,Michael I. Jordan,87.307606,Robin Humphry-Baker,0.441907,Olivier Harismendy,0.15
+A E Weyman,2.96835503,Erica Sodergren,179.527591,Patricia S. Goldman-Rakic,0.6588695,Olivier Hantz,0.15,William H. Habig,1.614508917,Dean Burk,86.9013995,Ari Helenius,0.4416435,Olivier Hantz,0.15
+Jacqueline Kosecoff,2.963678982,Tarjei S. Mikkelsen,179.527591,Dene E. Ryan,0.65844025,Olivier Hanotte,0.15,Heather Schmidt,1.612115632,Peter A. Lachenbruch,86.396746,Janet B. Schoenberg,0.4413715,Olivier Hanotte,0.15
+Robert S. Pinals,2.962905554,Leroy Hood,179.527591,Andrew R. Moss,0.658266,Olivier Hanon,0.15,Shirley Zhu,1.610557157,Thomas H. Jukes,86.3177895,Bruce M. Spiegelman,0.441142,Olivier Hanon,0.15
+Lynn A. G. Ries,2.962680917,Richard R. Copley,179.527591,Mary R. Avarbock,0.65815125,Olivier Join-Lambert,0.15,Stephen M. J. Searle,1.61033196,J. Murphy,86.2668065,Joseph C. Eggleston,0.441006,Olivier Join-Lambert,0.15
+Russell Turner,2.959835145,Michael J. Doyle,179.527591,R M Zinkernagel,0.65779425,Olivier Joubert,0.15,J. F. Forbes,1.610313136,Ching W. Tang,86.0660705,R. A. F. Dixon,0.44062775,Olivier Joubert,0.15
+Lawrence E. Shulman,2.957648964,Roger A. Schultz,179.527591,Reddi Ah,0.657433,Olivier Jousson,0.15,Rodrigo Lopez,1.60777854,Clara D. Bloomfield,86.027166,Gilliland Dg,0.44024525,Olivier Jousson,0.15
+Darrel A. Regier,2.956501117,Lisa French,179.527591,Peter L. Strick,0.65695275,Olivier Langeron,0.15,Donna M. Rennick,1.606555913,Michael A. Caligiuri,86.027166,Liliana Attisano,0.44009225,Olivier Langeron,0.15
+S. Moncada,2.955938202,Edward C. Uberbacher,179.527591,Elaine Rands,0.6566935,Olivier Lefebvre,0.15,Lee Murphy,1.605420679,Donna K. Slonim,86.027166,Michael P. Stern,0.4398755,Olivier Lefebvre,0.15
+Carol Churcher,2.95443968,Patrick Wincker,179.527591,John I. Hedges,0.656583,Olivier Le Gall,0.15,S. Korzeniowski,1.603636115,Mignon L. Loh,86.027166,G. Bragi Walters,0.4397565,Olivier Le Gall,0.15
+K. S. Novoselov,2.953556681,John D. McPherson,179.527591,G. Ross Heath,0.65624725,Olivier Lavergne,0.15,Srinivasa M. Srinivasula,1.600541528,Todd R. Golub,86.027166,David L. Donoho,0.439714,Olivier Lavergne,0.15
+Stanley J. Korsmeyer,2.951633208,Marco A. Marra,179.527591,E. H. Sage,0.6558605,Olivier Laurent,0.15,Donald Pearson,1.600107565,Hilary A. Coller,86.027166,Paul J. Flory,0.4397055,Olivier Laurent,0.15
+William J. Fulkerson,2.948696565,Carrie Sougnez,179.527591,Edwin G. Krebs,0.655767,Olivier Lascols,0.15,David Torrents,1.59953557,Pablo Tamayo,86.027166,David A. Clayton,0.439646,Olivier Lascols,0.15
+Gordon G. Wong,2.944589982,Jean Thierry-Mieg,179.527591,Clift Ra,0.655223,Olivier Laprévote,0.15,Norman A. Doggett,1.599341487,James R. Downing,86.027166,Sara Hieny,0.43936125,Olivier Laprévote,0.15
+D. C. Van Essen,2.943208341,Roel P. Funke,179.527591,Walter Gordy,0.65513375,Olivier Lantz,0.15,M. Michele Manos,1.597512018,Susan T. Dumais,85.525326,Purnell W. Choppin,0.4393145,Olivier Lantz,0.15
+Andrew H. Wyllie,2.941854384,Stefan Taudien,179.527591,R. C. Lord,0.6545345,Olivier Lantieri,0.15,Richard Tizard,1.595873611,George A. Bray,84.917542,Mary Betty Stevens,0.4392295,Olivier Lantieri,0.15
+James H. Ware,2.940646797,Jennifer Baldwin,179.527591,Doyle J. Evans,0.653455,Olivier Lambotte,0.15,Catherine Michaud,1.593886226,John P. Feighner,83.9084985,David M. Berkson,0.4391955,Olivier Lambotte,0.15
+Vincent Ferretti,2.936001621,Jun Yu,179.527591,C H Heldin,0.6526135,Olivier Julien,0.15,Richard G. Margolese,1.591293838,Robert A. Woodruff,83.9084985,Walter H. Ettinger,0.43846025,Olivier Julien,0.15
+G. Binnig,2.935050889,Glen A. Evans,179.527591,E. Donnall Thomas,0.652299,Olivier Lambert,0.15,C. Arden Pope,1.591051082,Samuel B. Guze,83.9084985,Edward H. Soule,0.438167,Olivier Lambert,0.15
+Ramzi S. Cotran,2.930861526,Hidemi Watanabe,179.527591,W. H. J. Summerskill,0.652248,Olivier Lairez,0.15,M. A. Fiatarone,1.59093275,George Winokur,83.9084985,Gary Thurnau,0.4381415,Olivier Lairez,0.15
+Jacques Monod,2.929089381,Christopher B. Burge,179.527591,S. J. Bame,0.6522055,Olivier Lafon,0.15,Robert E. Bruccoleri,1.589764761,John R. Rodgers,83.7746915,Miles Herkenham,0.43780575,Olivier Lafon,0.15
+Cyrus Chothia,2.929007586,Steven E. Scherer,179.527591,Robert A. Wolfe,0.65215025,Olivier Kosmider,0.15,M. R. Cooper,1.589143045,Mitsuo Tasumi,83.7746915,Jerome Gross,0.437793,Olivier Kosmider,0.15
+D. R. Curtis,2.925464071,Rajinder Kaul,179.527591,David J. Lipman,0.65169975,Olivier Koole,0.15,A. L. Page,1.588928846,Edgar F. Meyer,83.7746915,Granger G. Sutton,0.43760175,Olivier Koole,0.15
+Charles T. Kresge,2.925367812,Jill P. Mesirov,179.527591,Teresa Fernandes-Alnemri,0.6516445,Olivier Kocher,0.15,Charles Tanford,1.587033563,Thomas F. Koetzle,83.7746915,Luciano Rossetti,0.437487,Olivier Kocher,0.15
+Leonid Kruglyak,2.925060806,Chad Nusbaum,179.527591,Granger G. Sutton,0.6515425,Olivier Kahn,0.15,William J. Fulkerson,1.586682065,Takehiko Shimanouchi,83.7746915,R. K. H. Liem,0.43738925,Olivier Kahn,0.15
+Robert J. Garrison,2.923215464,John Burton,179.527591,Mary E. Hatten,0.65099425,Olivier Kah,0.15,R. A. Fisher,1.585805243,Olga Kennard,83.7746915,Virginia S. Hinshaw,0.43720225,Olivier Kah,0.15
+Mary Jane Ferraro,2.921945141,W. Richard McCombie,179.527591,Joan Keesey,0.65096875,Olivier Hamant,0.15,Harold T. Dodge,1.585716474,Alfonse T. Masi,83.6893685,R. J. Dolan,0.43689625,Olivier Hamant,0.15
+Jitendra Malik,2.920376402,Kevin McKernan,179.527591,Sally H. Zigmond,0.650922,Olivier Guillou,0.15,Sheila Seal,1.585260717,Norman Talal,83.6893685,Benjamin J. Miflin,0.436858,Olivier Guillou,0.15
+S. Cobbe,2.919916516,Jun Gu,179.527591,Howard E. Ganther,0.65019525,Olivier Scatton,0.15,Daniel W. Jones,1.584870436,Alan S. Cohen,83.6893685,N. Ronald Morris,0.4366795,Olivier Scatton,0.15
+Richard A. Shafer,2.919029172,Sean R. Eddy,179.527591,S. Granick,0.64970225,Olivier Guillin,0.15,Donald S. Fredrickson,1.584445511,Eng M. Tan,83.6893685,Fred Winston,0.4365265,Olivier Guillin,0.15
+Roel P. Funke,2.918164531,André Rosenthal,179.527591,Warren E. Ross,0.649596,Olivier François,0.15,Andreas Heger,1.5837239,Naomi F. Rothfield,83.6893685,Danny Reinberg,0.4363055,Olivier François,0.15
+William J. Henzel,2.915979004,Masahira Hattori,179.527591,Simon Dack,0.649579,Olivier Francis,0.15,Vladimir Korinek,1.583559667,Robert Winchester,83.6893685,James W. Horner,0.436263,Olivier Francis,0.15
+Bruce Culleton,2.915809436,Felsenfeld Al,179.527591,Donald M. Stablein,0.64941325,Olivier Fontaine,0.15,E Thomson,1.583359713,S. Moncada,82.9401785,Robert H. Waterston,0.435906,Olivier Fontaine,0.15
+John R. Glover,2.915765328,Kim C. Worley,179.527591,Kevin J. Tomaselli,0.6489755,Olivier Fitoussi,0.15,Jerome S. Bruner,1.582836086,James S. Coleman,82.8467805,Katia Manova,0.435906,Olivier Fitoussi,0.15
+Richard Tizard,2.91472338,Asao Fujiyama,179.527591,Mia J. Tegner,0.648865,Olivier Feron,0.15,Reubin Andres,1.582807833,Ramesh Govindan,82.710568,Barclay An,0.4358635,Olivier Feron,0.15
+Allan C. Wilson,2.913182267,Takehiko Itoh,179.527591,A. Horsman,0.648848,Olivier Feraud,0.15,Simon L. Howell,1.582507908,Deborah Estrin,82.710568,Dragana Cado,0.4357785,Olivier Feraud,0.15
+Tong Ihn Lee,2.908136965,Matthias Platzer,179.527591,Eli Canaani,0.6484655,Olivier Felician,0.15,Amy A. Caudy,1.582240825,Anil K. Jain,82.657681,Kristine L. MacDonald,0.43564675,Olivier Felician,0.15
+Robert Kamen,2.906150746,Lucinda Fulton,179.527591,Lorenz E. Zimmerman,0.647981,Olivier Fayet,0.15,E. P. Greenberg,1.581180737,R. Gordon Douglas,82.5374145,Wolfhard Almers,0.4355745,Olivier Fayet,0.15
+Harold Weintraub,2.90588078,Lee Rowen,179.527591,Peter K. Wellauer,0.6474285,Olivier Favez,0.15,Gilean McVean,1.580579651,John E. Bennett,82.5374145,Jeffrey C. Magee,0.435532,Olivier Favez,0.15
+David L. Pearle,2.900713184,Evan E. Eichler,179.527591,Floyd D. Loop,0.6472755,Olivier Faure,0.15,Aram V. Chobanian,1.579787046,Gerald L. Mandell,82.5374145,K. K. Kelly,0.4352005,Olivier Faure,0.15
+Lisa French,2.892452797,Sean Humphray,179.527591,Joel D. Killen,0.64717775,Olivier Farges,0.15,Nikola P. Pavletich,1.579093262,Paul R. Rosenbaum,82.2447595,Raleigh A. Bowden,0.434716,Olivier Farges,0.15
+James F. Fries,2.891427645,Kenneth H. Wolfe,179.527591,Wayne H. Akeson,0.64695675,Olivier Fardel,0.15,Saul Genuth,1.578081222,James J. Gibson,82.1021805,R. Kuntzman,0.434546,Olivier Fardel,0.15
+Douglas B. Rusch,2.889396008,Nicola Mulder,179.527591,Seymour J. Klebanoff,0.6468845,Olivier Fain,0.15,Darrel A. Regier,1.577304821,Roger E. Kirk,81.9691555,Masatoshi Takeichi,0.4345035,Olivier Fain,0.15
+Ramon Parsons,2.886986527,Eugene V. Koonin,179.527591,E. B. Astwood,0.6467995,Olivier Facy,0.15,Eugene R. Passamani,1.576428256,Akira Fujishima,81.9499455,Ann Cork,0.43435475,Olivier Facy,0.15
+J. Craig Venter,2.885968676,James E. Galagan,179.527591,Francine Brière,0.6466465,Olivier F. Bertrand,0.15,Carol Redmond,1.57621848,Kenichi Honda,81.9499455,Mark T. Keating,0.43418475,Olivier F. Bertrand,0.15
+Nathan O. Kaplan,2.880614746,Chris P. Ponting,179.527591,Chi-Cheng Luo,0.646604,Olivier Ernst,0.15,Ed Harlow,1.574194721,T. Hall,81.593328,Carla J. Shatz,0.43398925,Olivier Ernst,0.15
+J. M. Bland,2.879193828,Anup Madan,179.527591,L. M. Kunkel,0.64633625,Oliver Botta,0.15,Halsted R. Holman,1.57377057,Thomas A. Witten,81.5755375,Peter C. Pairolero,0.43387025,Oliver Botta,0.15
+James B. Wyngaarden,2.879094833,Todd D. Taylor,179.527591,Harry A. Guess,0.6456095,Olivier Dériaz,0.15,J. Milburn Jessup,1.571677741,P.-G. De Gennes,81.5755375,John M.C. Gutteridge,0.433645,Olivier Dériaz,0.15
+Anita L. Stewart,2.87779446,Elaine R. Mardis,179.527591,Rosemary Biggs,0.64546075,Olivier Dutour,0.15,Arnold Oliphant,1.567870935,T. A. Jones,81.1931735,W Grossman,0.43359825,Olivier Dutour,0.15
+Ching W. Tang,2.877230368,Daniel G. Brown,179.527591,David A. Karnofsky,0.6454565,Olivier Fruchart,0.15,John M. Leonard,1.566748327,Morten Kjeldgaard,81.1931735,Anne H. Fossel,0.43351325,Olivier Fruchart,0.15
+Brygg Ullmer,2.877083333,Susan Lucas,179.527591,Sharon W. Weiss,0.6453035,Olivier Gaide,0.15,Robin Humphry-Baker,1.566079748,P. Kumar,81.0451375,Nils-Erik Andén,0.4334495,Olivier Gaide,0.15
+R Peto,2.875307251,Patrick Minx,179.527591,J M Bishop,0.64521,Olivier Gandrillon,0.15,Marco Punta,1.56530865,Scott V. Tingey,80.8902845,Lily Yeh Jan,0.4332795,Olivier Gandrillon,0.15
+Reubin Andres,2.875269917,Raju Kucherlapati,179.527591,E. Francis Cook,0.644955,Olivier Godet,0.15,David B. Jaffe,1.563262915,Virginia J. Howard,80.888814,Ralph M. Steinman,0.4330415,Olivier Godet,0.15
+Guy Plunkett,2.874131,Simon Kasif,179.527591,Rik Derynck,0.6441645,Olivier Groussin,0.15,A E Weyman,1.563192575,Nathan D. Wong,80.888814,Steven M. Reppert,0.432948,Olivier Groussin,0.15
+Yuval Eshed,2.873100375,Arian Smit,179.527591,Alan H. Sharp,0.6434845,Olivier Gribouval,0.15,Michael Ashburner,1.562676246,Mercedes R. Carnethon,80.888814,Janet V. Passonneau,0.43294375,Olivier Gribouval,0.15
+Sanford L. Palay,2.872748479,Stephen E. Fienberg,179.5194735,Gerald A. M. Finerman,0.643459,Olivier Grenet,0.15,Morris W. Foster,1.562584216,Julia Steinberger,80.888814,J. John Sepkoski,0.4328715,Olivier Grenet,0.15
+Daniel McGee,2.870469451,Charles R. Scriver,178.606055,Avram Hershko,0.643374,Olivier Govaere,0.15,Jeffrey S. Beck,1.561264113,O'Donnell Cj,80.888814,Minze Stuiver,0.432778,Olivier Govaere,0.15
+Thomas D. Willis,2.867266375,James B. Wyngaarden,178.606055,Max Halperin,0.643085,Olivier Gout,0.15,K Matsushima,1.560224955,Susan M. Hailpern,80.888814,Suzanne M. Paley,0.4327185,Olivier Gout,0.15
+Hilary A. Coller,2.866393385,Li B,178.583309,Sean R. Eddy,0.642762,Olivier Goureau,0.15,Lynn A. G. Ries,1.5597135,James B. Meigs,80.888814,Donner F. Babcock,0.43257825,Olivier Goureau,0.15
+Jean-Roger Le Gall,2.866112558,Harry Eagle,178.0328065,Jean-Paul Revel,0.6425835,Olivier Gourdon,0.15,Franklin Kim,1.557983118,Judith Wylie-Rosett,80.888814,Millicent Higgins,0.43247625,Olivier Gourdon,0.15
+Zemin Ning,2.862676172,J. Michael Shull,177.595031,Earl L. Diamond,0.642558,Olivier Goulet,0.15,Hilary King,1.557253077,Wayne D. Rosamond,80.888814,John S. Spika,0.43188125,Olivier Goulet,0.15
+R. W. Butcher,2.861825615,R. Kaul,176.686806,David A. Hungerford,0.642252,Olivier Godefroy,0.15,Robert Axelrod,1.555574803,Robert J. Adams,80.888814,Warren E. Ross,0.43186,Olivier Godefroy,0.15
+Dominic A. Scudiero,2.858181852,N. Anderson,176.493873,P R Larsen,0.642065,Olivier Garraud,0.15,Adam Auton,1.555521603,Brett Kissela,80.888814,Ronald K. Ross,0.4318345,Olivier Garraud,0.15
+D. Easton,2.855373704,M. H. Gault,176.365795,Ralph J. Coates,0.6419885,Olivier Gires,0.15,Daniel H. Haft,1.555007248,Donald M. Lloyd-Jones,80.888814,JoAnn Coleman,0.431673,Olivier Gires,0.15
+P. J. Randle,2.852634058,Edgar F. Meyer,176.2812115,Takehiko Shimanouchi,0.641504,Olivier Gimenez,0.15,Allyson Ross Davies,1.554594683,Michael Ho,80.888814,Patrick Argos,0.4316135,Olivier Gimenez,0.15
+Laurence Kennedy,2.852023444,Thomas F. Koetzle,176.2812115,Sheila Scully,0.6412235,Olivier Gheysens,0.15,Daniel T. Colbert,1.554395352,Karen L. Furie,80.888814,Morris J. Karnovsky,0.4314775,Olivier Gheysens,0.15
+Richard O. Russell,2.850848163,Mitsuo Tasumi,176.2812115,Pacita L. Roberts,0.641215,Olivier Gevaert,0.15,Lucian L. Leape,1.553462708,T. Bruce Ferguson,80.888814,Andrew P. McMahon,0.431435,Olivier Gevaert,0.15
+Herbert A. Simon,2.850101704,John R. Rodgers,176.2812115,Morris J. Karnovsky,0.641164,Olivier George,0.15,D. Lawrence Wickerham,1.551271199,Kurt J. Greenlund,80.888814,P. R. Zimmerman,0.431418,Olivier George,0.15
+Linus Pauling,2.848919829,Takehiko Shimanouchi,176.2812115,Folke Skoog,0.6404075,Olivier Geneste,0.15,Vern Paxson,1.550523029,Dariush Mozaffarian,80.888814,J. M. M. Walboomers,0.431197,Olivier Geneste,0.15
+James W. Curran,2.848762174,Olga Kennard,176.2812115,Sheldon M. Wolff,0.6402545,Olivier Gascuel,0.15,Jitendra Malik,1.548255739,Giovanni de Simone,80.888814,Michael A. Reidy,0.4310185,Olivier Gascuel,0.15
+P.-G. De Gennes,2.847677052,H. Jones,176.2350905,Linda K. McDougal,0.64024175,Olivier Garsmeur,0.15,Sarah Nutland,1.547726326,Earl S. Ford,80.888814,Andrew R. Moss,0.4306105,Olivier Garsmeur,0.15
+Nahida H. Gordon,2.846196385,Jackson T. Wright,175.940761,M. B. Panish,0.639974,Olivier Leger,0.15,Mark D. Adams,1.547640345,Randall S. Stafford,80.888814,W. A. Hauser,0.4304915,Olivier Leger,0.15
+N. Cabrera,2.844897568,Suzanne Oparil,175.940761,Henry A. Schroeder,0.63988475,Olivier Legrand,0.15,Antman Em,1.5470775,Yuling Hong,80.888814,Claire V. Broome,0.4303045,Olivier Legrand,0.15
+Janet M. Corrigan,2.843423115,Daniel W. Jones,175.940761,Günter Blobel,0.6396765,Olivier Lemaire,0.15,Akira Nagafuchi,1.546405959,Graham Nichol,80.888814,Susan D. Hamburger,0.430092,Olivier Lemaire,0.15
+Charles Atkinson,2.84015038,Henry R. Black,175.940761,A. F. Huxley,0.6396255,Olivier Lequin,0.15,Phillip D. Zamore,1.546017333,Katherine M. Flegal,80.888814,T. M. L. Wigley,0.430075,Olivier Lequin,0.15
+Sam T. Roweis,2.8395101,William C. Cushman,175.940761,Patrick Argos,0.639379,Olivier Pradier,0.15,Robert P. Abelson,1.544444482,Alan S. Go,80.888814,Karl A. Piez,0.430041,Olivier Pradier,0.15
+Donald P. Nierlich,2.839109833,Lee A. Green,175.940761,R.A. Demel,0.639073,Olivier Pourquié,0.15,Marie-Angèle Morel,1.544199641,Daniel T. Lackland,80.888814,R. I. Glass,0.4299305,Olivier Pourquié,0.15
+Thomas H. Holmes,2.839025583,Edward J. Roccella,175.940761,Norton D. Zinder,0.6385205,Olivier Potterat,0.15,Stefan Taudien,1.543162907,Paul D. Sorlie,80.888814,Toshimasa Ishizaki,0.4297605,Olivier Potterat,0.15
+W. H. Zachariasen,2.83889616,Barry J. Materson,175.940761,Gary Felsenfeld,0.638189,Olivier Poch,0.15,Ramzi S. Cotran,1.542942731,Mary M. McDermott,80.888814,G. Ross Heath,0.42975625,Olivier Poch,0.15
+Randi Y. Leavitt,2.838299146,George L. Bakris,175.940761,Douglas S. Levine,0.637747,Olivier Ploux,0.15,Stefanie S. Jeffrey,1.54040523,Véronique L. Roger,80.888814,Heinz Wässle,0.429752,Olivier Ploux,0.15
+Hailing Hsu,2.836882236,Joseph L. Izzo,175.940761,Earl P. Steinberg,0.6376365,Olivier Piot,0.15,Gary Ruvkun,1.539362192,Steven J. Kittner,80.888814,Håkan Steiner,0.4297265,Olivier Piot,0.15
+Robin Milner,2.836583399,Aram V. Chobanian,175.940761,S. E. Sallan,0.63756,Olivier Pierre-Louis,0.15,Allan C. Wilson,1.536909347,R. Swaminathan,80.511346,Marian Carlson,0.4296415,Olivier Pierre-Louis,0.15
+L. Di Martino,2.834703892,William P. Reinhardt,174.8550475,Joseph E. Oesterling,0.637271,Olivier Picone,0.15,Quinn L. Deveraux,1.536637202,B. Kohler,80.511346,Carol Nelson-Williams,0.4293525,Olivier Picone,0.15
+M. R. Cooper,2.833858,Kurt Wüthrich,174.721538,Stephen M. J. Searle,0.63724125,Olivier Peyruchaud,0.15,Ruslan Medzhitov,1.536176387,David Brewster,80.511346,Angela Granelli-Piperno,0.42933125,Olivier Peyruchaud,0.15
+M. Michele Manos,2.833251667,Mary Jane Ferraro,174.1566025,W. W. Douglas,0.6370925,Olivier Perez,0.15,Andrey Sivachenko,1.536118328,D. Forman,80.511346,Barbara F. Reskin,0.429208,Olivier Perez,0.15
+Andrew P. Holmes,2.83312257,Ralph E. White,174.01869,Ann Cork,0.63704575,Olivier Pascalis,0.15,Patrick Therasse,1.531097739,M. L. Jackson,80.127758,R. A. Crowther,0.429072,Olivier Pascalis,0.15
+Huaiyu Mi,2.832832844,B. E. Conway,174.01869,D. Keilin,0.6366335,Olivier Pascal,0.15,Anita L. Stewart,1.530163329,Rodney A. Brooks,79.910515,Tai-ping Sun,0.4290295,Olivier Pascal,0.15
+Gary W. Trucks,2.83260899,Patrick E. Shrout,173.9032175,Joy G. Wells,0.63637,Olivier Parisel,0.15,D. Easton,1.528854731,Mark Weiser,79.9013095,Susan G. Orel,0.4289955,Olivier Parisel,0.15
+Emily S. Winn-Deen,2.83157541,S. H. Lin,173.8163815,Barry M. Gumbiner,0.6362085,Olivier Panaud,0.15,Howard A. Eder,1.527884,Alan D. Baddeley,79.1254465,Avram Hershko,0.428919,Olivier Panaud,0.15
+Joseph H. Connell,2.828572374,Roger Y. Tsien,171.742594,Ian S. Trowbridge,0.6360215,Olivier Outteryck,0.15,Robert Kamen,1.526401674,White,78.9187265,Curtis G. Hames,0.42879575,Olivier Outteryck,0.15
+Barbara J. McNeil,2.82714444,Martin Poenie,171.742594,Emre Kokmen,0.635945,Olivier Ouari,0.15,Ian Dunham,1.526342565,David M. Green,78.766976,Hyun Wha Kim,0.4287915,Olivier Ouari,0.15
+Phyllis A. Wingo,2.824978494,J. E. Lennard-Jones,171.5322785,Eddy M. De Robertis,0.635724,Olivier Ormezzano,0.15,David Tilman,1.526324686,David Posada,78.623972,J J Mekalanos,0.428783,Olivier Ormezzano,0.15
+Stephen E. Haynesworth,2.824816884,H. Seliger,170.7770705,Chris Kintner,0.63551575,Olivier Nosjean,0.15,Herbert W. Boyer,1.525279496,Keith A. Crandall,78.623972,Xiao Ou Mao,0.4286385,Olivier Nosjean,0.15
+Patrick Brill-Edwards,2.824535886,Joshua N. Winn,170.4502795,Michael S. Pessin,0.635282,Olivier Nicole,0.15,Stephen C. Reingold,1.524531324,H. C. Liu,78.6051615,Francis V. Chisari,0.42857475,Olivier Nicole,0.15
+C Davies,2.823592865,John D. Joannopoulos,170.4502795,John Doebley,0.63508225,Olivier Proux,0.15,Judah Folkman,1.524174503,Eicke R. Weber,78.6051615,Feja J. Voorhorst,0.42846425,Olivier Proux,0.15
+F. Schedin,2.820753576,Steven G. Johnson,170.4502795,George M. Farrow,0.63492075,Olivier R. Busch,0.15,Thomas Jenuwein,1.523701873,Margherita Maffei,78.0394355,Shin Ichi Nishikawa,0.42846,Olivier R. Busch,0.15
+O'Donnell Cj,2.818515045,R. Gordon Douglas,170.1601915,F. J. Bollum,0.63447875,Olivier R. Hainaut,0.15,Peter J. Sabo,1.523479583,Yiying Zhang,78.0394355,Dennis A. Senne,0.42844725,Olivier R. Hainaut,0.15
+S. Korzeniowski,2.816656527,John E. Bennett,170.1601915,Nicholas B. Lydon,0.63356925,Olivier Rosnet,0.15,James F. Fries,1.521854338,Jeffrey M. Friedman,78.0394355,Paul Forscher,0.42820075,Olivier Rosnet,0.15
+Albert H. Coons,2.816585433,Gerald L. Mandell,170.1601915,B Beutler,0.6334715,Olivier Sandre,0.15,Joan Massagué,1.5209068,Marvin Turck,77.9992985,Lila R. Elveback,0.4280945,Olivier Sandre,0.15
+Anders Krogh,2.815130131,Hal Morgenstern,168.9490435,William A. Newton,0.6334205,Olivier Sandra,0.15,John A. Pople,1.520856599,William M. M. Kirby,77.9992985,Robert A. Wolfe,0.42801375,Olivier Sandra,0.15
+Stacey Gabriel,2.814895681,David G. Kleinbaum,168.9490435,Martin G. Low,0.63327175,Olivier Sanchez,0.15,Anders Krogh,1.519306478,David S. Moss,77.6271175,Kathryn B. Davis,0.4279585,Olivier Sanchez,0.15
+Mark A. DePristo,2.814664105,Lawrence L. Kupper,168.9490435,Janet B. Schoenberg,0.63314425,Olivier S. Barnouin,0.15,Randi Y. Leavitt,1.51913439,Roman A. Laskowski,77.6271175,Tucker Collins,0.4279415,Olivier S. Barnouin,0.15
+Max Halperin,2.811918438,James J. Gibson,168.9059145,Ralph C. Marcove,0.633106,Olivier Rouvière,0.15,Julian Peto,1.517541145,Janet M. Thornton,77.6271175,Bonnie L. Kemp,0.427916,Olivier Rouvière,0.15
+Elisabeth Burdick,2.81065463,James Clerk Maxwell,168.850333,Roger M. Perlmutter,0.6327745,Olivier Rousseaux,0.15,Joanna E. Siegel,1.516631645,Mark Johnson,77.1837575,C. David Allis,0.427882,Olivier Rousseaux,0.15
+Minze Stuiver,2.810001908,Thomas H. Jukes,168.793213,Reijo Salovaara,0.632562,Olivier Roupsard,0.15,John Bowlby,1.516169055,Yoav Freund,77.16748,M. A. H. Russell,0.4278735,Olivier Roupsard,0.15
+A. P. Alivisatos,2.808312785,J. Michael Cherry,168.455491,Ronald M. Lindsay,0.63223475,Olivier Roubeau,0.15,Edward Witten,1.516004762,Edward O. Wilson,76.7500875,Ashby C. Moncure,0.4278395,Olivier Roubeau,0.15
+Joanna E. Siegel,2.806989774,Suzanna E. Lewis,168.455491,James E. Grizzle,0.63212425,Olivier Rosmorduc,0.15,Kirk R. Thomas,1.51542147,Douglas Hanahan,76.7397005,Michael G. Rosenfeld,0.4278055,Olivier Rosmorduc,0.15
+Donald Pearson,2.80442505,David P. Hill,168.455491,Hugh A. Edmondson,0.632103,Olivier R. Martin,0.15,Matthew Stephens,1.515008923,Robert A. Weinberg,76.7397005,M D Lane,0.427525,Olivier R. Martin,0.15
+Marie-Angèle Morel,2.803511256,Joel E. Richardson,168.455491,Yves-Alain Barde,0.631729,Olivier Rohr,0.15,Joe M. McCord,1.51373865,Chris Brown,76.7220035,A. F. Huxley,0.4275165,Olivier Rohr,0.15
+Charles Dauguet,2.803487715,Michael Ashburner,168.455491,Gerald R. Fink,0.6317205,Olivier Roche,0.15,Richard O. Russell,1.513509402,Michael R. Hoffmann,76.51094,Margaret Mallory,0.42719775,Olivier Roche,0.15
+George E. Palade,2.8011656,Janan T. Eppig,168.455491,Barry Gumbiner,0.631372,Olivier Rixe,0.15,Monica Williams,1.513118181,Scot T. Martin,76.51094,Pentti K. Siiteri,0.426964,Olivier Rixe,0.15
+Mark D. Adams,2.796156234,Andrew Kasarskis,168.455491,Edward F. Bland,0.63119775,Olivier Rieppel,0.15,Alfonse T. Masi,1.51304062,Detlef W. Bahnemann,76.51094,S. J. Galli,0.426879,Olivier Rieppel,0.15
+Paul Liska,2.796140875,Gerald M. Rubin,168.455491,C. Conrad Johnston,0.63112125,Olivier Riant,0.15,Francine Brière,1.512365349,Wonyong Choi,76.51094,Philippe Soriano,0.42687475,Olivier Riant,0.15
+Alastair Kent,2.795198386,Gavin Sherlock,168.455491,S Gillis,0.63110425,Olivier Renaudet,0.15,Naruya Saitou,1.510161539,Richard A. Johnson,76.405489,D. I. Perrett,0.42678125,Olivier Renaudet,0.15
+Zhaodan Cao,2.79504619,Judith A. Blake,168.455491,Brigid L. M. Hogan,0.6310405,Olivier Rascol,0.15,Zhengdong D. Zhang,1.50830627,Michael S. Waterman,76.3142755,Harry S. Wieand,0.426777,Olivier Rascol,0.15
+Larry Rubinstein,2.794685651,Catherine A. Ball,168.455491,R. A. B. Ezekowitz,0.630896,Olivier Raineteau,0.15,Shelley E. Taylor,1.507149325,Mark F. Pittenger,76.2999275,Terry P. Snutch,0.426726,Olivier Raineteau,0.15
+Jeffrey S. Beck,2.794654598,Kara Dolinski,168.455491,R. K. H. Liem,0.63087475,Olivier Nicolas,0.15,D. C. Wiley,1.506721445,Daniel R. Marshak,76.2999275,Charles Tanford,0.426675,Olivier Nicolas,0.15
+J. Richard Hackman,2.793242847,Martin Ringwald,168.455491,Carol Redmond,0.630675,Olivier Nibourel,0.15,Donald P. Nierlich,1.506016833,Joseph D. Mosca,76.2999275,Alexander Mülsch,0.4264455,Olivier Nibourel,0.15
+Wendy Winckler,2.792903669,L. Mandel,168.0796975,W. Jackson Hall,0.6305815,Olivier Neyrolles,0.15,Elizabeth Ward,1.505680721,Stewart Craig,76.2999275,T J Brady,0.426437,Olivier Neyrolles,0.15
+Graeme A. Reid,2.792852992,John E. Overall,167.988654,Robert Tjian,0.630233,Olivier Lyon-Caen,0.15,Lynn M. Schriml,1.505282234,Andrew G. Barto,76.0427515,Tobias Doerks,0.4264115,Olivier Lyon-Caen,0.15
+Thomas J. Palker,2.789775482,David Forman,166.9021415,Donald P. Island,0.629774,Olivier Mathieu,0.15,Mark J. Daly,1.504126797,A. Winkler,75.4731835,Linda M. Pottern,0.426233,Olivier Mathieu,0.15
+Pablo Tamayo,2.784441397,Jacques Ferlay,166.9021415,David C. Dahlin,0.6294425,Olivier Martinaud,0.15,Alice C. Young,1.503986173,Anthony B. Miller,75.4731835,Peter S. DiStefano,0.426165,Olivier Martinaud,0.15
+Simon L. Howell,2.784338342,Elizabeth Ward,166.9021415,Andrew G. Wallace,0.6294085,Olivier Martin,0.15,K McPherson,1.502248,Barth Hoogstraten,75.4731835,Rudolf Grosschedl,0.42610975,Olivier Martin,0.15
+G. D. Farquhar,2.7834836,Ahmedin Jemal,166.9021415,Martha L. Gray,0.629162,Olivier Marre,0.15,George Kuo,1.501346419,H. Seliger,75.196109,Charles A. Chidsey,0.42608,Olivier Marre,0.15
+E. Wolf,2.782592706,Berni J. Alder,166.869731,E. S. Dennis,0.6288815,Olivier Marco,0.15,Yuling Hong,1.500812407,G. Mancini,75.1629165,Victor S. Behar,0.4259015,Olivier Marco,0.15
+William J. Rutter,2.781115356,Todd R. Golub,166.412771,Arthur A. Serpick,0.62845225,Olivier Marchal,0.15,V. S. Kalyanaraman,1.500311349,Jeffrey S. Beck,75.094721,Elisa Izaurralde,0.4258335,Olivier Marchal,0.15
+John C. Doyle,2.776859431,James R. Downing,166.412771,Per Wallén,0.62818875,Olivier Malaise,0.15,J. D. A. Van Embden,1.499346078,Wieslaw J. Roth,75.094721,Patricia Caspar,0.4253405,Olivier Malaise,0.15
+J. D. A. Van Embden,2.773933221,Hilary A. Coller,166.412771,R W Davis,0.628176,Olivier M. Vanderveken,0.15,Robert M. Weisskoff,1.496100101,Charles T. Kresge,75.094721,Wayne H. Akeson,0.425332,Olivier M. Vanderveken,0.15
+Seymour S. Kety,2.772457458,Mignon L. Loh,166.412771,J. F. B. Mitchell,0.627955,Olivier Lozach,0.15,Joseph Ragaz,1.496033319,Trevor Hastie,75.0354845,Pacita L. Roberts,0.425077,Olivier Lozach,0.15
+B. F. Skinner,2.772244063,Michael A. Caligiuri,166.412771,P. Gloor,0.627955,Olivier Maurin,0.15,J Clarke,1.495780444,Fred Ederer,74.969567,L A Herzenberg,0.424975,Olivier Maurin,0.15
+E Thomson,2.771018257,Pablo Tamayo,166.412771,Glen W. Sizemore,0.6279465,Olivier Loudet,0.15,Steven L. Salzberg,1.49567253,Sidney J. Cutler,74.969567,E. D. Mellits,0.424856,Olivier Loudet,0.15
+David E. Goldberg,2.770855669,Clara D. Bloomfield,166.412771,P Marrack,0.62776375,Olivier Loréal,0.15,Liisa Holm,1.495315449,Sydney Brenner,74.7365735,Claire W. Hallahan,0.424703,Olivier Loréal,0.15
+Stephen F. Jencks,2.768812086,Donna K. Slonim,166.412771,John W. Tamkun,0.6276405,Olivier Lortholary,0.15,Ross A. Lippert,1.493947228,Dietrich Stauffer,74.5182765,Valerie A. Fadok,0.4246945,Olivier Lortholary,0.15
+Michael C. Jensen,2.768616935,Richard A. Johnson,166.2316445,Timothy J. Dondero,0.62761925,Olivier Loiseleur,0.15,Phyllis A. Wingo,1.493456862,Amnon Aharony,74.5182765,T. F. Freund,0.4246435,Olivier Loiseleur,0.15
+Hugo Muench,2.767399414,Barth Hoogstraten,165.894849,Sarah Edkins,0.6273685,Olivier Lidove,0.15,Mark A. Saper,1.49242489,Mark A. Hall,74.4772895,Andrée Dierich,0.4246435,Olivier Lidove,0.15
+Ken Dewar,2.765558517,Anthony B. Miller,165.894849,Gary Thurnau,0.627173,Olivier Lichtarge,0.15,Miriam J. Alter,1.49192432,Sarah E. Fowler,74.1626875,Gerald R. Fink,0.42450325,Olivier Lichtarge,0.15
+Dmitriy A. Dikin,2.764865056,A. Winkler,165.894849,Jane Wadsworth,0.626969,Olivier Lesur,0.15,A. H.-J. Wang,1.49165707,John M. Lachin,74.1626875,O Hayaishi,0.4242525,Olivier Lesur,0.15
+Michael W. Hunkapiller,2.764296774,Michael S. Waterman,165.8644105,Roel Nusse,0.62672675,Olivier Leroy,0.15,Kenneth P. Burnham,1.49026389,Elizabeth A. Walker,74.1626875,David Botstein,0.4242015,Olivier Leroy,0.15
+J. F. Forbes,2.763891216,Robert H. Perry,165.468336,J E de Vries,0.6261445,Olivier Mauffret,0.15,Sarah Edkins,1.489681104,William C. Knowler,74.1626875,Marianne Sullivan,0.4240995,Olivier Mauffret,0.15
+S. M. Zahurak,2.7634294,Bruce N. Ames,165.46378,Paul Tempst,0.626017,Olivier Maury,0.15,James J. Gibson,1.488722701,Richard F. Hamman,74.1626875,Gordon M. Ringold,0.424006,Olivier Maury,0.15
+Earl Hubbell,2.762712215,Roger Penrose,165.0337565,Robert I. Levy,0.6259405,Olivier Muller,0.15,Adam Frankish,1.488702148,David M. Nathan,74.1626875,R. A. B. Ezekowitz,0.423989,Olivier Muller,0.15
+John D. Lafferty,2.758645379,J. Peterson,164.921599,William M. McConahey,0.625898,Olivier Mir,0.15,S Mason,1.488574385,Elizabeth Barrett-Connor,74.1626875,Hong Gang Wang,0.42382325,Olivier Mir,0.15
+Darren A. Natale,2.757821798,Lee N. Robins,164.614902,John D. Aber,0.62557925,Olivier Mousis,0.15,Ruth E. Ley,1.487539286,V. K. Pecharsky,73.6443235,Jorge J. Yunis,0.4236745,Olivier Mousis,0.15
+Seymour Benzer,2.7564162,John E. Helzer,164.614902,Paul A. Reasenberg,0.6255495,Olivier Morel,0.15,Gyorgy Hutvagner,1.486909162,K. A. Gschneidner,73.6443235,Caren Kamberg,0.423666,Olivier Morel,0.15
+Lawrence G. Hunsicker,2.756104111,Philip E. Bourne,164.2871845,Pamela Dunsmuir,0.6252605,Olivier Morand,0.15,P. J. Sellers,1.485065661,John E. Helzer,73.617285,André Cournand,0.423581,Olivier Morand,0.15
+Carl R. Woese,2.754408042,T. N. Bhat,164.2871845,J. M. M. Walboomers,0.62506925,Olivier Montagne,0.15,Matt van de Rijn,1.483895527,Lee N. Robins,73.617285,Urs V. Berger,0.423394,Olivier Montagne,0.15
+Edmund A. Gehan,2.754355691,John D. Westbrook,164.2871845,Gail R. Martin,0.6250055,Olivier Mongin,0.15,James H. Ware,1.483525995,Tom Greene,73.600183,Olga Kifor,0.42335575,Olivier Mongin,0.15
+Serafim Batzoglou,2.752471989,Helen M. Berman,164.2871845,Hans J. Geuze,0.624946,Olivier Mondain-Monval,0.15,Evan Mauceli,1.482901553,David Roth,73.600183,James C. Feeley,0.423343,Olivier Mondain-Monval,0.15
+John McCarthy,2.751689039,Gary L. Gilliland,164.2871845,John V. Bennett,0.62486525,Olivier Molinier,0.15,Robert Karasek,1.482523952,Julia B. Lewis,73.600183,G. Shirleen Roeder,0.4232665,Olivier Molinier,0.15
+Kristin Ardlie,2.750301605,Tomaso Poggio,163.4528245,R. I. Glass,0.62413,Olivier Mirguet,0.15,William N. Anderson,1.482368167,Juan P. Bosch,73.600183,Colin R. Hopkins,0.423071,Olivier Mirguet,0.15
+Warren J. Hehre,2.748784878,David A. Nichols,162.8414025,Gilliland Dg,0.624113,Olivier Mimoz,0.15,Jennifer J. Anderson,1.481365563,Andrew S. Levey,73.600183,Pamela Dunsmuir,0.423054,Olivier Mimoz,0.15
+David G. Kleinbaum,2.748443401,Akira Fujishima,162.183273,Ralph L. Nachman,0.62400675,Olivier Meilhac,0.15,Alexander Parkhomenko,1.48136307,David Watson,73.587025,Olli-P. Kallioniemi,0.42285,Olivier Meilhac,0.15
+Michael Zuker,2.746874995,Kenichi Honda,162.183273,Howard M. Temin,0.6239855,Olivier Millet,0.15,Deborah Estrin,1.481098983,Auke Tellegen,73.587025,A. H. Fitter,0.42282875,Olivier Millet,0.15
+Richard Breathnach,2.746208911,David L. Donoho,161.8710765,Archie H. Baggenstoss,0.623824,Olivier Mignen,0.15,Linda M. Rolnitzky,1.480298796,Hiroshi Ohkawa,73.3980785,Robert K. Mortimer,0.42278625,Olivier Mignen,0.15
+Hilary King,2.742264278,Ian T. Foster,161.5832665,George A. Kaplan,0.62313125,Olivier Michielin,0.15,Barth Hoogstraten,1.479959386,Nobuko Ohishi,73.3980785,Jean-Paul Revel,0.42269275,Olivier Michielin,0.15
+John Bowlby,2.740281068,Subir Sachdev,161.376453,Walther Stoeckenius,0.622974,Olivier Michel,0.15,M Schumacher,1.479352036,Kunio Yagi,73.3980785,Steven A. Kliewer,0.4225185,Olivier Michel,0.15
+R Doll,2.739472847,Joachim Messing,160.0966335,W. H. McFadden,0.6227445,Olivier Micheau,0.15,Craig H. Mermel,1.477700481,Alejandro R. Jadad,73.336785,D A Galloway,0.42250575,Olivier Micheau,0.15
+Nigel P. Carter,2.739002506,Jeffrey Vieira,160.0966335,R. S. J. Frackowiak,0.622413,Olivier Meyer,0.15,Thomas C. Chalmers,1.476281859,Crispin Jenkinson,73.336785,Paul W. Gast,0.4224505,Olivier Meyer,0.15
+M Schumacher,2.738427741,Mark Johnson,160.047104,Sidney J. Cutler,0.622379,Olivier Meste,0.15,Walter M. Fitch,1.475971433,Henry J McQuay,73.336785,J. M. Tiedje,0.42222525,Olivier Meste,0.15
+James Kennedy,2.736261756,S. Weinstein,159.849173,W Grossman,0.621971,Olivier Mentré,0.15,J. Richard Hackman,1.4754679,David J. Gavaghan,73.336785,Audrey Kinter,0.42217,Olivier Mentré,0.15
+E. A. McCulloch,2.735540639,David Oakes,159.5182255,A. E. Mirsky,0.6216565,Oliver Braddick,0.15,E. A. Clarke,1.475380775,Richard H. Friend,73.330444,James M. Dambrosia,0.422034,Oliver Braddick,0.15
+John D. McPherson,2.7350905,David A. Schoenfeld,159.5182255,S. D. Tanksley,0.6215035,Oliver Bieri,0.15,Andrew Fire,1.475180387,A. R. Brown,73.330444,Daniel A. Goodenough,0.4218215,Oliver Bieri,0.15
+Paul Emsley,2.73427217,Eduardo D. Sontag,158.596222,Edward Schreiber,0.6206535,Oliver Bossdorf,0.15,Insa Gathmann,1.475170849,D. D. C. Bradley,73.330444,Wilma Harrison,0.4217535,Oliver Bossdorf,0.15
+Joseph D. Mosca,2.734071066,Thomas H. Holmes,158.2614495,Gerald Klatskin,0.620611,Ohsang Kwon,0.15,Sewall Wright,1.474894573,Jeremy H. Burroughes,73.330444,Dominique Mouchiroud,0.4217195,Ohsang Kwon,0.15
+Peter K. Wellauer,2.73355562,Frederick C. Neidhardt,157.8176135,Kevin J. Horgan,0.61949325,Oichiro Kobori,0.15,J.-C. Gazet,1.474122113,Andrew B. Holmes,73.330444,James T. Kadonaga,0.42166425,Oichiro Kobori,0.15
+A. L. Page,2.733095671,Scott Shenker,157.6477665,Magda Puype,0.619047,Oichi Kawanami,0.15,Juha Kononen,1.473653802,David A. Schoenfeld,73.2884795,Tom I. Bonner,0.421643,Oichi Kawanami,0.15
+Jeffrey N. Rottman,2.732339598,Paul Francis,157.6477665,Gertrude Henle,0.6189705,Oi Ling Kwan,0.15,Karen Eilbeck,1.472004651,David Oakes,73.2884795,Elaine J. Stone,0.421524,Oi Ling Kwan,0.15
+Jeremy D. Selengut,2.729079167,Arthur B. Lamb,157.3608405,David A. Clayton,0.61878775,Oi Lian Kon,0.15,Marcus E. Raichle,1.471913591,G. Binnig,72.8241245,Aaron L. Halpern,0.421371,Oi Lian Kon,0.15
+Michael Ashburner,2.728853118,Martin Schneider,157.2422145,Jerry R. Mitchell,0.618758,Oi H,0.15,George Paxinos,1.471756683,C. F. Quate,72.8241245,Dene E. Ryan,0.421337,Oi H,0.15
+Paul W. Gast,2.727935636,George Davey Smith,157.2422145,Charles B. Kimmel,0.61866025,Ohyun Kwon,0.15,Gordon G. Wong,1.471253465,Ch. Gerber,72.8241245,Ron Prywes,0.42114575,Ohyun Kwon,0.15
+Hoda Khouri,2.726542965,Matthias Egger,157.2422145,Paul R. Burkholder,0.6183075,Ohtsura Niwa,0.15,Elisabeth Burdick,1.470287767,Paul D. Adams,72.5338495,J. F. B. Mitchell,0.42098425,Ohtsura Niwa,0.15
+J. E. Till,2.725887843,Edward O. Wilson,156.7902865,Anu Srinivasan,0.6181885,Ohtsuka T,0.15,David W. Leung,1.468833,Ralf W. Grosse-Kunstleve,72.5338495,Gordon M. Tomkins,0.42098425,Ohtsuka T,0.15
+Louis Fehrenbacher,2.725649677,Giuseppe Bianchi,156.560948,W. A. Hauser,0.618146,Ohtani H,0.15,Eric R. Fearon,1.468342395,Michael Nilges,72.5338495,J Sprent,0.420861,Ohtani H,0.15
+Norman A. Doggett,2.724292776,Lixia Zhang,156.537369,David Botstein,0.61801,Ohta Y,0.15,Marshall N. Rosenbluth,1.468281474,Jianxin Jiang,72.5338495,Rodrigo Bravo,0.4208525,Ohta Y,0.15
+Shimon Ullman,2.724261106,David Huang,156.2813575,O Hayaishi,0.6179505,Ohta T,0.15,R. C. Turner,1.468245311,Randy J. Read,72.5338495,J S Flier,0.420844,Ohta T,0.15
+E. A. Clarke,2.721704183,Charles P. Lin,156.2813575,Marc W. Kirschner,0.6179505,Ohta S,0.15,Harold Swerdlow,1.467830538,Eli Yablonovitch,72.0031095,Stephanie J. Ventura,0.4208355,Ohta S,0.15
+Mary C. Betlach,2.721587532,Eric A. Swanson,156.2813575,Xiong Wen (David) Lou,0.6179165,Ohta N,0.15,Andrew Y. Ng,1.4668998,Heather McKay,71.772904,Franklin Kim,0.420742,Ohta N,0.15
+Michael Held,2.721539232,Carmen A. Puliafito,156.2813575,Denis Leung,0.6178315,Ohta M,0.15,Scott L. Weinrich,1.466876394,Genji Matsuda,71.7039435,Eberhard H. Buhl,0.420725,Ohta M,0.15
+Linda M. Rolnitzky,2.720776519,James G. Fujimoto,156.2813575,Susan G. Orel,0.616973,Ohta K,0.15,Robert G. Parr,1.466773172,Gerhard Braunitzer,71.7039435,Meredith G. Warshaw,0.4205975,Ohta K,0.15
+William H. Dietz,2.719921699,Joel S. Schuman,156.2813575,J Sprent,0.6169645,Ohta H,0.15,Zbyszek Otwinowski,1.466046357,Tetsuo Maita,71.7039435,Brian G. Spratt,0.420164,Ohta H,0.15
+U. J. Lewis,2.719566301,Michael R. Hee,156.2813575,Robert C. Harriss,0.6165225,Ohta A,0.15,Michael Fiorino,1.465897278,James B. Wyngaarden,71.7033825,Geoffrey E. Hinton,0.420164,Ohta A,0.15
+Nathan Goodman,2.718699426,Andrew Y. Ng,156.1264535,N. M. Le Douarin,0.616514,Ohsuk Kwon,0.15,Stuart McLaren,1.465439713,Charles R. Scriver,71.7033825,Howard Cedar,0.420096,Ohsuk Kwon,0.15
+James E. Galagan,2.717313038,Michael I. Jordan,156.1264535,Karen Hsiao,0.61623775,Ohshima T,0.15,Steve Rozen,1.464806893,Irwin Fridovich,71.67699,Rosen Br,0.4198835,Ohshima T,0.15
+William H. Habig,2.714887892,Alfonse T. Masi,155.981537,Folke Sjöqvist,0.6160125,Oili Salonen,0.15,Robert Katzman,1.464649848,Joe M. McCord,71.67699,Reto Ruedy,0.4197985,Oili Salonen,0.15
+John P. Feighner,2.713998208,Eng M. Tan,155.981537,Anne O'Garra,0.61582975,Oishi K,0.15,Charles H. Hennekens,1.464140488,Pietro Perona,71.6236015,Ralph L. Brinster,0.41979,Oishi K,0.15
+J. S. Turner,2.713960685,Robert Winchester,155.981537,Roy J. Britten,0.6157065,Oishi M,0.15,Bruce M. Spiegelman,1.463083311,Jitendra Malik,71.6236015,William S. Lane,0.41976025,Oishi M,0.15
+Jinghui Zhang,2.709961447,Norman Talal,155.981537,S. C. Raimondi,0.6155535,Oka T,0.15,Richard C. Graham,1.462972293,John E. Overall,71.527339,Gary G. Borisy,0.419382,Oka T,0.15
+J. R. Vane,2.708832917,Naomi F. Rothfield,155.981537,Martin Gellert,0.61491175,Okada S,0.15,Wen Lin Kuo,1.462806703,Michael P. Stern,71.327419,Robert E. Thurman,0.4193395,Okada S,0.15
+Forrest E. Kendall,2.704768616,Alan S. Cohen,155.981537,Cochrane Cg,0.614151,Okada N,0.15,Abraham Kagan,1.462721678,Jerry P. Palmer,71.327419,Alan F. Horwitz,0.419331,Okada N,0.15
+Kenneth F. Schulz,2.703082696,Yoav Freund,155.4441925,J Wittenberg,0.61393,Okada M,0.15,Kenneth F. Schulz,1.46227253,Noel K. Maclaren,71.327419,M Oren,0.419314,Okada M,0.15
+Michael B. Mock,2.699221923,Herbert S. Harned,155.4308815,Jacques Ferlay,0.6137515,Okada K,0.15,Helena Hämäläinen,1.462024992,Philip Raskin,71.327419,Charles B. Carrington,0.4192885,Okada K,0.15
+Robert A. Rosati,2.699206898,John Nash,155.300602,Walter H. Ettinger,0.613726,Okada H,0.15,Erin Pleasance,1.461777865,Saul Genuth,71.327419,Andrew J. Elia,0.419263,Okada H,0.15
+Edgar F. Meyer,2.695498141,Donald D. Van Slyke,154.193358,D A Galloway,0.613607,Okabe S,0.15,Dennis A. Gilbert,1.461755645,K. G. M. M. Alberti,71.327419,Donald M. Stablein,0.41924175,Okabe S,0.15
+Keith J. Worsley,2.694306601,Alan D. Baddeley,153.9663655,Joel Avigan,0.61308425,Okabe M,0.15,Daniel McGee,1.461579262,James R. Gavin,71.327419,Maarit Sarlomo-Rikala,0.419008,Okabe M,0.15
+Tina Graves,2.685587835,Trevor Hastie,153.875883,Rosa S. P. Beddington,0.6129355,Okabe K,0.15,Karen Hsiao,1.461255769,Robert A. Rizza,71.327419,Helen Goodell,0.418617,Okabe K,0.15
+William R. McCabe,2.684300815,C. Jeffrey Brinker,153.7840745,David P. Byar,0.612672,Oka S,0.15,Timothy B. Stockwell,1.461151788,Richard Kahn,71.327419,Michael Rosbash,0.41853625,Oka S,0.15
+Melvin P. Judkins,2.683818267,Takeo Kanade,153.5348545,David M. Eddy,0.6123915,Oivi Uibo,0.15,Jonathan K. Pritchard,1.460823967,Mayer B. Davidson,71.327419,Jun-ichi Tomizawa,0.4185065,Oivi Uibo,0.15
+Dennis G. Ballinger,2.681911171,Peter C. O'Brien,153.2244515,Shirley G. Quan,0.612349,Oka M,0.15,Gregory J. Hannon,1.45893625,Ralph A. DeFronzo,71.327419,José A. Campos-Ortega,0.41843,Oka M,0.15
+Ralf W. Grosse-Kunstleve,2.681598831,Thomas R. Fleming,153.2244515,Robert R. Linton,0.6122385,Oka H,0.15,Jingtao Sun,1.45874111,Allan L. Drash,71.327419,Ivan Lieberburg,0.418294,Oka H,0.15
+K McPherson,2.680425395,Arthur E. Martell,152.2226075,Cecile M. Pickart,0.612026,Oka A,0.15,Scott Schwartz,1.457879625,Steven G. Gabbe,71.327419,E L Reinherz,0.4181835,Oka A,0.15
+David P. Reed,2.678616342,Robert M. Smith,152.2226075,Paul R. Whitfeld,0.6119835,Ok-Sun Bang,0.15,Giorgio Cocconi,1.457588657,Erik L. L. Sonnhammer,71.2527975,Jürg Tschopp,0.41779675,Ok-Sun Bang,0.15
+Max H. Myers,2.67806692,Torsten N. Wiesel,151.85188,John W. Farquhar,0.6119325,Ok-Sang Jung,0.15,Nicola Mulder,1.456877286,Liisa Holm,71.2527975,J. Alumets,0.4175715,Ok-Sang Jung,0.15
+Robert M. Kuhn,2.6779085,Guenter Ahlers,151.706224,Wenbiao Liu,0.611703,Ok-Jun Lee,0.15,Michael H. Kutner,1.456662989,Andreas Heger,71.2527975,Ennapadam Venkatraman,0.41749075,Ok-Jun Lee,0.15
+Yasushi Totoki,2.6751203,H. Eugene Stanley,151.706224,Roland Heilig,0.61157125,Ok-Hee Lee,0.15,Bert Sakmann,1.456544238,Robert D. Finn,71.2527975,S Gillis,0.41746525,Ok-Hee Lee,0.15
+P. C. Eklund,2.673484762,Richard C. Graham,151.3627475,Geoffrey E. Hinton,0.611363,Ok Ran Lee,0.15,Cliff Tabin,1.45646338,Marco Punta,71.2527975,Judith R. O'Fallon,0.41744825,Ok Ran Lee,0.15
+Myron Flickner,2.672308714,Morris J. Karnovsky,151.3627475,Nicholas J. Cowan,0.6113035,Ohshima K,0.15,R. S. J. Frackowiak,1.456073359,Ingram Olkin,71.1840665,James J. Hack,0.4173335,Ohshima K,0.15
+Robert P. Gaynes,2.670694413,Cyrus Levinthal,151.159963,Gordon M. Ringold,0.611159,Ohno Y,0.15,S Clarke,1.455728757,Larry V. Hedges,71.1840665,Richard G. Hutchinson,0.417172,Ohno Y,0.15
+William N. Anderson,2.66792,Edwin E. Salpeter,150.716331,Mayer Je,0.610989,Okada Y,0.15,Paul E. Meehl,1.454432125,Takeo Kanade,70.9733345,Alan B. Sachs,0.417019,Okada Y,0.15
+Saira Salahuddin,2.667266722,Hans A. Bethe,150.716331,George G. Glenner,0.610785,Ohno T,0.15,Brian Haynes,1.453952349,David R. Anderson,70.963653,Judith Ochs,0.41670025,Ohno T,0.15
+Betty J. Flehinger,2.664865371,Charles Tanford,150.6983705,Donald R. Senger,0.6105725,Ohad Shemmer,0.15,Taylor A. Sohn,1.453928745,Kenneth P. Burnham,70.963653,George J. Nemo,0.4165515,Ohad Shemmer,0.15
+R. Mead,2.663541223,Thomas Wiegand,150.439112,Helen R. Burstin,0.610479,Ohad S. Birk,0.15,Bates Dw,1.453154085,Paul Francis,70.8438625,Mark S. Mooseker,0.4163135,Ohad S. Birk,0.15
+Raffaella Sordella,2.662813086,Michael Houghton,150.24113,Ghia Euskirchen,0.610173,Ohad Medalia,0.15,Benoit B. Mandelbrot,1.452291042,Scott Shenker,70.8438625,Adele M. Snowman,0.4161945,Ohad Medalia,0.15
+William J. Martone,2.662533468,Qui-Lim Choo,150.24113,Anne H. Fossel,0.6100795,Ohad Cohen,0.15,Deborah R. Shapiro,1.452161102,Michel Raymond,70.3184095,H. Craig,0.416067,Ohad Cohen,0.15
+Mary Osborn,2.662054519,Amy J. Weiner,150.24113,Wayne W. Carmichael,0.609272,Oh-Shin Kwon,0.15,Ralph M. Steinman,1.451620688,François Rousset,70.3184095,Solomon H. Snyder,0.41599475,Oh-Shin Kwon,0.15
+Erik L. L. Sonnhammer,2.660484295,Daniel W. Bradley,150.24113,J. Alumets,0.609272,Oh-Sang Kwon,0.15,Ali A. Mokdad,1.450489679,Stanley Osher,70.163463,Andreas Festa,0.4158715,Oh-Sang Kwon,0.15
+Henry A. Erlich,2.659354638,P. Schuck,149.7970305,Miles Herkenham,0.60925075,Oh-Kil Kim,0.15,H. Gervásio,1.449572727,James A. Sethian,70.163463,Larry Gerace,0.4158545,Oh-Kil Kim,0.15
+Paul J. Deutsch,2.659102857,Sewall Wright,149.633363,Adele M. Snowman,0.609017,Oh-Joon Kwon,0.15,J.A. van Dongen,1.44920018,Tatu A. Miettinen,70.1395015,Joan A. Steitz,0.4158205,Oh-Joon Kwon,0.15
+G. E. Hutchinson,2.65778625,Scott V. Tingey,149.1726885,C. B. Field,0.608966,Oh-Hoon Kwon,0.15,D. von Fournier,1.448422701,Harvey D. White,70.1395015,Wayne W. Carmichael,0.415404,Oh-Hoon Kwon,0.15
+David Altshuler,2.653944053,A. B. P. Lever,148.2104375,Millicent Higgins,0.60857075,Oh Young Bang,0.15,Ronald L. Rivest,1.44790713,Michael Gnant,70.1395015,DeWitt S. Goodman,0.4153275,Oh Young Bang,0.15
+Francis M. Miezin,2.650727653,Stuart A. Rice,148.2104375,Carl W. Schmid,0.6084645,Oh Seok Kwon,0.15,George E. Palade,1.4474772,Terje R. Pedersen,70.1395015,Howard A. Schneiderman,0.41507675,Oh Seok Kwon,0.15
+Bruce N. Ames,2.648382835,Paul R. Rosenbaum,148.064705,Howard Cedar,0.6082435,Oh Kyoung Kwon,0.15,Martin L. Hooper,1.447153991,John J.V. McMurray,70.1395015,E. Francis Cook,0.41490675,Oh Kyoung Kwon,0.15
+S Takashima,2.644966966,Taylor Ja,147.925509,William M. Feinberg,0.60823075,Oh Jeong,0.15,Kiran Garimella,1.446777833,Anders G. Olsson,70.1395015,Bert Sakmann,0.4148685,Oh Jeong,0.15
+Robert F. Kibler,2.643901484,Jakob Nielsen,147.7809665,Raleigh A. Bowden,0.6082265,Oh H,0.15,Thomas N. Sato,1.446655407,Kåre Berg,70.1395015,Hans C. Fibiger,0.41484725,Oh H,0.15
+Morris J. Karnovsky,2.642970214,K. R. Rao,147.734208,Roger H. Bernier,0.608116,Ogyi Park,0.15,Gordon Saksena,1.446315167,John Kjekshus,70.1395015,Eugenia E. Calle,0.41478775,Ogyi Park,0.15
+Chris C A Spencer,2.638573228,N. Ahmed,147.734208,R. A. Crowther,0.607929,Oguz Resat Sipahi,0.15,S Takashima,1.444997042,Ole Faergeman,70.1395015,Robert A. Duce,0.414758,Oguz Resat Sipahi,0.15
+John V. Bennett,2.638326772,Michael C. Reed,147.674725,Richard Gorlin,0.607827,Oguz Karabay,0.15,Gitanjali M. Singh,1.442948281,Lars Wilhelmsen,70.1395015,Jean H. Hankin,0.4145965,Oguz Karabay,0.15
+Jennifer J. Anderson,2.63711625,Jonathan King,147.0021625,M D Lane,0.6070365,Oguz Akin,0.15,C. K. Osborne,1.442508629,Gudmundur Thorgeirsson,70.1395015,Daniel F. Bowen-Pope,0.4145625,Oguz Akin,0.15
+Nancy F. Hansen,2.636765509,George H. Weiss,146.544599,Sune Bergström,0.6070365,Ogura M,0.15,Anne Dornhorst,1.4421794,Kalevi Pyörälä,70.1395015,Samuel A. Latt,0.41407375,Ogura M,0.15
+D. Lawrence Wickerham,2.636393792,Eric K. Rideal,145.960921,Rolf Kemler,0.606382,Ohara Augusto,0.15,Ali Zandieh,1.441489183,Thomas D. Cook,70.0540595,David P. Bartel,0.4140185,Ohara Augusto,0.15
+James G. Hirsch,2.635282574,R. Atkinson,145.939807,Aaron L. Halpern,0.60593575,Ohara K,0.15,P. G. Smith,1.44121815,James C. Anderson,69.5117,Sylvia Hoffstein,0.41398875,Ohara K,0.15
+Joe M. McCord,2.63463365,John McCarthy,145.513855,Glenn E. Sheline,0.6059145,Ohara S,0.15,G. Bonadonna,1.440412071,Heather S. Duffy,69.4777255,Mark A. Krasnow,0.41368275,Ohara S,0.15
+Eric A. Swanson,2.633347097,Anders Krogh,145.302086,Kristina N. Sigmon,0.60566375,Ohman Em,0.15,Erding Hu,1.440396475,Norman Fleischer,69.4777255,Alex Goldfarb,0.4136445,Ohman Em,0.15
+Katherine S. Elliott,2.63197957,Andrew Weiss,145.076819,John M.C. Gutteridge,0.6055065,Ohno R,0.15,William J. Rutter,1.440384258,Morris J. Karnovsky,69.406215,S. J. Bame,0.4136275,Ohno R,0.15
+Mark Weiser,2.63176265,F. Barre-Sinoussi,145.075153,Harry S. Wieand,0.60542575,Ohno M,0.15,Janan T. Eppig,1.440361556,Richard C. Graham,69.406215,E J Brown,0.4135595,Ohno M,0.15
+Marianne Kearney,2.631234045,Charles Dauguet,145.075153,Michael Gent,0.60525575,Ohno K,0.15,L. J. Ignarro,1.439984474,A. Bondi,69.2809505,Kaplan No,0.4135425,Ohno K,0.15
+Daphne W. Bell,2.631049347,Luc Montagnier,145.075153,Sonja M. McKinlay,0.605243,Ohnishi T,0.15,Jeffrey A. Cutler,1.438873498,Gerald M. Reaven,69.219096,Jonathon D. Sedgwick,0.4135255,Ohnishi T,0.15
+J.-C. Gazet,2.629873072,Chermann Jc,145.075153,S. J. Galli,0.6046905,Ohnishi M,0.15,David Beach,1.438004488,Fredrik Ronquist,68.788384,M. Karplus,0.4134405,Ohnishi M,0.15
+Peter J. Turnbaugh,2.629675627,Willy Rozenbaum,145.075153,Robert Haake,0.604665,Ohnishi K,0.15,Frank Delaglio,1.437669667,John P. Huelsenbeck,68.788384,Doyle J. Evans,0.4133725,Ohnishi K,0.15
+Ilya Spigland,2.628874,Solange Chamaret,145.075153,Sohaila Rastan,0.60461825,Ohmura Y,0.15,J. Gillis,1.436338043,Nello Cristianini,68.7538825,James R. Gnarra,0.413364,Ohmura Y,0.15
+M. Y. Kim,2.626587266,Christine Rouzioux,145.075153,J. M. Bland,0.604376,Ohmori K,0.15,Nancy A. Thornberry,1.435930616,Masao Doi,68.726283,Catherine S. Berkey,0.413347,Ohmori K,0.15
+Stuart Bunting,2.622515967,Jitendra Malik,144.7049865,G. Denman Hammond,0.6042485,Ohkubo T,0.15,Steven R. Gill,1.435841005,Charles P. Lin,68.6808845,Robert H. Wurtz,0.4132535,Ohkubo T,0.15
+Deborah R. Shapiro,2.619901331,Pietro Perona,144.7049865,Bruce M. Spiegelman,0.604121,Ohashi H,0.15,Richard Breathnach,1.435211527,Eric A. Swanson,68.6808845,J E de Vries,0.413211,Ohashi H,0.15
+Antman Em,2.617916667,H. Murayama,144.0956045,Parks Ag,0.6038235,Ohkubo H,0.15,Valerie A. Fadok,1.435137592,Carmen A. Puliafito,68.6808845,Shirley G. Quan,0.4131855,Ohkubo H,0.15
+Werner Risau,2.615815954,M. Roos,144.0956045,David R. Wolstenholme,0.60372575,Ohgi Takahashi,0.15,Daniel W. Bradley,1.434792925,Joel S. Schuman,68.6808845,Wishwa N. Kapoor,0.41316425,Ohgi Takahashi,0.15
+Donald D. Newmeyer,2.614986066,Donald E. Groom,144.0956045,Noël P. Burtt,0.60370875,Ohgaki K,0.15,George G. J. M. Kuiper,1.434376825,David Huang,68.6808845,Jeffrey M. Leiden,0.4129475,Ohgaki K,0.15
+J. Milburn Jessup,2.613991265,S. Eidelman,144.0956045,Anita B. Roberts,0.6033815,Ohga S,0.15,Andrew J. Mungall,1.433516338,James G. Fujimoto,68.6808845,Jason G. Cyster,0.4128455,Ohga S,0.15
+J Clarke,2.613477398,R. Crawford,144.0956045,B. D. Harrison,0.6033645,Oheneba Boachie-Adjei,0.15,Marek Kubin,1.433222606,Michael R. Hee,68.6808845,John B. Penney,0.412684,Oheneba Boachie-Adjei,0.15
+Robert A. Weinberg,2.611822237,A. Gurtu,144.0956045,William E. Dismukes,0.60330925,Ohene Adjei,0.15,Mark Yandell,1.432978183,Eduardo D. Sontag,68.655903,Richard P. Bunge,0.4125735,Ohene Adjei,0.15
+Eric W. Wong,2.611736142,M. Aguilar-Benitez,144.0956045,Herbert E. Griswold,0.603254,Ohashi N,0.15,Maurizio Belfiglio,1.432953418,Simon G. Thompson,68.6038915,S. M. Haffner,0.4124715,Ohashi N,0.15
+David J. Spiegelhalter,2.611695327,Keith A. Olive,144.0956045,Michael P. Stern,0.603101,Ohashi K,0.15,Michael W. Hunkapiller,1.43252917,Julian P T Higgins,68.6038915,David F. Williamson,0.412463,Ohashi K,0.15
+Saul Genuth,2.610215377,P. K. Gupta,143.911775,Pius Loetscher,0.60281625,Okada T,0.15,Albert-László Barabási,1.431871796,Jonathan J Deeks,68.6038915,Richard E. Nisbett,0.41240775,Okada T,0.15
+John Nash,2.60876435,M. Mohan,143.911775,C De Laet,0.6017835,Okajima E,0.15,Allen Newell,1.431449075,Andrew Gelman,68.1878675,Laura Liberman,0.41233125,Okajima E,0.15
+Judah Folkman,2.60680186,William J. Kaiser,143.8981495,G. A. R. Johnston,0.6017665,Oliver Borst,0.15,Daniel I. Arnon,1.43050344,Jianbo Shi,68.1167055,Omana V. Nainan,0.41219525,Oliver Borst,0.15
+Clifton F. Mountain,2.605928982,Walter M. Fitch,143.630629,Richard P. Bunge,0.60143925,Ola A. Selnes,0.15,Santos A. Susin,1.430042917,Thomas H. Holmes,67.9661195,J. P. Grime,0.4121145,Ola A. Selnes,0.15
+P. Andrew Futreal,2.604808273,E. Margoliash,143.630629,Barclay An,0.6013925,Ola Sandgren,0.15,Federico Girosi,1.42928729,Michael C. Jensen,67.9616315,Sohaila Rastan,0.4116555,Ola Sandgren,0.15
+Aram V. Chobanian,2.602793003,Yiying Zhang,142.9766815,J. M. Tiedje,0.6012055,Ola Samuelsson,0.15,Arthur M. Sobol,1.426691053,Robert M. Silverstein,67.794224,Renée K. Margolis,0.4116555,Ola Samuelsson,0.15
+C. Pennypacker,2.60117319,Margherita Maffei,142.9766815,Ronald K. Ross,0.6008655,Ola Persson,0.15,Michael L. Frigge,1.425704225,Albert-László Barabási,67.745162,Martin Gellert,0.4116215,Ola Persson,0.15
+Stanley L. Wallace,2.59987595,Jeffrey M. Friedman,142.9766815,Solomon H. Snyder,0.600381,Ola Nilsson,0.15,Sheila Scully,1.425614676,Ralph M. Steinman,67.456026,Earl L. Diamond,0.4116045,Ola Nilsson,0.15
+Auke Tellegen,2.597432744,Stanley S. Ballard,142.6781105,J. John Sepkoski,0.6002705,Ola Myklebost,0.15,Miller Ja,1.424285282,Jacques Banchereau,67.456026,Shuster Jj,0.411477,Ola Myklebost,0.15
+K Matsushima,2.596656845,David Harel,142.5917165,Robert A. Briggaman,0.600126,Ola M. Johannessen,0.15,Tracy M. Bryan,1.42300471,Ronald H. Reeder,67.1724575,Pieter Dikkes,0.41145575,Ola M. Johannessen,0.15
+S Mason,2.596312009,A. Bondi,142.1459425,J J Mekalanos,0.6000835,Ola Larsson,0.15,Gary Struhl,1.422880345,Terence Tao,67.08767,Risa B. Mann,0.411443,Ola Larsson,0.15
+Lynn M. Schriml,2.596081258,Peter Naur,141.7995505,Christie Kovar,0.600024,Ola Landgren,0.15,Wieslaw J. Roth,1.422089059,Michael J. S. Dewar,67.067372,Ke Shuai,0.411358,Ola Landgren,0.15
+Joseph Berkson,2.594840866,C. Katz,141.7995505,Robert P. Gaynes,0.5996245,Ola Junghard,0.15,John C. Cassel,1.421563254,Kenneth S. Kendler,66.934738,Sacha Lucchini,0.4112985,Ola Junghard,0.15
+A. H.-J. Wang,2.594211508,Russell Ross,141.669424,Lucien J. Rubinstein,0.5994545,Ola Hermanson,0.15,James K. V. Willson,1.420725981,Ronald C. Kessler,66.934738,Carol A. Kelly,0.4109245,Ola Hermanson,0.15
+Charles H. Hennekens,2.593866512,Axel T. Brunger,141.578423,Susan D. Hamburger,0.5992505,Ola Hansson,0.15,Douglas J. Schwartzentruber,1.420085658,Michael Hughes,66.934738,John H. Lawton,0.41066525,Ola Hansson,0.15
+Rhian Gwilliam,2.587334681,Colin Eaborn,141.3343625,Earl W. Davie,0.5986215,Ola Hammarsten,0.15,Kate Downes,1.41920453,Hans-Ulrich Wittchen,66.934738,Adrian Bird,0.410644,Ola Hammarsten,0.15
+Rodrigo Lopez,2.586139336,Thomas D. Cook,141.308769,Holger W. Jannasch,0.5984685,Ola H. Skjeldal,0.15,Howard H. Hiatt,1.418619214,J. Gillis,66.7998175,Mia J. Tegner,0.4106355,Ola H. Skjeldal,0.15
+Oliver Schwardt,2.585861393,Heather McKay,141.1256875,Caren Kamberg,0.59846,Ola Gjesdal,0.15,Barbara E. Stranger,1.418367098,Ryo Sato,66.72132,Lucien J. Rubinstein,0.410525,Ola Gjesdal,0.15
+Stefan Taudien,2.585260914,M. Carlson,140.4365415,Councilman Morgan,0.598358,Ola Forslund,0.15,Marc Zabeau,1.416992044,Tsuneo Omura,66.72132,Gary S. Ditta,0.410525,Ola Forslund,0.15
+Edmund G. Lowrie,2.583386357,Z. Wang,140.4365415,P. R. Zimmerman,0.59829,Ola Engkvist,0.15,Earl Hubbell,1.416804692,Richard J. Havel,66.64941,P. J. Sellers,0.4105165,Ola Engkvist,0.15
+Ian Dunham,2.583294899,William Weiss,140.4365415,Louis B. Flexner,0.5982305,Ola E. Dahl,0.15,Yasunori Ogura,1.416697625,Howard A. Eder,66.64941,Yolande Surdin-Kerjan,0.410355,Ola E. Dahl,0.15
+Kim Rutherford,2.582674827,R. J. Collins,140.3015785,Grant W. Liddle,0.5978395,Ola Didrik Saugstad,0.15,Hongjie Dai,1.416527831,Yihui Ding,66.627701,William F. Novotny,0.410355,Ola Didrik Saugstad,0.15
+Douglas T. Ross,2.580613991,Bertil Hille,139.0708805,P. M. Sheppard,0.59758875,Ola Brodin,0.15,Yuri Lazebnik,1.41647826,X. Dai,66.627701,Liesi E. Hebert,0.410253,Ola Brodin,0.15
+Frederic M. Richards,2.57907627,James S. Coleman,138.9071365,Ralph L. Brinster,0.5972445,Ola Söderberg,0.15,Joan Keesey,1.416345805,Tomoh Masaki,66.534082,H. de Lencastre,0.410015,Ola Söderberg,0.15
+Jonathan Butler,2.578935462,Charles T. Kresge,138.891505,James Lubitz,0.5971,Ola Weiland,0.15,David J. Spiegelhalter,1.416106093,Hiroki Kurihara,66.534082,Louis F. Reichardt,0.40995125,Ola Weiland,0.15
+Joseph Ragaz,2.578718773,Wieslaw J. Roth,138.891505,Stanislas du Manoir,0.5970235,Ola Winqvist,0.15,John C. Khoo,1.41586012,Sadao Kimura,66.534082,Peter Mombaerts,0.409947,Ola Winqvist,0.15
+Basil M. Rifkind,2.578439214,Jeffrey S. Beck,138.891505,Emad S. Alnemri,0.596998,Olaf Dirsch,0.15,Sarah S. Murray,1.414953386,Youji Mitsui,66.534082,Josiane Ménissier-de Murcia,0.409896,Olaf Dirsch,0.15
+Mark F. Pittenger,2.57688324,T. A. Skotheim,138.78942,Rodrigo Bravo,0.5968535,Olaf Heidenreich,0.15,Patrick Brill-Edwards,1.412744789,Yoshio Yazaki,66.534082,Stanislaw Krajewski,0.4098365,Olaf Heidenreich,0.15
+D. C. Wiley,2.576112616,John R. Reynolds,138.78942,Hans Kende,0.5966665,Olaf Hauk,0.15,James Kennedy,1.412713216,Katsutoshi Goto,66.534082,Matthew M. Rechler,0.409811,Olaf Hauk,0.15
+Robert E. Bruccoleri,2.575541097,Youji Mitsui,138.5158985,Martin E. Hemler,0.596522,Olaf H. Klungel,0.15,Cladd E. Stevens,1.410687406,Masashi Yanagisawa,66.534082,Elaine Rands,0.40959425,Olaf H. Klungel,0.15
+Morten Kjeldgaard,2.572254769,Katsutoshi Goto,138.5158985,S. M. Haffner,0.59642,Olaf H. Drummer,0.15,Lon R. Cardon,1.409993022,William H. Prusoff,66.502649,Peter Marler,0.4093605,Olaf H. Drummer,0.15
+Fred Ramsdell,2.571669508,Masashi Yanagisawa,138.5158985,David R. Compton,0.596352,Olaf Guckelberger,0.15,Yunzhen Cao,1.409264634,E. Kellenberger,66.4904175,T. M. Embley,0.4092245,Olaf Guckelberger,0.15
+Lynn R. Sykes,2.571497118,Yoshio Yazaki,138.5158985,Morten Hentzer,0.596335,Olaf Gjerløw Aasland,0.15,Edmund G. Lowrie,1.408458483,F. P. Bowden,66.2402795,Jana S. McBride,0.40921175,Olaf Gjerløw Aasland,0.15
+John M. Darley,2.570817352,Sadao Kimura,138.5158985,P. G. Simmonds,0.59626275,Olaf Gefeller,0.15,Jeremy D. Glasner,1.408343047,Pravin M. Shah,66.1956035,Jean-Claude Courvalin,0.40895675,Olaf Gefeller,0.15
+Nathan Maccoby,2.570713692,Tomoh Masaki,138.5158985,Helen Wendler Deane,0.596097,Olaf Fuhr,0.15,Kazuhiko Kawasaki,1.406772452,Nelson B. Schiller,66.1956035,James P. Whitlock,0.408927,Olaf Fuhr,0.15
+Katsuaki Hoshino,2.569666723,Hiroki Kurihara,138.5158985,J. Michael Lazarus,0.595859,Olaf Dammann,0.15,M Fernandez,1.406589296,Norman H. Silverman,66.1956035,Alan M. Stall,0.40890575,Olaf Dammann,0.15
+Sheila Seal,2.569269571,Louis Fieser,138.165231,Leonard A. Cobb,0.595655,Oladosu Ojengbede,0.15,Heidi Greulich,1.406582792,A. Jamil Tajik,66.1956035,Thomas W. Schoener,0.4088675,Oladosu Ojengbede,0.15
+J.Ward Kennedy,2.568820126,Mary Fieser,138.165231,Jay D. Wenger,0.5955955,Olaf Conrad,0.15,Frank E. Speizer,1.406480771,Richard B. Devereux,66.1956035,Patrick O. Brown,0.408842,Olaf Conrad,0.15
+Amy A. Caudy,2.568772143,Georg Kresse,137.7471925,E. M. De Robertis,0.595519,Olaf Burghaus,0.15,James H. Stock,1.406074649,David J. Sahn,66.1956035,Paul E. Sawchenko,0.4086295,Olaf Burghaus,0.15
+Barry A. Morgan,2.568553025,David P. Bartel,137.732479,Harold F. Dvorak,0.595315,Olaf Blanke,0.15,Marianne Sullivan,1.406037656,Michael H. Crawford,66.1956035,Kara Dolinski,0.40858275,Olaf Blanke,0.15
+Jon Teague,2.5684965,Ning Cai,137.534259,A. H. Conney,0.59509825,Olaf Bergmann,0.15,M Klagsbrun,1.404518586,Nathaniel Reichek,66.1956035,W. W. Douglas,0.40855725,Olaf Bergmann,0.15
+Donald E. Groom,2.568186705,Andrew G. Barto,137.4873815,Charles W. Vaughan,0.59496225,Olaf Bergeim,0.15,Daniel Shoemaker,1.404215145,Harvey Feigenbaum,66.1956035,Herman A. Tyroler,0.4082725,Olaf Bergeim,0.15
+Jim Gray,2.567618352,Joe M. McCord,137.2235755,Kenneth D. Paull,0.594601,Olaf B. Paulson,0.15,Martin Fishbein,1.403756521,Anthony N. DeMaria,66.1956035,Helen R. Burstin,0.408264,Olaf B. Paulson,0.15
+Eladio Viñuela,2.56726173,Irwin Fridovich,137.2235755,Mark E. Ewen,0.5944395,Olaf Ansorge,0.15,Andrew B. Lassar,1.4035341,Warren J. Hehre,66.0595015,Thomas K. Tatemichi,0.4080515,Olaf Ansorge,0.15
+M. A. Fiatarone,2.563619018,Howard A. Eder,137.171462,Meredith G. Warshaw,0.5943885,Olaf A. Bodamer,0.15,Earl W. Sutherland,1.403233271,John Bowlby,65.9591165,Dennis D.M. O'Leary,0.407941,Olaf A. Bodamer,0.15
+Steve Rozen,2.562608926,Richard J. Havel,137.171462,Judith Zeh,0.594346,Ola Blixt,0.15,Hans-Gerd Lipinski,1.401427716,Bruce N. Ames,65.5173035,Glen W. Sizemore,0.40789,Ola Blixt,0.15
+Don W. Fawcett,2.562312718,Samuel Hellman,137.1211845,Terry P. Snutch,0.59407825,Okuyama T,0.15,Heike Fiegler,1.400520425,Peter Donnelly,65.499751,Alden V. Loud,0.40779225,Okuyama T,0.15
+Roger E. Kirk,2.561678116,Steven A. Rosenberg,137.1211845,Hans Offenbacher,0.5940485,Okamoto E,0.15,Laura Elnitski,1.400250608,Jonathan K. Pritchard,65.499751,Alan G. Darvill,0.40777525,Okamoto E,0.15
+Shirley Zhu,2.560808313,Vincent T. DeVita,137.1211845,Jane Hu-Li,0.5935895,Okumura T,0.15,René O. Mirimanoff,1.39922013,Matthew Stephens,65.499751,John P. Merlie,0.4077625,Okumura T,0.15
+James J. Heckman,2.559877215,L. Allen,137.093262,Waldo E. Cohn,0.5935045,Oke Gerke,0.15,Béatrice Vanbervliet,1.39877019,Samuel Hellman,65.4203355,Hajo Delius,0.407754,Oke Gerke,0.15
+David W. Leung,2.55987,T. Asakura,137.093262,Brian G. Spratt,0.59348325,Okazaki T,0.15,John F. Heidelberg,1.397509882,Vincent T. DeVita,65.4203355,David A. Prince,0.407567,Okazaki T,0.15
+Eugene L. Brown,2.5586433,Peter A. Lachenbruch,137.074579,Edward H. Lambert,0.59334725,Okazaki M,0.15,Mukesh Dherani,1.396087904,Steven A. Rosenberg,65.4203355,Gideon Dreyfuss,0.407482,Okazaki M,0.15
+Patrick Therasse,2.557369199,Crispin Jenkinson,136.589042,Lawrence S.C. Griffith,0.5932835,Okazaki K,0.15,Marius Wernig,1.395672316,Stephen E. Fienberg,65.350151,Werner W. Franke,0.407244,Okazaki K,0.15
+Solange Chamaret,2.556136846,David J. Gavaghan,136.589042,Charles D. Gilbert,0.593122,Okazaki H,0.15,Jane Grimwood,1.394300644,Andrew Fire,65.3153945,Edmund A. Gehan,0.407108,Okazaki H,0.15
+Richard M. Goldstein,2.554965655,Henry J McQuay,136.589042,Marianne Sullivan,0.593071,Okano M,0.15,John P. Perdew,1.393963549,Craig C. Mello,65.3153945,J M Bishop,0.4070655,Okano M,0.15
+J. S. Waugh,2.552862341,Alejandro R. Jadad,136.589042,Andrew B. Lassar,0.592884,Okano K,0.15,John M. Darley,1.393897972,Yoav Sherman,65.039255,Nikki J. Holbrook,0.4070485,Okano K,0.15
+Monica Williams,2.551258647,Michael Gnant,136.3495375,Ennapadam Venkatraman,0.59271825,Okano A,0.15,Aaron T. Beck,1.39355069,Shmuel A. Ben-Sasson,65.039255,B. L. Riggs,0.4070145,Okano A,0.15
+Aaron T. Beck,2.548157129,Tatu A. Miettinen,136.3495375,Elaine J. Stone,0.592629,Okan Toka,0.15,Jeffrey G. Reid,1.393493115,Noam Chomsky,64.794098,P. A. Tataranni,0.4068785,Okan Toka,0.15
+Joel S. Hayflick,2.547559786,Gudmundur Thorgeirsson,136.3495375,R. D. T. Jenkin,0.592612,Okan Elidemir,0.15,Rolf Apweiler,1.392424809,Eero P. Simoncelli,64.4575235,Earl W. Davie,0.4067765,Okan Elidemir,0.15
+Michael S. Waterman,2.546902139,Kalevi Pyörälä,136.3495375,Dolores G. Evans,0.5922295,Okamura S,0.15,D Wright,1.391945353,Zhou Wang,64.4575235,J Beckwith,0.406615,Okamura S,0.15
+Gary Ruvkun,2.543701385,Lars Wilhelmsen,136.3495375,Marvin A. Lutzner,0.592068,Okamura H,0.15,M. Castiglione,1.3908164,Cynthia L. Ogden,64.388699,Gwyneth Van,0.406462,Okamura H,0.15
+H. J. Stewart,2.53876464,Kåre Berg,136.3495375,L. Knopoff,0.59157075,Okamoto Y,0.15,J. S. Binkley,1.38793742,Margaret D. Carroll,64.388699,Jonathan W. M. Gold,0.40641525,Okamoto Y,0.15
+Thomas R. Fleming,2.537321504,John Kjekshus,136.3495375,Herzig Gp,0.591524,Okamoto T,0.15,Scott V. Tingey,1.387379,Paul Zimmet,64.3324205,Donald McNellis,0.406411,Okamoto T,0.15
+Lawrence L. Kupper,2.535906017,Harvey D. White,136.3495375,Donald McNellis,0.5912435,Okamoto S,0.15,Michael C. Jensen,1.387291279,Hugo Muench,64.3021945,Joy G. Wells,0.406377,Okamoto S,0.15
+S Clarke,2.535753539,John J.V. McMurray,136.3495375,DeWitt S. Goodman,0.59112025,Okamoto R,0.15,Barbara J. McNeil,1.387137622,David Park,64.1290495,Christian Bjørbæk,0.40634725,Okamoto R,0.15
+C. Arden Pope,2.533959361,Anders G. Olsson,136.3495375,Judith Ochs,0.591014,Okamoto M,0.15,J. M. Bland,1.386800634,J. W. T. Spinks,64.07527,Lewis B. Woolner,0.4063005,Okamoto M,0.15
+Mark H. Skolnick,2.532820911,Ole Faergeman,136.3495375,C. David Jenkins,0.590555,Okamoto K,0.15,Joseph L. Goldstein,1.385560685,Lawrence L. Kupper,63.994282,E. D. Salmon,0.4062325,Okamoto K,0.15
+R. C. Turner,2.531571372,Terje R. Pedersen,136.3495375,Norman Davidson,0.5903935,Okamoto H,0.15,Calvin B. Harley,1.385038006,David G. Kleinbaum,63.994282,Carl W. Schmid,0.40618575,Okamoto H,0.15
+G. Bonadonna,2.530466299,Wolfram Saenger,136.2659145,Craig E. Jahr,0.5902745,Okechukwu S Ogah,0.15,C Davies,1.384943034,Andrew Weiss,63.9661385,James L. Meek,0.40607525,Okechukwu S Ogah,0.15
+Kirk R. Thomas,2.53036771,M. Hansen,135.9868935,Edmund G. Lowrie,0.590215,Okey C. Nwanyanwu,0.15,Carl R. Woese,1.384823734,Matthew Newman,63.8345925,A. E. G. K. Von Dem Borne,0.40602,Okey C. Nwanyanwu,0.15
+Anne Dornhorst,2.5302222,Thomas Kraft,135.9868935,P A Sharp,0.5900025,Okezie I. Aruoma,0.15,John D. Lafferty,1.384579653,Neha Garg,63.8345925,Harry A. Guess,0.405969,Okezie I. Aruoma,0.15
+Helen Skaletsky,2.530201009,Allen Newell,135.9755205,David W. Meinke,0.58979425,Oksana Lockridge,0.15,Catrina Fronick,1.384434792,Vineet Bafna,63.8345925,Nicholas B. Lydon,0.40585425,Oksana Lockridge,0.15
+Brenda K. Edwards,2.529517024,Heather S. Duffy,135.967981,Harry R. Kimball,0.58957325,Okumura N,0.15,Oliver Smithies,1.383986231,Douglas B. Rusch,63.8345925,Wulf Palinski,0.405816,Okumura N,0.15
+Jeffrey A. Cutler,2.52944959,Norman Fleischer,135.967981,Hediye Erdjument-Bromage,0.589467,Okumura M,0.15,V. Narry Kim,1.3837636,Joseph H. Nadeau,63.8345925,G. S. Worthen,0.40577775,Okumura M,0.15
+Ross A. Lippert,2.528460009,Satish Kumar,135.8623345,Keiiti Aki,0.58934375,Okuma M,0.15,Karin Eiglmeier,1.38371125,Russell Schwartz,63.8345925,Robert C. Malenka,0.4057225,Okuma M,0.15
+Morris W. Foster,2.528190419,S. Moncada,135.7772835,Jose Botet,0.5888805,Okuda T,0.15,Chang Gong Liu,1.383481519,J. Wetter,63.8345925,R M Krauss,0.4056715,Okuda T,0.15
+Gerald R. Fink,2.526923,Lars Gunnar Sillén,135.7346815,Pamela Whittaker,0.588617,Okuda J,0.15,Yuen Shing,1.383441476,Michael Harris,63.8345925,Ralph N. Adams,0.405646,Okuda J,0.15
+Anne O'Garra,2.526894449,Ingram Olkin,135.5765135,Reto Ruedy,0.58847675,Okuda H,0.15,Morris J. Karnovsky,1.3822853,Scott Henderson,63.8345925,Richard C. Hubbard,0.405561,Okuda H,0.15
+Andrew Menzies,2.526703923,Larry V. Hedges,135.5765135,José A. Campos-Ortega,0.58843,Oksana Suchowersky,0.15,Vishva M. Dixit,1.381814145,Chunhua Yan,63.8345925,Donald N. Buell,0.4055015,Oksana Suchowersky,0.15
+Janan T. Eppig,2.526682898,Michel Raymond,135.1777955,H R Anderson,0.58826,Oksana Ostroverkhova,0.15,Gilbert Chu,1.380766,Sridhar Hannenhalli,63.8345925,Pawel Skudlarski,0.4054845,Oksana Ostroverkhova,0.15
+Eric R. Fearon,2.525754287,François Rousset,135.1777955,Paul Kaesberg,0.58812825,Oksana Gavrilova,0.15,Alan D. Lopez,1.380521179,Daniel H. Huson,63.8345925,Paul A. Blake,0.4052295,Oksana Gavrilova,0.15
+Alexander E. Urban,2.52463973,Thomas A. Steitz,134.557814,Englander Sw,0.588107,Okihide Hikosaka,0.15,Robert P. Gaynes,1.380375,Christine Carter,63.8345925,J. C. Eccles,0.40507225,Okihide Hikosaka,0.15
+Robert M. Weisskoff,2.52422923,Joel T. Dudley,134.4660735,Scott R. Spielman,0.588022,Oksana Berezovska,0.15,Bruce N. Ames,1.379880806,Russell Turner,63.8345925,Zsuzsanna Schwarz-Sommer,0.40502125,Oksana Berezovska,0.15
+Richard A. Olshen,2.5237032,Koichiro Tamura,134.4660735,Larry H. Taber,0.5877925,Oksana A. Tarasova,0.15,Luther T. Clark,1.379726143,Michael W. Hunkapiller,63.8345925,Roger D. Kornberg,0.4049745,Oksana A. Tarasova,0.15
+Keith R. Porter,2.520755835,Sudhir Kumar,134.4660735,Herman A. Tyroler,0.587716,Okjin Kim,0.15,Jean Endicott,1.378837442,Zhiping Gu,63.8345925,David R. Compton,0.404881,Okjin Kim,0.15
+M. Karplus,2.518771219,Gary Gitnick,134.007388,Edward B. Stinson,0.5875885,Okitsugu Yamashita,0.15,Donald S. Rae,1.378099261,J. Craig Venter,63.8345925,M. H. F. Wilkins,0.4048555,Okitsugu Yamashita,0.15
+Jorge J. Yunis,2.518093383,George Kuo,134.007388,J. V. Quagliano,0.586951,Okitsugu Watanabe,0.15,Camille Parmesan,1.377746679,Mark Lewis,63.8345925,John M. Kyriakis,0.4044985,Okitsugu Watanabe,0.15
+Jonathan R. Edwards,2.517226804,al. et,134.007388,R H Schwartz,0.58687025,Okitsugu Kajimoto,0.15,Rachel M. Freathy,1.377657947,Xiangjun Liu,63.8345925,Michael J. Grusby,0.40440925,Okitsugu Kajimoto,0.15
+Simon Myers,2.516941429,Robert H. Purcell,134.007388,Charles G. Moertel,0.586611,Okio Hino,0.15,Scott L. Zeger,1.377280518,Sorin Istrail,63.8345925,Paul G. McGovern,0.4042945,Okio Hino,0.15
+Andrew Fire,2.51604521,Dienstag Jl,134.007388,Susan M. Berget,0.58656,Okiko Miyata,0.15,Ch. Gerber,1.376228231,Xiaohong Zhu,63.8345925,Roderick MacKinnon,0.40419675,Okiko Miyata,0.15
+Therese Sørlie,2.515427045,Allan G. Redeker,134.007388,Thomas K. Tatemichi,0.5860925,Ogura H,0.15,Susan L. Naylor,1.376086778,Victor A. McKusick,63.8345925,Charles D. Keeling,0.40412025,Ogura H,0.15
+Benjamin D. Hall,2.51483685,Harvey J. Alter,134.007388,Leslie L. Iversen,0.586084,Oguma S,0.15,Isaac L. Chuang,1.374758301,Liliana Florea,63.8345925,Arend Sidow,0.4040735,Oguma S,0.15
+Ronald H. Reeder,2.514739054,Cladd E. Stevens,134.007388,Lisa Y S Chan,0.58589275,Ogren So,0.15,David Julius,1.373820667,William H. Majoros,63.8345925,Ferruccio Galbiati,0.4040395,Ogren So,0.15
+Huyen Dinh,2.514501262,Miriam J. Alter,134.007388,Robert H. Waterston,0.5855825,Octavio L. Franco,0.15,Joel S. Hayflick,1.37266496,Shibu Yooseph,63.8345925,Patrick Stragier,0.403963,Octavio L. Franco,0.15
+Shelley E. Taylor,2.510797987,Solomon A. Berson,134.0016335,Rodger Staden,0.5853615,Oded Abramsky,0.15,Timo T. Valle,1.372653864,Shaying Zhao,63.8345925,Michael Turelli,0.403946,Oded Abramsky,0.15
+Karen Eilbeck,2.510540705,Rosalyn S. Yalow,134.0016335,Joan V. Ruderman,0.585268,Oddvar Stokke,0.15,Gail R. Martin,1.371541186,David May,63.8345925,Jules A. Hoffmann,0.403861,Oddvar Stokke,0.15
+Carol W. Greider,2.509822496,James A. Sethian,133.908125,George J. Todaro,0.585166,Oddur Ingólfsson,0.15,Nick Patterson,1.370350888,Knut Reinert,63.8345925,Kristin Ardlie,0.403742,Oddur Ingólfsson,0.15
+C. K. Osborne,2.507955478,Stanley Osher,133.908125,Louis H. Weiland,0.5851065,Oddmund Søvik,0.15,Reto Ruedy,1.369443899,George L. Gabor Miklos,63.8345925,Roy J. Britten,0.403674,Oddmund Søvik,0.15
+Stéphane Guindon,2.50757768,John R. Carson,133.8481235,Xiao Jian Sun,0.58470275,Oddmund Bakke,0.15,Minze Stuiver,1.368968353,Ming Zhan,63.8345925,Gerald A. M. Finerman,0.403589,Oddmund Bakke,0.15
+H. Gervásio,2.507115903,Charles P. Slichter,133.4987395,Thomas A. Stamey,0.584639,Oddbjørn Straume,0.15,Ivan Lieberburg,1.36882069,Michele Cargill,63.8345925,N. Sckopke,0.403402,Oddbjørn Straume,0.15
+Giorgio Cocconi,2.506418596,John C. Doyle,133.4372335,Rosen Br,0.5845455,Odd-Arne Olsen,0.15,R Parker,1.368793943,Aaron L. Halpern,63.8345925,J. E. Sadler,0.4031555,Odd-Arne Olsen,0.15
+Robert Karasek,2.506304732,George H. Mead,133.3660035,Bonnie L. Kemp,0.5842905,Odd Terje Brustugun,0.15,Marc van de Wetering,1.36847866,Mark D. Adams,63.8345925,Daniel H. O'Leary,0.4028495,Odd Terje Brustugun,0.15
+Wieslaw J. Roth,2.505867186,Theodore L. Steck,133.353381,A. E. G. K. Von Dem Borne,0.584282,Odd S. Gabrielsen,0.15,Gonçalo R. Abecasis,1.368334955,Jingtao Sun,63.8345925,Michèle Sebben,0.4028325,Odd S. Gabrielsen,0.15
+Mark R. Chassin,2.504947288,Hugo Muench,133.334919,Sergio Stagno,0.5842735,Odd R. Monge,0.15,Fu Lu,1.368271958,Steven L. Salzberg,63.8345925,Jan M. Kooter,0.4027815,Odd R. Monge,0.15
+Leslie L. Iversen,2.503673253,Mark A. Hall,133.2052685,Irving Langmuir,0.584163,Odd Geiran,0.15,Yuval Eshed,1.367863,Hamilton O. Smith,63.8345925,Stith T. Gower,0.40262,Odd Geiran,0.15
+Andrew Y. Ng,2.503305766,Oliver Schwardt,132.819122,David Esrig,0.5841375,Odd Erik Johansen,0.15,Scott Uknes,1.367208363,Richard J. Roberts,63.8345925,Dawn L. Brasaemle,0.40260725,Odd Erik Johansen,0.15
+Arnold Oliphant,2.503239369,Beat Ernst,132.819122,Juri Gelovani Tjuvajev,0.5840695,Oda S,0.15,James S. Marks,1.367024315,Fei Zhong,63.8345925,Michael J. Bevan,0.40258175,Oda S,0.15
+Christoph Kalka,2.502821857,Hartmuth C. Kolb,132.819122,Ronald H. A. Plasterk,0.5838315,Oda M,0.15,Sarah Hunt,1.366661225,Paul D. Thomas,63.8345925,Chad Nusbaum,0.4025775,Oda M,0.15
+Gilean McVean,2.502595802,John B. Moore,132.38722,Alexander Mülsch,0.58358075,Oda K,0.15,Irene M. Stratton,1.365986929,A. H.-J. Wang,63.8345925,Regis B. Kelly,0.402501,Oda K,0.15
+Donald D. Van Slyke,2.501318682,Bernard S. Bloom,132.305195,Alvin R. Tarlov,0.583347,Octávio Marques Pontes-Neto,0.15,Jay D. Pearson,1.365891239,Zhongwu Lai,63.8345925,John S. Abrams,0.402467,Octávio Marques Pontes-Neto,0.15
+Naoufal Zamzami,2.50010599,Morten Kjeldgaard,131.796181,S C Rall,0.5829305,Octavio Servitje,0.15,H. J. Stewart,1.365645744,Mei Wang,63.8345925,Keith R. Yamamoto,0.40245,Octavio Servitje,0.15
+A. C. T. North,2.498593041,T. A. Jones,131.796181,J. M. Bremner,0.58282425,Octavio Ramilo,0.15,Allan Van Oosterom,1.365505037,Gary Wang,63.8345925,Kenneth P. Steinberg,0.4023225,Octavio Ramilo,0.15
+David W. Bilheimer,2.498563175,L. P. Gor'kov,131.57921,Ari Helenius,0.582667,Octavio Monasterio,0.15,Morton Kramer,1.364534855,Granger G. Sutton,63.8345925,Donald P. Island,0.4020165,Octavio Monasterio,0.15
+Arthur M. Sobol,2.496233825,Terrence J. Sejnowski,131.4861775,Paul G. McGovern,0.5820465,Oded Aharonson,0.15,Stephen Frank Schaffner,1.364151349,Mark Yandell,63.8345925,Eugene M. Johnson,0.40201225,Oded Aharonson,0.15
+A. D. Bangham,2.495732766,Michael K. Showe,131.365537,Judith R. O'Fallon,0.582004,Oded Béjà,0.15,Dennis Y. Loh,1.364115362,Emily S. Winn-Deen,63.8345925,J. Michael Lazarus,0.4019485,Oded Béjà,0.15
+D. Williams Parsons,2.495450333,Paul Milgrom,131.3321745,Hans W. Heldt,0.58199975,Oded Cohen,0.15,Ueli Gubler,1.364099707,David Wu,63.8345925,Joshua R. Sanes,0.40191025,Oded Cohen,0.15
+Mercedes Camalli,2.495303153,Peter Mark,131.212197,J S Flier,0.58196575,Oded Yarden,0.15,David B. Johnson,1.363888276,Jane J. Ye,63.8345925,Robert P. Gaynes,0.401872,Oded Yarden,0.15
+Robert Katzman,2.493135791,White,131.004525,Trexler M. Topping,0.5818595,Odile Burlet-Schiltz,0.15,Julia B. Lewis,1.362719519,Trung Nguyen,63.8345925,J. O. Skjemstad,0.401787,Odile Burlet-Schiltz,0.15
+P. J. Sellers,2.492943565,R. H. Burris,130.9347995,Jan M. Kooter,0.5818425,Odile Boute,0.15,Julius Marmur,1.36190088,Yong Liang,63.8345925,Steven A. Wrighton,0.40171475,Odile Boute,0.15
+Mark A. Saper,2.49239141,Wei Ye,130.641558,William D. Terry,0.581834,Odile Bournier,0.15,R. Willox,1.361393017,John Lopez,63.8345925,G. Denman Hammond,0.4015915,Odile Bournier,0.15
+Reginald A. Clift,2.492321995,Kenneth F. Schulz,130.255488,Horst Zincke,0.5818255,Odile Boespflug-Tanguy,0.15,Gabriele Bergers,1.361315904,Josep F. Abril,63.8345925,Alicja Trocha,0.4015235,Odile Boespflug-Tanguy,0.15
+Harvey J. Alter,2.490524579,Iain Chalmers,130.255488,James K. McDougall,0.5817745,Odile Blanchet,0.15,Alexandre Montpetit,1.361245952,Wei Shao,63.8345925,A. Klug,0.401464,Odile Blanchet,0.15
+J. S. Binkley,2.490520536,Richard Hayes,130.255488,Robert W. Holley,0.581732,Odette Poirier,0.15,Jonathan Sebat,1.361138046,Daniel Ma,63.8345925,Jose Botet,0.401209,Odette Poirier,0.15
+Helen Van Vunakis,2.489202078,Zhifeng Zhang,130.2423045,Carol Nelson-Williams,0.5808735,Odette Mariani,0.15,Michael K. Showe,1.360755898,David Allen,63.8345925,Mark Diekhans,0.4011495,Odette Mariani,0.15
+Jerzy Neyman,2.488623489,Francis Crick,129.8990745,Walter F. Lever,0.580831,Odette M. Smith,0.15,Carol J. Bult,1.359543482,Thomas J. Smith,63.8345925,Bloom Fe,0.400954,Odette M. Smith,0.15
+Richard J. Brand,2.488229049,James D. Watson,129.8990745,Linda M. Pottern,0.580746,Oded Sperling,0.15,Helmut Blöcker,1.359124317,Ross A. Lippert,63.8345925,E. Donnall Thomas,0.40085625,Oded Sperling,0.15
+Michael D. McLellan,2.486549293,Tom J. Mabry,129.742513,Rein Saral,0.580491,Oded Foreman,0.15,John G. Kirkwood,1.359078843,Samuel Broder,63.8345925,Steven A. Wasserman,0.400835,Oded Foreman,0.15
+D. Wayne Taylor,2.48620636,Zheng Shen,129.0811195,Risa B. Mann,0.580355,Oded Shoseyov,0.15,David W. Bilheimer,1.358954469,Ali Zandieh,63.8345925,Sela Cheifetz,0.4007755,Oded Shoseyov,0.15
+Catherine Michaud,2.484824145,Norden E. Huang,129.0811195,Richard H. Creech,0.580355,Oded Shalev,0.15,Michael J. Thun,1.358817591,Robert A. Holt,63.8345925,Fuller Albright,0.4007075,Oded Shalev,0.15
+Sam Griffiths-Jones,2.481637404,H.-C. Huang,129.049083,Douglass J. Forbes,0.58022325,Oded Millo,0.15,Daniel R. Marshak,1.358801446,Ellen M. Beasley,63.8345925,Marc Pypaert,0.40052475,Oded Millo,0.15
+Marcus E. Raichle,2.481271454,Nello Cristianini,128.783968,W. J. Peacock,0.58001075,Oded Meyuhas,0.15,Bonnee Rubinfeld,1.358750871,Weiqing Zhang,63.8345925,Hans W. Heldt,0.40049075,Oded Meyuhas,0.15
+Hans-Gerd Lipinski,2.480215395,Amir Said,128.724536,Robert D. Utiger,0.57994275,Oded Livnah,0.15,Marita Cross,1.35872992,Arthur L. Delcher,63.8345925,Hilda H. Slunt,0.4004355,Oded Livnah,0.15
+David J. Lockhart,2.480121247,S. Dawson,128.4766335,Richard H. Scheller,0.579743,Oded Langer,0.15,Tomaso Poggio,1.358612804,Qi Zhao,63.8345925,James W. Covell,0.40043125,Oded Langer,0.15
+Patrick D. Wall,2.477698264,John F. Gunion,128.4766335,Henry Rappaport,0.579488,Oded Kleifeld,0.15,Michael R. Brent,1.358566267,Roderic Guigó,63.8345925,Peter Albersheim,0.40036325,Oded Kleifeld,0.15
+Charles D. Keeling,2.477568586,Gordon L. Kane,128.4766335,Saxon Graham,0.5794795,Oded Gonen,0.15,Stewart Craig,1.358413329,Ngoc Nguyen,63.8345925,L. Lorand,0.400291,Oded Gonen,0.15
+Stefanie S. Jeffrey,2.475891855,Michael J. S. Dewar,128.350247,Wolfhard Almers,0.5794625,Octavio Martínez,0.15,Margo A. Denke,1.357670286,Ping Guan,63.8345925,Mayer Je,0.40024425,Octavio Martínez,0.15
+J.A. van Dongen,2.474995593,James H. Ware,128.2319015,Albert Sjoerdsma,0.5793435,Octavio Gómez-Dantés,0.15,Vincent P. Stanton,1.35744166,Kimmen Sjölander,63.8345925,Wiley Hs,0.4002315,Octavio Gómez-Dantés,0.15
+Rolf Apweiler,2.473852928,Yuval Eshed,127.7903945,Steven M. Reppert,0.5793435,Ogobara K. Doumbo,0.15,Paul Ekman,1.356715508,Timothy B. Stockwell,63.8345925,Hannah Nelson,0.4001975,Ogobara K. Doumbo,0.15
+Robert J. Lipshutz,2.473495513,Dani Zamir,127.7903945,H. M. Gerschenfeld,0.57924575,Octavio Fernandes,0.15,Keaven M. Anderson,1.356669248,Wangmao Ge,63.8345925,Kaja Murali-Krishna,0.40017625,Octavio Fernandes,0.15
+Robert T. DeBoy,2.473473741,Yihui Ding,127.123357,Boris Ephrussi,0.578757,Oana D. Jurchescu,0.15,Anthony J. Cox,1.355219407,Richard J. Mural,63.8345925,John R. Wetterau,0.40016775,Oana D. Jurchescu,0.15
+G. A. R. Johnston,2.473142797,X. Dai,127.123357,Martin L. Lesser,0.578672,Oana Cojocaru-Mirédin,0.15,Patrice J. Morin,1.35510173,Helen M. Moore,63.8345925,Hermes C. Grillo,0.4001125,Oana Cojocaru-Mirédin,0.15
+Kikuko Hotta,2.472795671,C. V. Shank,127.117101,Gary G. Borisy,0.578638,Oana Ciofu,0.15,Roger Y. Tsien,1.354367839,Michael J. Campbell,63.8345925,Daniel S. Friend,0.400104,Oana Ciofu,0.15
+Stewart Scherer,2.472577923,Sarah E. Fowler,127.0821235,Xian Liang Tang,0.5785785,Oana Brosteanu,0.15,Erika Schmid,1.353670563,Monica Williams,63.8345925,Johan H. van Es,0.399934,Oana Brosteanu,0.15
+A. Klug,2.469858489,Elizabeth Barrett-Connor,127.0821235,Andrew Wakeham,0.578247,O.V. Lounasmaa,0.15,Dean Burk,1.353668494,Jennifer R. Wortman,63.8345925,David R. Wolstenholme,0.39992975,O.V. Lounasmaa,0.15
+Drummond Rennie,2.469705699,Richard F. Hamman,127.0821235,Michael G. Rosenfeld,0.57814925,O.P. Malik,0.15,Alexej Abyzov,1.352568194,Qing Zhang,63.8345925,Gordon S. A. B. Stewart,0.3999,O.P. Malik,0.15
+Nicola Mulder,2.469575,David M. Nathan,127.0821235,Welcome Bender,0.57792825,O.K. Harling,0.15,Brenda K. Edwards,1.351101176,Linda Moy,63.8345925,P Greengard,0.39981075,O.K. Harling,0.15
+Franz Josef Och,2.467548979,William C. Knowler,127.0821235,Gwyneth Van,0.577805,O.H. Frazier,0.15,Hugh Paterson,1.350563,Karen Eilbeck,63.8345925,Jose Carlos Gutierrez-Ramos,0.3997725,O.H. Frazier,0.15
+Ross L. Prentice,2.464503946,John M. Lachin,127.0821235,Glauco Frizzera,0.57769025,O.F. Schoumans,0.15,Gordon L. Shulman,1.35046872,Hongyu Zhang,63.8345925,Peter C. Hinkle,0.399713,O.F. Schoumans,0.15
+H. Murayama,2.46399495,Elizabeth A. Walker,127.0821235,Nicholas E. Day,0.57763925,O. van Tellingen,0.15,Nick Goldman,1.350081,Carolyn W. Slayman,63.8345925,Groopman Je,0.3996535,O. van Tellingen,0.15
+Helena Hämäläinen,2.4639465,J. B. Pendry,126.914053,Sibley Ld,0.57757975,O. Ziegler,0.15,Gwyneth Van,1.34979693,William Rowe,63.8345925,Joseph E. Oesterling,0.3996365,O. Ziegler,0.15
+Brian R. Lawn,2.4638496,Andrew Gelman,126.862492,Robert M. Kuhn,0.57722275,O. Zhou,0.15,Elaine R. Mardis,1.349055842,Karen A. Ketchum,63.8345925,Mortimer Mishkin,0.399594,O. Zhou,0.15
+Daniel H. Haft,2.463547505,Bryan Jennett,126.5605975,Greenberg Er,0.5769125,O. Zaimidoroga,0.15,Michael Shi,1.3485015,John Scott,63.8345925,Geoffrey S. Kansas,0.3995345,O. Zaimidoroga,0.15
+Michael Gent,2.463546546,Graham M. Teasdale,126.5605975,Tomas Lindahl,0.576887,O. Zahn,0.15,Raymond G. Goodwin,1.347812702,Arnold J. Levine,63.8345925,Richard O. Russell,0.399475,O. Zahn,0.15
+Dennis A. Gilbert,2.462870016,Saunders,126.4822785,Morgan Sheng,0.57678925,O. Zaharko,0.15,Sankar Swaminathan,1.347704946,Dennis A. Gilbert,63.8345925,Nicholas E. Day,0.39942825,O. Zaharko,0.15
+Helen Goodell,2.461817108,R. F. W. Bader,125.4637065,C. D. M. Fletcher,0.5765725,O. Yushchenko,0.15,Kurt J. Greenlund,1.346893881,Robert M. Rodriguez,63.8345925,Geraldine M. McQuillan,0.39938575,O. Yushchenko,0.15
+Nicholas Kassebaum,2.460658319,John M. Greene,125.462712,S. S. C. Yen,0.5765725,O. Yonemitsu,0.15,Robert L. Coffman,1.346845013,Huaiyu Mi,63.8345925,Shelly Sapp,0.3993815,O. Yonemitsu,0.15
+Phillip D. Zamore,2.460394411,Chunhui Xu,125.151051,Michael A. Reidy,0.57643225,O. Wucknitz,0.15,Basil M. Rifkind,1.344791786,Brian Murphy,63.8345925,M. P. Hassell,0.399254,O. Wucknitz,0.15
+Andreas Heger,2.459549167,Gustavo E. Scuseria,125.151051,Fred Winston,0.5763685,O. Wolf,0.15,Paul J. Deutsch,1.344136127,Valentina Di Francesco,63.8345925,Hans Kende,0.39919025,O. Wolf,0.15
+Beverley Shields,2.458116048,Young Hee Lee,125.151051,Dominique Mouchiroud,0.576173,Oba,0.15,P. J. Randle,1.343823786,Andrew G. Clark,63.8345925,Joseph L. Fleiss,0.39917325,Oba,0.15
+Peter J. Ramadge,2.457859252,Richard E. Smalley,125.151051,Daniel W. Bradley,0.5761475,Obajimi Mo,0.15,Franz Josef Och,1.343585389,Sean Murphy,63.8345925,Kim Rutherford,0.398982,Obajimi Mo,0.15
+Michael A. Saunders,2.456680554,Pavel Nikolaev,125.151051,Heikki Lehväslaiho,0.5758755,Obed W. Odom,0.15,William A. Sibley,1.343438381,Shinji Sato,63.8345925,Shengkan Jin,0.3987525,Obed W. Odom,0.15
+T. J. Sejnowski,2.456526405,Pierre Petit,125.151051,James W. Covell,0.57586275,Ochi H,0.15,Frans Bruyninckx,1.3428475,Fu Lu,63.8345925,Robert W. Pearcy,0.3987355,Ochi H,0.15
+D. von Fournier,2.454616418,Andrew G. Rinzler,125.151051,Scott Shenker,0.575561,Octavio Aburto-Oropeza,0.15,Annie Yang,1.342446562,Robert Sanders,63.8345925,Ulla Bonas,0.3986845,Octavio Aburto-Oropeza,0.15
+Jingtao Sun,2.454497525,John E. Fischer,125.151051,Guy Waddington,0.57544625,Octavian Popescu,0.15,Andrew P. Feinberg,1.341701481,Peter Li,63.8345925,Elizabeth W. Shores,0.398676,Octavian Popescu,0.15
+Daniel W. Jones,2.454449409,Daniel T. Colbert,125.151051,Harold O. Perry,0.5754165,Octavian Henegariu,0.15,Pere Puigserver,1.340695055,Nan Guo,63.8345925,Clift Ra,0.39858675,Octavian Henegariu,0.15
+George W. Torrance,2.453709343,Hongjie Dai,125.151051,Harold D. Levine,0.5753655,Octavian Bârzu,0.15,Simon G. Gregory,1.3403306,Richard Scott,63.8345925,Hans Offenbacher,0.3985655,Octavian Bârzu,0.15
+David I. Gottlieb,2.453659007,Andreas Thess,125.151051,Francis V. Chisari,0.57519125,Octavi Viñas,0.15,Peter Philippsen,1.339577388,Keith Nelson,63.8345925,J. C. Rothwell,0.39856125,Octavi Viñas,0.15
+Martin L. Hooper,2.451491009,David Tománek,125.151051,Griff T. Ross,0.57505525,Ockelford Pa,0.15,J. P. Grime,1.339451256,Samuel Levy,63.8345925,David Bouchez,0.3985145,Ockelford Pa,0.15
+D. H. Auston,2.450922443,Miller Ra,124.893569,Virginia L. Ernster,0.575017,Ock Jin Park,0.15,Joe Sambrook,1.338617195,Jiayin Li,63.8345925,Jack Dymond,0.3983955,Ock Jin Park,0.15
+Hiroaki Hemmi,2.450271937,Robert E. Kalaba,124.5077965,Miljenko V. Pilepich,0.57483,Ochi Y,0.15,M. H. Gault,1.336863783,Giuseppe Bianchi,63.770086,Monika Esch,0.3983955,Ochi Y,0.15
+Carol J. Bult,2.45018354,Noel K. Maclaren,124.4864955,John B. Newell,0.5747195,Occhini D,0.15,Glenn Tesler,1.33679622,George H. Mead,63.749839,Richard W. Tsien,0.39837,Occhini D,0.15
+M Klagsbrun,2.448988758,Philip Raskin,124.4864955,Clayton W. Naeve,0.57466,Obel Eb,0.15,Yves-Alain Barde,1.336770507,Theodore L. Steck,63.726073,Giovanna Ferro-Luzzi Ames,0.398353,Obel Eb,0.15
+Scott L. Zeger,2.447516685,Ralph A. DeFronzo,124.4864955,Jules A. Hoffmann,0.57466,Oc Hee Han,0.15,Federica Sallusto,1.336307555,Edmund A. Gehan,63.6958385,Harry J. Lynch,0.39832325,Oc Hee Han,0.15
+R Parker,2.446848847,Jerry P. Palmer,124.4864955,Robert L. MacCarty,0.5745835,Obtułowicz K,0.15,A. Naja,1.3361495,P. K. Gupta,63.6436995,Peter J. Sabo,0.398251,Obtułowicz K,0.15
+Aaron McKenna,2.446173288,K. G. M. M. Alberti,124.4864955,William F. Novotny,0.5745835,Obrecht Jp,0.15,Mary Osborn,1.335698068,M. Mohan,63.6436995,Leonard T. Kurland,0.3982,Obrecht Jp,0.15
+James H. Jandl,2.445726507,Robert A. Rizza,124.4864955,Alf S. Alving,0.5744985,Obis Castaño,0.15,Richard A. Olshen,1.335540503,Jakob Nielsen,63.371232,Michael Gent,0.3980215,Obis Castaño,0.15
+M Fernandez,2.44508707,Mayer B. Davidson,124.4864955,Yolande Surdin-Kerjan,0.574303,Obioha C. Ukoumunne,0.15,Wilson Ia,1.335460869,E. A. Davis,63.224709,Katherine M. Flegal,0.3979875,Obioha C. Ukoumunne,0.15
+Timothy B. Stockwell,2.444853182,Michael P. Stern,124.4864955,Keith R. Yamamoto,0.574286,Obi L. Griffith,0.15,Andrew G. Fraser,1.335424473,N. F. Mott,63.224709,Anthony B. Bleecker,0.39790675,Obi L. Griffith,0.15
+Keaven M. Anderson,2.443504408,Steven G. Gabbe,124.4864955,Berton C. Pressman,0.5741925,Oberdan Parodi,0.15,Pierre R. Villeneuve,1.335116849,Gerald R. Fink,63.217688,Franz-Ulrich Hartl,0.397843,Oberdan Parodi,0.15
+Otto A. Bessey,2.442106975,James R. Gavin,124.4864955,Luciano Rossetti,0.57416275,Oberdan Leo,0.15,Kalevi Pyörälä,1.33506391,James B. Hicks,63.217688,Robert P. Witherspoon,0.39783875,Oberdan Leo,0.15
+Susan L. Naylor,2.439811778,Saul Genuth,124.4864955,Farzad Mostashari,0.5739375,Odile Casiraghi,0.15,Tullia Lindsten,1.334871871,Fred Sherman,63.217688,Mitchell L. Cohen,0.397775,Odile Casiraghi,0.15
+Joseph H. Roe,2.439070126,Richard Kahn,124.4864955,Marian Carlson,0.573895,Odile Cohen-Haguenauer,0.15,Graeme A. Reid,1.334424864,Ian T. Foster,63.2166765,George M. Farrow,0.39774525,Odile Cohen-Haguenauer,0.15
+Ali Zandieh,2.438145077,Allan L. Drash,124.4864955,Catherine S. Berkey,0.5738695,Odile Convert,0.15,Bala Swaminathan,1.334319639,Douglas Henderson,63.147138,Mieke Schutte,0.397707,Odile Convert,0.15
+Ronald Melzack,2.437102559,Amnon Yariv,123.9954505,James J. Hack,0.5738695,Odile Croissant,0.15,M Richard,1.334091143,David L. Swofford,63.1331725,A. T. Look,0.3976815,Odile Croissant,0.15
