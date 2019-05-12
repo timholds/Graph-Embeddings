@@ -1,0 +1,201 @@
+avg_disrupt,avg_disrupt_val,last_author_yr,last_author_yr_val,max_disrupt,max_disrupt_val,median_disrupt,median_disrupt_val,min_disrupt,min_disrupt_val,num_disrupt,num_disrupt_val
+Emily Singer,0.34298999273227804,Grant Nguyen,2016,Jane Fridlyand,0.9897959183673468,Emily Singer,0.375,Thomas J. Merimee,0.0012905604719764012,Ben Short,245
+N. Xeros,0.2599267304295377,Alexandra A. Mushegian,2016,Nathanael S. Gray,0.9888392857142856,Mark Crawford,0.25,Aris Persidis,0.0007939658594680427,Nicole LeBrasseur,230
+Mark Crawford,0.2548941798941799,Sahil Seth,2015,Gonçalo R. Abecasis,0.9801324503311258,N. Xeros,0.22386853448275865,Joseph E. Parrillo,0.00030321406913280777,Heidi Ledford,183
+Charles G. Roland,0.2317548305353183,Peter Van Loo,2015,M. J. Rees,0.9714285714285714,Charles G. Roland,0.17073170731707318,Emily J. Chenette,0.0,Annalisa M. VanHook,136
+Stacy Lawrence,0.21953373015873012,Christopher A. Klebanoff,2015,Dm Barnes,0.9629629629629628,Herbert W. Roesky,0.1,Vivien Choo,0.0,Katharine Sanderson,106
+Elizabeth Culotta,0.21329531947569974,Caitlyn Steiner,2015,Tito Fojo,0.9555984555984556,Z. Janousek,0.09125607217210273,Alexandra A. Mushegian,0.0,Kendall Powell,105
+Herbert W. Roesky,0.18289854357637506,Semaw Ferede Abera,2015,Timothy R. Hughes,0.9375,M Sun,0.08579749103942652,David Adam,0.0,Michael Hopkin,88
+David Cyranoski,0.17967861354626094,Jouke Jan Hottenga,2015,Daan M. F. van Aalten,0.9347826086956522,JohnS.S. Stewart,0.08405748663101605,Irene Jarchum,0.0,Erika Check,85
+Ann Gibbons,0.16361599123074427,Nicholas McGranahan,2015,William J. Broad,0.9230769230769232,Elizabeth Culotta,0.07862990090478242,Narelle Towie,0.0,Neil Withers,81
+Jl Fox,0.15013234071891352,Tibor Szilvási,2015,Geoff Brumfiel,0.9117647058823528,Shu Man Fu,0.06389986824769434,Janet Fang,0.0,Daniel Cressey,80
+J Marx,0.14934492240899194,M. Gordon Joyce,2015,Mariusz A. Wasik,0.9042553191489362,J. Lindsten,0.059701492537313425,Valery A. Portnoi,0.0,Emma Marris,77
+Jean L. Marx,0.14744189933240415,Ludmil B. Alexandrov,2015,Nuno Maulide,0.8958333333333334,Aris Persidis,0.05511811023622047,Grant Miura,0.0,Elie Dolgin,76
+O. Glemser,0.14457052059513492,Andrew E. Jaffe,2015,John D. Altman,0.8928571428571429,D. G. King-Hele,0.04167718589581755,Tamas Hickish,0.0,al. et,75
+Sylvia Dewilde,0.14352347800750254,Rahul Satija,2015,Stephen P. Schoenberger,0.8877551020408163,Halla Thorsteinsdóttir,0.04166666666666666,Nathan Blow,0.0,Geoff Brumfiel,70
+Daan M. F. van Aalten,0.1427903121593881,Hadas Keren-Shaul,2014,Piotr E. Marszalek,0.8875,Sigurd Hoehne,0.04079861111111111,Francesca Pezzetta,0.0,Natalie de Souza,66
+M Sun,0.14275857654889915,Maxime A. Siegler,2014,Andres F. Oberhauser,0.8875,Hershel Jick,0.04057693451495867,Michelle Francl,0.0,David Adam,65
+Geoff Brumfiel,0.13999632220683647,Gwo-Yu Chuang,2014,Antoine M. van Oijen,0.8852459016393442,Kakkar Vv,0.03289473684210526,Kakkar Vv,0.0,Omar Abdel-Wahab,62
+U. Wannagat,0.1381364672221614,Karen M. Tabb,2014,Seung Hoi Koo,0.8767123287671232,Jean L. Marx,0.030973451327433624,Amy Donner,0.0,Nicole Kresge,62
+Guido Kroemer,0.13058451366573834,Eva M. Huber,2014,Warren H. Cole,0.875,G. M. Besser,0.030670376258611555,F. Nour-Eldin,0.0,Tõnu Esko,61
+Peter Aldhous,0.1275061526314716,Federico Pietrocola,2014,Anne Simon Moffat,0.875,Sylvia Dewilde,0.026997840172786176,Leslie K. Ferrarelli,0.0,Ewen Callaway,61
+Anne Simon Moffat,0.1212807507735999,Amanda B. Keener,2014,Paul E. Fraser,0.8698630136986302,K. Weidenhammer,0.02513070342205323,Betsy Mason,0.0,Nicole Soranzo,57
+Jeffrey Mervis,0.1182748538011696,Zheng‐Wang Qu,2014,David Cyranoski,0.8666666666666667,Fritz R. Kreißl,0.023443029016277418,Zoë Corbyn,0.0,Caitlin Sedwick,57
+William J. Broad,0.11682148403389694,Amy A. Sarjeant,2014,Alexandra M. E. Jones,0.8619047619047621,Emil Frei,0.022913256955810143,Mark Haw,0.0,Erin E. Hartman,53
+Steffen Jockusch,0.11058012421558107,Omri Gottesman,2014,Jean L. Marx,0.8518518518518519,BryanN. Brooke,0.02255747126436781,Luca Mascitelli,0.0,Helen Pilcher,52
+Warren H. Cole,0.10716824230296967,Daniel C. Casey,2014,Susana C. Raimondi,0.8461538461538461,S.R. Bloom,0.02232142857142857,Elizabeth Culotta,0.0,Jeffery L. Kutok,50
+Johann Mulzer,0.1062944026513442,Christian Hörl,2014,Iuliana Atodiresei,0.8389261744966443,O. Glemser,0.02024425859551308,Amber Dance,0.0,Roxanne Khamsi,49
+Debra J. Gilbert,0.09896645743673582,Niek Verweij,2014,Luis Herrera-Estrella,0.8375286041189931,Kenneth Sterling,0.01991145092804844,Jean L. Marx,0.0,Scott J. Rodig,47
+Erika Check,0.09841235450890697,Steven H. Liang,2014,Erika Check,0.8333333333333334,Dieter Hoppe,0.017619047619047618,Jessa Netting,0.0,Omar K. Farha,46
+M. J. Rees,0.09751971609546906,Christoph Schwarzmaier,2014,N. Xeros,0.8333333333333334,Wolfgang A. Herrmann,0.01667129758266185,Kerri Smith,0.0,Constantin G. Daniliuc,46
+Emily Waltz,0.09666750622933433,Siraj M. Ali,2014,Robert L. Martensen,0.8333333333333334,A. L. W. F. Eddleston,0.01631880672472796,DerrickB. Jelliffe,0.0,David Cyranoski,43
+Fred Rosner,0.09426657278556297,Michael J. Ziller,2014,Stacy Lawrence,0.8333333333333334,Philip J. Landrigan,0.01554491356094171,David McNamee,0.0,Kerri Smith,42
+Kenneth Sterling,0.09369311938182844,Saeid Shahraz,2014,Fred Rosner,0.8333333333333334,Joseph E. Parrillo,0.014644418476358828,Rabiya S. Tuma,0.0,Kenneth W. Kinzler,41
+Natalie C. J. Strynadka,0.09276803393558697,Nina Vogt,2014,Naoufal Zamzami,0.8297872340425532,F. Nour-Eldin,0.0136986301369863,Charles G. Roland,0.0,Benjamin L. Ebert,41
+Gonçalo R. Abecasis,0.09260151592457608,Serena Nik-Zainal,2014,Guido Kroemer,0.8297872340425532,Dieter Enders,0.01345291479820628,U. Wannagat,0.0,Benjamin F. Voight,41
+J. Lindsten,0.09207448482688232,Karol Estrada,2014,Mark Raffeld,0.8275862068965517,Evan M. Hersh,0.013439276524821624,Laura Croft,0.0,Michael S. Seaman,40
+Paul E. Fraser,0.08800025096220447,Randy A. Albrecht,2014,Natalie C. J. Strynadka,0.825,Lloyd J. Old,0.012772215423373992,Corie Lok,0.0,Christine C. Peters,40
+Janet D. Rowley,0.08705169725550296,Manuel van Gemmeren,2014,Elizabeth Culotta,0.8237347294938918,Kolata G,0.012185507721893356,Halla Thorsteinsdóttir,0.0,Manel Esteller,40
+Karen Honey,0.08612578028240912,Bernd Zetsche,2014,James W. Vardiman,0.8037383177570093,Samath D. Dharmaratne,0.01197901197901198,Malcolm Carruthers,0.0,Nicole Rusk,40
+Maurice M. Reeder,0.08609643629150064,Itamar S. Santos,2014,Janet D. Rowley,0.8037383177570093,Malcolm Carruthers,0.011613110225301407,Kara A. Nyberg,0.0,Karen L. Mohlke,38
+James W. Vardiman,0.08590551514577792,Kingsley N. Ukwaja,2014,J Marx,0.8,Michael C. Fiore,0.011401743796109993,O. Glemser,0.0,Michael A. Nalls,38
+Seung Hoi Koo,0.08461597077967728,Daniel J. Weisenberger,2014,Emily Singer,0.8,Paul Heimbach,0.010833333333333334,Kolata G,0.0,Cassandra Willyard,38
+Shu Man Fu,0.08385196562281963,Paul L. Auer,2014,David G. Poplack,0.8,D. L. J. Bilbey,0.010781098153547131,Jeremy Thomson,0.0,Constantine S. Mitsiades,38
+Kakkar Vv,0.08355322069925943,André Karch,2014,En Li,0.7948051948051948,Emily Waltz,0.010416666666666666,Samath D. Dharmaratne,-7.236675471288491e-05,Andreas Rosenwald,38
+Vivien Choo,0.08321360153256704,Zoubida Zaidi,2014,Johann Mulzer,0.7941176470588235,Alfred Schmidpeter,0.010309278350515464,Luke Nyakarahuka,-7.236675471288491e-05,Bang Wong,37
+Luis Herrera-Estrella,0.08247128091362202,Foad Abd-Allah,2014,Hengmi Cui,0.7936507936507936,J. Fraser Stoddart,0.00980392156862745,Harish Chander Gugnani,-7.236675471288491e-05,Zoltan Fehervari,37
+Annette Flanagin,0.08215386873618886,Benjamin T. Diroll,2014,Peter Aldhous,0.7857142857142857,K.R. Hunter,0.00954861111111111,Karen M. Tabb,-7.236675471288491e-05,Eric Hand,37
+K.R. Hunter,0.08201091918058999,Nir Yosef,2014,Leonard Ellman,0.7833333333333333,D.G. Harnden,0.0091324200913242,Heidi J. Larson,-7.236675471288491e-05,JoAnn E. Manson,37
+Z. Janousek,0.08175819333892162,Jacqueline C. Barrientos,2014,Sylvia Dewilde,0.7818181818181819,U. Wannagat,0.009092775041050905,Emily Singer,-7.57002271006813e-05,Robert L. Martensen,37
+D. G. King-Hele,0.08113849777194551,Amany H. Refaat,2014,Steffen Jockusch,0.775,Henry R. Bourne,0.0090369951990963,Joseph Loscalzo,-0.00017592138827106973,David Sidransky,36
+Aris Persidis,0.08059091536111544,Nicolai Juul Birkbak,2014,Helen Pilcher,0.7692307692307693,Patrick L. Remington,0.008987735148425614,Melissa Marino,-0.00024354603019970773,Carrie Sougnez,36
+Robert L. Martensen,0.07944903488930062,Akimitsu Narita,2014,Margaret A. Winker,0.7692307692307693,D. Catovsky,0.008906371241341422,Peter G. Schultz,-0.00027699004154850624,Amy Donner,36
+William T. McGivney,0.07867287719267478,Alex K. Shalek,2014,Nancy R. Gough,0.75,M. J. Rees,0.008722098804612291,Ira Mellman,-0.0002929151156404467,Dharminder Chauhan,36
+Fan Yuan,0.07790483180065104,Constantin G. Daniliuc,2014,Ann Gibbons,0.75,Peter Salama,0.008686171214832124,Miyako Baba,-0.0003636657507677388,Sonja I. Berndt,35
+Tetsuya Tanimoto,0.07788760451060213,Sachet A. Shukla,2014,Roderick H. Turner,0.75,Calvin M. Kunin,0.008571428571428572,Erika Check Hayden,-0.0005750431282346176,Jorge E. Cortes,35
+F. Nour-Eldin,0.07726382926823795,Carl Abelardo T Antonio,2014,Mark Crawford,0.75,Anne Simon Moffat,0.00819967002840733,Jacqueline Ruttimann,-0.0006798096532970768,Cyril H. Benes,35
+JohnS.S. Stewart,0.07639018777543892,Robert T. Bailer,2014,William T. McGivney,0.7391304347826086,A. Krief,0.007699072886511048,Regina Nuzzo,-0.0008015389547932028,Matthew G. Vander Heiden,35
+Hershel Jick,0.07532691532486473,Els Pardon,2014,Natalie de Souza,0.7272727272727273,Mariel M. Finucane,0.007579347005181111,M.R. Wills,-0.0008250825082508251,Thomas Illig,34
+Pedro Cuatrecasas,0.07498332180349639,Neeraj Bedi,2014,Y.M. Dennis Lo,0.7142857142857143,Peter C. Doherty,0.007403189066059227,Katya A. Shackelford,-0.0009242144177449168,Nancy R. Gough,34
+Jane Fridlyand,0.07322220355429117,Travis I. Zack,2014,Roberta Kwok,0.7073170731707317,Martin J. Cline,0.00708502024291498,Apoorva Mandavilli,-0.000954653937947494,Zora Modrusan,33
+Hengmi Cui,0.07297900529719384,Najaf Amin,2014,P. Anton van der Merwe,0.7052631578947368,David McNamee,0.007006572620181368,Nicholette Zeliadt,-0.001278772378516624,Xiong Wen David Lou,33
+Wolfgang A. Herrmann,0.07297720741576244,Loic Yengo,2014,Debra J. Gilbert,0.7002457002457002,Paul P. Carbone,0.006944444444444444,Markus Elsner,-0.0013495276653171392,Manuela Uda,33
+Nathanael S. Gray,0.07256071935622531,Irene Jarchum,2014,Nam Jin Yoo,0.6951219512195121,DerrickB. Jelliffe,0.006456910387041393,John Ding-E Young,-0.0014571092831962395,Leslie K. Ferrarelli,33
+Tito Fojo,0.07234111384195331,Frank Rigo,2014,Tetsuya Tanimoto,0.6923076923076923,Farshad Farzadfar,0.00640600772242648,Michael Hopkin,-0.0015267175572519086,Lucas Laursen,33
+Michelle M. Mello,0.07205979093483016,Greg Eley,2013,Christine Rouzioux,0.6854192629517536,Leonard Laster,0.006193845948101385,Ioana Visan,-0.0015888147442008262,Stephen M. Edgington,33
+Brian D. Strahl,0.07196307308327543,Alykhan F. Shamji,2013,Michelle M. Mello,0.680365296803653,David L. Rimoin,0.006177911339633129,Tolesa Bekele,-0.0016238159675236806,Levi A. Garraway,33
+Emma Marris,0.07194639409406989,Zachary A. Cooper,2013,K.R. Hunter,0.6764705882352942,Louis Shenkman,0.006153817421186314,JohnS.S. Stewart,-0.0017301038062283738,Jeffrey A. Engelman,33
+BryanN. Brooke,0.0708876094114814,Kalkidan Hassen Abate,2013,Maurice M. Reeder,0.6666666666666666,Giuseppe Remuzzi,0.006119226213975522,Alisa Opar,-0.0017746228926353148,Shu Seki,32
+Timothy R. Hughes,0.07052229739992492,Christian Gilissen,2013,Noopur Raje,0.6666666666666666,Maurice M. Reeder,0.006095301615532829,DavidR. Nalin,-0.0017889087656529515,Irene Kaganman,32
+Emil Frei,0.07008108115942202,Grant Miura,2013,Martin E. Fernandez-Zapico,0.6666666666666666,Thomas J. Merimee,0.006086217931463503,Sylvia Dewilde,-0.0018219792916500024,Hreinn Stefansson,32
+Mark Raffeld,0.0694097757189784,Bulat T. Idrisov,2013,A. Krief,0.6666666666666666,Luke Nyakarahuka,0.00607720743010673,Mehdi Javanbakht,-0.0018484288354898336,Luciana Marinelli,32
+Roberta Kwok,0.0675324027132168,Stephan J. Sanders,2013,Vivien Choo,0.6666666666666666,Aliya Naheed,0.0059850374064837905,Semaw Ferede Abera,-0.0018484288354898336,Alexei Protopopov,31
+Piotr E. Marszalek,0.06694244064040768,Shui-Chao Lin,2013,Charles G. Roland,0.6666666666666666,Rana Jawad Asghar,0.0059850374064837905,Yujiro Kida,-0.0018587360594795536,Nathan Blow,31
+Margaret A. Winker,0.06654386719594238,Denise Brooks,2013,Herbert W. Roesky,0.6666666666666666,Jürgen Schimkowiak,0.005952380952380952,Daan M. F. van Aalten,-0.0019027532610439925,Stefania Bandinelli,31
+Peter C. Doherty,0.06641609799699633,Nagireddy Putluri,2013,J. Fraser Stoddart,0.6666666666666666,David Cyranoski,0.0059101654846335705,Yechun Xu,-0.002012072434607646,Karl Deisseroth,31
+Albert Sjoerdsma,0.06607366992818041,Slava Ziegler,2013,Nancy A. Kernan,0.6531791907514449,Johann Mulzer,0.005795235028976175,Alan Dove,-0.00201816347124117,Nicholas Mitsiades,31
+Rajendra K. Agrawal,0.06596168152707046,Aaron McKenna,2013,Daniel Cressey,0.65,J Marx,0.005717008099094807,Pedro Cuatrecasas,-0.002036659877800407,Grant Miura,30
+David L. Rimoin,0.06591176779837596,Marina Cavazzana,2013,Philip Tinnefeld,0.6457399103139013,F. Knoch,0.005671077504725897,Alan J. Buckler,-0.0020639432999727397,HelenR. Pilcher,30
+Dieter Hoppe,0.06534026045580789,Wei Guang Liu,2013,Reinhard Fässler,0.6341463414634146,Janet D. Rowley,0.0056656423929152076,Yanming Ma,-0.0021834632079912137,Gábor Balázs,30
+Sigurd Hoehne,0.06527706968265999,Mako Kamiya,2013,D. G. King-Hele,0.625,Walter A. Orenstein,0.005617977528089888,Hema Bashyam,-0.002206693637366679,Norman Klopp,30
+Garth L. Nicolson,0.06499110556812288,Panagis Filippakopoulos,2013,Albert Sjoerdsma,0.6153846153846154,J.N. Norman,0.005581534772182255,Erica Klarreich,-0.0022842639593908627,Nils Gehlenborg,30
+J.N. Norman,0.06460953698285804,Frank Hauke,2013,William M. M. Kirby,0.6119791666666666,David Stuckler,0.005555555555555557,Nick Zagorski,-0.002444987775061125,Ruth J. F. Loos,30
+Konstantin Severinov,0.06429457770968057,Stavroula Kanoni,2013,Charles J. Lowenstein,0.6071428571428571,Barthel Barlogie,0.0054499610146934285,Harm van Bakel,-0.0024481566820276496,Cameron Brennan,30
+James A. Colbert,0.06245975862888644,Jarad A. Mason,2013,U. Wannagat,0.6041666666666666,William M. M. Kirby,0.005390835579514825,WilliamH. James,-0.0024630541871921183,Guido Marcucci,30
+Iuliana Atodiresei,0.06230824134956092,Ala'a Alkerwi,2013,Erin E. Hartman,0.6,H. Hugh Fudenberg,0.00536480686695279,Zheng‐Wang Qu,-0.00247320692497939,Adam Butler,30
+Alfred Schmidpeter,0.061952798015383566,Lauren Averett Byers,2013,F. G. Behm,0.5942028985507246,Jürgen Riede,0.005360333531864205,Nagireddy Putluri,-0.0025300203912091233,Maxime A. Siegler,30
+Roderick H. Turner,0.06192355872675725,Omar K. Farha,2013,Lucas Laursen,0.5882352941176471,S. A. Barker,0.005270092226613966,Regine Herbst-Irmer,-0.002544529262086514,Paul A. Northcott,29
+Mariusz A. Wasik,0.0618361988149511,Eddy Martin,2013,Stanley L. Hazen,0.5877192982456141,F. Vella,0.0049261083743842365,Rachel Courtland,-0.0025510204081632647,Harald Grallert,29
+Steven Woloshin,0.06150787371260466,Dawen Niu,2013,J.N. Norman,0.5869565217391305,Peter Bubenitschek,0.004856408373117885,Emily K. McDonald,-0.0025906735751295338,Ralf Jackstell,29
+J. Fraser Stoddart,0.060261578681747065,Wiktor Szymanski,2013,Rajendra K. Agrawal,0.5846994535519126,Ajit Singh Kashyap,0.0048543689320388345,Johann Mulzer,-0.0027149321266968325,Cormac Sheridan,29
+Halla Thorsteinsdóttir,0.060001830618810974,Tomas Marques-Bonet,2013,Klaus Schulze-Osthoff,0.5766871165644172,Paul I. Terasaki,0.004842615012106539,Stephen M. Edgington,-0.0027386541471048514,Nabeel Bardeesy,29
+Alexandra M. E. Jones,0.05980302657776125,Ryan B. Corcoran,2013,Emma Marris,0.5757575757575758,Debra J. Gilbert,0.004692603227561277,Stanton Segal,-0.0027397260273972607,Rian D. Dewhurst,29
+Martin E. Fernandez-Zapico,0.0596669175914661,Alize J. Ferrari,2013,Emily Waltz,0.5689655172413793,Roderick H. Turner,0.004648394775783311,Irene Kaganman,-0.0027777777777777783,Rabiya S. Tuma,29
+Charles J. Lowenstein,0.05955875537220433,Marc Zapatka,2013,Andrew S. Weyrich,0.5652173913043478,Geoffrey Colin Buckle,0.004466858733775685,Andrew E. Jaffe,-0.0030036043251902285,Anthony Wynshaw-Boris,29
+Cormac Sheridan,0.05898039544603235,Verneri Anttila,2013,Dieter Hoppe,0.56,Bach Xuan Tran,0.004391511428479725,Christoph Pechlaner,-0.0030120481927710845,Ioana Visan,29
+William M. M. Kirby,0.05896454701966061,Brian J. Abraham,2013,Victor E. Velculescu,0.5445665445665445,Katherine Bourzac,0.004064679771718453,Frank Grosveld,-0.003055612140965573,Jacob D. Estes,29
+P. Anton van der Merwe,0.058341826177660684,Daniel Kratzert,2013,Alfred Schmidpeter,0.5384615384615384,Apoorva Mandavilli,0.003999397028480983,Natalie C. J. Strynadka,-0.0032941414960470303,Themistocles L. Assimes,29
+Dm Barnes,0.0582985802540069,Adam J. Mead,2013,Narelle Towie,0.5384615384615384,C. R. Evans,0.0039043380979493173,Paul C. Boutros,-0.0033135441115559852,Gudmar Thorleifsson,28
+Erin E. Hartman,0.05714302735694956,Minjia Tan,2013,Garth L. Nicolson,0.5362318840579711,Tamas Hickish,0.0038446798474902717,Lisette Stolk,-0.003315363881401617,Manuel Alcarazo,28
+Andres F. Oberhauser,0.05706673925995665,Chuanhua Yu,2013,Brian D. Strahl,0.5317919075144508,Deisseroth Ab,0.003804692454026633,Ajit Singh Kashyap,-0.0033407572383073497,Rab K. Prinjha,28
+Nam Jin Yoo,0.05688903481035858,Jason M. Schenkel,2013,Saverio Minucci,0.5314685314685315,John G. Kelton,0.00367379679144385,Xingchen Ye,-0.003352535650203041,Alan Dove,28
+D.G. Harnden,0.05625596840949787,Alexander Teumer,2013,Mark D. Minden,0.5314285714285715,Jacqueline Whang-Peng,0.003654970760233918,James J. Goedert,-0.0033574117407671176,Andrew L. Kung,28
+Klaus Schulze-Osthoff,0.05621430790285994,Fabrizio Carta,2013,C. R. Evans,0.5283018867924528,Goodarz Danaei,0.003528873997637196,Stefan Kubicek,-0.003382459531287751,David Van Den Berg,28
+Philip J. Landrigan,0.0552851260756535,Antonella Mulas,2013,O. Glemser,0.5263157894736842,Harish Chander Gugnani,0.0034763116398650205,Sandra Gemma,-0.003397804495556717,Suhua Feng,27
+Luke Nyakarahuka,0.055142426792739486,Chakkumkal Anish,2013,Motomu Shimaoka,0.5180722891566265,WilliamH. James,0.003472222222222222,Carmen Behrens,-0.003434065934065934,Benjamin T. Kile,27
+Nancy A. Kernan,0.054366141748844736,Xi Ping Huang,2013,Kenneth L. Rock,0.5151515151515151,Cormac Sheridan,0.0034602076124567475,Zacharie Tsala Dimbuene,-0.003464203233256351,Robert Sikorski,27
+Stephen P. Schoenberger,0.05389295057094549,Carrie Sougnez,2013,Fan Yuan,0.5129151291512916,Tolesa Bekele,0.003428286526145852,Maziar Moradi-Lakeh,-0.003464203233256351,Alexander Damme,27
+Susana C. Raimondi,0.05360198570419649,Raghib Ali,2013,Cormac Sheridan,0.5057471264367817,Dm Barnes,0.003348214285714285,Megan Coggeshall,-0.003464203233256351,Mark Crawford,27
+Abhishek Dey,0.05333122719231723,Carlo Sidore,2013,Jl Fox,0.5,David H. Coy,0.0032364886149922572,Kaire Innos,-0.003464203233256351,Mohamed Lamkanfi,27
+Saeid Shahraz,0.052982889621063,Nicola Strenzke,2013,Roxanne Khamsi,0.5,Yi‐Hung Tsay,0.0030349013657056147,Alize J. Ferrari,-0.003464203233256351,Alexander Teumer,27
+Victor E. Velculescu,0.05295546662523057,Timothy C. Johnstone,2013,John Bignall,0.5,Jane Qiu,0.0030120481927710845,Saeid Shahraz,-0.003464203233256351,Janelle Weaver,27
+A. Krief,0.05279240095631086,Danielle M. Townsley,2013,Jeff Tollefson,0.5,Anders Ekbom,0.0029985007496251873,Bulat T. Idrisov,-0.003464203233256351,Marius Wernig,27
+D. L. J. Bilbey,0.05277510075173378,Jirong Long,2013,Jeffrey Mervis,0.5,M.L. Diament,0.0029306366053423643,Chuanhua Yu,-0.003464203233256351,Emily Waltz,27
+Frédéric B. Piel,0.052544904832010415,Stephan Ripke,2013,M Sun,0.5,Nathan Blow,0.002869657151487691,Naohiro Yonemoto,-0.003464203233256351,Nina Vogt,27
+Mark G. Shrime,0.05238343589452569,Mehul S. Suthar,2013,Albert B. Deisseroth,0.5,Katya A. Shackelford,0.002797985450475657,Carlos Castañeda-Orjuela,-0.003464203233256351,Rameen Beroukhim,27
+Fredrik Åslund,0.052109379610513984,Aaron M. Ring,2013,Annette Flanagin,0.5,Bulat T. Idrisov,0.002797985450475657,Andrea Werdecker,-0.003464203233256351,Christopher Newton-Cheh,27
+Jeff Tollefson,0.05125922181424648,Daniel L. M. Suess,2013,Kendall Powell,0.5,Karen M. Tabb,0.002797985450475657,Sara Sheikhbahaei,-0.003464203233256351,M. Arfan Ikram,27
+Zacharie Tsala Dimbuene,0.05116000609402952,Jennifer A. Woyach,2013,David Adam,0.5,Yuichiro Yano,0.0027811627321486787,Burcu Kucuk Bicer,-0.003464203233256351,Peter Aldhous,27
+Kenneth L. Rock,0.05100889653470457,Eric D. Bloch,2013,Karen Honey,0.5,Alize J. Ferrari,0.0027811627321486787,Ronny Westerman,-0.003464203233256351,Roman K. Thomas,27
+Christine Rouzioux,0.0507384654703725,Raajit Rampal,2013,Ewen Callaway,0.5,Andrea Werdecker,0.0027811627321486787,André Karch,-0.003464203233256351,Hongbo Chi,26
+John Bignall,0.05049823601263502,Elisa de Stanchina,2013,Katharine Sanderson,0.5,Frédéric B. Piel,0.0027811627321486787,Geoffrey Colin Buckle,-0.003464203233256351,Eric A. Collisson,26
+Thomas J. Merimee,0.05044566561470088,Yongbo Song,2013,Alexandra A. Mushegian,0.5,Lope H. Barrero,0.0027811627321486787,Foad Abd-Allah,-0.003464203233256351,Tyler Jacks,26
+Peter Valent,0.05026844009047566,Simon R. Harris,2013,Eugenie Samuel Reich,0.5,Michele E. Murdoch,0.0027811627321486787,Amany H. Refaat,-0.003464203233256351,Shahin Rafii,26
+Rana Jawad Asghar,0.049959163369239716,Stefan Herms,2013,Eric Hand,0.5,Maziar Moradi-Lakeh,0.0027811627321486787,Ileana Heredia-Pi,-0.003464203233256351,Tinsley H. Davis,26
+David McNamee,0.04963071876759146,Kunihiro Matsushita,2013,Jennifer Daley,0.5,Foad Abd-Allah,0.0027811627321486787,Lope H. Barrero,-0.003464203233256351,Laurie A Dempsey,26
+David E. Misek,0.0487180482674522,Omer H. Yilmaz,2013,Alisa Opar,0.5,Alaa Badawi,0.0027811627321486787,Daniel C. Casey,-0.003464203233256351,Lorenzo Galluzzi,26
+Maheswar Satpathy,0.0486566021214337,Konrad J. Karczewski,2013,Konstantin Severinov,0.5,Ann Gibbons,0.002770083102493075,Bach Xuan Tran,-0.003464203233256351,Nick Zagorski,26
+Bulat T. Idrisov,0.048294897330843314,Frédéric B. Piel,2013,Ryuichiro Ishitani,0.4929577464788733,Kaire Innos,0.0027643400138217,Rajesh Kumar Rai,-0.003464203233256351,Scott A. Tomlins,26
+PatriciaA. Jacobs,0.04823873645308963,Kyoung-Jae Won,2013,Joseph C. Genereux,0.492063492063492,Naohiro Yonemoto,0.0027643400138217,Alaa Badawi,-0.003464203233256351,Erika Lindquist,26
+Ileana Heredia-Pi,0.048146308096220655,Lihua Julie Zhu,2013,Fredrik Åslund,0.4855371900826446,Maheswar Satpathy,0.0027643400138217,Nicholas J. K. Breitborde,-0.003464203233256351,Jeffrey W. Tyner,26
+Fritz R. Kreißl,0.04813326518158239,Katharine E. Yen,2013,DavidR. Nalin,0.4818181818181818,Raghib Ali,0.0027643400138217,Eduardo A. Undurraga,-0.003464203233256351,Kerstin Lindblad-Toh,26
+Andrew S. Weyrich,0.04812879164005512,Taru A. Muranen,2013,Wolfgang A. Herrmann,0.4814814814814815,Amany H. Refaat,0.0027643400138217,Aliya Naheed,-0.003464203233256351,Hailei Zhang,26
+Naoufal Zamzami,0.04804606012505679,Ileana Heredia-Pi,2013,Robert Sikorski,0.4814814814814815,Konstantinos Stroumpoulis,0.0027643400138217,Zoubida Zaidi,-0.003464203233256351,Lizzie Buchen,26
+Joseph C. Genereux,0.04788650247213674,Chan Hyuk Kim,2013,David Rojas-Rueda,0.4723618090452261,Eduardo A. Undurraga,0.0027643400138217,Kalkidan Hassen Abate,-0.003464203233256351,Adam S. Cifu,25
+Alan Dove,0.047878317712486636,Xuzhou Yan,2013,Maziar Moradi-Lakeh,0.4723618090452261,Mohammad Tavakkoli,0.0027643400138217,Caitlyn Steiner,-0.003464203233256351,Varman T. Samuel,25
+F. Knoch,0.04787054898722527,Hilary D. Marston,2013,Itamar S. Santos,0.4723618090452261,M.R. Wills,0.002729436966916941,Aleksandra Barac,-0.003464203233256351,Hilma Holm,25
+C. R. Evans,0.04785392268440062,Roeland Verhaak,2013,Nancy Fullman,0.4723618090452261,Andrew D Oxman,0.0027174435195486475,Carl Abelardo T Antonio,-0.003464203233256351,Xuhong Cao,25
+Mehdi Javanbakht,0.047603222560935035,Kaya Bilguvar,2013,Aleksandra Barac,0.4723618090452261,Jan W. Bats,0.0026092806131809442,Rana Jawad Asghar,-0.003464203233256351,Guillaume Lettre,25
+Kalkidan Hassen Abate,0.04758338142668359,Diego M. Andrada,2013,Mehdi Javanbakht,0.4723618090452261,James W. Vardiman,0.002594456193912169,Itamar S. Santos,-0.003464203233256351,Timothy R. Cook,25
+Kunihiro Matsushita,0.04742033277358231,Riccardo Comin,2013,Kalkidan Hassen Abate,0.4723618090452261,Marc E. Lippman,0.002570437348827228,Grant Nguyen,-0.003464203233256351,Hyun Min Kang,25
+Addisu Shunu Beyene,0.04739508562890255,Ophir Shalem,2013,Andrea Werdecker,0.4723618090452261,Jan Hirschfeld,0.0025510204081632647,Addisu Shunu Beyene,-0.003464203233256351,Jerome Ritz,25
+DavidR. Nalin,0.047283226401298624,Iñigo J. Vitorica-Yrezabal,2013,Eduardo A. Undurraga,0.4723618090452261,Peter M. Layde,0.002444806638020448,David Rojas-Rueda,-0.003464203233256351,Jennifer Daley,25
+Kolata G,0.047036034588949456,Mehdi Javanbakht,2013,Bulat T. Idrisov,0.4723618090452261,Wolfgang Malisch,0.0024390243902439024,Kingsley N. Ukwaja,-0.003464203233256351,Sara Abdulla,25
+Paul I. Terasaki,0.04669608239517101,Aliya Naheed,2013,Alaa Badawi,0.4723618090452261,Ronald G. Crystal,0.002436863092600797,Konstantinos Stroumpoulis,-0.003464203233256351,Yurii S. Aulchenko,25
+Jan W. Bats,0.04653079797396978,Eduardo A. Undurraga,2013,Aliya Naheed,0.4723618090452261,Cyril Ponnamperuma,0.002416557518879469,Maheswar Satpathy,-0.003464203233256351,Wadih Arap,25
+Heidi J. Larson,0.04652244546713556,Danette L. Daniels,2013,Lope H. Barrero,0.4723618090452261,Warren H. Cole,0.002385849444672974,Michele E. Murdoch,-0.003464203233256351,Maria A. Blasco,25
+Katherine Bourzac,0.04637944712836116,Sandro Cosconati,2013,Frédéric B. Piel,0.4723618090452261,Masamine Jimba,0.002207505518763797,Yuichiro Yano,-0.003464203233256351,Elisa de Stanchina,25
+Leonard Ellman,0.04619228629560498,Elizaveta Freinkman,2013,Ala'a Alkerwi,0.4723618090452261,James A. Colbert,0.001941747572815534,Neeraj Bedi,-0.003464203233256351,Jacob Hanna,25
+Harish Chander Gugnani,0.046012322803299616,Rana Jawad Asghar,2013,Semaw Ferede Abera,0.4723618090452261,Peter M. Small,0.001905799074326164,Luke D. Knibbs,-0.003464203233256351,Peter S. Hammerman,25
+Jinrong Min,0.04585595006810099,James S. Fraser,2013,Neeraj Bedi,0.4723618090452261,PatriciaA. Jacobs,0.0018856065367693273,Raghib Ali,-0.003464203233256351,Rienk Offringa,25
+Noopur Raje,0.04556389896448584,Michael A. Rieger,2013,Naohiro Yonemoto,0.4723618090452261,Sara Sheikhbahaei,0.001882785661860954,H. C. Hopf,-0.0034965034965034965,Ralph J. DeBerardinis,25
+Andrea Werdecker,0.045470980089130135,Andrew J. Surman,2013,Saeid Shahraz,0.4723618090452261,Allen L. Hammond,0.001871515748684916,Marc E. Lenburg,-0.003530239099859353,R Lewin,25
+Alize J. Ferrari,0.0453488876197507,Amber M. Smith,2013,Harish Chander Gugnani,0.4723618090452261,Megan Coggeshall,0.0018659629435339754,Martin Raff,-0.003566333808844508,Hiroshi Kiyonari,25
+S.R. Bloom,0.04478541389447395,Heikki Junninen,2013,Sara Sheikhbahaei,0.4723618090452261,Luke D. Knibbs,0.0018659629435339754,Cormac Sheridan,-0.0035693039857227844,Hema Bashyam,24
+Burcu Kucuk Bicer,0.04443295985374873,Vinayak Agarwal,2013,Mark G. Shrime,0.4723618090452261,Carlos Castañeda-Orjuela,0.0018659629435339754,PatriciaA. Jacobs,-0.003585217870932157,Mikulas Popovic,24
+Semaw Ferede Abera,0.04423135871653616,Li Dong Zhao,2013,Kunihiro Matsushita,0.4723618090452261,Kingsley N. Ukwaja,0.0018659629435339754,William C. Aird,-0.003749786943923641,Maria Schlangen,24
+Daniel C. Casey,0.04391698181827248,Burcu Kucuk Bicer,2013,Luke D. Knibbs,0.4723618090452261,André Karch,0.0018659629435339754,Tinsley H. Davis,-0.0037735849056603774,Emily K. McDonald,24
+Florian Lesage,0.04377646498033873,Joshua C. Bis,2013,André Karch,0.4723618090452261,Ronny Westerman,0.0018659629435339754,Nicola L. Harris,-0.0037766387914755866,Elli Papaemmanuil,24
+Nuno Maulide,0.043577547062538385,Danelle F. James,2013,Zoubida Zaidi,0.4723618090452261,Mark G. Shrime,0.0018659629435339754,Joseph C. Genereux,-0.003806584362139918,Serena DeBeer,24
+Lope H. Barrero,0.04343297755855347,Sara Sheikhbahaei,2013,Kingsley N. Ukwaja,0.4723618090452261,Caitlyn Steiner,0.0018659629435339754,Bartosz A. Grzybowski,-0.00393460157384063,Michael N. Weedon,24
+Ushma S. Neill,0.043219802589524035,Aleksandra Barac,2013,Amany H. Refaat,0.4723618090452261,Sham Mailankody,0.0018424538075193094,Rose Hurren,-0.004012539184952978,Alkes L. Price,24
+Aleksandra Barac,0.043121686669852194,Shou‐Fei Zhu,2013,Ileana Heredia-Pi,0.4723618090452261,J. R. Hampton,0.0018254017012146215,Frank Hauke,-0.004022121669180492,Eicke Latz,24
+Zoubida Zaidi,0.043121686669852194,David Rojas-Rueda,2013,Burcu Kucuk Bicer,0.4723618090452261,Zacharie Tsala Dimbuene,0.0018179378298148067,Nicole Kresge,-0.004081632653061225,Barry S. Taylor,24
+Aliya Naheed,0.043091242135706725,Koji Atarashi,2013,Maheswar Satpathy,0.4723618090452261,C. J. Gubler,0.0018092433991701046,John B. Blennerhassett,-0.00411522633744856,Michiaki Kubo,24
+Philip Tinnefeld,0.04273011163247902,Katrien De Bock,2012,Chuanhua Yu,0.4723618090452261,LyttI. Gardner,0.001749821873660883,Marc E. Lippman,-0.00413399857448325,David A. Tuveson,24
+Konstantinos Stroumpoulis,0.04239323859902377,Marcelo O. Dietrich,2012,Bach Xuan Tran,0.4723618090452261,William T. McGivney,0.0016650808753568029,Huimeng Wu,-0.0041753653444676405,Robert M. Plenge,24
+Lucas Laursen,0.04230665018448813,Robin M. Meyers,2012,Ronny Westerman,0.4723618090452261,Steffen Jockusch,0.0016273393002441008,Sami Lakhdar,-0.004178919671877418,Amy J. Wagers,24
+David G. Poplack,0.042243953736514114,Jennifer A. Prescher,2012,Rana Jawad Asghar,0.4723618090452261,Steven Woloshin,0.0016190448582146394,Daniel Globisch,-0.004190338047463636,Erica Klarreich,23
+Amany H. Refaat,0.042125892849355424,Violeta Serra,2012,Luke Nyakarahuka,0.4723618090452261,Richard J. Wurtman,0.0015915211823672294,Brian J. Druker,-0.004233148811462064,Marcus E. Kleber,23
+Apoorva Mandavilli,0.04210597199759051,Betty Y. Chang,2012,Philimon Gona,0.4723618090452261,Heidi J. Larson,0.001553556827473426,Amy A. Sarjeant,-0.004246284501061571,Stephan Ripke,23
+Neeraj Bedi,0.04192769650241236,Judith N. Mandl,2012,Carl Abelardo T Antonio,0.4723618090452261,Miguel Layrisse,0.0015479876160990713,Maria A. Schumacher,-0.004310344827586207,Stephanie J. Lee,23
+Mark D. Minden,0.041729187878684175,Dana P. Scott,2012,Konstantinos Stroumpoulis,0.4723618090452261,Pedro Cuatrecasas,0.0015157447222664613,Julian Henn,-0.0043679342240493324,Ryan M. Young,23
+Eduardo A. Undurraga,0.04152087642298067,Miles A. Miller,2012,Mohammad Tavakkoli,0.4723618090452261,John I. Gallin,0.0014784151389710233,Stu Hutson,-0.0043859649122807015,Brahmajee K. Nallamothu,23
+K. Weidenhammer,0.04149461756258534,Mark G. Shrime,2012,Yuichiro Yano,0.4723618090452261,R. Merenyi,0.0014583972981271108,Christine C. Peters,-0.004405286343612335,Andrea L. Richardson,23
+Nils Wiberg,0.04111287128451717,Eran Hodis,2012,Rajesh Kumar Rai,0.4723618090452261,Garth L. Nicolson,0.0014303593777936707,HelenR. Pilcher,-0.004424778761061947,Johan H. van Es,23
+David Rojas-Rueda,0.04110170937575116,Harish Chander Gugnani,2012,Heidi J. Larson,0.4723618090452261,Thomas N. Chase,0.0014047156070633926,Peter Salama,-0.004434589800443459,John D. Altman,23
+Michael C. Fiore,0.040640919543076436,David T. Ting,2012,Nicholas J. K. Breitborde,0.4723618090452261,Jeffery L. Barker,0.001392940484777954,Jan Jacob Schuringa,-0.004434907010014306,Reinhard Fässler,23
+Joseph E. Parrillo,0.0403922293417027,Marina Ryzhova,2012,Foad Abd-Allah,0.4723618090452261,R Lewin,0.0013717421124828533,Mehul S. Suthar,-0.0044412607449856745,Sherry Niessen,23
+Bach Xuan Tran,0.04025827217536125,Vasiliki Lagou,2012,Alize J. Ferrari,0.4723618090452261,Martin Raff,0.0013084723585214265,Michael C. Fiore,-0.004467737778159636,Zoltán Kutalik,23
+M. Marosi,0.040135079373112066,Heidi J. Larson,2012,Zacharie Tsala Dimbuene,0.4723618090452261,Cassandra Willyard,0.0012997638326585695,Harry W. Haverkos,-0.004474879652857821,Fenghuang Zhan,23
+Robert Sikorski,0.040049155205546416,John W. Schoggins,2012,Daniel C. Casey,0.4723618090452261,Erich Krickemeyer,0.0012919896640826874,Yoshiaki Tomiyama,-0.004481885711914347,Franziska Schoenebeck,23
+Nancy Fullman,0.039778654141546285,Young Rock Chung,2012,Addisu Shunu Beyene,0.4723618090452261,William D. Foulkes,0.0012145748987854252,Ilan R. Kirsch,-0.004492939666238768,Albert B. Deisseroth,23
+Jürgen Schimkowiak,0.039580969701737065,Carmen Behrens,2012,Peter W. Gething,0.4723618090452261,Henry Nicholls,0.001125541804631766,Maimon E. Hubbi,-0.0045028599245466715,Lachlan Coin,23
+Foad Abd-Allah,0.03953732723957988,Steven J. Bensinger,2012,Raghib Ali,0.4723618090452261,Michelle M. Mello,0.001107308290458698,Chi Pang Wen,-0.0045526779195120895,James P. Di Santo,23
+Alaa Badawi,0.039440081601010514,Nadin Rohland,2012,Peter C. Doherty,0.4676923076923077,Guido Kroemer,0.0010989010989010991,Benjamin R. tenOever,-0.004662992793556592,Ryuichiro Ishitani,23
+Rajesh Kumar Rai,0.039392894783404214,Michele E. Murdoch,2012,LyttI. Gardner,0.4666666666666667,Qutayba Hamid,0.001061192141184483,Opelz G,-0.00468384074941452,Yuko Fujiwara,23
+Sara Sheikhbahaei,0.03939154684691533,Manish J. Butte,2012,Abhishek Dey,0.4655172413793103,Stephen M. Edgington,0.0010416666666666669,Giuseppe Remuzzi,-0.004689331770222743,Tobias C. Walther,23
+A. L. W. F. Eddleston,0.039375117642365655,Urs Gellrich,2012,Pedro Cuatrecasas,0.4636363636363636,Harry W. Haverkos,0.0010189559287562644,Markus Grompe,-0.004716157205240175,Corie Lok,23
+LyttI. Gardner,0.03891539280814954,Marieke Essers,2012,David H. Rowitch,0.4626865671641791,Herbert Mayr,0.001004016064257028,Laurie A Dempsey,-0.0047169811320754715,Pamela Feliciano,23
+Maziar Moradi-Lakeh,0.03883044631660719,Daniel I. S. Rosenbloom,2012,Thomas J. Merimee,0.4545454545454545,Eugene J. Mark,0.000998003992015968,Paul S. Knoepfler,-0.004751399966061429,Anubha Mahajan,23
+Alisa Opar,0.038598182588924085,Bradley L. Pentelute,2012,David L. Rimoin,0.4545454545454545,Erika Check,0.0009775171065493646,Nicole LeBrasseur,-0.0047619047619047615,Rafael Casellas,23
+Ala'a Alkerwi,0.03748709200243823,Sam Hay,2012,Annunziata Gloghini,0.4528985507246377,Neeraj Bedi,0.0009675858732462506,Claudio Anasetti,-0.004767309875141884,Stefan Faderl,23
+Masahiro Kami,0.03742003205446854,Claire Deleage,2012,Alan Dove,0.4526315789473685,Philimon Gona,0.0009675858732462506,Haijun Jiao,-0.004827586206896552,Yong-Jun Liu,23
+André Karch,0.037350497690315225,Manuel Mattheisen,2012,Hershel Jick,0.4489795918367347,Nicholas J. K. Breitborde,0.0009675858732462506,Genevive Bjorn,-0.004830917874396135,Nikola P. Pavletich,23
+Y.M. Dennis Lo,0.0373151670381176,Menachem Fromer,2012,Katherine Bourzac,0.4411764705882353,David Rojas-Rueda,0.0009675858732462506,Wei Guang Liu,-0.004856988667026443,Derrick J. Rossi,23
+Naohiro Yonemoto,0.0367896549966316,Ralf Jackstell,2012,al. et,0.4392523364485981,Daniel C. Casey,0.0009675858732462506,Livia S. Eberlin,-0.004910653389714911,Holbrook Kohrt,23
+R Lewin,0.03666438462547993,Sebastian Zeissig,2012,Paraskevi Giannakakou,0.4377224199288256,Carl Abelardo T Antonio,0.0009675858732462506,Stanley H. Weiss,-0.004910829671749806,Murim Choi,23
+Antoine M. van Oijen,0.03656029348697995,Ronny Westerman,2012,George L. Scheffer,0.4329896907216495,Burcu Kucuk Bicer,0.000919560759527082,Subhajyoti De,-0.004923750256445326,John R B Perry,23
+Mohammad Tavakkoli,0.03599192266506026,Emily K. McDonald,2012,Xavier Salvatella,0.4318181818181818,Itamar S. Santos,0.000919560759527082,Nicole Rusk,-0.0049751243781094535,John Bignall,23
+M.R. Wills,0.035468080308869235,Dietmar Zehn,2012,Nils Wiberg,0.4313725490196079,Rajiv Chowdhury,0.000919560759527082,Luis B. Barreiro,-0.0049751243781094535,Antonio Lavecchia,22
+Martin J. Cline,0.035373014663362214,Dimosthenis Sokaras,2012,Philip J. Landrigan,0.42857142857142855,Jeff Tollefson,0.0009191176470588236,Alexia-Ileana Zaromytidou,-0.00499637943519189,Eberhardt Herdtweck,22
