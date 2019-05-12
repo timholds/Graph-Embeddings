@@ -1,201 +1,101 @@
 last_author_yr,last_author_yr_val,unique_coauthor_profs,unique_coauthor_profs_exp_damp,unique_coauthor_profs_exp_damp_val,unique_coauthor_profs_lin_damp,unique_coauthor_profs_lin_damp_val,unique_coauthor_profs_sqrt_damp,unique_coauthor_profs_sqrt_damp_val,unique_coauthor_profs_square_damp,unique_coauthor_profs_square_damp_val,unique_coauthor_profs_val
-Yiran Qin,2017,O. Evdokimov,Catherine Broome,0.7404894064179067,Najaf Amin,115.20687829864535,Najaf Amin,456.0156071601616,Siraj M. Ali,51.46389987102137,2719
-Giacomo M. Lari,2017,S. Belogurov,Constantin G. Daniliuc,0.6439457972614812,Siraj M. Ali,114.36431786717857,Omri Gottesman,340.73052559618,Frank Rigo,40.92407161400835,2519
-Rd Shepherd,2017,J. G. Acosta,Ranu S Dhillon,0.6409152719397924,Jacqueline C. Barrientos,91.3712918456782,Jouke Jan Hottenga,301.5839568533617,Jacqueline C. Barrientos,36.35599038158447,2441
-Steven John Padula,2017,D. Ciangottini,Maxime A. Siegler,0.5540810406048431,Frank Rigo,85.99670685503892,Tune H. Pers,299.35522994751494,Jeff P. Sharman,33.200744431542894,2441
-Andreas Tilevik,2017,S. Wayand,Tamar Geiger,0.4369488637376028,Omri Gottesman,85.09980189334038,Niek Verweij,281.50658282164636,Trevor J. Pugh,31.92716314716009,2441
-Yunxiong Zeng,2017,P. Everaerts,Massoud Ghaffarpour,0.4340576934437964,Trevor J. Pugh,79.67557952002699,Loic Yengo,274.8869322586248,Courtney D. DiNardo,31.541970112103485,2441
-Houman Jowkar,2017,N. Pietsch,Jeremy E. Wilusz,0.4192392196704175,Peter Van Loo,77.0947256962814,Michela Traglia,255.06731439781362,Aaron T. Gerds,29.797581046809988,2441
-Mourad Ben Said,2017,F. Frensch,George T. O’Connor,0.40641594271019627,Courtney D. DiNardo,76.4107124922701,Aung Soe Htet,251.7029810338468,Alex K. Shalek,28.354212131909428,2441
-Shuilin Jin,2017,T. Hauth,Ng Shyh-Chang,0.4060118203699459,Robert T. Bailer,76.11054151383534,Karol Estrada,240.4650412044844,Bruno Martino,27.65589494081821,2441
-Alicia Córdoba-Iturriagagoitia,2017,B. Bilin,Ian A. Tonks,0.40600584970983816,Tune H. Pers,73.44916143607408,Daniel J. Weisenberger,239.57951588415372,Matthew S. Davids,26.745458575280512,2441
-Rizwan Abdulkader Suliankatchi,2017,A. Lupato,Don Weldon,0.3813763997682539,Karol Estrada,72.79987751228276,Melanie Waldenberger,223.91380205007198,Maxime A. Siegler,25.703311757185933,2441
-Holly R. Harris,2017,A. Oblakowska-Mucha,Jennifer M. Munson,0.3702447032089533,Jouke Jan Hottenga,72.55124076632646,O. Evdokimov,219.68283126178162,Rahul Satija,25.46741985939825,2441
-Wesley Ting Kwok Chan,2017,M. Baber,Kenneth R Carson,0.3702447032089533,Yusuke Shiozawa,71.77792341070275,Antonietta Robino,219.05757123283817,Yusuke Shiozawa,25.33333986425741,2441
-Liat Apel-Sarid,2017,S. Swientek,Erik van Sebille,0.3702447032089533,David C. Wedge,70.8833269398406,Jouke-Jan Hottenga,219.05631216298733,Loretta J. Nastoupil,25.24469994152225,2441
-Margarita Marroquin-Guzman,2017,A. Schizzi,Matthew M. Poppe,0.3702447032089533,Bruno Martino,70.82075078421995,Alena Stančáková,218.6002306279722,Nir Yosef,24.980318292795445,2441
-Mingyang Xing,2017,D. Voong,Christopher E. Berndsen,0.3702447032089533,Ludmil B. Alexandrov,70.41963041236676,Paul L. Auer,207.21384477747964,Amy E. DeZern,24.76045624321151,2441
-Gilmar F. Salgado,2017,C. Caillol,Adam S. Lauring,0.3702447032089533,Jeff P. Sharman,69.03980907885335,Peter K. Joshi,201.79693801033096,Constantin G. Daniliuc,24.71257260204511,2441
-Alper Ozcan,2017,A. R. Draeger,Amol S. Navathe,0.3633182707192533,Sahil Seth,68.88505225711795,Sahil Seth,201.0867028472863,James S. Blachly,24.24833452034235,2441
-Qinqin Ji,2017,P. Bortignon,Kevin R. Riggs,0.3493809722065966,Paul L. Auer,68.48964482657144,Travis I. Zack,197.99297472461646,Randy A. Albrecht,24.197878865993246,2441
-H. Christopher Fry,2017,E. Graverini,Chana A. Sacks,0.3468773175914003,Matthew S. Davids,67.48198603259392,S. Belogurov,193.483913964424,A. Kate Sasser,24.176127444230715,2441
-Rafael Pernil,2017,Pierre Piroué,Amanda Capes-Davis,0.3448032533047457,Michela Traglia,67.1227543086009,Carl Abelardo T Antonio,190.1723447616947,Ryan D. Morin,24.156229120631213,2441
-Silvia Lopez-Lastra,2017,K. Carvalho Akiba,Jason W. Upton,0.3439331220281622,Travis I. Zack,65.31668012486972,Narisu Narisu,189.33569347383155,Robert T. Bailer,24.017738251451856,2441
-Arjun Majithia,2017,L. Gavardi,Yanchuan Zhao,0.3410938506414269,Daniel J. Weisenberger,64.95388972854744,Carolina Medina-Gomez,189.1690985728151,Jonathon B. Cohen,23.133645512204136,2441
-Alejandro Herrero-San Martín,2017,W. Sutcliffe,Thomas M. Makris,0.32561748313942795,Serena Nik-Zainal,64.02324509365671,Wendy L. McArdle,187.63581474367146,Raphael Itzykson,22.61431791673302,2441
-Renée Fleming,2017,N. Skatchkov,Anjana D. Saxena,0.32561748313942795,Alex K. Shalek,63.97689389153412,Kyriaki Michailidou,184.66448945515404,Xiaokui Mo,22.363680431813222,2441
-Tilman Breiderhoff,2017,S. Gambetta,Joanne S. Buzaglo,0.3053200898918556,Niek Verweij,63.82819094959122,Itamar S. Santos,184.50840996268118,Sachet A. Shukla,22.16876198466223,2441
-Abhilash Koratala,2017,L. Perniè,Sarah Z. Tasker,0.2988372811790482,Sachet A. Shukla,62.79305052624291,Kingsley N. Ukwaja,184.17585810793273,Manoj Bhasin,21.673333478398806,2441
-Sarah L. Bartlett,2017,J. Karancsi,Mark E. Hatley,0.2898563366385432,Aaron T. Gerds,60.780953418688185,Semaw Ferede Abera,184.03799115103848,Stephanie Halene,21.365163235403873,2441
-Julián Iturbe,2017,W. Wolszczak,Gad Asher,0.2895852229511583,Loic Yengo,59.68475878721007,Janine F. Felix,183.888444556216,Richard Bourgon,21.17791255199368,2441
-Nathan B. Danielson,2017,G. Flouris,Nirmish Shah,0.28849513742809946,Melanie Waldenberger,59.408372671859894,Neeraj Bedi,180.57484231004184,Elizabeth A. Morgan,21.153879661022216,2441
-Yimei Feng,2017,M. Hoballah,Andrew M. Wikenheiser,0.28469648834020456,M. Gordon Joyce,59.182651465372174,André Karch,179.866147835951,Michael J. Ziller,20.97852466003095,2441
-Somchai Sangkijporn,2017,S. Dildick,Benjamin S. Gelfand,0.2846964883402045,Amy E. DeZern,57.26096176912127,Foad Abd-Allah,179.4070057505233,Aaron C Logan,20.962160226506505,2441
-Kiran Devisetty,2017,L. Finco,Jose R. Cabrero-Antonino,0.28342244228339325,Ryan D. Morin,56.93763276286826,Caitlyn Steiner,177.79828595868725,Serena Nik-Zainal,20.868840060738282,2441
-Sigal Saphier,2017,E. C. Chabert,Marion Eveillard,0.2822256473432671,James S. Blachly,55.932028495426295,Jennifer L. Bragg-Gresham,176.12161178145405,David C. Wedge,20.855433330143352,2441
-Zoë N. Rogers,2017,S. Tolk,Robbert J Duvivier,0.2812332720953546,Raphael Itzykson,55.040402240779144,Glen Liddell Mola,176.10258310270873,Todd M. Bauer,20.71328909323217,2441
-Teruhito Yasui,2017,S. Bifani,Alexander Pöthig,0.28049842202625835,Despina Moshous,55.03871439415095,Siraj M. Ali,174.46634272735585,Wilfred van IJcken,20.388709998203066,2441
-Marc C. A. Stuart,2017,A. Nürnberg,Tom E. Hardwicke,0.2761418582665525,Randy A. Albrecht,54.77362856902007,Karen M. Tabb,173.64938659249896,Peter Van Loo,20.196532179704658,2441
-Cm Simoes,2017,M. Kasemann,Dagmar Hackenberger,0.2745537590806461,Loretta J. Nastoupil,54.69297488548896,Daniel C. Casey,172.99934145141873,Benjamin H. Durham,20.076368370357013,2441
-Quanjiang Ji,2017,V. Knünz,Ariela L. Marshall,0.2738197354885364,Jimmy Z. Liu,54.09398463720056,Saeid Shahraz,172.97524291750798,Sameer A. Parikh,19.928222196007745,2441
-Mark J. Chen,2017,Rosamaria Venditti,Chezi Ganzel,0.2711830249388481,Yan W. Asmann,53.5989925737569,Peter Van Loo,172.872023382366,Yan W. Asmann,19.79940006624886,2441
-Angela Rivers,2017,M. Makouski,Elizabeth L. Courville,0.27067056647322546,Rahul Satija,53.34354486062804,Alexander W. Drong,170.10700445544555,Despina Moshous,19.60619879878966,2441
-Esgueva-Colmenarejo A,2017,N. Pastika,Mourad H. Senussi,0.2706705664732254,Nir Yosef,52.568972840262276,Gabriela Surdulescu,170.01878768689838,Philipp A. Lang,19.37959133523959,2441
-Lerato Magosi,2017,J. Bendavid,Jeffrey C. Nolz,0.2706705664732254,Elizabeth A. Morgan,52.343091998225965,Taavi Tillmann,169.3473328129681,David A. Barbie,19.19512321031147,2441
-Felipe C. Geyer,2017,R. Ekelhof,Jordan R. Axt,0.2706705664732254,Tanja A. Gruber,52.29277605766935,Anne E. Justice,169.22954386732906,Ludmil B. Alexandrov,19.1123612363305,2441
-Kirsty Hendry,2017,N. Bartosik,Vm Trevino,0.2706705664732254,Michael J. Ziller,52.16696072570104,Amany H. Refaat,168.65378854136054,Annalisa Chiappella,19.07884663585352,2441
-L. Mac Cathles,2017,Rajdeep Mohan Chatterjee,Reyad Dada,0.2706705664732254,Shakti Ramkissoon,51.61814317236044,Manuel A. Rivas,166.0052272787836,Haley O. Tucker,18.982385559068,2441
-Julian Engel,2017,J. R. Vlimant,Mark P. Hehir,0.2706705664732254,Nicolai Juul Birkbak,51.575208317726535,A. Degano,165.86261289800294,Anjan Thakurta,18.9616458659257,2441
-Susanne Kossatz,2017,L. Calligaris,Prabhsimranjot Singh,0.2706705664732254,Sameer A. Parikh,51.399172351511844,R. S. Höing,165.86261289800294,Raj K. Pandita,18.774871955066637,2441
-Luca Mazzurana,2017,T. Libeiro,Simon Breitler,0.2706705664732254,Peter H. Sudmant,51.36261429867872,D. Gulhan,165.86261289800294,Gavin Ha,18.58445284157446,2441
-Giancarlo Di Battista,2017,A. Dziurda,Banhidy Nf,0.2706705664732254,Benjamin H. Durham,50.847385490351314,J. R. Vlimant,165.86261289800294,Dirk Heckl,18.579817872137465,2441
-A. Turletti,2017,C. Haen,Shelly P. Dev,0.2706705664732254,Peter K. Joshi,50.7574788544737,M. Quittnat,165.86261289800294,Shakti Ramkissoon,18.43319912649605,2441
-Xiao-Na Li,2017,B. Michlin,Haeseong Park,0.2706705664732254,David A. Barbie,50.42101857378196,T. Libeiro,165.86261289800294,Hila Magen,18.36764806829312,2441
-Timothy J. Nice,2017,M. Ekmedzic,Heather H. Pierce,0.2706705664732254,Gavin Ha,50.40028013583764,F. Lionetto,165.86261289800294,José Ángel García-Sáenz,18.361857611231354,2441
-Guilan Fan,2017,E. Gersabeck,Rukma Govindu,0.2706705664732254,Todd M. Bauer,50.373828986246224,M. Rihl,165.86261289800294,Wyne P. Lee,18.296839027511737,2441
-Quentin Daniel,2017,A. Degano,Fanuel Muindi,0.2706705664732254,Janine F. Felix,49.936636123668954,S. Wandernoth,165.86261289800294,Cristian Rodriguez-Aguayo,18.19351342662752,2441
-Markus Schueler,2017,B. Leverington,Christopher M. Glinkerman,0.2706705664732254,Richard Bourgon,49.62768171571611,C. La Licata,165.86261289800294,Sahil Seth,18.169216571110844,2441
-Shyamapada Nandi,2017,O. Hindrichs,Sunando Datta,0.2706705664732254,A. Kate Sasser,49.30943577796644,Giulia D'imperio,165.86261289800294,Jamie K. Teer,18.06925169725298,2441
-Jing Sang,2017,M. Quittnat,Sam F. Halabi,0.2706705664732254,Eli A. Stahl,49.00478578385477,A. R. Draeger,165.86261289800294,M. Gordon Joyce,18.06087154230158,2441
-Ibrahim Abdelwahab,2017,T. Frueboes,Dina Lipkind,0.2706705664732254,Antonietta Robino,48.17694562742585,S. Dildick,165.86261289800294,Sebastian Böttcher,17.991585265095228,2441
-Craig Gedye,2017,G. Tellarini,André M. Mansoor,0.2706705664732254,Jouke-Jan Hottenga,48.06751552930695,C. Beluffi,165.86261289800294,Oliver Weigert,17.894531087178247,2441
-Maria Hoernke,2017,C. Beluffi,Florian L Stigler,0.2685991549677679,Kyriaki Michailidou,46.99772242447258,L. Finco,165.86261289800294,Bora Lim,17.841965262101628,2441
-Charlotte Martineau-Corcos,2017,P. Moisenz,Kensuke Horio,0.26720735022837544,Peter Willeit,46.61542237955428,P. Moisenz,165.86261289800294,Anja Seckinger,17.839743832989953,2441
-Gabriel Victora,2017,K. Skovpen,Holger Helten,0.26383275733784783,Jonathon B. Cohen,46.26976273085267,I. Bucinskaite,165.86261289800294,Lisa Pieri,17.828651353344984,2441
-Flory Pinzón,2017,I. Bucinskaite,Matthew A. J. Apps,0.2618612079686824,Jared T. Simpson,46.04979902693344,M. Kasemann,165.86261289800294,Pierre Peterlin,17.825667729312265,2441
-Yongnian Liu,2017,K. Androsov,Jodie M. Fleming,0.25987919448770785,Gwo-Yu Chuang,45.77538229662582,J. Bendavid,165.86261289800294,Irwindeep Sandhu,17.681897614752074,2441
-Laura‐Alice Jantke,2017,A. Tiko,Philippa Berman,0.2554600873144656,Wilfred van IJcken,45.71379464530718,S. Coquereau,165.86261289800294,Maria Romina Girotti,17.626916022036113,2441
-Ruben Valas,2017,C. Silkworth,Ghazaleh Ashrafi,0.25503488904519883,Xiaokui Mo,45.199316255199264,H. Ogul,165.86261289800294,Stephen S. Chung,17.60280645666028,2441
-Rachel McFarland,2017,J. Wimberley,Shwetal Mehta,0.2519510128042635,Manuel A. Rivas,45.16626940966788,G. Tellarini,165.86261289800294,Felicitas Hitz,17.568062917460626,2441
-Magali Boniol,2017,K. Kovitanggoon,Carl P. Goodrich,0.2519510128042635,Martin Sikora,45.1638795745539,F. Jing,165.86261289800294,Flore Sicre de Fontbrune,17.520146106918446,2441
-N. Alsaeed,2017,M. Centis Vignali,Lilian T. Lamech,0.2519510128042635,Johannes Waage,45.10172989439974,Darren Burton,165.86261289800294,Akimitsu Narita,17.4933272564146,2441
-Rafael Krumkamp,2017,Giulia D'imperio,Yuanyue Liu,0.2490029281752064,Xiaobei Zhao,44.412503290522906,M. Hoballah,165.86261289800294,Jean-Marie Michot,17.46226425020071,2441
-D&eacutecio L. Eizirik,2017,Achille Petrilli,Mazhar Adli,0.243287738792916,Jennifer L. Bragg-Gresham,44.27061841116858,C. Haen,165.86261289800294,Lukas E. Dow,17.438039094655323,2441
-Alice Rérat,2017,T. Pilar,Zongzhi Liu,0.2410960216798533,Gopa Iyer,44.2402444227045,A. Custódio,165.86261289800294,Youngil Koh,17.30309450851432,2441
-Ls Schwartzberg,2017,R. Yohay,Vittorio Limongelli,0.2407085727983425,Josh Stuart,44.130667670166474,N. Pietsch,165.86261289800294,Boris Bartholdy,17.295375784411313,2441
-Emma Nye,2017,M. Baalouch,Raphael M. Franzini,0.23864210972926264,Xianbo Zuo,44.121987044726104,A. Makovec,165.86261289800294,Sam Agresta,17.22364959856435,2441
-Rajesh P. Balaraman,2017,M. Dalchenko,Kenneth Matthew Scaglione,0.23507643698024305,Philipp A. Lang,43.396081930274974,D. Konstantinov,165.86261289800294,Shahrukh K. Hashmi,17.20599486886126,2441
-Kim D. Young-Overton,2017,O. Charaf,Anne Deucher,0.234909421907228,Flore Sicre de Fontbrune,43.23241621917562,Pierre Piroué,165.86261289800294,Yuanping Yi,17.17692470959696,2441
-Melanie Weigert,2017,A. Künsken,Smaranda C. Marinescu,0.2349094199723406,Sebastian Böttcher,43.22516454187333,R. K. Dewanjee,165.86261289800294,Tony Marchand,17.05016041150465,2441
-Lukas Gerhard,2017,S. Panwalkar,Laura C. Bott,0.2349094199723406,Anjan Thakurta,43.1013674960909,M. Dalchenko,165.86261289800294,Tanja A. Gruber,17.024826543656257,2441
-Wooping Ge,2017,A. Makovec,Petr Znamenskiy,0.2349094199723406,Sven J. van der Lee,43.09931920388104,M. Komm,165.86261289800294,Elizabeth A. Griffiths,16.92174692618698,2441
-Ahmad Tarakji,2017,L. Uvarov,Federico F. Trigo,0.2349094199723406,Wyne P. Lee,43.0463954267484,M. Baalouch,165.86261289800294,Zeping Hu,16.895969294570794,2441
-V Upadhyaya,2017,M. Rihl,Eric Hervouet,0.2349094199723406,Andrew E. Jaffe,42.924363188787424,I. Counts,165.86261289800294,Nicolai Juul Birkbak,16.869363644788926,2441
-Futreal Pa,2017,M. Bodlak,Chung-Hui Yang,0.2349094199723406,Cristian Rodriguez-Aguayo,42.853437119343866,N. Skatchkov,165.86261289800294,Sarah Nikiforow,16.81019021359164,2441
-Katharine Z. Coyte,2017,B. Marzocchi,Shou-Tian Zheng,0.2349094199723406,José Ángel García-Sáenz,42.84995761889122,T. Pilar,165.86261289800294,Chezi Ganzel,16.537265065254484,2441
-Moanaro Biswas,2017,M. Komm,Demetrios Moris,0.2349094199723406,Stephanie Halene,42.58727430096258,M. Centis Vignali,165.86261289800294,Gabriel C. Lander,16.356497451032396,2441
-Kathleen Pestal,2017,C. Contreras-Campana,Justin Song,0.2349094199723406,Lisa Pieri,42.343195352214714,D. Voong,165.86261289800294,Christof Fellmann,16.341417292325627,2441
-Jörg Menche,2017,A. Elliott-Peisert,Apoorva Bhandari,0.2349094199723406,Alena Stančáková,42.321763220149,S. Röcker,165.86261289800294,Louis Terriou,16.31226059934692,2441
-Eisuke Itakura,2017,A. Descroix,Alexander H. Flannery,0.2349094199723406,Mike A. Nalls,41.83452180920087,Achille Petrilli,165.86261289800294,Gopa Iyer,16.294623740763022,2441
-Maria E. Linnaus,2017,C. La Licata,Chunhua Tony Hu,0.23490941997234055,Qiaomei Fu,41.63745859451877,J. Wimberley,165.86261289800294,Noemi Puig,16.26113932196505,2441
-Y. Ri,2017,S. Wandernoth,Farzana Sayani,0.23490941997234055,Sarah Nikiforow,41.46172986092757,B. Boimska,165.86261289800294,Steven E. Bosinger,16.02306371290576,2441
-Violaine Plante-Bordeneuve,2017,A. K. Kalsi,Brendan T. McGrail,0.23490941997234055,Aung Soe Htet,41.39434400120207,L. Uvarov,165.86261289800294,Kara N. Maxwell,15.955988630380164,2441
-Francesca Rapido,2017,H. Ogul,Maria Lung,0.23490941997234055,Jean-Marc Aury,41.32879601798275,N. Déléage,165.86261289800294,Stanley Ching-Cheng Huang,15.955001208647506,2441
-Michel Nederlof,2017,L. Skinnari,Svetlana A. Kholodar,0.23490941997234055,Annalisa Chiappella,41.056636006071685,N. Bartosik,165.86261289800294,Amy A. Sarjeant,15.923543930581888,2441
-Yuka Asano,2017,L. Pescatore,Vijay A. K. Rathinam,0.23490941997234055,Tony Marchand,40.97491236839486,M. Ekmedzic,165.86261289800294,Patricia Galván,15.89791465025459,2441
-Andrew P. Jacobson,2017,R. S. Höing,Helena Wang,0.23490941997234055,Aaron C Logan,40.78970414999569,S. Swientek,165.86261289800294,Kamel Laribi,15.892669838330693,2441
-Crispin R. W. Reinhold,2017,J. Chasserat,James L. LaBelle,0.23490941997234055,Stephen S. Chung,40.62952236548128,L. Calligaris,165.86261289800294,Christopher A. Klebanoff,15.876060345683634,2441
-Akiya Jouraku,2017,Z. Demiragli,Afroditi Petsakou,0.23490941997234055,Aleksandra Gentry-Maharaj,40.016941009164135,O. Hindrichs,165.86261289800294,Ricardo Attar,15.8314559884742,2441
-Shijie C. Zheng,2017,N. Déléage,Mohammed Shaik,0.23490941997234055,Daniele Merico,40.000288865669866,S. Panwalkar,165.86261289800294,Luc Fornecker,15.822102736999009,2441
-Allison J Bardin,2017,R. Goldouzian,Ramesh C. Samanta,0.23490941997234055,Wencai Ma,39.979433683604576,R. Goldouzian,165.86261289800294,John T. Poirier,15.796456060972455,2441
-A. Mesut Erzurumluoglu,2017,A. Zucchetta,Ali H. Algiraigri,0.23490941997234055,Manoj Bhasin,39.92806604629009,K. Kovitanggoon,165.86261289800294,Florian Buettner,15.789681744350975,2441
-Philip C. Schouten,2017,F. Lionetto,Jared Knopman,0.23490941997234055,Chezi Ganzel,39.87394136802476,P. Bortignon,165.86261289800294,Soham Puvvada,15.775336312089086,2441
-Zhuofeng Hu,2017,J. Garofoli,Deyaa I. AbuSalim,0.23490941997234055,Felicitas Hitz,39.68352663823642,M. Baber,165.86261289800294,Manja Meggendorfer,15.712697158722431,2441
-Phoebe K. Allan,2017,M. A. B. Md Ali,Wendy W. Liu,0.23490941997234055,Luc Fornecker,39.43594822409281,M. Bodlak,165.86261289800294,Wencai Ma,15.709475173882707,2441
-Jh Wong,2017,R. K. Dewanjee,Hillary Maitland,0.23490941997234055,Carolina Medina-Gomez,39.38678961195132,A. Oblakowska-Mucha,165.86261289800294,Els Pardon,15.687658350008528,2441
-Yuyong Ma,2017,Darren Burton,Stephen K. Murphy,0.23490941997234055,Paola Fazi,39.25948952041456,M. Teklishyn,165.86261289800294,Jason S. McLellan,15.67328969850951,2441
-Berit Ebert,2017,S. Röcker,Ahmed Alaskar,0.23490941997234055,Anja Seckinger,39.258491317685795,K. Carvalho Akiba,165.86261289800294,Jesse W. Rowley,15.662869145607795,2441
-Marat Orazov,2017,S. Coquereau,Marc-André Courtemanche,0.23490941997234055,Wendy L. McArdle,39.23403825906035,W. Sutcliffe,165.86261289800294,Jingqin Luo,15.649013135873153,2441
-M. G. de Queiroz,2017,I. Counts,Shaun K. Olsen,0.23490941997234055,Irwindeep Sandhu,39.094053306085584,J. G. Acosta,165.86261289800294,Andrew E. Jaffe,15.599786488766576,2441
-Ashley S. Doane,2017,A. Custódio,Hylkje J. Geertsema,0.23490941997234055,Pierre Peterlin,39.07890487523082,N. Pastika,165.86261289800294,Salomon Manier,15.544125314546552,2441
-Emmanuelle Claude,2017,D. Konstantinov,Mya S. Thein,0.23490941997234055,Narisu Narisu,39.06909530973137,B. Leverington,165.86261289800294,Christopher C. Oakes,15.50678611679237,2441
-Helgi I. Ingólfsson,2017,F. Jing,Shimon M Glick,0.23490941997234055,Harm Jan Westra,39.06905262641832,M. Makouski,165.86261289800294,Bjoern Chapuy,15.455625024079433,2441
-Erin E. Stache,2017,N. Van Remortel,Youngil Koh,0.2326262012397556,Bjoern Chapuy,39.03010092714721,C. Silkworth,165.86261289800294,Marino Clavio,15.434408337620091,2441
-Mp Nilsson,2017,B. Boimska,Manuel van Gemmeren,0.2325683333410821,Manja Meggendorfer,38.950702893982616,L. Perniè,165.86261289800294,Tamar Geiger,15.302422686777739,2441
-B.L. Levine,2017,K. Petridis,Cláudia Malheiros Coutinho-Camillo,0.2325416105926012,Raj K. Pandita,38.84982569778002,S. Bifani,165.86261289800294,Roberto Massimo Lemoli,15.299111376425495,2441
-Eniko Sajti,2017,S. Dooling,James R. Frost,0.23144620372749064,Matan Hofree,38.804586872820956,E. Gersabeck,165.86261289800294,Robert C. Spitale,15.245268120459196,2441
-Nuno R. Faria,2017,M. Teklishyn,Anthony Millet,0.2314462037274906,Federico Pietrocola,38.57163763162127,R. Ekelhof,165.86261289800294,Jean-Marc Aury,15.225983766952062,2441
-Tran Thanh Huong,2017,M. Planer,Carl K. Brozek,0.2314462037274906,Dirk Heckl,38.36768633607996,B. Michlin,165.86261289800294,Zhongwu Lai,15.159912934298074,2441
-Aris Baras,2017,W. Kanso,Keary M. Engle,0.23078182781667414,Joseph Vijai,38.35316296922515,E. C. Chabert,165.86261289800294,Biao Kong,15.15748386847953,2441
-Muhammad Jbara,2017,S. Spannagel,Joseph T.P. Yeeles,0.228071610836963,Karin Kast,38.237609254462754,S. Tolk,165.86261289800294,Dai Chihara,15.148598258894927,2441
-David G. C. Hildebrand,2017,N. Eggert,Oded Rechavi,0.2270873399004911,Maria Romina Girotti,38.07619334313632,L. Skinnari,165.86261289800294,Stéphanie Guidez,15.120731124042265,2441
-Ames C. Register,2017,D. Gulhan,Christopher H. Donahue,0.2259561932500677,Kamel Laribi,38.05007143856328,A. Lupato,165.86261289800294,Valérie Coiteux,15.041818743823185,2441
-Martin C. Moncrieffe,2017,Najaf Amin,Oksana A. Sergeeva,0.2236518314904672,Gillian I. Rice,38.030161480742784,W. Wolszczak,165.86261289800294,Cedric Dos Santos,15.030172513770996,2016
-Shenhav Cohen,2017,Aung Soe Htet,Sarah Yunmi Lee,0.2236518314904672,Marcie L. Riches,37.974326713244814,S. Gambetta,165.86261289800294,Yotam Drier,14.964958525105429,1671
-Jason M. Tennessen,2017,Omri Gottesman,Stefan-S. Jester,0.2236518314904672,Alexander W. Drong,37.9075279396211,N. Eggert,165.86261289800294,Marcie L. Riches,14.884650218902724,1554
-Adam L. Mahood,2017,Loic Yengo,Joseph J. Shatzel,0.22316215705843065,Sean M. Devlin,37.85624001653369,S. Spannagel,165.86261289800294,Raynier Devillier,14.852714331975815,1367
-Michael Füeg,2017,Jouke Jan Hottenga,J Geisler,0.22270527969248416,Maxime A. Siegler,37.805002289947645,J. Garofoli,165.86261289800294,Jane E. Churpek,14.800829706654506,1359
-Lucie Rivier,2017,Tune H. Pers,Noam Benyamini,0.2217589062185672,Shahneen Sandhu,37.72327805526301,A. Zucchetta,165.86261289800294,Kipp Weiskopf,14.797349779964106,1338
-Kr Tkaczuk,2017,Niek Verweij,Pryseley Nkouibert Assam,0.221753629381945,Gabriela Surdulescu,37.64176587639671,W. Kanso,165.86261289800294,Enrico Velardi,14.787020764722524,1319
-Gustavo J. Martinez,2017,Carl Abelardo T Antonio,Alexander V. Emelyanov,0.221753629381945,Jose M. C. Tubio,37.57707273998753,T. Hauth,165.86261289800294,D Egle,14.686075193035045,1257
-Julia Esser-von Bieren,2017,Itamar S. Santos,Sandeep K. Reddy,0.21998529262466732,Brendan Bulik-Sullivan,37.48095593345076,K. Skovpen,165.86261289800294,Rakhi P. Naik,14.657617404876175,1244
-J-K Pyon,2017,Kingsley N. Ukwaja,Tibor Szilvási,0.21740679649215072,Anne E. Justice,37.464428672897256,L. Pescatore,165.86261289800294,Gwo-Yu Chuang,14.657616113497284,1243
-Shunsuke Masuo,2017,Foad Abd-Allah,L. Stirling Churchman,0.2172339878991571,Louis Terriou,37.41572976257435,B. Bilin,165.86261289800294,Dana Pe’er,14.615837070293743,1230
-Isaac Garcia-Bosch,2017,Neeraj Bedi,Saroj Niraula,0.2172339878991571,Kimberly Chambert,36.947086328243095,C. Contreras-Campana,165.86261289800294,Anguraj Sadanandam,14.601603600662992,1227
-Alexander Starodub,2017,Semaw Ferede Abera,Matthew J. Langton,0.21523572715288247,Oliver Weigert,36.9215378580394,J. Chasserat,165.86261289800294,Do-Youn Oh,14.598466875851875,1223
-Mosaad Alhussein,2017,André Karch,Dalia A. Mobarek,0.2140456889699839,Sam Agresta,36.75907872809382,B. Marzocchi,165.86261289800294,Thomas A. Jowitt,14.481497085976631,1208
-Ali Alazmani,2017,Saeid Shahraz,Cynthia Villarreal-Garza,0.21370821509192067,Iskra Pusic,36.743944703030614,F. Frensch,165.86261289800294,Steven H. Liang,14.456015402347493,1196
-Weiji Zhang,2017,Karen M. Tabb,Xiaojing J. Gao,0.21231411810019354,Gytis Dudas,36.71105000818796,A. Künsken,165.86261289800294,Rizwan Romee,14.431884243809641,1191
-Wenjing Hong,2017,Caitlyn Steiner,Menny Shalom,0.21060414246959133,Rileen Sinha,36.68955024451992,R. Yohay,165.86261289800294,Rachel A. Freedman,14.383565869522108,1189
-Suspense Averti Ifo,2017,Taavi Tillmann,Zena Quezado,0.20946797006813292,Jean-Marie Michot,36.52827247135075,A. Schizzi,165.86261289800294,Anneliese O. Speak,14.367980989278138,1180
-Melania Tesio,2017,Daniel C. Casey,Casey A. Gifford,0.2086718641000416,John T. Poirier,36.25866625236889,N. Van Remortel,165.86261289800294,Arthur L. Shaffer,14.354476960949794,1155
-Rebecca Kaltman,2017,Ben Schöttker,Nils Kolling,0.20609978915242666,Jane E. Churpek,36.15217921447736,A. Dziurda,165.86261289800294,Matthew Staron,14.345823335281704,1153
-Insoon Chang,2017,Amany H. Refaat,Youwei Xie,0.20533619260173305,Hila Magen,36.15008542921229,M. Planer,165.86261289800294,Valentín García-Gutiérrez,14.31785026538292,1143
-S-A Lim,2017,Alena Stančáková,Mattia Silvi,0.20524903944810052,Noemi Puig,36.08912638261998,S. Dooling,165.86261289800294,Saad S Kenderian,14.308275710157554,1143
-Haoyi Li,2017,Joseph Frostad,Guillaume Passard,0.20477398853836173,Katherine S. Ruth,36.08035921109703,J. Karancsi,165.86261289800294,Iskra Pusic,14.193561057220213,1117
-Longlu Wang,2017,Holly E. Erskine,Shaon Chakrabarti,0.20477398853836173,Nabila Bouatia-Naji,35.9446429349515,K. Androsov,165.86261289800294,Travis I. Zack,14.164451810216935,1109
-Susana V. Bardina,2017,Glen Liddell Mola,Sundaravadivel Balasubramanian,0.2043081217697944,Valérie Coiteux,35.882576785909535,M. A. B. Md Ali,165.86261289800294,Roberto Zoncu,14.164099143952859,1107
-Jiani He,2017,Jouke-Jan Hottenga,M Cuke,0.2032893985495798,Neerav Shukla,35.841175454422675,K. Petridis,165.86261289800294,Jason Valent,14.129748041133572,1092
-Yuhang Qi,2017,Dietrich Plass,Christoph Lippert,0.20328939854957975,Dragana Vuckovic,35.77911844308724,P. Everaerts,165.86261289800294,Sean Ferree,14.11821178984515,1080
-Lalitha S Y Nanduri,2017,Chante Karimkhani,Dylan T. Burnette,0.20328939854957973,Michael T. McCabe,35.692754829775026,Rosamaria Venditti,165.86261289800294,Sean M. Devlin,14.051919523264036,1077
-Reyad A. Elbarbary,2017,Emilie E. Agardh,Donatela E. Bellone,0.20170595289847149,Boris Bartholdy,35.61660664366568,A. Nürnberg,165.86261289800294,Kimberly Martinod,14.047151511522172,1075
-Tsao Bp,2017,Michela Traglia,Robert C. Spitale,0.20061044374969828,Patricia Galván,35.60895163555629,G. Flouris,165.86261289800294,Loren B. Andreas,14.036919765836995,1062
-Petra Rauchhaus,2017,Tariku Jibat Beyene,Andreas Lerchen,0.20054115555142565,Tibor V. Varga,35.47640548781558,A. K. Kalsi,165.86261289800294,Rosa Lapalombella,13.985791990438685,1059
-Bijal Jain,2017,Sergey Soshnikov,I-hsin Su,0.1991590833448041,Nicholas McGranahan,35.40032436640483,T. Frueboes,165.86261289800294,Michael T. McCabe,13.920949528140529,1057
-Moritz F. Sinner,2017,Alicia V. Aleman,Susan Y. Ritter,0.19914827347145575,Constantin G. Daniliuc,35.3889038540916,D. Ciangottini,165.86261289800294,Ken-ichi Matsuoka,13.911547048559447,1046
-Arig Ibrahim-Hashim,2017,Samia Alhabib,Micaela Martinez-Bakker,0.19914827347145575,Elias Salfati,35.36817783332321,A. Descroix,165.86261289800294,Keyvan Rezai,13.895373611370495,1045
-Xia-qing Shi,2017,Paul N. Jensen,Carmen Mundaca-Shah,0.19914827347145575,Salomon Manier,34.978848744676746,E. Graverini,165.86261289800294,Maria Christina Cox,13.845350485577988,1033
-Hidetoshi Amita,2017,Zoubida Zaidi,Arnab Dey,0.19914827347145575,Christopher A. Klebanoff,34.89365823767861,A. Elliott-Peisert,165.86261289800294,Catia Moutinho,13.835975218865176,1032
-Anna Spreafico,2017,Ritul Kamal,Scott A. Berkowitz,0.19914827347145575,Ida Surakka,34.8707462534779,L. Gavardi,165.86261289800294,Paola Fazi,13.825008937517035,1015
-Shih-Hsin Hsiao,2017,Antonietta Robino,Andrew F. Gardner,0.19914827347145575,Steven E. Bosinger,34.8590390110812,S. Wayand,165.86261289800294,Uwe Rix,13.797528613839892,1010
-Ilona Tretyak,2017,Arnav Agarwal,Damián E. Blasi,0.19914827347145575,Shom Goel,34.722780109164525,C. Caillol,165.86261289800294,Karsten Hokamp,13.753811120381322,1007
-Jade Scott,2017,Samer Hamidi,Haris G. Vikis,0.19914827347145575,Haley O. Tucker,34.612746507859214,V. Knünz,165.86261289800294,Kunhong Xiao,13.748770108850955,1006
-Chiara Ambrogio,2017,Umar Bacha,Joseph K. Awino,0.19914827347145575,Prudence A. Russell,34.31992638496357,Z. Demiragli,165.86261289800294,Christian Rolfo,13.747972614016733,1000
-Maria E Figueroa,2017,Tuomo J. Meretoja,James S. Yeh,0.19914827347145575,Daniel G. Stover,34.25767310514371,Rajdeep Mohan Chatterjee,165.86261289800294,Kirsten Timms,13.713983999517133,1000
-Dalia E. Gaddis,2017,Adugnaw Berhane,Charles G. Minard,0.19914827347145575,Søren Warming,34.218876945189216,O. Charaf,165.86261289800294,Samer K. Khaled,13.686840343591587,1000
-Sunu S. Thomas,2017,Abera Kenay Tura,Rajni Sethi,0.19914827347145575,Arthur L. Shaffer,34.141671788942254,A. Tiko,165.86261289800294,Agda Karina Eterovic,13.680589992234369,1000
-Zhongyue Yang,2017,Suleman Atique,Anna E. Hurtley,0.19914827347145575,Franziska Degenhardt,34.08965712354191,Ben Schöttker,164.8845737231708,Nikolay Kornienko,13.655121365503692,995
-Melissa J. Sharpe,2017,Grant Nguyen,Magnus Pfaffenbach,0.19914827347145575,Kirsten Timms,33.93257037320339,Tariku Jibat Beyene,162.3189690270975,Jong-Yeon Shin,13.594412129662688,990
-Laura Colinas,2017,Demewoz Haile,Renuka Tipirneni,0.19914827347145575,Mattia Frontini,33.90994037032924,Dragana Vuckovic,159.821192918344,Niels Weinhold,13.591899176245278,989
-Carin R. Espenschied,2017,Fiona J. Charlson,Paul R Kunk,0.19914827347145575,Akimitsu Narita,33.71437505691196,Maria G. Stathopoulou,159.09835558687868,Areej El-Jawahri,13.566718544115247,985
-Lixiu Wang,2017,Maria G. Stathopoulou,Ralf M. Haefner,0.19914827347145575,Rizwan Romee,33.59461162041133,Joseph Frostad,158.9702395428447,Florian Grahammer,13.559435884085625,980
-Terry R. Medler,2017,Kelly Cercy,Melissa Lingohr-Smith,0.19454190621402764,Marino Clavio,33.565206470221696,Diego Vozzi,158.88702391681585,Kaitlyn Shank,13.553466796078894,978
-Christine Elser,2017,Muhammad Muhammad Saleh,Kamini Varma,0.1936634521180387,Federica Di Palma,33.49041671122019,Cornelia Huth,158.54762230394948,Nicolas Servant,13.533540724418273,976
-H. Tatsuno,2017,Janni Leung,Christin E. Burd,0.19265572293584474,Rosa Lapalombella,33.420864411281535,Sergey Soshnikov,157.95604533878566,Nobuhiko Kayagaki,13.492154523566198,973
-Qiang Jeremy Wen,2017,Daniel J. Weisenberger,Vitold E. Galkin,0.1912694783355087,Kara N. Maxwell,33.396854742766905,Holly E. Erskine,157.78713124002775,Daniel G. Stover,13.46893649453597,972
-Mohamed E. Abazeed,2017,Narisu Narisu,Pierre F. Apostolides,0.19091374680557907,Housheng Hansen He,33.373823051247385,Zoubida Zaidi,157.45972021842715,Lujian Liao,13.40823789370944,965
-James Coghill,2017,Carolina Medina-Gomez,Michael Maschan,0.1909129479745101,Stéphanie Guidez,33.194929276396664,Dietrich Plass,156.13159470622728,Benjamin T. Diroll,13.342668328811646,964
-Katharina Artinger,2017,Melanie Waldenberger,Paul H. Oyala,0.1908655850307568,Cornelia Huth,33.115295890761125,Rileen Sinha,155.20426349849777,Mireia Castillo-Martin,13.338263828904335,962
-Jing Suo,2017,Asma Abdul Latif,Tahir Latif,0.1903497862387019,Zeping Hu,33.09805678418246,Chante Karimkhani,153.7423736416024,Alina S. Gerrie,13.33227433812254,961
-Jennifer Eschbacher,2017,Nicholas Kassebaum,Eirion Slade,0.1902920900251404,Yeung-Chul Mun,33.06423624371939,Aleksandra Gentry-Maharaj,153.47112279781163,Danielle M. Brander,13.312847700720505,957
-Gilbert Gallardo,2017,Karol Estrada,Meridale Baggett,0.19028219990281525,Dai Chihara,32.95463115758708,Emilie E. Agardh,153.26760708880371,Sandeep K. Reddy,13.276386717364636,957
-Stephen Malamud,2017,Hsien Ho Lin,Natthapol Songdej,0.19028219990281525,Enrico Velardi,32.86606070069396,Harm Jan Westra,152.92278935425767,Santosh L. Saraf,13.271433399133748,948
-Hellen Houlleberghs,2017,Christina Fitzmaurice,Andres D. Grosmark,0.19028219990281525,Diego Vozzi,32.75206960412099,Kelly Cercy,152.63228228004766,Guillaume Moulis,13.266332659708226,947
-Verena Tischler,2017,Donal Bisanzio,Li-Chen Lee,0.19028219990281525,Christopher C. Oakes,32.73482343389018,Alicia V. Aleman,151.6543353393771,Shom Goel,13.165499199271212,946
-Andrea Sartore-Bianchi,2017,Wendy L. McArdle,Olga Senderova,0.19028219990281525,Daniel Carlin,32.72938267519238,Arnav Agarwal,150.46024787293896,Richy Agajanian,13.152593096495346,943
-Antonio T. Scamardo,2017,Catherine O. Johnson,Jhih-Ying Chi,0.19028219990281525,Anguraj Sadanandam,32.705227329839715,Samer Hamidi,150.1004862931879,Housheng Hansen He,13.141287015303107,942
-Daria G. Valerio,2017,David M. Pigott,Daniel P. Canniffe,0.19028219990281525,Agda Karina Eterovic,32.68858684450434,Jacqueline C. Barrientos,149.99326983046114,Joshua D. Webster,13.046547963533499,939
-L Schwartzberg,2017,Alemseged Aregay Gebru,Elizabeth S. Yeh,0.19028219990281525,Anastasia Hadzidimitriou,32.64294487547892,Katherine S. Ruth,149.82223581040026,Roel Verhaak,13.035833327017126,939
-Amelie Montel-Hagen,2017,Francesco Gianfagna,Nathan P. Coussens,0.19028219990281525,Lukas E. Dow,32.63503835940939,Ritul Kamal,149.8121866145342,Martin Sikora,13.029152400733544,935
-Jessica Beagley,2017,Aparna Lal,Javier J. Concepcion,0.19028219990281525,Raynier Devillier,32.62827983343157,Samia Alhabib,149.80827168339957,Christopher H. Hendon,12.938438386447466,929
-Gerard H. M. Huysmans,2017,John N. Newton,Daniel T. Ziegler,0.19028219990281525,Charles Y. Lin,32.62430792735375,Paul N. Jensen,149.60919138252447,Nina Radosevic-Robin,12.926465680883426,917
-Ryan M. Thomas,2017,Katherine B. Gibney,Stefanie Heigele,0.19028219990281525,Kerry Dobbs,32.58126231763661,Grant Nguyen,148.27393095975617,Volker Endris,12.926277797140164,917
-Katherine L. Orchard,2017,Justin Beardsley,Justin L Gardner,0.19028219990281525,Jamie K. Teer,32.52960034652676,Laura J. Rasmussen-Torvik,147.628874589918,Federico Pietrocola,12.914902836008485,896
-Ethan Scheinberg,2017,Sajjad Ur Rahman,Sulaeman Rahman Nidar,0.19028219990281525,Laura J. Rasmussen-Torvik,32.33995011308511,Francesco Gianfagna,147.1820317445051,Matthew A. Lunning,12.892416179447164,890
-Karina Biskup,2017,Mahdi Mahdavi,Alex McAvoy,0.19028219990281525,Valérie Gailus-Durner,32.32823238918948,Peter H. Sudmant,147.06704256022056,Bradley Wubbenhorst,12.890709592898336,884
-Lossos Is,2017,Yibeltal Tebekaw Bayou,Natalie A. Borg,0.19028219990281525,Lucia A. Hindorff,32.26785522509819,Tibor V. Varga,146.5919109863414,Evan G. Williams,12.877562482394874,883
-Maki Tanioka,2017,Ademola Lukman Adelekan,Ehre Camille,0.19028219990281525,Catherine S. Grasso,32.25133894984931,Sven J. van der Lee,146.3649913101446,Masakazu Yashiro,12.810100892570295,883
-Jean Emmanuel Sarry,2017,Alberto L. García-Basteiro,Ryan D. Whetstone,0.19028219990281525,Nina Tunariu,32.19727137068193,Fiona J. Charlson,146.36207744504222,Ehsan Malek,12.806297536186815,881
-Hamdi Nadia,2017,Saleh Fahed Aldhahri,Angelica Mariani,0.19028219990281525,Elizabeth A. Griffiths,32.18225273284564,Adugnaw Berhane,144.74246485169232,Laurence Buisseret,12.798852898145487,878
-Michael L. Stitzel,2017,Adeladza Kofi Amegah,Sebastian Gluth,0.19028219990281525,Andrea Ganna,32.178470385933736,Tuomo J. Meretoja,144.74246485169218,Caroline Pabst,12.783741608754196,877
-Xie Jiatao,2017,Hebe N. Gouda,Thomas Lefèvre,0.19028219990281525,Anneliese O. Speak,32.13967005647666,Abera Kenay Tura,144.74246485169212,Amaury Fernández-Montalván,12.744373859907494,876
+Rh Alvarez,2017,Najaf Amin,Catherine Broome,0.7404894064179067,Najaf Amin,115.20687829864535,Najaf Amin,456.0156071601616,Siraj M. Ali,51.46389987102137,2016
+Ls Schwartzberg,2017,Aung Soe Htet,Constantin G. Daniliuc,0.6439457972614812,Siraj M. Ali,114.36431786717857,Omri Gottesman,340.73052559618,Frank Rigo,40.92407161400835,1671
+J Huober,2017,Omri Gottesman,Ranu S Dhillon,0.6409152719397924,Jacqueline C. Barrientos,91.3712918456782,Jouke Jan Hottenga,301.5839568533617,Jacqueline C. Barrientos,36.35599038158447,1554
+Nicola Waddell,2016,Loic Yengo,Maxime A. Siegler,0.5540810406048431,Frank Rigo,85.99670685503892,Tune H. Pers,299.35522994751494,Jeff P. Sharman,33.200744431542894,1367
+Gene F. Kwan,2016,Jouke Jan Hottenga,Tamar Geiger,0.4369488637376028,Omri Gottesman,85.09980189334038,Niek Verweij,281.50658282164636,Trevor J. Pugh,31.92716314716009,1359
+Hebe N. Gouda,2016,Tune H. Pers,Jeremy E. Wilusz,0.4192392196704175,Trevor J. Pugh,79.67557952002699,Loic Yengo,274.8869322586248,Courtney D. DiNardo,31.541970112103485,1338
+Nl Henry,2016,Niek Verweij,George T. O’Connor,0.40641594271019627,Peter Van Loo,77.0947256962814,Michela Traglia,255.06731439781362,Aaron T. Gerds,29.797581046809988,1319
+Tom Achoki,2016,Carl Abelardo T Antonio,Ng Shyh-Chang,0.4060118203699459,Courtney D. DiNardo,76.4107124922701,Aung Soe Htet,251.7029810338468,Alex K. Shalek,28.354212131909428,1257
+Tibor V. Varga,2016,Itamar S. Santos,Don Weldon,0.3813763997682539,Robert T. Bailer,76.11054151383534,Karol Estrada,240.4650412044844,Bruno Martino,27.65589494081821,1244
+Tyler E. Miller,2016,Kingsley N. Ukwaja,Kenneth R Carson,0.3702447032089533,Tune H. Pers,73.44916143607408,Daniel J. Weisenberger,239.57951588415372,Matthew S. Davids,26.745458575280512,1243
+Štěpán Huber,2016,Foad Abd-Allah,Amol S. Navathe,0.3633182707192533,Karol Estrada,72.79987751228276,Melanie Waldenberger,223.91380205007198,Maxime A. Siegler,25.703311757185933,1230
+Sharon Friedlander,2016,Neeraj Bedi,Kevin R. Riggs,0.3493809722065966,Jouke Jan Hottenga,72.55124076632646,Antonietta Robino,219.05757123283817,Rahul Satija,25.46741985939825,1227
+Raffaella Greco,2016,Semaw Ferede Abera,Chana A. Sacks,0.3468773175914003,Yusuke Shiozawa,71.77792341070275,Jouke-Jan Hottenga,219.05631216298733,Yusuke Shiozawa,25.33333986425741,1223
+Adugnaw Berhane,2016,André Karch,Yanchuan Zhao,0.3410938506414269,David C. Wedge,70.8833269398406,Alena Stančáková,218.6002306279722,Loretta J. Nastoupil,25.24469994152225,1208
+Andrei V. Krivtsov,2016,Saeid Shahraz,Joanne S. Buzaglo,0.3053200898918556,Bruno Martino,70.82075078421995,Paul L. Auer,207.21384477747964,Nir Yosef,24.980318292795445,1196
+Kelli S. Bramlett,2016,Karen M. Tabb,Sarah Z. Tasker,0.2988372811790482,Ludmil B. Alexandrov,70.41963041236676,Peter K. Joshi,201.79693801033096,Amy E. DeZern,24.76045624321151,1191
+Inga Vesper,2016,Caitlyn Steiner,Gad Asher,0.2895852229511583,Jeff P. Sharman,69.03980907885335,Sahil Seth,201.0867028472863,Constantin G. Daniliuc,24.71257260204511,1189
+Rashmi Kanagal-Shamanna,2016,Taavi Tillmann,Nirmish Shah,0.28849513742809946,Sahil Seth,68.88505225711795,Travis I. Zack,197.99297472461646,James S. Blachly,24.24833452034235,1180
+Charles Y. Lin,2016,Daniel C. Casey,Jose R. Cabrero-Antonino,0.28342244228339325,Paul L. Auer,68.48964482657144,Carl Abelardo T Antonio,190.1723447616947,Randy A. Albrecht,24.197878865993246,1155
+Françoise Rothe,2016,Ben Schöttker,Marion Eveillard,0.2822256473432671,Matthew S. Davids,67.48198603259392,Narisu Narisu,189.33569347383155,A. Kate Sasser,24.176127444230715,1153
+Thomas W. Winkler,2016,Amany H. Refaat,Robbert J Duvivier,0.2812332720953546,Michela Traglia,67.1227543086009,Carolina Medina-Gomez,189.1690985728151,Ryan D. Morin,24.156229120631213,1143
+Barbora Belsanova,2016,Alena Stančáková,Alexander Pöthig,0.28049842202625835,Travis I. Zack,65.31668012486972,Wendy L. McArdle,187.63581474367146,Robert T. Bailer,24.017738251451856,1143
+Imran Khan Tailor,2016,Joseph Frostad,Dagmar Hackenberger,0.2745537590806461,Daniel J. Weisenberger,64.95388972854744,Kyriaki Michailidou,184.66448945515404,Jonathon B. Cohen,23.133645512204136,1117
+Christopher C. Oakes,2016,Holly E. Erskine,Ariela L. Marshall,0.2738197354885364,Serena Nik-Zainal,64.02324509365671,Itamar S. Santos,184.50840996268118,Raphael Itzykson,22.61431791673302,1109
+Lanfang Zou,2016,Glen Liddell Mola,Chezi Ganzel,0.2711830249388481,Alex K. Shalek,63.97689389153412,Kingsley N. Ukwaja,184.17585810793273,Xiaokui Mo,22.363680431813222,1107
+Marina Caskey,2016,Jouke-Jan Hottenga,Fanuel Muindi,0.2706705664732254,Niek Verweij,63.82819094959122,Semaw Ferede Abera,184.03799115103848,Sachet A. Shukla,22.16876198466223,1092
+Cl Dul,2016,Dietrich Plass,Holger Helten,0.26383275733784783,Sachet A. Shukla,62.79305052624291,Janine F. Felix,183.888444556216,Manoj Bhasin,21.673333478398806,1080
+Amol S. Navathe,2016,Chante Karimkhani,Jodie M. Fleming,0.25987919448770785,Aaron T. Gerds,60.780953418688185,Neeraj Bedi,180.57484231004184,Stephanie Halene,21.365163235403873,1077
+Rachel J. Perry,2016,Emilie E. Agardh,Philippa Berman,0.2554600873144656,Loic Yengo,59.68475878721007,André Karch,179.866147835951,Richard Bourgon,21.17791255199368,1075
+Yuen Wu,2016,Michela Traglia,Mazhar Adli,0.243287738792916,Melanie Waldenberger,59.408372671859894,Foad Abd-Allah,179.4070057505233,Elizabeth A. Morgan,21.153879661022216,1062
+Catherine O. Johnson,2016,Tariku Jibat Beyene,Zongzhi Liu,0.2410960216798533,M. Gordon Joyce,59.182651465372174,Caitlyn Steiner,177.79828595868725,Michael J. Ziller,20.97852466003095,1059
+Grant Nguyen,2016,Sergey Soshnikov,Vittorio Limongelli,0.2407085727983425,Amy E. DeZern,57.26096176912127,Jennifer L. Bragg-Gresham,176.12161178145405,Aaron C Logan,20.962160226506505,1057
+Keary M. Engle,2016,Alicia V. Aleman,Raphael M. Franzini,0.23864210972926264,Ryan D. Morin,56.93763276286826,Glen Liddell Mola,176.10258310270873,Serena Nik-Zainal,20.868840060738282,1046
+Jeremy A. Daniel,2016,Samia Alhabib,Youngil Koh,0.2326262012397556,James S. Blachly,55.932028495426295,Siraj M. Ali,174.46634272735585,David C. Wedge,20.855433330143352,1045
+Jason Roszik,2016,Paul N. Jensen,Manuel van Gemmeren,0.2325683333410821,Raphael Itzykson,55.040402240779144,Karen M. Tabb,173.64938659249896,Todd M. Bauer,20.71328909323217,1033
+Manik Lal Saha,2016,Zoubida Zaidi,Cláudia Malheiros Coutinho-Camillo,0.2325416105926012,Despina Moshous,55.03871439415095,Daniel C. Casey,172.99934145141873,Wilfred van IJcken,20.388709998203066,1032
+Simon Steinhauer,2016,Ritul Kamal,Keary M. Engle,0.23078182781667414,Randy A. Albrecht,54.77362856902007,Saeid Shahraz,172.97524291750798,Peter Van Loo,20.196532179704658,1015
+Samantha M. Colquhoun,2016,Antonietta Robino,Joseph T.P. Yeeles,0.228071610836963,Loretta J. Nastoupil,54.69297488548896,Peter Van Loo,172.872023382366,Benjamin H. Durham,20.076368370357013,1010
+Abigail Chapin,2016,Arnav Agarwal,Joseph J. Shatzel,0.22316215705843065,Jimmy Z. Liu,54.09398463720056,Alexander W. Drong,170.10700445544555,Sameer A. Parikh,19.928222196007745,1007
+Daniel J. Landsburg,2016,Samer Hamidi,J Geisler,0.22270527969248416,Yan W. Asmann,53.5989925737569,Gabriela Surdulescu,170.01878768689838,Yan W. Asmann,19.79940006624886,1006
+Arturo J. Vegas,2016,Tuomo J. Meretoja,Noam Benyamini,0.2217589062185672,Rahul Satija,53.34354486062804,Taavi Tillmann,169.3473328129681,Despina Moshous,19.60619879878966,1000
+Aziz Nazha,2016,Umar Bacha,Sandeep K. Reddy,0.21998529262466732,Nir Yosef,52.568972840262276,Anne E. Justice,169.22954386732906,Philipp A. Lang,19.37959133523959,1000
+Barbara Pardini,2016,Abera Kenay Tura,Tibor Szilvási,0.21740679649215072,Elizabeth A. Morgan,52.343091998225965,Amany H. Refaat,168.65378854136054,David A. Barbie,19.19512321031147,1000
+Rinath Jeselsohn,2016,Adugnaw Berhane,Matthew J. Langton,0.21523572715288247,Tanja A. Gruber,52.29277605766935,Manuel A. Rivas,166.0052272787836,Ludmil B. Alexandrov,19.1123612363305,1000
+Pichai Raman,2016,Suleman Atique,Cynthia Villarreal-Garza,0.21370821509192067,Michael J. Ziller,52.16696072570104,Ben Schöttker,164.8845737231708,Annalisa Chiappella,19.07884663585352,995
+Aristeidis G. Telonis,2016,Grant Nguyen,Xiaojing J. Gao,0.21231411810019354,Shakti Ramkissoon,51.61814317236044,Tariku Jibat Beyene,162.3189690270975,Haley O. Tucker,18.982385559068,990
+Saad S Kenderian,2016,Demewoz Haile,Menny Shalom,0.21060414246959133,Nicolai Juul Birkbak,51.575208317726535,Dragana Vuckovic,159.821192918344,Anjan Thakurta,18.9616458659257,989
+Ann Marie Navar,2016,Fiona J. Charlson,Casey A. Gifford,0.2086718641000416,Sameer A. Parikh,51.399172351511844,Joseph Frostad,158.9702395428447,Raj K. Pandita,18.774871955066637,985
+Justin Beardsley,2016,Kelly Cercy,Nils Kolling,0.20609978915242666,Peter H. Sudmant,51.36261429867872,Sergey Soshnikov,157.95604533878566,Gavin Ha,18.58445284157446,978
+José Pablo Leone,2016,Muhammad Muhammad Saleh,Robert C. Spitale,0.20061044374969828,Benjamin H. Durham,50.847385490351314,Holly E. Erskine,157.78713124002775,Dirk Heckl,18.579817872137465,976
+Anton Wiebe,2016,Janni Leung,Andreas Lerchen,0.20054115555142565,Peter K. Joshi,50.7574788544737,Zoubida Zaidi,157.45972021842715,Shakti Ramkissoon,18.43319912649605,973
+Miguel Angel Molina-Vila,2016,Daniel J. Weisenberger,Melissa Lingohr-Smith,0.19454190621402764,David A. Barbie,50.42101857378196,Dietrich Plass,156.13159470622728,Hila Magen,18.36764806829312,972
+Paula S. Ginter,2016,Narisu Narisu,Kamini Varma,0.1936634521180387,Gavin Ha,50.40028013583764,Rileen Sinha,155.20426349849777,José Ángel García-Sáenz,18.361857611231354,965
+Edwin J. Ostrin,2016,Carolina Medina-Gomez,Christin E. Burd,0.19265572293584474,Todd M. Bauer,50.373828986246224,Chante Karimkhani,153.7423736416024,Wyne P. Lee,18.296839027511737,964
+Sean M. Devlin,2016,Melanie Waldenberger,Paul H. Oyala,0.1908655850307568,Janine F. Felix,49.936636123668954,Aleksandra Gentry-Maharaj,153.47112279781163,Cristian Rodriguez-Aguayo,18.19351342662752,962
+Katherine B. Gibney,2016,Asma Abdul Latif,Eirion Slade,0.1902920900251404,Richard Bourgon,49.62768171571611,Emilie E. Agardh,153.26760708880371,Sahil Seth,18.169216571110844,961
+Si Kim,2016,Karol Estrada,Taavi Tillmann,0.19028219990281525,A. Kate Sasser,49.30943577796644,Harm Jan Westra,152.92278935425767,Jamie K. Teer,18.06925169725298,957
+Cigall Kadoch,2016,Nicholas Kassebaum,Kimberly A. Bertrand,0.1902013590992883,Eli A. Stahl,49.00478578385477,Kelly Cercy,152.63228228004766,M. Gordon Joyce,18.06087154230158,957
+Jacob Rozmus,2016,Christina Fitzmaurice,Jean-Côme Meniane,0.189238913556336,Antonietta Robino,48.17694562742585,Alicia V. Aleman,151.6543353393771,Sebastian Böttcher,17.991585265095228,947
+Rakesh Ganguly,2016,Donal Bisanzio,Kiran Kumar Velpula,0.18730652045441404,Jouke-Jan Hottenga,48.06751552930695,Arnav Agarwal,150.46024787293896,Oliver Weigert,17.894531087178247,946
+Anita Huws,2016,Wendy L. McArdle,Roberto Zoncu,0.1871531917453165,Kyriaki Michailidou,46.99772242447258,Samer Hamidi,150.1004862931879,Bora Lim,17.841965262101628,943
+Christina Fitzmaurice,2016,Catherine O. Johnson,Sara E. Meyer,0.18693068171770053,Peter Willeit,46.61542237955428,Jacqueline C. Barrientos,149.99326983046114,Anja Seckinger,17.839743832989953,942
+Rui Si,2016,David M. Pigott,Stephen Sproules,0.18684256542827285,Jonathon B. Cohen,46.26976273085267,Katherine S. Ruth,149.82223581040026,Lisa Pieri,17.828651353344984,939
+V. Kotoula,2016,Alemseged Aregay Gebru,Shaul Druckmann,0.18456491509285675,Jared T. Simpson,46.04979902693344,Ritul Kamal,149.8121866145342,Pierre Peterlin,17.825667729312265,939
+Christian E. Halbig,2016,Aparna Lal,Shotaro Hagiwara,0.18197040845834728,Gwo-Yu Chuang,45.77538229662582,Samia Alhabib,149.80827168339957,Irwindeep Sandhu,17.681897614752074,929
+Anne E. Justice,2016,John N. Newton,Rebecca P. Seal,0.18147284139827224,Wilfred van IJcken,45.71379464530718,Paul N. Jensen,149.60919138252447,Maria Romina Girotti,17.626916022036113,917
+Aaron S. Brewster,2016,Katherine B. Gibney,Andrew Poklepovic,0.18115244944862435,Xiaokui Mo,45.199316255199264,Grant Nguyen,148.27393095975617,Stephen S. Chung,17.60280645666028,917
+Franziska Degenhardt,2016,Justin Beardsley,Michael A. Skinnider,0.18077779976456534,Manuel A. Rivas,45.16626940966788,Peter H. Sudmant,147.06704256022056,Felicitas Hitz,17.568062917460626,896
+Anu Korula,2016,Sajjad Ur Rahman,Lana Castellucci,0.1793642516467935,Martin Sikora,45.1638795745539,Tibor V. Varga,146.5919109863414,Flore Sicre de Fontbrune,17.520146106918446,890
+Fiona J. Charlson,2016,Mahdi Mahdavi,Asmaa Aq Quessar,0.17854043550027296,Johannes Waage,45.10172989439974,Sven J. van der Lee,146.3649913101446,Akimitsu Narita,17.4933272564146,884
+Elizabeth R. Sprague,2016,Alberto L. García-Basteiro,Satiro N. De Oliveira,0.17661953024971286,Xiaobei Zhao,44.412503290522906,Fiona J. Charlson,146.36207744504222,Jean-Marie Michot,17.46226425020071,881
+Holger Helten,2016,Saleh Fahed Aldhahri,Timothy E. Reddy,0.17659868768054116,Jennifer L. Bragg-Gresham,44.27061841116858,Adugnaw Berhane,144.74246485169232,Lukas E. Dow,17.438039094655323,878
+Yuan-Zhi Tan,2016,Adeladza Kofi Amegah,Mikel Garcia-Marcos,0.1764138534675205,Gopa Iyer,44.2402444227045,Tuomo J. Meretoja,144.74246485169218,Youngil Koh,17.30309450851432,877
+Andrew S. Azman,2016,Hebe N. Gouda,Georgi K. Marinov,0.1756151653980966,Josh Stuart,44.130667670166474,Abera Kenay Tura,144.74246485169212,Boris Bartholdy,17.295375784411313,876
+Kebede Begna,2016,Preet K. Dhillon,Daniel R. Southworth,0.17516713980894433,Xianbo Zuo,44.121987044726104,Umar Bacha,144.74246485169198,Sam Agresta,17.22364959856435,875
+Mattia Frontini,2016,Chhabi Lal Ranabhat,Juliette Murray,0.1747320311598659,Philipp A. Lang,43.396081930274974,Dorota Pasko,144.33425576426288,Shahrukh K. Hashmi,17.20599486886126,867
+Giulia Benevolo,2016,Gene F. Kwan,Scott P. Semproni,0.1738477149500618,Flore Sicre de Fontbrune,43.23241621917562,Suleman Atique,143.78471253256657,Yuanping Yi,17.17692470959696,858
+Umar Bacha,2016,Samantha M. Colquhoun,Wei-Ting Chao,0.1732781920629128,Sebastian Böttcher,43.22516454187333,Mike A. Nalls,143.11592351203493,Tony Marchand,17.05016041150465,851
+Laura M. Selfors,2016,Alexander W. Drong,Krishna Gundabolu,0.17239932075219122,Anjan Thakurta,43.1013674960909,Ludmil B. Alexandrov,142.15226541043415,Tanja A. Gruber,17.024826543656257,847
+Joseph Vijai,2016,Kossivi Agbelenko Afanvi,Nicolas Buchon,0.17097825852712709,Sven J. van der Lee,43.09931920388104,Demewoz Haile,141.9927092002521,Elizabeth A. Griffiths,16.92174692618698,843
+Lara Sucheston-Campbell,2016,Jennifer L. Bragg-Gresham,Jamie K. Teer,0.17045434743484944,Wyne P. Lee,43.0463954267484,Donal Bisanzio,140.51056587806275,Zeping Hu,16.895969294570794,843
+Jm Ryu,2016,Girma Temam Shifa,Mingyao Ying,0.1693670576098774,Andrew E. Jaffe,42.924363188787424,Muhammad Muhammad Saleh,140.43816429381334,Nicolai Juul Birkbak,16.869363644788926,840
+Jeffrey J. Pu,2016,Peter K. Joshi,Friedhelm Bladt,0.1689303224691521,Cristian Rodriguez-Aguayo,42.853437119343866,Eli A. Stahl,140.4143378859383,Sarah Nikiforow,16.81019021359164,836
+John D. Overton,2016,Maria Jesus Rios Blancas,Janine Guglielmino,0.16867024499183605,José Ángel García-Sáenz,42.84995761889122,John N. Newton,140.25820015289128,Chezi Ganzel,16.537265065254484,833
+Mario Ellwart,2016,Tom Achoki,Matthew Holderfield,0.16740472830792782,Stephanie Halene,42.58727430096258,Jimmy Z. Liu,140.06499408537974,Gabriel C. Lander,16.356497451032396,830
+Xinyu Guan,2016,Tsegaye Tewelde Gebrehiwot,Christopher D. Zahm,0.16724457558628728,Lisa Pieri,42.343195352214714,Trevor J. Pugh,139.8038747213848,Christof Fellmann,16.341417292325627,830
+J Geisler,2016,Anne E. Justice,Brett D. Mensh,0.16661025155481715,Alena Stančáková,42.321763220149,David C. Wedge,138.84946253730615,Louis Terriou,16.31226059934692,812
+Rona J. Strawbridge,2016,Bianca Calabria,Stacy M. Horner,0.16279616662135735,Mike A. Nalls,41.83452180920087,Justin Beardsley,138.63348793315686,Gopa Iyer,16.294623740763022,811
+Glen Liddell Mola,2016,Gabriela Surdulescu,Jesse W. Rowley,0.16022613068109592,Qiaomei Fu,41.63745859451877,Janni Leung,138.31402367593657,Noemi Puig,16.26113932196505,796
+Dennis Lutters,2016,Emily Dansereau,Marc Garcia-Borràs,0.15976457449469486,Sarah Nikiforow,41.46172986092757,Christina Fitzmaurice,138.20277376773572,Steven E. Bosinger,16.02306371290576,792
+Nathaniel W. Snyder,2016,Brent A. Bell,Jonathan Rittle,0.15927621381025725,Aung Soe Htet,41.39434400120207,Robert T. Bailer,137.76341047435994,Kara N. Maxwell,15.955988630380164,789
+Sebastian E. Winter,2016,Dorota Pasko,Jin-Qiu Chen,0.15922045782778493,Jean-Marc Aury,41.32879601798275,Chhabi Lal Ranabhat,137.70435394618522,Stanley Ching-Cheng Huang,15.955001208647506,775
+Richy Agajanian,2016,Mohammed Basulaiman,Hannah Gilmore,0.15875408005429315,Annalisa Chiappella,41.056636006071685,Nicholas Kassebaum,137.3039699479842,Amy A. Sarjeant,15.923543930581888,762
+Nathan D. Grubaugh,2016,Awoke Misganaw Temesgen,Keiko Shinjo,0.15847611091158945,Tony Marchand,40.97491236839486,Alemseged Aregay Gebru,136.93272553185784,Patricia Galván,15.89791465025459,751
+Eirion Slade,2016,Kyriaki Michailidou,Claire Leppold,0.15798762286493287,Aaron C Logan,40.78970414999569,Jared T. Simpson,135.7644982595433,Kamel Laribi,15.892669838330693,748
+Manja Meggendorfer,2016,Sahil Seth,Xinyu Guan,0.156869291797248,Stephen S. Chung,40.62952236548128,Asma Abdul Latif,135.55096774892957,Christopher A. Klebanoff,15.876060345683634,746
+Lara R. Malins,2016,Travis I. Zack,Rahul Satija,0.15616544393039894,Aleksandra Gentry-Maharaj,40.016941009164135,Catherine O. Johnson,134.28718809651048,Ricardo Attar,15.8314559884742,729
+Carolina Schinke,2016,Harm Jan Westra,Matthieu Jouffroy,0.1554655834829568,Daniele Merico,40.000288865669866,Josh Stuart,134.08861163586087,Luc Fornecker,15.822102736999009,728
+Matteo Romio,2016,Janine F. Felix,Saukkonen K,0.15526100890492214,Wencai Ma,39.979433683604576,Xiaobei Zhao,133.4829379735259,John T. Poirier,15.796456060972455,726
+Tamar Uziel,2016,Dragana Vuckovic,Armand Sprecher,0.15452168684137346,Manoj Bhasin,39.92806604629009,Peter Willeit,133.4638903184681,Florian Buettner,15.789681744350975,723
