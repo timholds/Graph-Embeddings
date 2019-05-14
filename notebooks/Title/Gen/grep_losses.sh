@@ -1,0 +1,1 @@
+grep -o "loss: [0-9]*\.[0-9]*" concat_log.txt > losses.txt; grep -o "[0-9]*\.[0-9]*" losses.txt > concat_losses.txt; rm losses.txt
