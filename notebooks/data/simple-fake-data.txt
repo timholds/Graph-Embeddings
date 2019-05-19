@@ -1,3 +1,0 @@
-{"title": "Project A", "authors": [{"name": "Dave Chappelle"}, {"name": "Brian Griffin", "org": "ABC"}, {"name": "Dave Jones"}]}
-{"title": "Project B", "authors": [{"name": "Dave Chappelle"}, {"name": "Brian Griffin"}, {"name": "Bob Dylan", "org": "NBC"}]}
-{"title": "Project C", "authors": [{"name": "Rick Sanchez"}, {"name": "Jack Johnson", "org": "NBC"}, {"name": "Ken Burns"}]}
