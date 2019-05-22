@@ -1,0 +1,386 @@
+Adding Venue:  Angewandte Chemie
+Number of titles for Angewandte Chemie : 25637
+Adding Venue:  Blood
+Number of titles for Blood : 30956
+Adding Venue:  Cancer Cell
+Number of titles for Cancer Cell : 638
+Adding Venue:  Cancer Discovery
+Number of titles for Cancer Discovery : 259
+Adding Venue:  Cancer Research
+Number of titles for Cancer Research : 33390
+Adding Venue:  Cell
+Number of titles for Cell : 4592
+Adding Venue:  Cell Host & Microbe
+Number of titles for Cell Host & Microbe : 490
+Adding Venue:  Cell Metabolism
+Number of titles for Cell Metabolism : 621
+Adding Venue:  Cell Stem Cell
+Number of titles for Cell Stem Cell : 556
+Adding Venue:  Chemistry & Biology
+Number of titles for Chemistry & Biology : 884
+Adding Venue:  The EMBO Journal
+Number of titles for The EMBO Journal : 4717
+Adding Venue:  Genes & Development
+Number of titles for Genes & Development : 1935
+Adding Venue:  Immunity
+Number of titles for Immunity : 1055
+Adding Venue:  Journal of Neurology
+Number of titles for Journal of Neurology : 3997
+Adding Venue:  Journal of the American Chemical Society
+Number of titles for Journal of the American Chemical Society : 41071
+Adding Venue:  JAMA
+Number of titles for JAMA : 31199
+Adding Venue:  Journal of Biological Chemistry
+Number of titles for Journal of Biological Chemistry : 48300
+Adding Venue:  Journal of Cell Biology
+Number of titles for Journal of Cell Biology : 5848
+Adding Venue:  Journal of Clinical Investigation
+Number of titles for Journal of Clinical Investigation : 6688
+Adding Venue:  Journal of Experimental Medicine
+Number of titles for Journal of Experimental Medicine : 5414
+Adding Venue:  Journal of Medicinal Chemistry
+Number of titles for Journal of Medicinal Chemistry : 6730
+Adding Venue:  The Lancet
+Number of titles for The Lancet : 53075
+Adding Venue:  Nature Cell Biology
+Number of titles for Nature Cell Biology : 1095
+Adding Venue:  Nature Chemical Biology
+Number of titles for Nature Chemical Biology : 782
+Adding Venue:  Nature Chemistry
+Number of titles for Nature Chemistry : 679
+Adding Venue:  Nature Medicine
+Number of titles for Nature Medicine : 2598
+Adding Venue:  Nature Methods
+Number of titles for Nature Methods : 1192
+Adding Venue:  Nature
+Number of titles for Nature : 61131
+Adding Venue:  Nature Biotechnology
+Number of titles for Nature Biotechnology : 3349
+Adding Venue:  The New England Journal of Medicine
+Number of titles for The New England Journal of Medicine : 25872
+Adding Venue:  Neuron
+Number of titles for Neuron : 2553
+Adding Venue:  Nature Genetics
+Number of titles for Nature Genetics : 2081
+Adding Venue:  Nature Immunology
+Number of titles for Nature Immunology : 1103
+Adding Venue:  Nature Neuroscience
+Number of titles for Nature Neuroscience : 1412
+Adding Venue:  Nature Structural & Molecular Biology
+Number of titles for Nature Structural & Molecular Biology : 1304
+Adding Venue:  PLOS Biology
+Number of titles for PLOS Biology : 1254
+Adding Venue:  PLOS Genetics
+Number of titles for PLOS Genetics : 2009
+Adding Venue:  PLOS Pathogens
+Number of titles for PLOS Pathogens : 2496
+Adding Venue:  Proceedings of the National Academy of Sciences of the United States of America
+Number of titles for Proceedings of the National Academy of Sciences of the United States of America : 30537
+Adding Venue:  Science Signaling
+Number of titles for Science Signaling : 1573
+Adding Venue:  Science Translational Medicine
+Number of titles for Science Translational Medicine : 1120
+Adding Venue:  Science
+Number of titles for Science : 49483
+Total number of titles: 501675
+Training new model w/ 3-layer, 128-cell LSTMs
+Training on 7,415,934 word sequences.
+Epoch 1/10
+
+####################
+Temperature: 0.2
+####################
+the role of the in the - 1
+
+the of the
+
+a case of acute leukæmia
+
+####################
+Temperature: 0.5
+####################
+a case of acute myeloid leukæmia
+
+a novel role of protein kinase c - dependent kinase / c in a bacterial cell wall
+
+the role of the bacterial growth factor in the pancreatic cancer
+
+####################
+Temperature: 1.0
+####################
+coupling of a plasminogen activator of β ( d ) - mediated signal - coupled receptor leads to a map of translocation and proteins during studies .
+
+a cationic amino acid composition from silyl with alkyl cations - induced ion migration of 2 - methyl -
+
+ap - 1 – dependent cyclization of with acid - sensitive folding and / markers
+
+Saving Model Weights — Epoch #1
+Epoch 2/10
+
+####################
+Temperature: 0.2
+####################
+the effect of on the rate of the effect of on the formation of the plasma membrane
+
+the effect of the on the mechanism of action of the on the mechanism of action of the plasma membrane
+
+abstract : the role of the tumor suppressor in breast cancer
+
+####################
+Temperature: 0.5
+####################
+the effect of solvent on the abundance of the the structure of the na + + exchanger
+
+the reaction of acid
+
+abstract lb - : the tumor microenvironment in a patient derived from human t - cell hodgkin lymphoma
+
+####################
+Temperature: 1.0
+####################
+expression of the tau mammary activates mitochondrial translocation in alzheimer ' s disease
+
+environmental and national breathing data management of two two cases of atypical mice
+
+transforming growth factor induces , a major gtpase , is marker of repeat expansion and the influence of heat shock
+
+Saving Model Weights — Epoch #2
+Epoch 3/10
+
+####################
+Temperature: 0.2
+####################
+the effect of insulin on the metabolism of insulin - induced diabetes mellitus
+
+the effect of insulin on the growth of insulin - induced diabetes mellitus
+
+the role of the protein kinase c in the regulation of insulin secretion in rat liver microsomes
+
+####################
+Temperature: 0.5
+####################
+what is a new in the united states
+
+a novel mutation in the protein kinase c is a novel target of rapamycin in human immunodeficiency virus type 1 infection
+
+the effect of insulin on insulin resistance and glucose metabolism in rats induced by insulin
+
+####################
+Temperature: 1.0
+####################
+high resolution transmission of t - cell development through integrins induction in a t cell line
+
+london academic april program
+
+aspects of circulation in the heart and
+
+Saving Model Weights — Epoch #3
+Epoch 4/10
+
+####################
+Temperature: 0.2
+####################
+the of
+
+the of
+
+the effect of on the of the blood group in the blood
+
+####################
+Temperature: 0.5
+####################
+abstract : a novel inhibitor of - induced apoptosis in pancreatic cancer cells
+
+the of .
+
+the effect of insulin on the of the rat .
+
+####################
+Temperature: 1.0
+####################
+electricity and
+
+anesthesia
+
+methods of a physical chemical guide atlas of birds and processes
+
+Saving Model Weights — Epoch #4
+Epoch 5/10
+
+####################
+Temperature: 0.2
+####################
+the of
+
+the - like factor ( ) is a novel regulator of the extracellular matrix of protein kinase c ( )
+
+the of the
+
+####################
+Temperature: 0.5
+####################
+the - , , and
+
+a of the
+
+a new
+
+####################
+Temperature: 1.0
+####################
+reducing interstitial metal amines in the urine of revision of diabetic subjects with .
+
+cytoplasmic skeletal regulation of p53 by the interaction of β - glucan peptide with neutralizing antibody activity .
+
+melting vitamin a - und 2 ( ) ( mit – ( ) ) )
+
+Saving Model Weights — Epoch #5
+Epoch 6/10
+
+####################
+Temperature: 0.2
+####################
+the effect of the of the administration of certain compounds on the of certain
+
+the of the
+
+the role of the - - wildwoodmotorsports . com
+
+####################
+Temperature: 0.5
+####################
+inhibition of human granulocyte colony - stimulating factor expression in endothelial cells by interleukin - 12
+
+on the effect of the - of the and other compounds in the treatment of urinary
+
+differential expression of a novel transcriptional activator of protein kinase c - jun n - terminal kinase c ( ) and its expression in the presence of tyrosine kinase and c - met
+
+####################
+Temperature: 1.0
+####################
+porous for light in by energy induced by morphology and mass spectrometry
+
+clinical t institute 14 years after single - transplant rituximab ( patients with pain ) disease ( r ) city
+
+the structural basis for intramolecular transfer in cytochrome c peroxidase complex from cells as the balance of vinyl cation selectivity
+
+Saving Model Weights — Epoch #6
+Epoch 7/10
+
+####################
+Temperature: 0.2
+####################
+the effect of on the treatment of the of the rat
+
+the effect of on the of the human body
+
+the effect of the on the of the human serum albumin
+
+####################
+Temperature: 0.5
+####################
+the effect of on the composition of the milk .
+
+the of the blood
+
+the oxidation of the iron - catalyzed of the human plasma membrane .
+
+####################
+Temperature: 1.0
+####################
+directs phosphorylation and expression in new to diagnostic
+
+abstract : preventing persistence of
+
+laser - coupling of 1 , 14 - via a synthetic and comparative studies to
+
+Saving Model Weights — Epoch #7
+Epoch 8/10
+
+####################
+Temperature: 0.2
+####################
+the effect of the dietary fat on the metabolism of acid
+
+the of the
+
+the effect of the dietary fat on the metabolism of the 5 - acid .
+
+####################
+Temperature: 0.5
+####################
+the role of the gene in the 3′ - untranslated region of the gene particle ( )
+
+the effect of
+
+the effect of and the of the administration of .
+
+####################
+Temperature: 1.0
+####################
+expression of the host precursor locus during pi3k / mtor activation in transformed cells with an interleukin - 1 and complement on serum levels
+
+specific characteristics of mortality following neurons reveal the receptor variant but not by increasing levels in aml .
+
+kinetics of electronic structure at the density of - antimalarial von 2 -
+
+Saving Model Weights — Epoch #8
+Epoch 9/10
+
+####################
+Temperature: 0.2
+####################
+abstract : a novel - based on the treatment of cancer
+
+abstract : the role of in the regulation of the - 1 - mediated cell cycle arrest in the human breast cancer cell line
+
+abstract : the role of in the regulation of the human gene by a novel - 1
+
+####################
+Temperature: 0.5
+####################
+abstract : the effect of on the dna methylation and the role of a tumor suppressor on gene expression in human breast cancer cells
+
+abstract : a novel - 1 inhibitor , , , , , , , , , , , , , , , , - , and : a - 1 , , , , , , , , , , , , , , , , , ± ± ± 08 08 08 08 08 08 08 07 07 07 07 07 membered company 07 - membered membered membered																																								 2018 2018 2018 2018 2018 2018 bisphosphate bisphosphate 471 ) : 3h } 3h ] 2010
+
+abstract : preclinical evaluation of the - - - - - - a -
+
+####################
+Temperature: 1.0
+####################
+genomic information from atypical mobilization in acute myeloid leukemia
+
+structural basis enhancing
+
+neurological diagnosis and treatment in rituximab with - treatment is associated with prognosis control and pediatric advanced residual disease in hiv / lymphoma and induction of acute lymphoblastic leukemia ( all ) .
+
+Saving Model Weights — Epoch #9
+Epoch 10/10
+
+####################
+Temperature: 0.2
+####################
+the of the
+
+abstract : the role of in the regulation of autophagy by the human breast cancer cell line
+
+the of the
+
+####################
+Temperature: 0.5
+####################
+the role of the sulfur - rich protein in the regulation of the nuclear magnetic resonance energy transfer gene
+
+the synthesis of 4 - methyl - 2 , 3 - - 2 - - 1 , 2 - with benzene and their derivatives .
+
+the of the
+
+####################
+Temperature: 1.0
+####################
+total synthesis of amino acid adenosine triphosphatase
+
+diversity and cerebral deep - vein in leads to spread of
+
+acetyl immunodeficiency – limited t - cell phenotype penetrating induces peptide nucleotides , can be defined by 10 - or functional in the generation xeroderma 2 - 5 - derivatives
+
