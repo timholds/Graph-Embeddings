@@ -1,0 +1,459 @@
+Epoch: 1
+Temperature: 0.1
+
+
+
+
+Temperature: 0.2
+
+
+
+
+Temperature: 0.3
+
+
+
+
+Temperature: 0.4
+
+
+
+
+Temperature: 0.5
+
+
+
+
+Temperature: 0.6
+
+
+
+
+Temperature: 0.7
+
+
+
+
+Temperature: 0.8
+
+
+
+
+Temperature: 0.9
+
+
+
+
+Temperature: 1.0
+
+
+
+
+Epoch: 2
+Temperature: 0.1
+
+
+
+
+Temperature: 0.2
+
+
+
+
+Temperature: 0.3
+
+
+
+
+Temperature: 0.4
+
+
+
+
+Temperature: 0.5
+
+
+
+
+Temperature: 0.6
+
+
+
+
+Temperature: 0.7
+
+
+
+
+Temperature: 0.8
+
+
+
+
+Temperature: 0.9
+
+
+
+
+Temperature: 1.0
+
+
+
+
+Epoch: 3
+Temperature: 0.1
+
+
+
+
+Temperature: 0.2
+
+
+
+
+Temperature: 0.3
+
+
+
+
+Temperature: 0.4
+
+
+
+
+Temperature: 0.5
+
+
+
+
+Temperature: 0.6
+
+
+
+
+Temperature: 0.7
+
+
+
+
+Temperature: 0.8
+
+
+
+
+Temperature: 0.9
+
+
+
+
+Temperature: 1.0
+
+
+
+
+Epoch: 4
+Temperature: 0.1
+
+
+
+
+Temperature: 0.2
+
+
+
+
+Temperature: 0.3
+
+
+
+
+Temperature: 0.4
+
+
+
+
+Temperature: 0.5
+
+
+
+
+Temperature: 0.6
+
+
+
+
+Temperature: 0.7
+
+
+
+
+Temperature: 0.8
+
+
+
+
+Temperature: 0.9
+
+
+
+
+Temperature: 1.0
+
+
+
+
+Epoch: 5
+Temperature: 0.1
+
+
+
+
+Temperature: 0.2
+
+
+
+
+Temperature: 0.3
+
+
+
+
+Temperature: 0.4
+
+
+
+
+Temperature: 0.5
+
+
+
+
+Temperature: 0.6
+
+
+
+
+Temperature: 0.7
+
+
+
+
+Temperature: 0.8
+
+
+
+
+Temperature: 0.9
+
+
+
+
+Temperature: 1.0
+
+
+
+
+Epoch: 6
+Temperature: 0.1
+
+
+
+
+Temperature: 0.2
+
+
+
+
+Temperature: 0.3
+
+
+
+
+Temperature: 0.4
+
+
+
+
+Temperature: 0.5
+
+
+
+
+Temperature: 0.6
+
+
+
+
+Temperature: 0.7
+
+
+
+
+Temperature: 0.8
+
+
+
+
+Temperature: 0.9
+
+
+
+
+Temperature: 1.0
+
+
+
+
+Epoch: 7
+Temperature: 0.1
+
+
+
+
+Temperature: 0.2
+
+
+
+
+Temperature: 0.3
+
+
+
+
+Temperature: 0.4
+
+
+
+
+Temperature: 0.5
+
+
+
+
+Temperature: 0.6
+
+
+
+
+Temperature: 0.7
+
+
+
+
+Temperature: 0.8
+
+
+
+
+Temperature: 0.9
+
+
+
+
+Temperature: 1.0
+
+
+
+
+Epoch: 8
+Temperature: 0.1
+
+
+
+
+Temperature: 0.2
+
+
+
+
+Temperature: 0.3
+
+
+
+
+Temperature: 0.4
+
+
+
+
+Temperature: 0.5
+
+
+
+
+Temperature: 0.6
+
+
+
+
+Temperature: 0.7
+
+
+
+
+Temperature: 0.8
+
+
+
+
+Temperature: 0.9
+
+
+
+
+Temperature: 1.0
+
+
+
+
+Epoch: 9
+Temperature: 0.1
+
+
+
+
+Temperature: 0.2
+
+
+
+
+Temperature: 0.3
+
+
+
+
+Temperature: 0.4
+
+
+
+
+Temperature: 0.5
+
+
+
+
+Temperature: 0.6
+
+
+
+
+Temperature: 0.7
+
+
+
+
+Temperature: 0.8
+
+
+
+
+Temperature: 0.9
+
+
+
+
+Temperature: 1.0
+
+
+
+
