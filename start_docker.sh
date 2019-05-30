@@ -1,12 +1,5 @@
 #!/bin/bash
 
-# Useful message
-echo ""
-export DONE="Here we go!"
-for (( i = 0; i < 17; i++ )); do echo -n "$(tput setaf $i)$(tput setab $(($i+1)))${DONE:$i:1}";done
-echo ""
-echo ""
-
 # Colors
 RED=`tput setaf 1`
 BLUE=`tput setaf 4`
@@ -43,20 +36,27 @@ chmod 777 requirements.txt
 
 # Export some environmental variables for Docker
 echo "${MAGENTA}Exporting environmental variables...${RESET}"
-if [[ $HOSTNAME = *"matlaber"* ]]; then
-    echo "    ${GREEN}Changing groupid to mlusers and symlinking folders"
-    chown -R `id -u`:mlusers neo4j
-    chown -R `id -u`:mlusers data
-fi
+
+#if [[ $HOSTNAME = *"matlaber"* ]]; then
+#    echo "    ${GREEN}Changing groupid to mlusers and symlinking folders"
+#    chown -R `id -u`:mlusers neo4j
+#    chown -R `id -u`:mlusers data
+#fi
+
 export UID=$(id -u) &> /dev/null
 echo "    ${GREEN}UID=$UID"
+
 export GID=$(id -g)
 echo "    ${GREEN}GID=$GID"
+
 export HOSTNAME=$(hostname)
 echo "    ${GREEN}HOSTNAME=$HOSTNAME"
+
 export DNSDOMAINNAME=$(dnsdomainname)
 echo "    ${GREEN}DNSDOMAINNAME=$DNSDOMAINNAME"
 
+export FQDN=$(hostname -A | cut -d' ' -f1)
+echo "    ${GREEN}FQDN=$FQDN"
 
 # Remove authentication locks, if they exist
 echo "${MAGENTA}Looking for database locks...${RESET}"
@@ -70,14 +70,6 @@ if [ -f ./neo4j/neo4j-quanta/data/dbms/auth ]; then
 fi
 
 # Launch Docker
-#echo " "
-#echo "================="
-#export DONE="READY TO LAUNCH!"
-#for (( i = 0; i < 17; i++ )); do echo -n "$(tput setaf $i)$(tput setab $(($i+1)))${DONE:$i:1}";done
-#echo "================="
-#echo " "
-#echo " "
-
 echo "${MAGENTA}Launching Docker...${RESET}"
 
 if [ "$1" == "magone" ] || [ "$1" == "v1" ]
@@ -87,6 +79,8 @@ elif [ "$1" == "magtwo" ] || [ "$1" == "v2" ]
 then
 	DOCKER_COMPOSE="docker-compose-magtwo.yml"
 else
+	echo "No database version specified."
+	echo "Looking for default docker-compose file..."
 	DOCKER_COMPOSE="docker-compose.yml"
 fi
 
