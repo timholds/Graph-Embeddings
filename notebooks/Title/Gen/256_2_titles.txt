@@ -1,0 +1,459 @@
+Epoch: 1
+Temperature: 0.1
+the of the
+the of the
+the of the
+
+Temperature: 0.2
+the role of the in the treatment of chronic lymphocytic leukemia
+the role of the in the treatment of chronic lymphocytic leukemia in patients with chronic lymphocytic leukemia patients with high - dose chemotherapy and autologous stem cell transplantation ( )
+the of the
+
+Temperature: 0.3
+the role of the - in the treatment of chronic lymphocytic leukemia
+the influence of the configuration of the acid - catalyzed hydrolysis of acid with the
+abstract : the role of the in the treatment of pancreatic cancer
+
+Temperature: 0.4
+a simple method for determining the of the of the , has a high - level of high - throughput screening assay for detection of the small molecule
+the structure of a
+the of the human origin of the human immunodeficiency virus type 1 virus ( )
+
+Temperature: 0.5
+a novel - restricted polypeptide for human immunodeficiency virus type 1 : a new class of a potential class of anti - - apoptotic ligands
+abstract : a novel investigation of pancreatic cancer and obesity
+the of the small molecule
+
+Temperature: 0.6
+high - dose cytarabine and dexamethasone ( ) in patients with chronic myelogenous leukemia ( cll ) : results from the phase 2 study
+the of the new york
+: an experimental study of a new class of the high affinity of β - d - and l -
+
+Temperature: 0.7
+abstract : a novel - binding molecule - 1 , 2 - 2 ( ) - ( ) in human colorectal cancer cells
+the proximal period of human
+acute lymphoblastic leukemia ( all ) : one randomised controlled trial .
+
+Temperature: 0.8
+
+the gamma - n - and its derivatives in murine t cells .
+the normal human brain that binds to the growth factor receptor family activities of the levels of plasma protein - 4 -
+
+Temperature: 0.9
+the tumor suppressor - like protein kinase is a key regulator of the potential of toll - like receptor 4 : a novel endogenous effector dna repair pathway
+abstract : hormonal regulation of - induced in colorectal cancer by reduction and metabolism
+a new solvent method for enantioselective hydrogenation of ( tert - ) - acid / n - catalyzed enantioselective reactions of vinyl ethers
+
+Temperature: 1.0
+increased bone responsiveness in severe anemia , following
+: new fusion technique for may focus be anti –
+book review multiplex high nuclear a greenhouse gases .
+
+Epoch: 2
+Temperature: 0.1
+the effect of the on the of the blood
+abstract : the role of the - 1 in prostate cancer progression
+abstract : a novel role of the - 1 - 1 and - 1 in prostate cancer progression
+
+Temperature: 0.2
+abstract : the role of the - 1 in prostate cancer progression
+the synthesis of some amino acids from the of the
+the of the american association of the medical profession and the united states of the american association of the american association of the american association of the advancement of science and the of the american association of the american medical association .
+
+Temperature: 0.3
+abstract : the role of the mitochondrial pathway in the regulation of tumor suppressor genes in malignant glioma
+the role of the blood - pressure and the pathogenesis of the pathogenesis of the pathogenesis of the pathogenesis of the pathogenesis of the pathogenesis of the pathogenesis of the pathogenesis of the pathogenesis of by the inner ear tab . .
+abstract : the role of hif - 1α and - like growth factors in breast cancer progression
+
+Temperature: 0.4
+abstract : a novel , selective inhibitor of rapamycin ( ) in triple negative breast cancer cells
+abstract : the effect of the combination of paclitaxel and paclitaxel in combination with her2 - positive breast cancer cells
+the preparation of some substituted derivatives of the
+
+Temperature: 0.5
+abstract : - based identification of inhibitors of the intracellular tumor targeting of cancer stem cells
+the synthesis of the - 1 - phosphate and its influence on the mechanism of the reaction of p - - 2 - nitro - 1 - to .
+structural basis for the assembly of the 4 - - 1 - - d - - - - - 1 - oxo - 1 , 3 - - 4 - ( d - ) - - - - - 1 - ( ) - 1 - ( ) - 4 - ( 8 - ) - 5 ' - - 6 ' - yl - 9 - ( ) - 3 ' - ( ) - 5 ' - - 5 ' - monophosphate - : synthesis and biological activities of the of the american breast cancer
+
+Temperature: 0.6
+the american association of the medical profession in the united states
+abstract : role of mir - and mir - 31 in malignant glioma and its xenograft model
+abstract : regulation of the immune response to the tumor microenvironment
+
+Temperature: 0.7
+synthetic chemistry of metal – organic frameworks
+influence of nitrogen on the structure of the rabbit liver aldehyde oxidase .
+abstract : the role of the - binding domain of the tgf - β pathway and the .
+
+Temperature: 0.8
+insulin concentrations and risk of multiple myeloma : a prospective study from the case of cml patients and
+molecular orbital , a novel heat - stable - bridged opening of the sulfur cluster [ ( j ) ] . cofactor
+the synthesis and structure of water - c – free bonds in clusters based on a species
+
+Temperature: 0.9
+the fine structure of anterior pituitary - tumor relationships in rat kidney .
+on the question of infantile paralysis ; ; recovery
+case records of the massachusetts general hospital . case . case of 12 - year - old man of the sac
+
+Temperature: 1.0
+abstract : targeting acute myeloid leukemia using novel chimeric dna and light chains in colorectal cancer , the panel of samples
+aid to the action of influenza viruses : the pulmonary hypertension as ; association of with estrogen induction
+identification and mutational analysis of and asthma
+
+Epoch: 3
+Temperature: 0.1
+the of the
+the of the
+the of the
+
+Temperature: 0.2
+a - like protein is a novel protein of the yeast - 1 , and
+the of the
+the of the
+
+Temperature: 0.3
+the of , , and
+the of the
+the of the
+
+Temperature: 0.4
+the protein - binding protein of is a novel protein that is required for the formation of the - 1 - protein kinase
+: a novel for the treatment of acute myeloid leukemia
+the role of the protein in the regulation of the protein kinase
+
+Temperature: 0.5
+abstract : a novel inhibitor of the protein kinase 1 ( ) and transforming growth factor - β signaling
+abstract : versus - - and - 1 - dependent inhibition of the tumor suppressor
+a - induced cell surface adhesion molecule is a novel for the treatment of syndrome
+
+Temperature: 0.6
+of the
+effects of a new on the gradient of the human , a - system of the yeast
+abstract : transcriptional regulation of the the gene - induced apoptosis in and in xenopus - 1
+
+Temperature: 0.7
+chemistry of . ( book reviews : the theory of theory )
+the role of and in metabolic regulation of resistance in a patient with suspected acute myeloid leukemia
+total synthesis and of - 7 - and 8 -
+
+Temperature: 0.8
+the dynamics of metals
+why does are not a low - birth
+the role of - site of dna binding on the of inflammation in the mouse dna and
+
+Temperature: 0.9
+book reviews : the : to the action of an blood muscle substances
+abstract : her - 2 expression and interacting by breast cancer
+the radiation in
+
+Temperature: 1.0
+skin cancer patients with amphotericin b
+letter : potassium with a hard and errors in the .
+specificity and mechanism of induction of growth factors aeruginosa
+
+Epoch: 4
+Temperature: 0.1
+the of the
+the of the of the
+the of the
+
+Temperature: 0.2
+the of the
+the of the of the of the .
+the of the of the
+
+Temperature: 0.3
+the of the of the of the .
+the of the of the
+the of the of the
+
+Temperature: 0.4
+on the of the of the of the lungs .
+the of the of the heart
+the of the
+
+Temperature: 0.5
+the of yeast
+the of the moon
+the treatment of chronic myeloid leukemia ( cml ) patients in the of the first treatment of .
+
+Temperature: 0.6
+the role of the metal - catalyzed asymmetric of cytochrome c
+general t .
+the of the .
+
+Temperature: 0.7
+phase 2 trials with - for
+the determination of the nitrogen in the of gas phase to
+die des .
+
+Temperature: 0.8
+the of plant - and .
+multiple - of cell line signaling receptor complexes with extended improved formation
+the - way — a new vaccine ?
+
+Temperature: 0.9
+the principles of and of the - rat syndrome
+west academy an coast .
+in und . ein . den und . von ) von h . . verlag und chemie . $ 3 . 95 und verlagsgesellschaft m . , .
+
+Temperature: 1.0
+rotation breast cancer proteomics - before screening for imaging lithium - samples ion fluorescent indicator .
+understanding of magnetic field in a
+practical chemistry of olefins controlled by directed modifications
+
+Epoch: 5
+Temperature: 0.1
+the effect of on the rate of action of certain substances .
+the effect of on the rate of action of certain substances
+the effect of on the rate of action of certain substances in guinea pig tissues .
+
+Temperature: 0.2
+the effect of oxygen on the production of in the rat .
+the effect of the on the rate of action of certain substances
+the effect of on the rate of action of certain substances
+
+Temperature: 0.3
+the of the
+the effect of on the rate of action of certain substances
+the reaction of bromide with bromide and bromide . bromide and bromide
+
+Temperature: 0.4
+the effect of on the rate of action of certain amino acids
+a case of typhoid fever treated with
+the kinetics of the decomposition of methyl alcohol dehydrogenase and coenzyme a reductase from streptococcus pneumoniae
+
+Temperature: 0.5
+the role of the in the regulation of fatty acid synthetase oxidation by enzyme catalysis
+abstract : the effect of inhibitor and on growth of pancreatic cancer cells
+the ultraviolet absorption spectra of some aryl substituted benzene derivatives
+
+Temperature: 0.6
+mutational analysis of the reveals the gene encoding yeast protein s - related genes involved in the differentiation of mouse embryonic fibroblasts .
+the isolation of organic compounds from bacillus subtilis .
+the treatment of malaria
+
+Temperature: 0.7
+and pathogens : to the search for the common secretory process
+lead poisoning after therapy in scientific
+the antibiotic herpes simplex virus in yeast induces body surface temperature turnover
+
+Temperature: 0.8
+controlling disease complications in children
+bcr - abl is a negative regulator of abl , and tyrosine phosphorylation of δ - 3 - acid - antigen receptors in skin cancer cells
+mutations in human acidic adenosine deaminase deficiency but does not contribute to the insertion of lithium pair into muscle tissue
+
+Temperature: 0.9
+, a novel small cell lung carcinoma finger test that binds both obstruction and autophagy
+release of nanoparticles in the release of bacteria from virus leads to vitro changes
+administration of l - lactate dehydrogenase dehydrogenase from the von willebrand factor to components . the state of central nervous system ( ) .
+
+Temperature: 1.0
+unique self - assembly of colloidal crystals supramolecular assembly
+cellular components of protein metabolism in mouse liver following systemic administration of reduction against tobacco smoking exposure to drug : modulation by zinc — transport and activity of ligand blue proteins .
+the between prevention and treatment rates with failure to cerebral device
+
+Epoch: 6
+Temperature: 0.1
+the of the
+the of the
+the of the
+
+Temperature: 0.2
+the of the
+the of the
+the of the
+
+Temperature: 0.3
+the of the
+the of the
+the future of the .
+
+Temperature: 0.4
+a of the
+of the blood - derived from the cell cycle
+the role of in the regulation of by the cytoplasmic domain of the membrane protein .
+
+Temperature: 0.5
+a new from the ,
+the royal hospital of .
+the role of in the treatment of .
+
+Temperature: 0.6
+on the of the of .
+the value of the the in the of
+of of the .
+
+Temperature: 0.7
+the c - terminal domain of the the action of human brain on gold
+getting of the great
+the effect of and on the in vitro
+
+Temperature: 0.8
+in the determination of the velocity of the blood and by the biosynthesis .
+synthesis of substituted indium - catalyzed c - sp3 - h bond : mechanism of reaction
+the laws of the end .
+
+Temperature: 0.9
+asymmetric catalysis : the interaction of the steroid iv – complexes with nmr transition parameters
+a novel scale from new changes of the structure
+putting the human and the on the human immune for aml cell and functionally
+
+Temperature: 1.0
+exclusion of sex - specific law - making connections
+indium - type ( ) , a novel lectin - { an ” : arene , a new derivative ( )
+molecular among relationships of the blood - brain material of from to the expression of in eggs the metabolic rate determining lectin from the blood - acid .
+
+Epoch: 7
+Temperature: 0.1
+the effect of the diet on the rate of the of the
+the effect of the diet on the rate of the of the
+the effect of the diet on the rate of the of the
+
+Temperature: 0.2
+a case of acute
+the effect of the diet on the rate of the effect of the diet on the rate of the of the
+the effect of the diet on the of the
+
+Temperature: 0.3
+the
+a case of .
+the effect of the diet on the synthesis of the corresponding acid
+
+Temperature: 0.4
+the of the
+the use of the
+the of the
+
+Temperature: 0.5
+activation of the transcription factor initiation complex
+abstract : a novel - specific antibody that inhibits tumor growth and metastasis in breast cancer
+ovarian cancer
+
+Temperature: 0.6
+synthesis and evaluation of ( ) - 2 - ( 1 , 4 - ) ( 3 - ) - 1 - ( 3 - pyridyl ) - 1 - ( 3 - )
+speech of the
+the relative importance of the copper ( ii )
+
+Temperature: 0.7
+laser - assisted laser light scattering
+characterization of the insulin receptor substrate - constitutively matrix of the synaptic vesicle protein of mouse skeletal muscle .
+spatial learning and memory in hippocampal neurons
+
+Temperature: 0.8
+of kras : detection of structural characteristics and structural characterization of the inactivation state
+über den mit und
+is early childhood , surgical - based diabetes ?
+
+Temperature: 0.9
+discovery of the primary site of rna polymerase complex ii
+ratio of eye in to plants
+book reviews : a manual in social psychiatry
+
+Temperature: 1.0
+chronic cold - associated autoimmune syndrome ( ) ( ) . : a report of two series lymphoid irradiation
+und bei
+detection of b7 - positive b cells by monoclonal antibody of activated proteins .
+
+Epoch: 8
+Temperature: 0.1
+a new method for the synthesis of
+the role of in the regulation of the c - terminal domain of the human beta - globin gene
+a new method for the determination of the in the
+
+Temperature: 0.2
+a new class of
+a novel protein - protein interaction with a - 1 - dependent protein kinase c ( )
+the role of in the regulation of cell division in rat liver
+
+Temperature: 0.3
+a novel inhibitor of the human nf - κb pathway in a murine model of leukemia
+a - 1 and - 2 - dependent signaling pathway in human breast cancer cells
+the role of in the regulation of the protein kinase c in human cells
+
+Temperature: 0.4
+in a
+the structure of the human receptor for the nuclear factor κb
+a novel for the of
+
+Temperature: 0.5
+a novel role of the - 1 / - 1 in breast cancer cell invasion
+the role of in the regulation of cell surface expression by and
+a new instrument for the
+
+Temperature: 0.6
+a novel alpha - cell - mediated cell cycle in vitro and in vivo .
+the question of
+the relationship of the acid to the of
+
+Temperature: 0.7
+state of the
+: a novel , potent , selective , orally active inhibitor of apoptosis
+optically active
+
+Temperature: 0.8
+: a for of
+acceleration of the base and stabilized by structure of the complex in .
+human stem cells and their hormone therapy
+
+Temperature: 0.9
+acid with carbon cycle in normal cells
+drosophila embryos
+a case of ( friedel ) : a case of 8 , .
+
+Temperature: 1.0
+β - arrestin is a drug target of peptides of proteasome - mediated signaling in glioblastoma cells
+maintenance of - , and diphosphate virus in aged transgenic mice requires a 40 - kda chaperone
+metabolite a2 and
+
+Epoch: 9
+Temperature: 0.1
+the of the
+the of the
+the of the
+
+Temperature: 0.2
+the of the
+the of the
+the of the
+
+Temperature: 0.3
+the treatment of the and of the
+the of the
+the of the
+
+Temperature: 0.4
+the of the
+the of the
+a case of .
+
+Temperature: 0.5
+the of
+the role of the in the regulation of the na + - atpase activity of the mitochondrial complex
+the of the
+
+Temperature: 0.6
+the of the
+the of science
+the
+
+Temperature: 0.7
+the of the
+the structure of . viii
+the impact of urinary - tract infections in adults with sickle cell disease .
+
+Temperature: 0.8
+on the mechanism of the of certain aromatic
+in vivo selectively inhibitors of the triphosphatase active site of cyclic nucleotide phosphodiesterase reveals a reversible mechanism of activation
+survival after irradiation - induced
+
+Temperature: 0.9
+physical of in and
+' s learn
+4 - as a marker of in the splice variant of the p53 gene and of the proximal thaliana donor
+
+Temperature: 1.0
+the tertiary at the time of or between in cotton .
+ligand peptide binding by the actin pathway to the - domain complex
+a action direct en - enteric infection in colorectal cancer
+

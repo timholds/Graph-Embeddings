@@ -1,0 +1,459 @@
+Epoch: 1
+Temperature: 0.1
+the of the
+the of the
+the of the
+
+Temperature: 0.2
+the of the
+the effect of on the of the reaction of the
+the of the
+
+Temperature: 0.3
+the of the
+the role of in the treatment of acute myeloid leukemia
+the of the
+
+Temperature: 0.4
+the of the
+the effect of the on the of the reaction of the
+the effect of the on the treatment of and .
+
+Temperature: 0.5
+a case of treated with .
+the of the
+the of with the central nervous system
+
+Temperature: 0.6
+the mutation of the yeast genome in the rna binding protein .
+a new method for the synthesis of .
+the treatment of cervical - cancer
+
+Temperature: 0.7
+abstract :
+the reaction related to the m
+the value of the france
+
+Temperature: 0.8
+an site of the the of saccharomyces cerevisiae is required for key genes are
+observations on the evolution of system
+abstract : the molecular properties of human breast cancer cells
+
+Temperature: 0.9
+modulation of adp activity of antibody - 2 or - : enhancement of the effects of , , inhibitor , udp - - l - l - dopa -
+human mature laminin is required for dual phospholipase activity
+emergency in complex
+
+Temperature: 1.0
+cultured human + platelets
+abstract : notch promotes tumor development
+lymph node epithelial cell transplantation of malignant syndrome : from venous thrombosis .
+
+Epoch: 2
+Temperature: 0.1
+the of the
+the of the
+the of the .
+
+Temperature: 0.2
+the of the
+the of the of the
+the of the
+
+Temperature: 0.3
+the effect of the reaction of
+the of the of the
+the of the of the
+
+Temperature: 0.4
+the of the a .
+the treatment of patients with acute myeloid leukemia
+the use of of the
+
+Temperature: 0.5
+the effect of the - 1 in the treatment of .
+the of the - 1
+the action of by the general of the olefins of
+
+Temperature: 0.6
+author ' s reply
+the - induced nuclear factor viii in the with the
+structural biology : the of the atmosphere
+
+Temperature: 0.7
+the effect of the use of in the of acid production at the of the royal society on the
+the first spectrum of the alkaloids : a general method of to the
+mental health service
+
+Temperature: 0.8
+evolutionary dynamics in the donor
+plants and dependence of the assay for chromosome in the drosophila plant growth hormone - binding domain
+a - induced giant ’ s —
+
+Temperature: 0.9
+development of . i
+a , of long . the equilibrium between generation of absence of from aryl - atoms
+the editor
+
+Temperature: 1.0
+potential of solid catalyst
+in - bacteria non in human
+lectures on the
+
+Epoch: 3
+Temperature: 0.1
+the of the
+the of the
+the of the
+
+Temperature: 0.2
+the role of the gene in the human colon cancer cells
+the role of the of the human colon
+the role of the gene in the human colon
+
+Temperature: 0.3
+a new class of the - 3 - methyl - methyl - 1 - - 3 - - 1 - ( ) - - - 1 - ( ) - 2 - - 1 - , a novel class of a - specific protein
+the of the of the
+the role of the - binding site of the human gene product
+
+Temperature: 0.4
+the treatment of esophageal cancer
+the of the of the
+a new class of the human immunodeficiency virus ( )
+
+Temperature: 0.5
+abstract : the treatment of breast cancer using a model for cancer therapy in breast cancer
+the of
+treatment of pernicious anemia
+
+Temperature: 0.6
+mapping of the a novel candidate for functional characterization of in vitro and in vivo
+electron microscopic study of the amino - acid sequence of the escherichia coli - dna interface
+the of a new class of the
+
+Temperature: 0.7
+policy and .
+coordination chemistry of the - chromophore .
+on levels in the metabolism of .
+
+Temperature: 0.8
+a family from adaptive for graft - - – relapsed or mantle cell lymphoma ( ) - : randomized controlled trial of relapsed / refractory endocrine therapy
+blood flow and hearing in the cost of malignant children who have a case .
+on the production of b - cell lines for skin grafts
+
+Temperature: 0.9
+- - syndrome . ( letter : infection of pregnancy .
+efficacy of total synthesis of ( ) , 2 uteri , and the treatment of leukemia ; response to idiopathic chronic severe obstructive pulmonary disease
+opportunities of the power
+
+Temperature: 1.0
+chromosome more time for biodiversity ; human rights
+cost effectiveness of minimal residual disease in patients treated with conventional therapy
+the specificity of the protein of escherichia coli human . i . compensation .
+
+Epoch: 4
+Temperature: 0.1
+the of the of the of the of the of the of
+the of the of the of the of
+the of the of the of
+
+Temperature: 0.2
+the of the of
+the role of the - 1 - induced apoptosis in the human breast cancer
+the of the of the of the of the of the .
+
+Temperature: 0.3
+the role of in the regulation of the c - terminal domain of the protein kinase
+the treatment of of the treatment of of
+the effect of on the of the of the of the of the of the of the and .
+
+Temperature: 0.4
+the reaction of the and .
+the treatment of of the treatment of with
+the treatment of acute myeloid leukemia .
+
+Temperature: 0.5
+the of the
+the role of the protein in the - dependent protein kinase .
+the quantitative structure of the - - - - - 2 - - 2 - - 1 , 2 -
+
+Temperature: 0.6
+a molecular theory for the reaction of a of the x - ray , and
+the biosynthesis of the human s - and its -
+book reviews : the of the and the atmosphere
+
+Temperature: 0.7
+a for trna in
+the effect of on the measurement of t - cell cultures and the effects of on the structure of
+the apparatus for the of
+
+Temperature: 0.8
+a novel - cell adhesion and proliferation of human terminal genes in vitro and in vivo
+a case of the certain of b .
+synthesis of acid and halides in organic synthesis in and derivatives
+
+Temperature: 0.9
+comparison of age - related neutropenia in mice lacking - mediated with the animal antigen .
+the first of world band 02
+regulation of apoptosis and by activating the 70 kd protein is adhesion involved in protein interactions
+
+Temperature: 1.0
+acid : a p - / h - oh antigen and on its major loss
+the occurrence of and negative increase in acute lymphoblastic leukemia in targeted therapy of patients with ,
+influence and therapeutic efficacy of recombinant on interleukin - thalassemia mutant frequency in and meningitis
+
+Epoch: 5
+Temperature: 0.1
+the effect of on the of the of the of the .
+the effect of on the of the of the of the .
+the effect of on the of the of the of the .
+
+Temperature: 0.2
+the treatment of the treatment of the stomach .
+the role of the protein kinase c - terminal domain of the protein kinase c - terminal domain of the receptor
+the structure of the - - z - transition metal - organic framework
+
+Temperature: 0.3
+the effect of the on the of the of the the of the of the of the .
+the effect of on the of the of the and of the .
+the treatment of the of the stomach .
+
+Temperature: 0.4
+the influence of the of the of the of the the of the of the the advancement of science .
+the yeast - atpase complex formation from the human genome
+abstract : a novel mechanism of the tumor microenvironment in lung cancer
+
+Temperature: 0.5
+the effect of insulin on the of the rabbit .
+the effect of the viral of the bladder in the , a of the human genome .
+the new prognostic system for the treatment of the of the of the protein of the .
+
+Temperature: 0.6
+the of a
+the effect of the human blood
+a genome - wide wide association study identifies a new model for cancer
+
+Temperature: 0.7
+a novel role of its receptor tyrosine kinase in vivo
+the value of the of the
+case records of massachusetts general hospital . case 14 massachusetts general hospital . : ( ) illustrated . a .
+
+Temperature: 0.8
+genomic - targeted therapy via mutations in a wnt / domain - dependent signaling pathway
+the tumor gene of insulin gene expression in drosophila and ph . 60 cells
+the isolation of analogues containing o . - z 3 .
+
+Temperature: 0.9
+additions and corrections and corrections - l -
+release of β - lactam precursor cells promote chromatin by the bone marrow in drosophila after vitro .
+teaching and the joseph .
+
+Temperature: 1.0
+adenovirus 12 : key signals protein to nuclei calmodulin class i cleavage
+risk factors of a specific ion in breast infants
+the new natural regulator signals derived from ( potent hiv ) il - 4 mediates apoptosis , including and orally bioavailable - charged multiple cancer this patient rnas
+
+Epoch: 6
+Temperature: 0.1
+the role of the in the treatment of the treatment of the human - 1 , 2 - year - - - - - yl ) - 2 - - 3 - - 4 - - 1 - yl - ethyl 1h - - yl - ethyl ethyl - 1 - phosphate .
+the of the
+the of the
+
+Temperature: 0.2
+the of the of the
+the role of the of the human gene of human immunodeficiency virus infection
+the role of the - binding protein of the human gene
+
+Temperature: 0.3
+the - - - 1 - dependent protein kinase inhibitor of the human receptor
+the preparation of the human - 1 - - 1 - methyl - 1 - methyl - - - yl ethyl ] - 4 - - 1 - - 3 - - 4 - yl - 1 - - yl ethyl ethyl bisphosphate carboxylase .
+the of the
+
+Temperature: 0.4
+the role of the receptor in the treatment of the knee - joint
+the origin of the human - 1 - binding protein .
+the of the .
+
+Temperature: 0.5
+the surface of the human - 1 t - cell receptor models for multiple sclerosis : a new model for the therapeutic role of in
+the reaction of the " " " " " " " " " " " " " " " " " " " " " " .
+abstract : a novel anti - agent - based inhibitors of pancreatic cancer
+
+Temperature: 0.6
+the structure of the amino acid sequence of the galactose - binding site
+studies on the rat of the plasma membrane
+a new for delivery of the surface of
+
+Temperature: 0.7
+the proceedings of the national sciences of the surgery
+mitochondrial trapping of
+the effect of the effect of on - water in the water .
+
+Temperature: 0.8
+spontaneous anti - b of - specific dna in both blood - cells in vitro .
+corrigendum : generation by 70 a mutation through the discovery of novel peptide inhibitors of ib - stimulated human t cells .
+a - study of the gas - phase ion - , selective receptor - containing protein 11 - pathway that effect that , the regulator of the neurospora crassa
+
+Temperature: 0.9
+abstract : from the protease inhibitor this anti - activity in a patient - based xenograft models : safety and telomere
+learning to us domestic animals .
+some effects of the stereochemistry on the decomposition of water - - dimethyl
+
+Temperature: 1.0
+or ray .
+pregnancy : u . or the medical schools and the national service . the big ( university of , ) ( re - ) february of american physician quality , about the oncology mapping
+distinct fate of myeloid diet induces formation in familial breast motor
+
+Epoch: 7
+Temperature: 0.1
+the of the
+the of the
+the of the
+
+Temperature: 0.2
+the of the
+the of the
+the of the
+
+Temperature: 0.3
+a new method for the of the
+the of the of
+the future of the
+
+Temperature: 0.4
+the reaction of the .
+the effect of the circulation of the kidney
+the of the
+
+Temperature: 0.5
+the of the
+a new method for the of the
+- induced the interaction of the v - 4 - c - terminal domain of the rat
+
+Temperature: 0.6
+book review : origin of and the
+the structure of the novel adenosine receptor - 2 gene
+the mechanism of action of in , and [ ( o - ) ( [ ) ( s - ) .
+
+Temperature: 0.7
+identification of the dna - binding protein .
+the structure of the human t - h activation .
+the general lecture on the activity of the
+
+Temperature: 0.8
+interleukin expression in human cd34 + cells
+shock treatment of acquired immunodeficiency syndrome .
+abstract : the of therapeutics in renal
+
+Temperature: 0.9
+blood to female chinese nih women
+crystallization of , and tcr gamma - dependent intracellular activity
+global calcium level in the neuronal networks
+
+Temperature: 1.0
+engineered from alzheimer ' s s
+processing of genes for rabbit melanogaster not thymic for primitive phage
+double - cation in hydrogen peroxide evidence for the folding .
+
+Epoch: 8
+Temperature: 0.1
+abstract : a novel role of in the treatment of colorectal cancer
+abstract : a novel - based approach to the treatment of colorectal cancer
+abstract : a novel role of in the treatment of colorectal cancer
+
+Temperature: 0.2
+a new method for the determination of the of the
+abstract : a novel inhibitor of - resistant prostate cancer cells
+abstract : a novel - specific enhancer of the human glioblastoma cell line
+
+Temperature: 0.3
+abstract : a novel tumor - specific suppressor gene in the mouse model of pancreatic cancer
+the effect of on the of the
+the effect of on the of the
+
+Temperature: 0.4
+the role of in the rat of the
+the role of the membrane of escherichia coli
+the role of the host - cell receptor in the rat
+
+Temperature: 0.5
+abstract : a novel mechanism for the role of the egfr - in human breast cancer
+abstract : the role of in the treatment of male and
+abstract lb - : a novel tumor suppressor as a novel regulator of egfr -
+
+Temperature: 0.6
+the effect of the ' s on the and nature
+abstract : and is associated with non - emt and inhibitors of the stress response
+how chemical
+
+Temperature: 0.7
+abstract p1 - 01 - 13 : tumor suppressor gene in a novel high - risk breast cancer vaccine model for cancer
+a for the treatment of - , and and other in the pressure - induced : the role of the pd - 1 .
+the of ' s of the
+
+Temperature: 0.8
+abstract : sequencing of human breast cancer , xenografts , and protein fragments
+human bone marrow and male neoplasms : a model slow - driven antitumor agent .
+physician - - pathology in the city of the child
+
+Temperature: 0.9
+substrate 1 1 γ - triphosphate , nitrogen antagonists of .
+nf - oxide affinity blockade l1 and bone marrow derived progenitors .
+functional cross - reactive species of rate
+
+Temperature: 1.0
+abstract mds : by the whole niche
+a case of and liver in vascular disease
+, 1996 in the men 1990
+
+Epoch: 9
+Temperature: 0.1
+the of the
+the of the
+the of the
+
+Temperature: 0.2
+a new class of a novel class of the human immunodeficiency virus type 1 diabetes
+the of the
+the of
+
+Temperature: 0.3
+the of
+a new class of and its role for the - 1 gene
+a new of the
+
+Temperature: 0.4
+and the treatment of chronic lymphocytic leukemia
+the of
+the effect of and the the of the
+
+Temperature: 0.5
+the of the
+the of the
+the of
+
+Temperature: 0.6
+a new class of candidate in combination with high - throughput screening
+an aid to the " " .
+the study of the and
+
+Temperature: 0.7
+structural characterization of selective inhibitors of escherichia coli dna polymerase - based identification of the pathogenesis of human papillomavirus type mellitus
+detection of a novel therapeutic strategy for large - scale analysis of the platelet - function .
+and of the
+
+Temperature: 0.8
+a plant
+evidence for energy metabolism in removal of a 37 - year - old in hospital . case reports .
+post - x - irradiation for trial of the and interferon in a prospective lineage
+
+Temperature: 0.9
+synaptic transmission and their treatment in vitro tyrosine phosphatase and a highly active autophagy for advanced triple - negative breast lymphomas - 1 / / myeloid leukemia cells ( c - 2 ( pd ) inhibitors of mll - leukemia / / / refractory lymphoma vitro
+a novel nadph oxidase - based profile : analysis of oncology group for the inhibitory effect of implications for treatment in newly diagnosed multiple myeloma . ( letter . mice
+der
+
+Temperature: 1.0
+rapid induction of hematopoiesis in hamster cell - lymphoma surface antigens of mouse monocytes .
+abstract lb - : spontaneous size and sequencing of the , and essential for mhc class ii and parallel evolution using rational design and antiviral
+a approach to not in induction of male lipids in mammalian cells
+
