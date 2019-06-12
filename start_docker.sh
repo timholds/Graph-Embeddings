@@ -69,25 +69,40 @@ if [ -f ./neo4j/neo4j-quanta/data/dbms/auth ]; then
     rm ./neo4j/neo4j-quanta/data/dbms/auth
 fi
 
-# Launch Docker
-echo "${MAGENTA}Launching Docker...${RESET}"
-
+# Select Neo4j database to launch
 if [ "$1" == "magone" ] || [ "$1" == "v1" ]
 then
-	DOCKER_COMPOSE="docker-compose-magone.yml"
+    echo "   ${GREEN}Selected MAGv1 database..."
+    export DBNAME="magone"
 elif [ "$1" == "magtwo" ] || [ "$1" == "v2" ]
 then
-	DOCKER_COMPOSE="docker-compose-magtwo.yml"
+    echo "   ${GREEN}Selected MAGv2 database..."
+    export DBNAME="magtwo"
+elif [ "$1" == "dev" ] || [ "$1" == "development" ]
+then
+    echo "   ${GREEN}Selected testing database..."
+    export DBNAME="dev"
+elif [ "$1" == "test" ] || [ "$1" == "testing" ]
+then
+    echo "   ${GREEN}Selected test database..."
+    #TODO
+    echo "${RED}ERROR: test database not implemented yet"
+    exit 1
 else
-	echo "No database version specified."
-	echo "Looking for default docker-compose file..."
-	DOCKER_COMPOSE="docker-compose.yml"
+	echo "${RED}ERROR: No database version specified."
+    exit 1
 fi
 
-echo "   ${GREEN}Using ${DOCKER_COMPOSE}...${BLUE}"
+# Export Docker Compose-related environmental variables
+echo "   ${GREEN}Using ${DBNAME}...${BLUE}"
+export COMPOSE_PROJECT_NAME=$DBNAME
+export COMPOSE_FILE=docker-compose.yml
+
+# Launch Docker
+echo "${MAGENTA}Launching Docker...${RESET}"
 echo "   ${GREEN}Building containers...${BLUE}"
-docker-compose -f "$DOCKER_COMPOSE" build
+docker-compose build
 echo "   ${GREEN}Launching containers...${BLUE}"
-docker-compose -f "$DOCKER_COMPOSE" up
+docker-compose up
 
 
