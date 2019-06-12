@@ -10,21 +10,21 @@ RESET=`tput sgr0`
 
 # Create correct symbolic links to neo4j and data directories
 # (edit as appropriate for local environment)
-echo "${MAGENTA}Creating symbolic links...${RESET}"
-if ! [ -L neo4j ]; then
-    echo "    ${GREEN}Linking neo4j folder...{$RESET}"
-    ln -s "/dtmp/$(whoami)/neo4j" ./neo4j
-    echo "    ${GREEN}neo4j -> /dtmp/`whoami`/neo4j"
-else
-    echo "    ${GREEN}Using existing neo4j symlink..."
-fi
-if ! [ -L data ]; then
-    echo "    ${GREEN}Linking data folder...${RESET}"
-    ln -s "/dtmp/$(whoami)/data" ./data
-    echo "    data -> /dtmp/`whoami`/data"
-else
-    echo "    ${GREEN}Using existing data symlink...${RESET}"
-fi
+#echo "${MAGENTA}Creating symbolic links...${RESET}"
+#if ! [ -L neo4j ]; then
+#    echo "    ${GREEN}Linking neo4j folder...{$RESET}"
+#    ln -s "/dtmp/$(whoami)/neo4j" ./neo4j
+#    echo "    ${GREEN}neo4j -> /dtmp/`whoami`/neo4j"
+#else
+#    echo "    ${GREEN}Using existing neo4j symlink..."
+#fi
+#if ! [ -L data ]; then
+#    echo "    ${GREEN}Linking data folder...${RESET}"
+#    ln -s "/dtmp/$(whoami)/data" ./data
+#    echo "    data -> /dtmp/`whoami`/data"
+#else
+#    echo "    ${GREEN}Using existing data symlink...${RESET}"
+#fi
 
 # Change permissions to make things easy
 echo "${MAGENTA}Setting permissions...${RESET}"
