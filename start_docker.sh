@@ -70,24 +70,14 @@ if [ -f ./neo4j/neo4j-quanta/data/dbms/auth ]; then
 fi
 
 # Select Neo4j database to launch
-if [ "$1" == "magone" ] || [ "$1" == "v1" ]
+if [ "$1" == "dev" ] || [ "$1" == "development" ]
 then
-    echo "   ${GREEN}Selected MAGv1 database..."
-    export DBNAME="magone"
-elif [ "$1" == "magtwo" ] || [ "$1" == "v2" ]
-then
-    echo "   ${GREEN}Selected MAGv2 database..."
-    export DBNAME="magtwo"
-elif [ "$1" == "dev" ] || [ "$1" == "development" ]
-then
-    echo "   ${GREEN}Selected testing database..."
+    echo "   ${GREEN}Selected development database..."
     export DBNAME="dev"
 elif [ "$1" == "test" ] || [ "$1" == "testing" ]
 then
-    echo "   ${GREEN}Selected test database..."
-    #TODO
-    echo "${RED}ERROR: test database not implemented yet"
-    exit 1
+    echo "   ${GREEN}Selected testing database..."
+    export DBNAME="test"
 else
 	echo "${RED}ERROR: No database version specified."
     exit 1
