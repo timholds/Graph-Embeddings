@@ -78,6 +78,10 @@ elif [ "$1" == "test" ] || [ "$1" == "testing" ]
 then
     echo "   ${GREEN}Selected testing database..."
     export DBNAME="test"
+elif [ "$1" == "stage" ] || [ "$1" == "staging" ]
+then
+    echo "   ${GREEN}Selected staging database..."
+    export DBNAME="stage"
 else
 	echo "${RED}ERROR: No database version specified."
     exit 1
