@@ -12,7 +12,10 @@ services:
             - NEO4J_dbms_memory_heap_max__size=31g
             - NEO4J_dbms_memory_pagecache_size=700g
             - NEO4J_dbms_tx__log_rotation_retention__policy=false
-            - NEO4J_dbms_tx__log_rotation_size=1G size
+            - NEO4J_dbms_tx__log_rotation_size=2G
+            - NEO4J_dbms_checkpoint_iops_limit=-1
+            - NEO4J_dbms_checkpoint_interval_time=1h
+            - NEO4J_dbms_checkpoint_interval_tx=100000000
             - NEO4J_dbms_security_procedures_unrestricted=apoc.*
             - NEO5J_dbms_security_procedures_whitelist=apoc.coll.*,apoc.load.*,apoc.periodic.*,apoc.meta.*, apoc.refactor.*, apoc.text.*
             - NEO4J_apoc_export_file_enabled=true
