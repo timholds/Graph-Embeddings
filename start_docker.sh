@@ -70,22 +70,7 @@ if [ -f ./neo4j/neo4j-quanta/data/dbms/auth ]; then
 fi
 
 # Select Neo4j database to launch
-if [ "$1" == "dev" ] || [ "$1" == "development" ]
-then
-    echo "   ${GREEN}Selected development database..."
-    export DBNAME="dev"
-elif [ "$1" == "test" ] || [ "$1" == "testing" ]
-then
-    echo "   ${GREEN}Selected testing database..."
-    export DBNAME="test"
-elif [ "$1" == "stage" ] || [ "$1" == "staging" ]
-then
-    echo "   ${GREEN}Selected staging database..."
-    export DBNAME="stage"
-else
-	echo "${RED}ERROR: No database version specified."
-    exit 1
-fi
+export DBNAME="$1"
 
 # Export Docker Compose-related environmental variables
 echo "   ${GREEN}Using ${DBNAME}...${BLUE}"
