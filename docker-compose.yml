@@ -17,8 +17,8 @@ services:
             - NEO4J_dbms_checkpoint_interval_time=72h
             - NEO4J_dbms_checkpoint_interval_tx=1000000000
             - NEO4J_dbms_config_strict__validation=false
-            - NEO4J_dbms_security_procedures_unrestricted=apoc.*, embedding.*
-            - NEO5J_dbms_security_procedures_whitelist=apoc.*, embedding.*
+            - NEO4J_dbms_security_procedures_unrestricted=apoc.*,embedding.*,algo.*
+            - NEO5J_dbms_security_procedures_whitelist=apoc.*,embedding.*,algo.*
             - NEO4J_apoc_export_file_enabled=true
             - NEO4J_apoc_import_file_enabled=true
             - NEO4J_dbms_shell_enabled=true
