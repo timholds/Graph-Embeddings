@@ -10,9 +10,10 @@ services:
         environment:
             - NEO4J_dbms_memory_heap_initial__size=31g
             - NEO4J_dbms_memory_heap_max__size=31g
-            - NEO4J_dbms_memory_pagecache_size=700g
+            - NEO4J_dbms_memory_pagecache_size=200g
             - NEO4J_dbms_tx__log_rotation_retention__policy=false
             - NEO4J_dbms_tx__log_rotation_size=1M
+            - NEO4J_unsupported_dbms_tx__log_fail__on__corrupted__log__files=false
             - NEO4J_dbms_checkpoint_iops_limit=-1
             - NEO4J_dbms_checkpoint_interval_time=72h
             - NEO4J_dbms_checkpoint_interval_tx=1000000000
@@ -27,7 +28,7 @@ services:
             - NEO4J_dbms_connector_bolt_enabled=true
             - NEO4J_dbms_connectors_default__listen__address=0.0.0.0
             - NEO4J_dbms_connector_bolt_listen__address=:7687
-            - "TZ=America/New_York"
+            - TZ=America/New_York
         user: $UID:$GID
         ulimits:
             nofile:
@@ -50,7 +51,7 @@ services:
         environment:
             - NB_UID=$UID
             - NB_GID=$GID
-            - "TZ=America/New_York"
+            - TZ=America/New_York
         hostname: $HOSTNAME.$DNSDOMAINNAME
         user: root  
         volumes:
