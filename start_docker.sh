@@ -30,8 +30,8 @@ RESET=`tput sgr0`
 echo "${MAGENTA}Setting permissions...${RESET}"
 chmod +x start_docker.sh
 chmod 777 -R notebooks
-chmod 777 -R neo4j
-chmod 777 -R data
+#chmod 777 -R neo4j
+#chmod 777 -R data
 chmod 777 requirements.txt
 
 # Export some environmental variables for Docker
@@ -58,26 +58,39 @@ echo "    ${GREEN}DNSDOMAINNAME=$DNSDOMAINNAME"
 export FQDN=$(hostname -A | cut -d' ' -f1)
 echo "    ${GREEN}FQDN=$FQDN"
 
-# Remove authentication locks, if they exist
-echo "${MAGENTA}Looking for database locks...${RESET}"
-if [ -f ./neo4j/neo4j-coauthor/data/dbms/auth ]; then
-    echo "   ${GREEN}Removing neo4j-coauthor database authentication lock..."
-    rm ./neo4j/neo4j-coauthor/data/dbms/auth
-fi
-if [ -f ./neo4j/neo4j-quanta/data/dbms/auth ]; then
-    echo "   ${GREEN}Removing neo4j-quanta database authentication lock..."
-    rm ./neo4j/neo4j-quanta/data/dbms/auth
-fi
 
 # Select Neo4j database to launch
+echo "${MAGENTA}Setting database to launch...${RESET}"
+
+# Select base directory for database
+if [ "$2" == "dtmp" ]; then
+    export DBBASE="/dtmp/jww/neo4j"
+else
+    export DBBASE="./neo4j"
+fi
+echo "   ${GREEN}Setting base directory to ${DBBASE}...${BLUE}"
+
+# Select the specific database name
 export DBNAME="$1"
+if [ "$DBNAME" != "" ] && [ -d "${DBBASE}/${DBNAME}" ]; then
+    echo "   ${GREEN}Using database ${DBNAME} at ${DBBASE}/${DBNAME}...${BLUE}"
+else
+    echo "   ${RED}ERROR: Specified database is not valid. Exiting."
+    exit 1
+fi
+
+# Remove authentication locks, if they exist
+echo "${MAGENTA}Looking for database locks...${RESET}"
+if [ -f ${DBBASE}/${DBNAME}/data/dbms/auth ]; then
+    echo "   ${GREEN}Removing database authentication lock..."
+    rm  ${DBBASE}/${DBNAME}/data/dbms/auth
+fi
 
 # Export Docker Compose-related environmental variables
-echo "   ${GREEN}Using ${DBNAME}...${BLUE}"
 export COMPOSE_PROJECT_NAME=$DBNAME
 export COMPOSE_FILE=docker-compose.yml
 
-# Launch Docker
+## Launch Docker
 echo "${MAGENTA}Launching Docker...${RESET}"
 echo "   ${GREEN}Building containers...${BLUE}"
 docker-compose build
