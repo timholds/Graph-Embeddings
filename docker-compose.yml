@@ -38,7 +38,7 @@ services:
             - ${DBBASE}/${DBNAME}/data:/data
             - ${DBBASE}/${DBNAME}/plugins:/plugins
             - ${DBBASE}/${DBNAME}/logs:/logs
-            - ${DBBASE}/data:/import
+            - ./data:/import
         container_name: ${DBNAME}_neo4j
 
     scipy-notebook:
@@ -49,8 +49,8 @@ services:
         ports:
             - "1234:8888"
         environment:
-            - NB_UID=$UID
-            - NB_GID=$GID
+#            - NB_UID=$UID
+#            - NB_GID=$GID
             - TZ=America/New_York
         hostname: $HOSTNAME.$DNSDOMAINNAME
         user: root  
