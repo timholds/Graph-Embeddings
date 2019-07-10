@@ -8,11 +8,11 @@ services:
             - "7687:7687"
         privileged: true
         environment:
-            - NEO4J_dbms_memory_heap_initial__size=20g
-            - NEO4J_dbms_memory_heap_max__size=20g
-            - NEO4J_dbms_memory_pagecache_size=30g
+            - NEO4J_dbms_memory_heap_initial__size=31g
+            - NEO4J_dbms_memory_heap_max__size=31g
+            - NEO4J_dbms_memory_pagecache_size=76g
             - NEO4J_dbms_tx__log_rotation_retention__policy=true
-            - NEO4J_dbms_tx__log_rotation_size=true
+            - NEO4J_dbms_tx__log_rotation_size=500M
             - NEO4J_unsupported_dbms_tx__log_fail__on__corrupted__log__files=false
             - NEO4J_dbms_checkpoint_iops_limit=-1
             - NEO4J_dbms_checkpoint_interval_time=1h
