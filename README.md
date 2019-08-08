@@ -57,22 +57,23 @@ Run `./start_docker.sh` to read/set some environmental variables and build and l
 
 |property       |type   |index|unique|description|
 |:-------------:|:-----:|:---:|:----:|:---------:|
-|   temporary   | FLOAT |FALSE|FALSE |           |
-|     issue     |STRING |FALSE|FALSE |           |
-|     year      |INTEGER|FALSE|FALSE |           |
-|    docType    |STRING |FALSE|FALSE |           |
-|     idv1      |STRING |TRUE |FALSE |           |
-|   language    |STRING |FALSE|FALSE |           |
-|   abstract    |STRING |FALSE|FALSE |           |
-|     title     |STRING |FALSE|FALSE |           |
-|     idMag     |STRING |FALSE|FALSE |           |
-|    volume     |STRING |FALSE|FALSE |           |
-|   cleanName   |STRING |TRUE |FALSE |           |
-|   citations   |INTEGER|FALSE|FALSE |           |
-|   publisher   |STRING |FALSE|FALSE |           |
+|   temporary   | FLOAT |     |      |           |
+|     issue     |STRING |     |      |           |
+|     year      |INTEGER|     |      |           |
+|    docType    |STRING |     |      |           |
+|     idv1      |STRING |TRUE |      |           |
+|   language    |STRING |     |      |           |
+|   abstract    |STRING |     |      |           |
+|     title     |STRING |     |      |           |
+|     idMag     |STRING |     |      |           |
+|    volume     |STRING |     |      |           |
+|   cleanName   |STRING |TRUE |      |           |
+|   citations   |INTEGER|     |      |           |
+|   publisher   |STRING |     |      |           |
 |      id       |STRING |TRUE | TRUE |           |
-|   idAminer    |STRING |FALSE|FALSE |           |
-|      doi      |STRING |FALSE|FALSE |           |
+|   idAminer    |STRING |     |      |           |
+|      doi      |STRING |     |      |           |
+
 
 #### :Venue
 (:Venue)-[:METRICS_IN]-(:Year)  
