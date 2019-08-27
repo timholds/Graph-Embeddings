@@ -111,6 +111,50 @@ Run `./start_docker.sh` to read/set some environmental variables and build and l
 #### (:Author)-[:AFFILIATED_WITH]->(:Organization)
 
 #### (:Author)-[:METRICS_IN]->(:Year)
+|property                       |type   |description|
+|-------------------------------|-------|-----------|
+|authorAge                      |INTEGER| Years since first paper published         |
+|citations                      |INTEGER|           |
+|citationsPerPaper              |FLOAT  |           |
+|citationsPerPaperDelta         |FLOAT  | Change in mean cites per paper over last two years          |
+|hIndex                         |INTEGER|           |
+|hIndexDelta                    |INTEGER| Change in h-index over the last two years           |
+|maxCitations                   |INTEGER|Max citations on a single paper author has received          |
+|pageRank                       |FLOAT  | PageRank in coauthor graph          |
+|rankCitationsPerPaper          |FLOAT  | Rank of author (between 0 and 1) among all other authors in terms of mean citations per year          |
+|recentCoauthors                |INTEGER| Total number of coauthors in last two years           |
+|totalCitations                 |INTEGER|           |
+|totalCitationsDelta            |INTEGER| Two year change in total citations          |
+|totalPapers                    |INTEGER|           |
+|totalPapersDelta               |INTEGER|           |
+|totalVenues                    |INTEGER| Total number of venues author published in          |
+|venueCitationsPerPaperDeltaMax |FLOAT  |           |
+|venueCitationsPerPaperDeltaMean|FLOAT  |Two year change in mean citations per paper of venues author has published in            |
+|venueCitationsPerPaperDeltaMin |FLOAT  |           |
+|venueCitationsPerPaperMax      |FLOAT  |           |
+|venueCitationsPerPaperMean     |FLOAT  |Mean citations per paper of venues author has published in           |
+|venueCitationsPerPaperMin      |FLOAT  |           |
+|venueHIndexDeltaMax            |INTEGER|           |
+|venueHIndexDeltaMean           |FLOAT  | Mean of 2-year h-index change for venues author has published in          |
+|venueHIndexDeltaMin            |INTEGER|           |
+|venueHIndexMax                 |INTEGER|           |
+|venueHIndexMean                |FLOAT  | Mean of H-indices of venues author has published in          |
+|venueHIndexMin                 |INTEGER|           |
+|venueMaxCitationsMax           |INTEGER|           |
+|venueMaxCitationsMean          |FLOAT  | Mean of maximum number of citations any paper published in a venue has received for each venue the author has published in          |
+|venueMaxCitationsMin           |INTEGER|           |
+|venueRankCitationsPerPaperMin  |FLOAT  |           |
+|venueRankCitationsPerPaperMean |FLOAT  | Ranks of venues (between 0-1) in which the author has published determined by mean number of citations per paper          |
+|venueRankCitationsPerPaperMax  |FLOAT  |           |
+|venueTotalPapersDeltaMax       |INTEGER|           |
+|venueTotalPapersDeltaMean      |FLOAT  | Two year change in mean of the total number of papers published in venues author has published in          |
+|venueTotalPapersDeltaMin       |INTEGER|           |
+|venueTotalPapersMax            |INTEGER|           |
+|venueTotalPapersMean           |FLOAT  | Mean of the total number of papers published in venues author has published in           |
+|venueTotalPapersMin            |INTEGER|           |
+|weightedPageRank               |FLOAT  | In coauthor network          |
+
+
 
 #### (:Quanta)-[:METRICS_IN]->(:Year)
 
