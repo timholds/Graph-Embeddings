@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+  <title>Force layout (with links)</title>
+</head>
+
+<style>
+  circle {
+    fill: hsl(217, 71%, 53%);
+  }
+
+  line {
+    stroke: #ccc;
+  }
+</style>
+
+<body>
+  <div id="content">
+    <svg width="800" height="600">
+      <g class="links"></g>
+      <g class="nodes"></g>
+    </svg>
+  </div>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <script>
+    function initChart(nodes, links) {
+      var width = 800;
+      var height = 600;
+
+      var simulation = d3.forceSimulation(nodes)
+        .force('charge', d3.forceManyBody().strength(-100))
+        .force('center', d3.forceCenter(width / 2, height / 2))
+        .force('link', d3.forceLink().id(d => d.id).links(links))
+        .on('tick', ticked);
+
+      function updateLinks() {
+        var u = d3.select('.links')
+          .selectAll('line')
+          .data(links);
+
+        u.enter()
+          .append('line')
+          .merge(u)
+          .attr('x1', d => d.source.x)
+          .attr('y1', d => d.source.y)
+          .attr('x2', d => d.target.x)
+          .attr('y2', d => d.target.y)
+          .attr('stroke-width', d => d.width);
+
+        u.exit().remove();
+      }
+
+      function updateNodes() {
+        u = d3.select('.nodes')
+          .selectAll('circle')
+          .data(nodes);
+
+        u.enter()
+          .append('circle')
+          .attr('fill', 'hsl(0, 0%, 48%)')
+          .merge(u)
+          .attr('r', d => d.radius)
+          .attr('cx', d => d.x)
+          .attr('cy', d => d.y);
+
+        u.exit().remove();
+      }
+
+      function ticked() {
+        updateLinks();
+        updateNodes();
+      }
+    }
+
+
+    d3.json('data.json').then(
+      function (data) {
+        initChart(data.nodes, data.links);
+      }
+    );
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "radius": 5,
+      "name": "A"
+    },
+    {
+      "id": 2,
+      "radius": 10,
+      "name": "B"
+    },
+    {
+      "id": 3,
+      "radius": 8,
+      "name": "C"
+    },
+    {
+      "id": 4,
+      "radius": 7,
+      "name": "D"
+    },
+    {
+      "id": 5,
+      "radius": 5,
+      "name": "E"
+    },
+    {
+      "id": 6,
+      "radius": 12,
+      "name": "F"
+    },
+    {
+      "id": 7,
+      "radius": 5,
+      "name": "G"
+    },
+    {
+      "id": 8,
+      "radius": 5,
+      "name": "H"
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2,
+      "width": 1
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "width": 3
+    },
+    {
+      "source": 1,
+      "target": 4,
+      "width": 3
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "width": 5
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "width": 3
+    },
+    {
+      "source": 4,
+      "target": 8,
+      "width": 3
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "width": 10
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "width": 3
+    }
+  ]
+}
