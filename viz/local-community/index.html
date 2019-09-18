@@ -5,16 +5,6 @@
   <title>Force layout (with links)</title>
 </head>
 
-<style>
-  circle {
-    fill: hsl(217, 71%, 53%);
-  }
-
-  line {
-    stroke: #ccc;
-  }
-</style>
-
 <body>
   <div id="content">
     <svg width="800" height="600">
@@ -53,7 +43,8 @@
           .attr('y1', d => d.source.y)
           .attr('x2', d => d.target.x)
           .attr('y2', d => d.target.y)
-          .attr('stroke-width', d => d.width);
+          .attr('stroke-width', d => d.width)
+          .attr('stroke', d => linkColor(d.type));
 
         u.exit().remove();
       }
@@ -65,9 +56,9 @@
 
         u.enter()
           .append('circle')
-          .attr('fill', 'hsl(0, 0%, 48%)')
           .merge(u)
           .attr('r', d => scaleRadius(d.radius))
+          .attr('fill', d => nodeColor(d.type))
           .attr('cx', d => d.x)
           .attr('cy', d => d.y);
 
@@ -82,8 +73,17 @@
       function scaleRadius(r) {
         return d3.scaleSqrt([0, 10], [2, 20])(r);
       }
-    }
 
+      function nodeColor(type) {
+        return d3.scaleOrdinal([0, 3], d3.schemeCategory10)(type);
+      }
+
+      function linkColor(type) {
+        var color = d3.color(d3.scaleOrdinal([0, 3], d3.schemeCategory10)(type));
+        color.opacity = 0.4;
+        return color;
+      }
+    }
 
     d3.json('data.json').then(
       function (data) {
