@@ -3,11 +3,25 @@
 
 <head>
   <title>Force layout (with links)</title>
+  <style>
+    #content {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    #viz {
+      margin: auto;
+    }
+  </style>
 </head>
+
 
 <body>
   <div id="content">
-    <svg width="800" height="600">
+    <div>
+      <input type="range" id="year" min="0" max="1" value="0">
+    </div>
+    <svg id="viz" width="800" height="600">
       <g class="links"></g>
       <g class="nodes"></g>
     </svg>
@@ -16,9 +30,16 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
 
   <script>
-    function initChart(nodes, links) {
+    function initChart(data) {
       var width = 800;
       var height = 600;
+
+      var nodes = data.year[0].nodes;
+      var links = data.year[0].links;
+
+      d3.select("#year").on("input", function () {
+        update(+this.value);
+      });
 
       var simulation = d3.forceSimulation(nodes)
         .force('charge', d3.forceManyBody().strength(-15))
@@ -70,6 +91,26 @@
         updateNodes();
       }
 
+      function update(year) {
+        setYearData(year);
+        resetSimulation();
+        ticked();
+      }
+
+      function resetSimulation() {
+        simulation.nodes(nodes)
+          .force('link',
+            d3.forceLink()
+              .id(d => d.id)
+              .links(links)
+              .distance(d => 150));
+      }
+
+      function setYearData(year) {
+        nodes = data.year[year].nodes;
+        links = data.year[year].links;
+      }
+
       function scaleRadius(r) {
         return d3.scaleSqrt([0, 10], [2, 20])(r);
       }
@@ -87,7 +128,7 @@
 
     d3.json('data.json').then(
       function (data) {
-        initChart(data.nodes, data.links);
+        initChart(data);
       }
     );
 
