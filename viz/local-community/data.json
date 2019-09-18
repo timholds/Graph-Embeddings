@@ -1,86 +1,491 @@
 {
   "nodes": [
     {
-      "id": 1,
-      "radius": 5,
-      "name": "A"
+      "id": 13234876,
+      "radius": 0.4817329554673053,
+      "name": "Benedict Hebert"
     },
     {
-      "id": 2,
-      "radius": 10,
-      "name": "B"
+      "id": 252012905,
+      "radius": 0.4817329521029023,
+      "name": "Emil P. Kartalov"
     },
     {
-      "id": 3,
-      "radius": 8,
-      "name": "C"
+      "id": 254350326,
+      "radius": 3.6471914502501024,
+      "name": "Stephen R. Quake"
     },
     {
-      "id": 4,
-      "radius": 7,
-      "name": "D"
+      "id": 2403905,
+      "radius": 2.849498735909584,
+      "name": "O. Gileadi"
     },
     {
-      "id": 5,
-      "radius": 5,
-      "name": "E"
+      "id": 4118215,
+      "radius": 0.5716188799764496,
+      "name": "Roee Amit"
     },
     {
-      "id": 6,
-      "radius": 12,
-      "name": "F"
+      "id": 37178938,
+      "radius": 0.5716188846767183,
+      "name": "B. M. Jaffar Ali"
     },
     {
-      "id": 7,
-      "radius": 5,
-      "name": "G"
+      "id": 55078182,
+      "radius": 3.0838919602683736,
+      "name": "Amos B. Oppenheim"
     },
     {
-      "id": 8,
-      "radius": 5,
-      "name": "H"
+      "id": 195006026,
+      "radius": 0.5716188834398055,
+      "name": "Joel Stavans"
+    },
+    {
+      "id": 3298101,
+      "radius": 0.9377392398775556,
+      "name": "Ido Braslavsky"
+    },
+    {
+      "id": 252012905,
+      "radius": 0.4817329521029023,
+      "name": "Emil P. Kartalov"
+    },
+    {
+      "id": 254350326,
+      "radius": 3.6471914502501024,
+      "name": "Stephen R. Quake"
+    },
+    {
+      "id": 3298101,
+      "radius": 0.9377392398775556,
+      "name": "Ido Braslavsky"
+    },
+    {
+      "id": 13234876,
+      "radius": 0.4817329554673053,
+      "name": "Benedict Hebert"
+    },
+    {
+      "id": 254350326,
+      "radius": 3.6471914502501024,
+      "name": "Stephen R. Quake"
+    },
+    {
+      "id": 8619614,
+      "radius": 0.5287267115403664,
+      "name": "Charles F. Spence"
+    },
+    {
+      "id": 11639116,
+      "radius": 2.4792896877886963,
+      "name": "Axel Scherer"
+    },
+    {
+      "id": 15536582,
+      "radius": 9.42205015704967,
+      "name": "Frances H. Arnold"
+    },
+    {
+      "id": 19413263,
+      "radius": 0.5287267115403665,
+      "name": "Anne Y. Fu"
+    },
+    {
+      "id": 11639116,
+      "radius": 2.4792896877886963,
+      "name": "Axel Scherer"
+    },
+    {
+      "id": 10609083,
+      "radius": 0.5225679777213372,
+      "name": "Marc Unger"
+    },
+    {
+      "id": 11639116,
+      "radius": 2.4792896877886963,
+      "name": "Axel Scherer"
+    },
+    {
+      "id": 19833911,
+      "radius": 1.4747243527846872,
+      "name": "Todd Thorsen"
+    },
+    {
+      "id": 21592382,
+      "radius": 0.8246634060866198,
+      "name": "Hou-Pu Chou"
+    },
+    {
+      "id": 7916484,
+      "radius": 1.035666274448158,
+      "name": "Alex Groisman"
+    },
+    {
+      "id": 81278315,
+      "radius": 0.6353424896602519,
+      "name": "Markus Enzelberger"
+    },
+    {
+      "id": 374321184,
+      "radius": 0.15000000000000002,
+      "name": "Steven Chu"
+    },
+    {
+      "id": 448228618,
+      "radius": 0.15000000000000002,
+      "name": "Quake S R"
+    },
+    {
+      "id": 443292891,
+      "radius": 0.15000000000000002,
+      "name": "Babcock H"
+    },
+    {
+      "id": 482230665,
+      "radius": 0.15000000000000002,
+      "name": "Stephen R. Quake"
+    },
+    {
+      "id": 468271293,
+      "radius": 0.15000000000000002,
+      "name": "Hazen P. Babcock"
+    },
+    {
+      "id": 446498045,
+      "radius": 0.15000000000000002,
+      "name": "Chu S"
+    },
+    {
+      "id": 17354297,
+      "radius": 4.713637759466653,
+      "name": "Steven Chu"
+    },
+    {
+      "id": 18368230,
+      "radius": 3.0499464928521767,
+      "name": "Hazen P. Babcock"
+    },
+    {
+      "id": 127473491,
+      "radius": 0.24643886921403466,
+      "name": "Jong Wook Hong"
+    },
+    {
+      "id": 81278315,
+      "radius": 0.6353424896602519,
+      "name": "Markus Enzelberger"
+    },
+    {
+      "id": 7916484,
+      "radius": 1.035666274448158,
+      "name": "Alex Groisman"
+    },
+    {
+      "id": 12051054,
+      "radius": 3.7543018893891715,
+      "name": "Barbara J. Wold"
+    },
+    {
+      "id": 18200831,
+      "radius": 0.4337010474526323,
+      "name": "James P. Brody"
+    },
+    {
+      "id": 95242571,
+      "radius": 0.4337010474526323,
+      "name": "Brian A. Williams"
+    },
+    {
+      "id": 5816969,
+      "radius": 0.5819676343147877,
+      "name": "Sebastian J. Maerkl"
+    },
+    {
+      "id": 19833911,
+      "radius": 1.4747243527846872,
+      "name": "Todd Thorsen"
+    },
+    {
+      "id": 24273371,
+      "radius": 0.5819676351064119,
+      "name": "Vincent Studer"
+    },
+    {
+      "id": 110069258,
+      "radius": 0.5819676343147877,
+      "name": "Xiaoyan Bao"
+    },
+    {
+      "id": 11639116,
+      "radius": 2.4792896877886963,
+      "name": "Axel Scherer"
+    },
+    {
+      "id": 13606297,
+      "radius": 0.7609785370557803,
+      "name": "Charles Spence"
+    },
+    {
+      "id": 21592382,
+      "radius": 0.8246634060866198,
+      "name": "Hou-Pu Chou"
+    },
+    {
+      "id": 3298101,
+      "radius": 0.9377392398775556,
+      "name": "Ido Braslavsky"
+    },
+    {
+      "id": 13234876,
+      "radius": 0.4817329554673053,
+      "name": "Benedict Hebert"
+    },
+    {
+      "id": 252012905,
+      "radius": 0.4817329521029023,
+      "name": "Emil P. Kartalov"
+    },
+    {
+      "id": 90868980,
+      "radius": 5.615600341773826,
+      "name": "James M. Berger"
+    },
+    {
+      "id": 191799533,
+      "radius": 0.5081438015971799,
+      "name": "Emmanuel Skordalakes"
+    },
+    {
+      "id": 248394711,
+      "radius": 0.4248811017430852,
+      "name": "Carl L. Hansen"
     }
   ],
   "links": [
     {
-      "source": 1,
-      "target": 2,
+      "source": 3298101,
+      "target": 13234876,
       "width": 1
     },
     {
-      "source": 1,
-      "target": 3,
-      "width": 3
+      "source": 3298101,
+      "target": 252012905,
+      "width": 1
     },
     {
-      "source": 1,
-      "target": 4,
-      "width": 3
+      "source": 3298101,
+      "target": 254350326,
+      "width": 1
     },
     {
-      "source": 2,
-      "target": 7,
-      "width": 5
+      "source": 3298101,
+      "target": 2403905,
+      "width": 1
     },
     {
-      "source": 4,
-      "target": 5,
-      "width": 3
+      "source": 3298101,
+      "target": 4118215,
+      "width": 1
     },
     {
-      "source": 4,
-      "target": 8,
-      "width": 3
+      "source": 3298101,
+      "target": 37178938,
+      "width": 1
     },
     {
-      "source": 5,
-      "target": 6,
-      "width": 10
+      "source": 3298101,
+      "target": 55078182,
+      "width": 1
     },
     {
-      "source": 5,
-      "target": 8,
-      "width": 3
+      "source": 3298101,
+      "target": 195006026,
+      "width": 1
+    },
+    {
+      "source": 13234876,
+      "target": 3298101,
+      "width": 1
+    },
+    {
+      "source": 13234876,
+      "target": 252012905,
+      "width": 1
+    },
+    {
+      "source": 13234876,
+      "target": 254350326,
+      "width": 1
+    },
+    {
+      "source": 252012905,
+      "target": 3298101,
+      "width": 1
+    },
+    {
+      "source": 252012905,
+      "target": 13234876,
+      "width": 1
+    },
+    {
+      "source": 252012905,
+      "target": 254350326,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 8619614,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 11639116,
+      "width": 4
+    },
+    {
+      "source": 254350326,
+      "target": 15536582,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 19413263,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 10609083,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 19833911,
+      "width": 2
+    },
+    {
+      "source": 254350326,
+      "target": 21592382,
+      "width": 2
+    },
+    {
+      "source": 254350326,
+      "target": 7916484,
+      "width": 2
+    },
+    {
+      "source": 254350326,
+      "target": 81278315,
+      "width": 2
+    },
+    {
+      "source": 254350326,
+      "target": 374321184,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 448228618,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 443292891,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 482230665,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 468271293,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 446498045,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 17354297,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 18368230,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 127473491,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 12051054,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 18200831,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 95242571,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 5816969,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 24273371,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 110069258,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 13606297,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 3298101,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 13234876,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 252012905,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 90868980,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 191799533,
+      "width": 1
+    },
+    {
+      "source": 254350326,
+      "target": 248394711,
+      "width": 1
     }
   ]
 }
