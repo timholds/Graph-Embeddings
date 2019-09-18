@@ -62,7 +62,7 @@
           .append('circle')
           .attr('fill', 'hsl(0, 0%, 48%)')
           .merge(u)
-          .attr('r', d => d.radius)
+          .attr('r', d => d3.scaleSqrt([0, 10], [5, 20])(d.radius))
           .attr('cx', d => d.x)
           .attr('cy', d => d.y);
 
